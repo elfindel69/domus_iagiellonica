@@ -1,0 +1,12 @@
+{
+  "name" : "Domus Iagiellonica",
+  "id" : "",
+  "version" : "0.0.1",
+  "supported_game_version" : "1.0.*",
+  "short_description" : "Alpha version *WIP* \n What if the Jagiellons ruled until the Victorian Era? \n How the world would like? ",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

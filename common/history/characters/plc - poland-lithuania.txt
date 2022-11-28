@@ -1,0 +1,188 @@
+﻿CHARACTERS = {
+	c:PLC = {
+		
+		create_character = {
+			# Tsar Nicholas I of Russia
+			first_name = Jan
+			last_name = Jagiellon
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			ruler = yes
+			age = 60
+			dna = dna_king_jan_jagiello_01
+			traits = {
+				arrogant
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			first_name = Jan
+			last_name = Jagiellon
+			heir = yes
+			age = 30
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			# Alexander von Benckendorff, head of the Third Section, one of the earlier Tsarist secret police institutions.
+			first_name = Aleksander
+			last_name = Pulawski
+			birth_date = 1781.7.4
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			traits = {
+				imperious
+			}
+		}
+
+		create_character = {
+			# Michal Fabianski
+			first_name = Michal
+			last_name = Fabianski
+			birth_date = 1772.1.12
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				cautious
+			}
+		}
+
+
+		create_character = {
+			# Sergey Uvarov, the creator of the Tsarist doctrine of Orthodoxy, Autocracy, and Nationality
+			first_name = Tomasz
+			last_name = Goral
+			birth_date = 1786.9.5
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			# St. Philaret, Metropolitan of Moscow, born as Vasily Drozdov
+			first_name = Stefan
+			last_name = Pulawski
+			birth_date = 1783.1.6 # Gregorian calendar. Philaret was born on December 26, 1782 in the /Julian/ Calendar. Please don't write complaints about how his birthday should be in December. Please.
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_traditionalist
+			traits = {
+				charismatic
+			}
+		}
+
+		create_character = {
+			# Alexander Herzen, Russian intellectual
+			first_name = Aleksander
+			last_name = Herzen
+			birth_date = 1812.4.6
+			ig_leader = yes
+			interest_group = ig_trade_unions
+			ideology = ideology_moderate
+			traits = {
+			}
+		}
+
+		
+
+		create_character = {
+			# Count Aleksey Alekseyevich Bobrinsky, patron of the first Russian railway and sugar beet innovator.
+			#role = politician # Remove this line
+			first_name = Aleksy
+			last_name = Kujawski
+			birth_date = 1800.1.17 # Gregorian Calendar
+			ig_leader = yes
+			interest_group = ig_industrialists
+			ideology = ideology_moderate
+			traits = {
+				persistent
+			}
+		}
+		
+		
+		create_character = {
+			is_general = yes
+			first_name = Jaroslaw
+			last_name = Paskiewicz
+			age = 54
+			hq = region_poland
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+			}
+		}
+		
+		
+		create_character = {
+			is_general = yes
+			first_name = Henryk
+			last_name = Smolarczyk
+			age = 54
+			hq = region_poland
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+			}
+		}
+	
+		
+		create_character = {
+			is_general = yes
+			first_name = Frederyk
+			last_name = Sobolewski
+			hq = region_baltic
+			commander_rank = commander_rank_3
+			age = 42
+			traits = {
+				meticulous
+				surveyor
+			}
+		}
+		
+		
+
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Fabian
+			last_name = Dabrowski
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1778.1.25
+			hq = region_baltic
+			commander_rank = commander_rank_2
+			traits = {
+				explorer
+				basic_naval_commander
+				popular_commander
+			}
+		}
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Karol
+			last_name = Rybak
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1778.1.25
+			hq = region_poland
+			commander_rank = commander_rank_2
+			traits = {
+				explorer
+				basic_naval_commander
+				popular_commander
+			}
+		}
+	}
+	
+}
