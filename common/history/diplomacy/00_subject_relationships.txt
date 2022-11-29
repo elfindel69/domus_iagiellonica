@@ -267,35 +267,6 @@
 			type = puppet
 		}		
 	}	
-	c:DEI = {
-		create_diplomatic_pact = {
-			country = c:YOG
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:SRK
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:JMB
-			type = puppet
-		}	
-		create_diplomatic_pact = {
-			country = c:SMB
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:PON
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:BNJ
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:TID
-			type = puppet
-		}
-	}
+	
 	
 }

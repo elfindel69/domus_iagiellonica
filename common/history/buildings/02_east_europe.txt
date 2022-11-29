@@ -805,12 +805,6 @@
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
 			}
-			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
-			}
 		}
 	}
 	s:STATE_SILESIA={
@@ -1005,12 +999,6 @@
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
-				building="building_chemical_plants"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_artificial_fertilizers" "pm_leblanc_process" "pm_privately_owned_industry" }
-			}
-			create_building={
 				building="building_naval_base"
 				level=10
 				reserves=1
@@ -1143,12 +1131,6 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
-			}
-			create_building={
-				building="building_chemical_plants"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_artificial_fertilizers" "pm_leblanc_process" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_construction_sector"

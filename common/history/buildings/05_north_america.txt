@@ -1690,7 +1690,7 @@
 		}
 	}
 	s:STATE_BRITISH_COLUMBIA={
-		region_state:HBC={
+		region_state:ORG={
 			create_building={
 				building="building_logging_camp"
 				level=1
