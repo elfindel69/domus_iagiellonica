@@ -151,6 +151,28 @@
 			}
 		}
 		
+		create_character = {
+			is_general = yes
+			first_name = Henryk
+			last_name = Macieja
+			hq = region_north_germany
+			age = 50
+			traits = {
+	
+			}
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Franciszek
+			last_name = Kleeberg
+			hq = region_dnieper
+			age = 40
+			traits = {
+	
+			}
+		}
+		
 		
 
 		create_character = { # RUS, Admiral
@@ -181,6 +203,18 @@
 				explorer
 				basic_naval_commander
 				popular_commander
+			}
+		}
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Damian
+			last_name = Frankowski
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1778.1.25
+			hq = region_north_germany
+			traits = {
+				
 			}
 		}
 	}

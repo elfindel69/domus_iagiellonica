@@ -1229,7 +1229,7 @@
 		}		
 		create_trade_route = {
 			goods = dye
-			level = 5
+			level = 1
 			direction = import
 			target = c:POR.market
 		}				
@@ -1284,12 +1284,6 @@
 	# Switzerland
 	c:SWI = {
 		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:PRU.market
-		}	
-		create_trade_route = {
 			goods = grain
 			level = 1
 			direction = import
@@ -1315,26 +1309,6 @@
 		}			
 	}	
 
-	
-	# Prussia
-	c:PRU = {	
-		
-				
-		create_trade_route = {
-			goods = dye
-			level = 7
-			direction = import
-			target = c:FRA.market
-		}			
-		
-		create_trade_route = {
-			goods = sugar
-			level = 6
-			direction = import
-			target = c:FRA.market
-		}				
-	}	
-	
 	
 	
 	# France
