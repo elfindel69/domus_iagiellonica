@@ -32,7 +32,7 @@
  objective_hegemon_idle_header:1 "Global Hegemony"
  objective_hegemon_idle_hint:0 "More challenges will appear eventually"
 
- objective_hegemon_name_NGF:0 "#v $NGF$#!"
+ objective_hegemon_name_PRU:0 "#v $PRU$#!"
  objective_hegemon_desc_NGF:0 "#lore $NGF_FLAVOR_TEXT$#!"
  objective_hegemon_name_EGY:0 "#v $EGY$#!"
  objective_hegemon_desc_EGY:0 "#lore $EGY_FLAVOR_TEXT$#!"
