@@ -1,0 +1,8 @@
+﻿COUNTRIES = {
+	c:LUX = {
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+}

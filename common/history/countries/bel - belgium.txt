@@ -1,0 +1,11 @@
+﻿COUNTRIES = {
+	c:BEL = {
+		
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+			#add_ruling_interest_group = yes
+		}
+
+	}
+}
