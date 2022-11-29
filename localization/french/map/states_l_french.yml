@@ -750,3 +750,10 @@
  STATE_KARELIA:0 "Carélie"
  STATE_VOJVODINA:0 "Voïvodine"
  STATE_ARCTIC_OCEAN_03:0 "Océan Arctique"
+ 
+ # ==== New States
+ 
+ STATE_BASILICATA:0 "Basilicate"
+ STATE_MARCHE:0 "Marches"
+ STATE_TRENTO:0 "Trente"
+ STATE_LIGURIA:0 "Ligurie"

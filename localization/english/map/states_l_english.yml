@@ -731,6 +731,9 @@
  STATE_OAXACA:0 "Oaxaca"
  STATE_SHENGJING:0 "Shengjing"
  STATE_JETISY:0 "Ili"
+ 
+ # == New States
+ 
  STATE_BASILICATA:0 "Basilicata"
  STATE_MARCHE:0 "Marche"
  STATE_TRENTO:0 "Trento"
