@@ -6536,7 +6536,7 @@ STATES = {
 		}
 		create_state = {
 			country = c:VEN
-			owned_provinces = { x71A0C0 xEFA0C0 xF9421B x90A0E0}
+			owned_provinces = { xEFA0C0 xF9421B x90A0E0 x71A0C0}
 		}
 		
 		add_homeland = croat
@@ -6930,7 +6930,15 @@ STATES = {
 	s:STATE_PIEDMONT = {
 		create_state = {
 			country = c:SAR
-			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
+			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 }
+		}
+		
+		add_homeland = north_italian
+	}
+	s:STATE_LIGURIA = {
+		create_state = {
+			country = c:SAR
+			owned_provinces = { x54728A x5F6BAA x904061 }
 		}
 		
 		add_homeland = north_italian
