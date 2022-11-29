@@ -32,12 +32,6 @@
 			target = c:RUS.market
 		}
 		create_trade_route = {
-			goods = liquor
-			level = 5
-			direction = export
-			target = c:PRU.market
-		}
-		create_trade_route = {
 			goods = coffee
 			level = 7
 			direction = import
@@ -977,24 +971,14 @@
 
 	# Sweden 	
 	c:SWE = {	
-		create_trade_route = {
-			goods = tools
-			level = 3
-			direction = import
-			target = c:PRU.market
-		}	
+		
 		create_trade_route = {
 			goods = hardwood
 			level = 7
 			direction = export
 			target = c:GBR.market
 		}			
-		create_trade_route = {
-			goods = luxury_furniture
-			level = 2
-			direction = import
-			target = c:PRU.market
-		}
+		
 		create_trade_route = {
 			goods = luxury_furniture
 			level = 2
@@ -1007,24 +991,9 @@
 			direction = import
 			target = c:GBR.market
 		}
-		create_trade_route = {
-			goods = wine
-			level = 3
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
-			goods = clothes
-			level = 2
-			direction = import
-			target = c:PRU.market
-		}
-		create_trade_route = {
-			goods = furniture
-			level = 6
-			direction = import
-			target = c:PRU.market
-		}
+		
+		
+		
 	}
 	
 	
@@ -1350,30 +1319,14 @@
 	# Prussia
 	c:PRU = {	
 		
-		create_trade_route = {
-			goods = iron
-			level = 7
-			direction = import
-			target = c:SWE.market
-		}			
+				
 		create_trade_route = {
 			goods = dye
 			level = 7
 			direction = import
 			target = c:FRA.market
 		}			
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 2
-			direction = import
-			target = c:GBR.market
-		}			
-		create_trade_route = {
-			goods = iron
-			level = 3
-			direction = import
-			target = c:GBR.market
-		}	
+		
 		create_trade_route = {
 			goods = sugar
 			level = 6
