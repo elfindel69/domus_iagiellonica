@@ -174,7 +174,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = russian
 				size = 88400

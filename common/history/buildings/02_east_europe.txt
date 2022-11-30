@@ -317,7 +317,7 @@
 		}
 	}
 	s:STATE_ORSHA={
-		region_state:RUS={
+		region_state:PLC={
 			create_building={
 				building="building_paper_mills"
 				level=3
