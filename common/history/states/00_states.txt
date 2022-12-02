@@ -6937,7 +6937,7 @@ STATES = {
 	}
 	s:STATE_LIGURIA = {
 		create_state = {
-			country = c:SAR
+			country = c:GEN
 			owned_provinces = { x54728A x5F6BAA x904061 }
 		}
 		
