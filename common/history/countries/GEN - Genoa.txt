@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 
 	#TUTORIAL Replace TUT with your country's tag
 	c:GEN = {

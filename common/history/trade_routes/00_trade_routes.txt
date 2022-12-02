@@ -828,7 +828,7 @@
 		}		
 		create_trade_route = {
 			goods = wood
-			level = 12
+			level = 10
 			direction = import
 			target = c:RUS.market
 		}
@@ -1171,7 +1171,7 @@
 		}
 		create_trade_route = {
 			goods = wood
-			level = 13
+			level = 10
 			direction = import
 			target = c:RUS.market
 		}			
@@ -1211,7 +1211,7 @@
 	c:AUS = {
 		create_trade_route = {
 			goods = wood
-			level = 14
+			level = 12
 			direction = import
 			target = c:RUS.market
 		}	
@@ -1452,7 +1452,7 @@
 		
 		create_trade_route = {
 			goods = sulfur
-			level = 3
+			level = 1
 			direction = import
 			target = c:GBR.market
 		}
