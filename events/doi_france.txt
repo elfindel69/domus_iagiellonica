@@ -15,13 +15,12 @@ doi_france.1 = {
     trigger = {
         exists = c:FRA
         this = c:FRA
-		any_scope_character = {
-			ruler = {
-				NOT = { has_variable = king_louis_philippe }
-			}
-			
-		}
 		
+		any_scope_character = {
+			is_ruler = yes
+			NOT = { has_variable = king_louis_philippe }
+		}
+			
 		has_law = law_type:law_monarchy
 		NOT = {has_variable = kings_death}
 	}
