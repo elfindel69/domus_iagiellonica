@@ -1048,8 +1048,7 @@
  CTF_ADJ:0 "Three Fires"
  KLM:0 "Kalmykia"
  KLM_ADJ:0 "Kalmykian"
- GEN:0 "Genoa"
- GEN_ADJ:0 "Genoese"
+
   # Dynamic countries
  dyn_c_united_sovereign_archduchy:0 "United Sovereign Archduchy"
  dyn_c_united_sovereign_archduchy_adj:0 "Archducal American"
