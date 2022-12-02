@@ -36,7 +36,7 @@
 		}
 	}
 	s:STATE_LIGURIA = {
-		region_state:SAR = {
+		region_state:GEN = {
 			create_pop = {
 				culture = north_italian
 				size = 621792
