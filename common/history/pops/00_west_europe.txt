@@ -876,7 +876,7 @@
 		}
 	}
 	s:STATE_TRENTO = {
-		region_state:AUS = {
+		region_state:PBT = {
 			create_pop = {
 				culture = south_german
 				size = 3251
