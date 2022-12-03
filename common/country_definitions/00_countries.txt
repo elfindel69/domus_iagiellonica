@@ -634,6 +634,17 @@ WUR = {
 	is_named_from_capital = yes
 }
 
+PBT = {
+	color = { 183  143  145 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_italian south_german }
+	capital = STATE_TRENTO
+}
+
 LOM = {
 	color = { 146  108  146 }
 	
@@ -734,6 +745,17 @@ SIC = {
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
+}
+
+HPA = {
+	color = { 176  196  222 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { maltese }
+	capital = STATE_MALTA
 }
 
 TRE = {
