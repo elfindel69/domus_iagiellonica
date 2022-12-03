@@ -319,6 +319,12 @@
 	s:STATE_ORSHA={
 		region_state:PLC={
 			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_paper_mills"
 				level=3
 				reserves=1
