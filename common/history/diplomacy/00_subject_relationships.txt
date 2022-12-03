@@ -266,7 +266,20 @@
 			country = c:JAS
 			type = puppet
 		}		
+	}
+
+	c:POR = {
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = dominion
+		}
 	}	
 	
+	c:PLC = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = protectorate
+		}
+	}	
 	
 }

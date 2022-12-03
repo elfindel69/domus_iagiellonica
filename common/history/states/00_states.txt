@@ -1105,13 +1105,13 @@ STATES = {
 		add_homeland = romanian		
 	}
 	s:STATE_MOLDAVIA = {
-		create_state = {
-			country = c:AUS
-			owned_provinces = { x31A0A0 x7E6263 xFFCCDA x00A7F4 x067DF0 }
-		}
+		
 		create_state = {
 			country = c:MOL
-			owned_provinces = { x734EFF xF40045 x0983EE x0D8A56 xFF2F40 x30E0A0 x3CE97E xB0A0E0 x556DE7 xEF2060 x56839F x80D8F3 x35CE84 x946A66 }
+			owned_provinces = { 
+				x734EFF xF40045 x0983EE x0D8A56 xFF2F40 x30E0A0 x3CE97E xB0A0E0 x556DE7 xEF2060 x56839F x80D8F3 x35CE84 x946A66 
+				x31A0A0 x7E6263 xFFCCDA x00A7F4 x067DF0 
+			}
 		}
 		
 		add_homeland = romanian
@@ -2003,7 +2003,7 @@ STATES = {
 	}
 	s:STATE_PARA = {
 		create_state = {
-			country = c:PRA
+			country = c:BRZ
 			owned_provinces = { 
 				x202AD6 x7684AE xB90B68 xA80863 x2717F9 x8473D1 x03A6E8 x34E831 x8CB00B xC5C8DB x466026 x20F3FE xD266C5 xD2C5AD xF5CC32 xAED9E7 xC50FEA xE60D23 x3FDF4A xE6A9FB x60476B xE560D3 x0A5CA3 xD364FA xB95681 x5AD2E6 x4AA845 xBEC87E x26B9C1 xDC9757 xB93B0C xA08090 x1BEEC7 xB1CCEE xB2D30E x0A4B09 x12590E x140E36 x73D4D4 x79F381 x4BE6EE xB306A1 xD52D37 x9B8499 xEBB90E xD6E2EA xE4212F x05CF8B x4E60B2 x04CE13 xE6D232 x9A68C5 x16CD59 x147984 xEC5C04 x554F30 x8A8A3E xE00190 x0EEAC1 x646762 x4DCA73 x88F1DE x456A7F xE91C8C x62B50D x45DA42 x819CB3 x7C32C1 x600190 x81FC6B xE19BE4 x05B90F x30A52C x8616BC xA094C5 x69460E x9CB8B8
 
@@ -2013,13 +2013,11 @@ STATES = {
         		xCD65EB x3C43BC x1F2DE0 xB60E46 xBDAF9D xA04111 xBA338A x8C8A64 x3FA31D xAF6776 xA85C4A xCDB699 xA970CF x960A35 xFC8C93 x4B0F3A xE8BA13 x4F98A6 xB8B087 x90594E xDC49C1 x21F625 xF777F8 x96700F xC413AA x981656 x888CDB x4A40A2 x1182FD xD72252 xD14114 xAADF4E xBD503D x1D7FD2 x082621 xDF31C8 x6C1217 x47DD6F x819B9B x755A1F xF41AB0 x26A1DE x16E6AD x7E0544 x62AEF6 xC5474F x550071 xBF92E8 xC98FE7 x873D0C xE1C40F x80F241 x49320F x6EAF9A xE336EF x5ABF5A xC3E90E x430FED x8F3A3A x33102C x680C6A x74A192 xC92518 xDBF44B xCFC6EC x999716 x0D770E x69EDA5 x4F76AF xF1FE8F x10871C xD29F39 x35641E xDD2CE1 x9D57CD xFF265C x5E1149 x72000B xDC0EE4 x28B30B x650BF7 x32B46C x8AB059 xBCAD33 xD318FE xD809FC x0FDD9C x4D0F16 xE5DCAD x3E918E x70E7F2 x8647C7 xC6D926 x288CA0 
 			}
 		}
-		set_variable = {
-			name = brazil_sucession_state
-		}
+		
 		add_homeland = brazilian
 		add_homeland = amazonian
 		add_homeland = afro_brazilian
-		add_claim = c:BRZ
+		
 	}
 	s:STATE_MARANHAO = {
 		create_state = {
@@ -2043,7 +2041,7 @@ STATES = {
 		}
 
 		create_state = {
-			country = c:PRA
+			country = c:BRZ
 			owned_provinces = { 
 				x0A49A7 xA8E4E8 x4370B4 x9752DF x87087A xA9FD52 x569250
 
@@ -2062,11 +2060,8 @@ STATES = {
 			}
 			state_type = unincorporated
 		}
-		set_variable = {
-			name = brazil_sucession_state
-		}
+		
 		add_homeland = amazonian
-		add_claim = c:BRZ
 	}
 	s:STATE_ACRE = {
 		create_state = {
@@ -2095,7 +2090,6 @@ STATES = {
 		add_homeland = brazilian
 		add_homeland = afro_brazilian
 		add_homeland = tupinamba
-		add_claim = c:BRZ
 	}
 	s:STATE_MATO_GROSSO = {
 		create_state = {
@@ -2118,16 +2112,12 @@ STATES = {
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		create_state = {
-			country = c:PNI
+			country = c:BRZ
 			owned_provinces = { x5F9728 xE69F64 x0445FE xD9D235 xF0F96F x118F07 xE933B3 xED55D2 xCC2135 x8A15FA x8E3579 xBEAF68 x19E79D x52B247 x067BE3 xD3A197 xCD9ECD x4EF206 x1956D3 xE5C3BD xA41E15 x8953B5 xA787A2 x9D8150 x38328C x6E0564 x783434 x38A72A xF1B2D9 x8F1635 xFF2920 x48F668 x7678F5 xB88B11 x45B9DF x5F39AB xCD5D1E x26F3A4 x161E6F x628161 x529B8E x16C462 x9FE393 xD8696A xA950E8 x782568 x9BDDA2 x22956B x4BBCCC x7F701B x00E2C3 x7600E6 xE17D15 x7DEC91 xE761EB x9A598B x583BA0 x633FB2 xC7E5A1 x036508 }
-		}
-		set_variable = {
-			name = brazil_sucession_state
 		}
 		add_homeland = brazilian
 		add_homeland = afro_brazilian
 		add_homeland = guarani		
-		add_claim = c:BRZ
 	}
 	s:STATE_PARANA = {
 		create_state = {
@@ -6411,7 +6401,7 @@ STATES = {
 	}
 	s:STATE_CHERSON = {
 		create_state = {
-			country = c:RUS
+			country = c:PLC
 			owned_provinces = { "x000AE0" "x0E1864" "x135B1E" "x13997A" "x29EE58" "x305004" "x3E5AF0" "x3E66A1" "x421B54" "x4ABD60" "x652CE8" "x716121" "x71E021" "x726291" "x73216A" "x7FC1CF" "x89CE7C" "x8A09FD" "x925815" "x9E24DE" "xA669E7" "xA81C77" "xB02161" "xB5123B" "xCC0D93" "xD7E3C1" "xE315A3" "xE4AA78" "xF0E0A0" "xF9066A" "xFD6659" "xFDD2CF" }
 		}
 		
@@ -6419,7 +6409,7 @@ STATES = {
 	}
 	s:STATE_BESSARABIA = {
 		create_state = {
-			country = c:RUS
+			country = c:PLC
 			owned_provinces = { x622837 x1E1DEF x712161 xFC9EFE x8955DF xFDE796 x79D62E x8ACA9B x53D7E0 xE7274A xB0E0A0 x23621B x5F2259 x6BF7B8 }
 		}
 		

@@ -327,7 +327,7 @@
 		}
 	}
 	s:STATE_CHERSON = {
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
 				size = 986108
@@ -1069,7 +1069,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		region_state:AUS = {
+		region_state:MOL = {
 			create_pop = {
 				culture = polish
 				size = 20008
@@ -1094,8 +1094,6 @@
 				culture = south_german
 				size = 32000
 			}
-		}
-		region_state:MOL = {
 			create_pop = {
 				culture = romanian
 				size = 1393304
@@ -1121,7 +1119,7 @@
 		}
 	}
 	s:STATE_BESSARABIA = {
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = romanian
 				size = 808396
