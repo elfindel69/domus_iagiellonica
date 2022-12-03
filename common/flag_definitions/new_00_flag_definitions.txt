@@ -53,3 +53,19 @@ GEN = { # Genoa
 		priority = 1
 	}
 }
+
+HPA = { # Hospitallers Malta
+	flag_definition = {
+		coa = HPA
+		subject_canton = HPA
+		priority = 1
+	}
+}
+
+PBT = { # Bishopric of Trent
+	flag_definition = {
+		coa = PBT
+		subject_canton = PBT
+		priority = 1
+	}
+}
