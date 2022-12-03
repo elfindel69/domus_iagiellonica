@@ -330,7 +330,29 @@
 		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
-				size = 986108
+				size = 493054
+			}
+			create_pop = {
+				culture = polish
+				size = 40000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 154000
+			}
+			create_pop = {
+				culture = romanian
+				size = 79800
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 12000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = ukrainian
+				size = 493054
 			}
 			create_pop = {
 				culture = south_italian

@@ -482,7 +482,7 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:TUR = {
+		region_state:WAL = {
 			create_pop = {
 				culture = turkish
 				size = 59044
@@ -504,7 +504,7 @@
 				size = 76000
 			}
 		}
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = turkish
 				size = 2560
@@ -528,7 +528,7 @@
 		}
 	}
 	s:STATE_ALBANIA = {
-		region_state:TUR = {
+		region_state:ALB = {
 			create_pop = {
 				culture = albanian
 				size = 1004808
@@ -550,7 +550,7 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:TUR = {
+		region_state:BOS = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
@@ -570,7 +570,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
-		region_state:TUR = {
+		region_state:BUL = {
 			create_pop = {
 				culture = turkish
 				size = 273408
@@ -595,7 +595,7 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:TUR = {
+		region_state:BUL = {
 			create_pop = {
 				culture = turkish
 				size = 210404
@@ -736,28 +736,18 @@
 		}
 	}
 	s:STATE_MONTENEGRO = {
-		region_state:TUR = {
+		region_state:MON = {
 			create_pop = {
 				culture = bosniak
 				size = 43196
 			}
 			create_pop = {
 				culture = serb
-				size = 114000
+				size = 218396
 			}
 			create_pop = {
 				culture = albanian
-				size = 21000
-			}
-		}
-		region_state:MON = {
-			create_pop = {
-				culture = serb
-				size = 104396
-			}
-			create_pop = {
-				culture = albanian
-				size = 23000
+				size = 44000
 			}			
 		}
 	}
@@ -770,7 +760,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_SERBIA = {
-		region_state:TUR = {
+		region_state:SER = {
 			create_pop = {
 				culture = turkish
 				size = 124400
@@ -819,7 +809,7 @@
 	}
 
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 8992
@@ -843,7 +833,7 @@
 		}
 	}
 	s:STATE_THESSALIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 76208
@@ -868,7 +858,7 @@
 		}
 	}
 	s:STATE_SKOPIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 157296
@@ -892,7 +882,7 @@
 		}
 	}
 	s:STATE_MACEDONIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 84000
@@ -922,7 +912,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 274808
