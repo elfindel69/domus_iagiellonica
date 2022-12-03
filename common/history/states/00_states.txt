@@ -6664,7 +6664,7 @@ STATES = {
 	}
 	s:STATE_TRENTO = {
 		create_state = {
-			country = c:AUS
+			country = c:PBT
 			owned_provinces = { xD0BF60 x1120FF }
 		}
 	}
@@ -7042,9 +7042,8 @@ STATES = {
 	}
 	s:STATE_MALTA = {
 		create_state = {
-			country = c:GBR
+			country = c:HPA
 			owned_provinces = { x015121 x3a8b51 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = maltese
