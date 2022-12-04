@@ -378,50 +378,7 @@
 		}			
 	}
 	
-	# Grao-Para
-	c:PRA = {		
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = artillery
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}			
-	}		
-	
-
-	# Piratini
-	c:PNI = {		
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = artillery
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}			
-	}		
+		
 
 	# Bolivia
 	c:BOL = {
@@ -648,13 +605,13 @@
 			goods = luxury_clothes
 			level = 1
 			direction = import
-			target = c:NET.market
+			target = c:FRA.market
 		}	
 		create_trade_route = {
 			goods = tea
 			level = 1
 			direction = import
-			target = c:NET.market
+			target = c:FRA.market
 		}		
 	}
 	
@@ -1045,7 +1002,7 @@
 			goods = sugar
 			level = 7
 			direction = import
-			target = c:NET.market
+			target = c:FRA.market
 		}
 		create_trade_route = {
 			goods = tools
@@ -1440,7 +1397,7 @@
             goods = sugar
             level = 4
             direction = import
-            target = c:NET.market
+            target = c:FRA.market
         }		
 		
 		create_trade_route = {
