@@ -858,7 +858,7 @@
 		}
 	}
 	s:STATE_SKOPIA = {
-		region_state:GRE = {
+		region_state:SER = {
 			create_pop = {
 				culture = turkish
 				size = 157296

@@ -180,7 +180,7 @@
 		}
 	}
 	s:STATE_MALTA={
-		region_state:GBR={
+		region_state:HPA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

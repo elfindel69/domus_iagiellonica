@@ -34,7 +34,6 @@
 		add_declared_interest = region_france
 		add_declared_interest = region_balkans
 		add_declared_interest = region_north_germany
-		add_declared_interest = region_south_germany
 		add_declared_interest = region_italy
 		add_declared_interest = region_anatolia
 		add_declared_interest = region_persia

@@ -3219,7 +3219,6 @@ STATES = {
 		}
 
 		add_homeland = flemish
-		add_claim = c:NET
 	}
 	s:STATE_FRIESLAND = {
 		create_state = {

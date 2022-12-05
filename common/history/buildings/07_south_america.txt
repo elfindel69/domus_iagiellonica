@@ -963,7 +963,7 @@
 	s:STATE_AMAZONAS={
 		region_state:CLM={
 		}
-		region_state:PRA={
+		region_state:BRZ={
 		}
 		region_state:BOL={
 		}
