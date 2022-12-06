@@ -141,6 +141,8 @@ PLC_dictatorial={
 	}
 }
 USA_monarchist={
+	@usa_canton_width=0.5
+	@usa_canton_height=@[1/13*7]
 	pattern="pattern_solid.tga"
 	color1="white"
 	colored_emblem={
@@ -153,7 +155,7 @@ USA_monarchist={
 		color1="blue"
 		color2="blue"
 		instance={
-			scale={ 0.5 0.5 }
+			scale={ 0.5 0.575 }
 			position={ 0.25 0.25 }
 		}
 	}
