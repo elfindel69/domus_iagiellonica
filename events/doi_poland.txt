@@ -1,0 +1,93 @@
+﻿namespace = doi_poland
+
+doi_poland.1 = {
+	type = country_event # can be country_event, character_event, or state_event
+	placement = s:STATE_SILESIA.region_state:AUS
+	title = doi_poland.1.t
+	desc = doi_poland.1.d
+	flavor = doi_poland.1.f
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	immediate = {	
+		set_variable = {name = silesian_uprising_var}
+		s:STATE_SILESIA.region_state:AUS = {
+			save_scope_as = silesia_scope
+		}
+		scope:silesia_scope = {
+			add_radicals = {
+				value = very_large_radicals
+				culture = cu:polish
+			}
+			create_incident = {
+				country = root
+				value = 10
+			}
+		}
+    }
+    
+    trigger = {
+        exists = c:PLC
+		exists = c:AUS
+		ROOT = c:PLC
+		exists = s:STATE_SILESIA.region_state:AUS
+		year > 1850
+		NOT = {has_variable = silesian_uprising_var}
+		NOT = {
+			any_diplomatic_play = {
+				OR = {
+					any_scope_play_involved = { this = c:PLC }
+					any_scope_play_involved = { this = c:AUS }
+				}
+				is_diplomatic_play_type = dp_secession
+			}
+		}
+	}
+	
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_springtime_of_nations.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/springtime_of_nation"
+
+	#polish help
+	option = {
+		name = doi_poland.1.a
+		default_option = yes
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = ig_gaining_support
+				months = normal_modifier_time
+			}
+		}
+		create_diplomatic_play = {
+			name = silesian_uprising
+			type = dp_conquer_state
+
+			target_state = s:STATE_SILESIA.region_state:AUS
+
+			add_war_goal = {
+				holder = c:AUS
+				type = humiliation
+				target_country = c:PLC
+			}
+		}
+		
+    }
+	#poland refuses to help
+	option = {
+		name = doi_poland.1.b
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = ig_accused_of_cowardice
+				months = normal_modifier_time
+			}
+		}
+		c:AUS = {
+			trigger_event = { id = doi_austria.1 days = 0 popup = yes }
+		}
+		
+    }
+}

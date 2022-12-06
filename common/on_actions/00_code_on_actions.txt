@@ -315,6 +315,8 @@ on_half_yearly_pulse_country = {
 
 		#Oscar Wilde event for Europe
 		5 = oscar_wilde_events.1
+		
+		30 = doi_poland.1
 	}
 	# Secession
 	random_events = {

@@ -1,6 +1,18 @@
 ﻿l_english:
- doi_france.1.t: "King Louis Philippe Dies !"
+ doi_france.1.t: "King Louis Philippe Dies!"
  doi_france.1.d: "The nation mourns the King, who died recently of old age.\n Now everybody turns his head to the National Assembly; will they maintain the unpopular monarchy or will they establish a new republic ? "
  doi_france.1.f: "Everybody liked to dislike the King, now they already miss him..."
  doi_france.1.a: "Liberté, Egalité, Fraternité !"
  doi_france.1.b: "The nation needs stablility"
+ 
+ doi_poland.1.t: "Polish uprising in Silesia!"
+ doi_poland.1.d: "After years of political discrimination, Poles in Silesia have decided to liberate themselves from Austrian persecution. Will the Polish army help its brothers in need?"
+ doi_poland.1.f: "We want our freedom, we are Poles and proud to be!"
+ doi_poland.1.a: "We are ready to help our brothers!"
+ doi_poland.1.b: "We are not ready yet" 
+ 
+ doi_austria.1.t: "Polish uprising in Silesia!"
+ doi_austria.1.d: "After years of political discrimination, Poles in Silesia have decided to liberate themselves from Austrian persecution. Poland authorities are unable to address this problem, what shall we do?"
+ doi_austria.1.f: "Pesky Poles, weren't they happy with us all that long?"
+ doi_austria.1.a: "Crush them!"
+ doi_austria.1.b: "Give Silesia back" 

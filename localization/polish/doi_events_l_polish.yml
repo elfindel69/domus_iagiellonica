@@ -4,3 +4,15 @@
  doi_france.1.f: "Wszyscy lubili nie lubić króla, teraz już za nim tęsknią..."
  doi_france.1.a: "Liberté, Egalité, Fraternité !"
  doi_france.1.b: "Naród potrzebuje stabilizacji"
+ 
+ doi_poland.1.t: "Polskie powstanie na Śląsku!"
+ doi_poland.1.d: "Po latach politycznej dyskryminacji, Polacy na Śląsku postanowili wyzwolić się spod austriackich prześladowań. Czy polska armia pomoże swoim braciom w potrzebie?"
+ doi_poland.1.f: "Chcemy naszej wolności, jesteśmy Polakami i jesteśmy z tego dumni!"
+ doi_poland.1.a: "Jesteśmy gotowi pomóc naszym braciom!"
+ doi_poland.1.b: "Nie jesteśmy jeszcze gotowi" 
+ 
+ doi_austria.1.t: "Polskie powstanie na Śląsku!"
+ doi_austria.1.d: "Po latach politycznej dyskryminacji, Polacy na Śląsku postanowili wyzwolić się spod austriackich prześladowań. Władze Polski nie są w stanie rozwiązać tego problemu, co mamy zrobić?"
+ doi_austria.1.f: "Paskudni Polacy, czyż nie byli z nami szczęśliwi przez cały ten czas?"
+ doi_austria.1.a: "Zmiażdżyć ich!"
+ doi_austria.1.b: "Oddać Śląsk" 

@@ -4,3 +4,15 @@
  doi_france.1.f: "Tout le monde aimait détester le Roi, maintenant il leur manque déjà..."
  doi_france.1.a: "Liberté, Egalité, Fraternité !"
  doi_france.1.b: "La nation a besoin de stabilité"
+ 
+ doi_poland.1.t: "Soulèvement polonais en Silésie !"
+ doi_poland.1.d: "Après des années de discrimination politique, les Polonais de Silésie ont décidé de se libérer des persécutions autrichiennes. L'armée polonaise va-t-elle aider ses frères dans le besoin ?"
+ doi_poland.1.f: "Nous voulons notre liberté, nous sommes Polonais et fiers de l'être !"
+ doi_poland.1.a: "Nous sommes prêts à aider nos frères !"
+ doi_poland.1.b: "Nous ne sommes pas encore prêts" 
+ 
+ doi_austria.1.t: "Soulèvement polonais en Silésie !"
+ doi_austria.1.d: "Après des années de discrimination politique, les Polonais de Silésie ont décidé de se libérer des persécutions autrichiennes. Les autorités polonaises sont incapables de résoudre ce problème, que faire ?"
+ doi_austria.1.f: "Ces fichus Polonais, n'ont-ils pas été heureux avec nous tout ce temps ?"
+ doi_austria.1.a: "Écrasez-les !"
+ doi_austria.1.b: "Rendre la Silésie" 
