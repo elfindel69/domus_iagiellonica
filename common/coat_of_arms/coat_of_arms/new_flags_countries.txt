@@ -154,7 +154,6 @@ PLC_dictatorial={
 	pattern="pattern_border_outlined_thin.dds"
 	color1="red"
 	color2="white"
-	
 	colored_emblem={
 		texture="ce_shield_accolade_03.dds"
 		color1="red"
@@ -220,6 +219,41 @@ USA_monarchist={
 		instance={
 			scale={ 0.2 0.2 }
 			position={ 0.25 0.09 }
+		}
+	}
+}
+FRA_monarchist={
+	pattern="pattern_solid.tga"
+	color1="blue"
+	colored_emblem={
+		texture="ce_tricolor_vertical.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_shield_accolade_02.dds"
+		color1="blue"
+		color2="yellow_dark"
+		instance={
+			scale={ 0.6 0.6 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		texture="ce_fleur_quebec.dds"
+		color1="yellow_dark"
+		color2="yellow_dark"
+		instance={
+			position={ 0.50 0.55 }
+			scale={ 0.16 0.16 }
+		}
+		instance={
+			position={ 0.45 0.45 }
+			scale={ 0.16 0.16 }
+		}
+		instance={
+			position={ 0.55 0.45 }
+			scale={ 0.16 0.16 }
 		}
 	}
 }

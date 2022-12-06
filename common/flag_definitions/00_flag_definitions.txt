@@ -2907,6 +2907,18 @@ FRA = { # France
 		}
 	}	
 	flag_definition = {
+		coa = FRA_monarchist
+		subject_canton = FRA_monarchist
+		priority = 10
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FRA_subject			
+		trigger = {			
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
 		coa = FRA_dictatorship
 		subject_canton = FRA_dictatorship
 		priority = 20
