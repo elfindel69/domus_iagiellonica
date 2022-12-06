@@ -5,3 +5,18 @@
  HPA_ADJ:0 "Knights"
  PBT:0 "Prince-Bishopric of Trent"
  PBT_ADJ:0 "Trentine"
+ 
+ dyn_c_fra_republic:0 "French Republic"
+ dyn_c_fra_monarchy:0 "Kingdom of France"
+ dyn_c_fra_commies:0 "French Commune"
+ dyn_c_fra_theocracy:0 "Gallican France"
+ dyn_c_fra_nationalist:0 "French State"
+ dyn_c_fra_empire:0 "French Empire"
+ 
+ dyn_c_plc_republic:0 "Poland-Lithuania"
+ dyn_c_plc_monarchy:0 "Kingdom of Poland-Lithuania"
+ dyn_c_Poland-Lithuania_commies:0 "Polish-Lituanian Commune"
+ dyn_c_fra_theocracy:0 "United Polish-Lituanian Synods"
+ dyn_c_fra_nationalist:0 "Polish-Lituanian State"
+ dyn_c_fra_dictatorial:0 "Polish-Lituanian Empire"
+ 

@@ -5,3 +5,17 @@
  HPA_ADJ:0 "Rycerka"
  PBT:0 "Prince-Bishopric of Trent"
  PBT_ADJ:0 "Trydentynka"
+ 
+ dyn_c_fra_republic:0 "Republika Francuska"
+ dyn_c_fra_monarchy:0 "Królestwo Francji"
+ dyn_c_fra_commies:0 "Komuna Francuska"
+ dyn_c_fra_theocracy:0 "Francja galicyjska"
+ dyn_c_fra_nationalist:0 "Państwo francuskie"
+ dyn_c_fra_empire:0 "Cesarstwo Francuskie"
+ 
+ dyn_c_plc_republic:0 "Rzeczpospolita Obojga Narodów"
+ dyn_c_plc_monarchy:0 "Królestwo Polsko-Litewskie"
+ dyn_c_Poland-Lithuania_commies:0 "Komuna Polsko-Litewska"
+ dyn_c_fra_theocracy:0 "Zjednoczone Synody Polsko-Litewskie"
+ dyn_c_fra_nationalist:0 "Państwo Polsko-Litewskie"
+ dyn_c_fra_dictatorial:0 "Cesarstwo Polsko-Litewskie"

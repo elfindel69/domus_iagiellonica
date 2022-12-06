@@ -1,59 +1,137 @@
-@semy = 0.25
-@third = @[1/3]
-@fifth = @[1/5]
-@sixth = @[1/6]
-
-@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
-@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
-
-@canton_scale_sweden_x = @[ ( 255 / 768 ) + 0.001 ]
-@canton_scale_sweden_y = @[ ( 204 / 512 ) + 0.001 ]
-
-@uru_canton_height = 0.556
-@NZL_coa_offset = @[3/16] 
-@sm_fra = 0.16
-
-#ABO = { # Aboriginals
-#	pattern = "pattern_solid.tga"
-#	color1 = "black"
-#
-#	colored_emblem = {
-#		texture = "ce_bicolor_bottom.dds"
-#		color1 = "red"
-#		color2 = "red"
-#	}
-#
-#	colored_emblem = {
-#		texture = "ce_circle.dds"
-#		color1 = "yellow"
-#		color2 = "yellow"
-#	}
-#}
-
-GEN = {
-	pattern = "GEN_pattern_cross.dds"
-	color1 = "white"
-	color2 = "red"
+@semy=0.25
+@third=@[1/3]
+@fifth=@[1/5]
+@sixth=@[1/6]
+@canton_scale_cross_x=@[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y=@[ ( 205 / 512 ) + 0.001 ]
+@canton_scale_sweden_x=@[ ( 255 / 768 ) + 0.001 ]
+@canton_scale_sweden_y=@[ ( 204 / 512 ) + 0.001 ]
+@uru_canton_height=0.556
+@NZL_coa_offset=@[3/16]
+@sm_fra=0.16
+GEN={
+	pattern="GEN_pattern_cross.dds"
+	color1="white"
+	color2="red"
 }
-
-HPA = {
-	pattern = "HPA_pattern.dds"
-	color1 = "red"
-	color2 = "red"
-	
-	textured_emblem = {
-		texture = "maltese_cross.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.485 } }
+HPA={
+	pattern="HPA_pattern.dds"
+	color1="red"
+	color2="red"
+	textured_emblem={
+		texture="maltese_cross.dds"
+		instance={
+			scale={ 0.8 0.8 }
+			position={ 0.5 0.485 }
+		}
 	}
 }
-
-PBT = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "white"
-	color2 = "green_dark"
-	
-	textured_emblem = {
-		texture = "Trent_eagle.dds"
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.485 } }
+PBT={
+	pattern="pattern_horizontal_split_01.tga"
+	color1="white"
+	color2="green_dark"
+	textured_emblem={
+		texture="Trent_eagle.dds"
+		instance={
+			scale={ 0.8 0.8 }
+			position={ 0.5 0.485 }
+		}
+	}
+}
+PLC_republic={
+	pattern="pattern_solid.tga"
+	color1="red"
+	colored_emblem={
+		texture="ce_tricolor_horizontal.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_shield_plc.dds"
+		color1="red"
+		color2="yellow"
+		instance={
+			scale={ 0.75 0.75 }
+			position={ 0.33 0.46 }
+		}
+	}
+	textured_emblem={
+		texture="te_vytis.dds"
+		instance={
+			scale={ 0.18 0.21 }
+			position={ 0.382 0.365 }
+		}
+		instance={
+			scale={ 0.18 0.21 }
+			position={ 0.275 0.565 }
+		}
+	}
+	colored_emblem={
+		texture="ce_eagle_crown.dds"
+		color1="white"
+		color2="yellow"
+		instance={
+			scale={ 0.2 0.22 }
+			position={ 0.275 0.36 }
+		}
+		instance={
+			scale={ 0.2 0.22 }
+			position={ 0.385 0.56 }
+		}
+	}
+}
+PLC_theocracy={
+	pattern="pattern_solid.tga"
+	color1="red"
+	colored_emblem={
+		texture="ce_tricolor_horizontal.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_shield_plc.dds"
+		color1="red"
+		color2="yellow"
+		instance={
+			scale={ 0.75 0.75 }
+			position={ 0.33 0.46 }
+		}
+	}
+	colored_emblem={
+		texture="ce_solid.dds"
+		color1="red_dark"
+		color2="brown"
+		instance={
+			scale={ 0.21 0.005 }
+			position={ 0.33 0.46 }
+		}
+		instance={
+			scale={ 0.005 0.42 }
+			position={ 0.33 0.475 }
+		}
+	}
+	textured_emblem={
+		texture="te_vytis.dds"
+		instance={
+			scale={ 0.18 0.21 }
+			position={ 0.382 0.365 }
+		}
+		instance={
+			scale={ 0.18 0.21 }
+			position={ 0.275 0.565 }
+		}
+	}
+	colored_emblem={
+		texture="ce_eagle_crown.dds"
+		color1="white"
+		color2="yellow"
+		instance={
+			scale={ 0.2 0.22 }
+			position={ 0.275 0.36 }
+		}
+		instance={
+			scale={ 0.2 0.22 }
+			position={ 0.385 0.56 }
+		}
 	}
 }
