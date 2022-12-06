@@ -46,39 +46,6 @@ PLC_republic={
 		color1="white"
 		color2="red"
 	}
-	colored_emblem={
-		texture="ce_shield_plc.dds"
-		color1="red"
-		color2="yellow"
-		instance={
-			scale={ 0.75 0.75 }
-			position={ 0.33 0.46 }
-		}
-	}
-	textured_emblem={
-		texture="te_vytis.dds"
-		instance={
-			scale={ 0.18 0.21 }
-			position={ 0.382 0.365 }
-		}
-		instance={
-			scale={ 0.18 0.21 }
-			position={ 0.275 0.565 }
-		}
-	}
-	colored_emblem={
-		texture="ce_eagle_crown.dds"
-		color1="white"
-		color2="yellow"
-		instance={
-			scale={ 0.2 0.22 }
-			position={ 0.275 0.36 }
-		}
-		instance={
-			scale={ 0.2 0.22 }
-			position={ 0.385 0.56 }
-		}
-	}
 }
 PLC_theocracy={
 	pattern="pattern_solid.tga"
@@ -89,36 +56,74 @@ PLC_theocracy={
 		color2="red"
 	}
 	colored_emblem={
-		texture="ce_shield_plc.dds"
-		color1="red"
+		texture="ce_cross_couped.dds"
+		color1="yellow"
 		color2="yellow"
+	}
+}
+PLC_fascist={
+	pattern="pattern_solid.tga"
+	color1="red"
+	colored_emblem={
+		texture="ce_tricolor_horizontal.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_falanga.dds"
+		color1="black"
+		color2="black"
+	}
+}
+PLC_commies={
+	pattern="pattern_solid.tga"
+	color1="red"
+	colored_emblem={
+		texture="ce_tricolor_horizontal.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_star_frame_hammer_sickle.dds"
+		color1="yellow"
+		color2="red"
+	}
+}
+PLC_dictatorial={
+	pattern="pattern_solid.tga"
+	color1="red"
+	colored_emblem={
+		texture="ce_tricolor_horizontal.dds"
+		color1="white"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_rhombus.dds"
+		color1="white"
+		color2="white"
 		instance={
 			scale={ 0.75 0.75 }
-			position={ 0.33 0.46 }
+			position={ 0.5 0.5 }
 		}
 	}
 	colored_emblem={
-		texture="ce_solid.dds"
-		color1="red_dark"
-		color2="brown"
+		texture="ce_shield_accolade_03.dds"
+		color1="red"
+		color2="yellow"
 		instance={
-			scale={ 0.21 0.005 }
-			position={ 0.33 0.46 }
-		}
-		instance={
-			scale={ 0.005 0.42 }
-			position={ 0.33 0.475 }
+			scale={ 0.6 0.6 }
+			position={ 0.5 0.5 }
 		}
 	}
 	textured_emblem={
 		texture="te_vytis.dds"
 		instance={
 			scale={ 0.18 0.21 }
-			position={ 0.382 0.365 }
+			position={ 0.55 0.41 }
 		}
 		instance={
 			scale={ 0.18 0.21 }
-			position={ 0.275 0.565 }
+			position={ 0.45 0.575 }
 		}
 	}
 	colored_emblem={
@@ -127,11 +132,48 @@ PLC_theocracy={
 		color2="yellow"
 		instance={
 			scale={ 0.2 0.22 }
-			position={ 0.275 0.36 }
+			position={ 0.45 0.41 }
 		}
 		instance={
 			scale={ 0.2 0.22 }
-			position={ 0.385 0.56 }
+			position={ 0.55 0.57 }
+		}
+	}
+}
+USA_monarchist={
+	pattern="pattern_solid.tga"
+	color1="white"
+	colored_emblem={
+		texture="ce_stripes_13.dds"
+		color1="red"
+		color2="red"
+	}
+	colored_emblem={
+		texture="ce_solid.dds"
+		color1="blue"
+		color2="blue"
+		instance={
+			scale={ 0.5 0.5 }
+			position={ 0.25 0.25 }
+		}
+	}
+	colored_emblem={
+		texture="ce_eagle_usa_simple.dds"
+		color1="white"
+		color2="yellow"
+		instance={
+			scale={ 0.35 0.35 }
+			position={ 0.25 0.31 }
+		}
+	}
+	colored_emblem={
+		texture="ce_crown_simple.dds"
+		color1="white"
+		color2="yellow"
+		color3="red"
+		instance={
+			scale={ 0.25 0.25 }
+			position={ 0.25 0.10 }
 		}
 	}
 }

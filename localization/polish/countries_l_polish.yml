@@ -1049,8 +1049,8 @@
  KLM:0 "Kałmucja"
  KLM_ADJ:0 "Kałmucka"
   # Dynamic countries
- dyn_c_united_sovereign_archduchy:0 "Unia Stowarzyszonych Arcyksięstw"
- dyn_c_united_sovereign_archduchy_adj:0 "Arcyksięstwa Amerykańskie"
+ dyn_c_united_sovereign_archduchy:0 "Federalne Królestwo Amerykańskie"
+ dyn_c_united_sovereign_archduchy_adj:0 "Amerykańskie"
  dyn_c_united_senators:0 "Senat Stanów Zjednoczonych"
  dyn_c_united_states:0 "Stany Zjednoczone Ameryki"
  dyn_c_united_syndicates_of_america:0 "Zjednoczone Konsorcja Ameryki"
