@@ -160,7 +160,7 @@ USA_monarchist={
 		}
 	}
 	textured_emblem={
-		texture="te_eagle_usa.dds"
+		texture="te_usa_bald_eagle.dds"
 		instance={
 			scale={ 0.45 0.45 }
 			position={ 0.25 0.25 }
