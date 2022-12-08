@@ -236,3 +236,4 @@ FRA_monarchist={
 		}
 	}
 }
+
