@@ -48,9 +48,9 @@ doi_austria.1 = {
 		}
 		
 		s:STATE_SILESIA.region_state:AUS = {
-			add_enactment_modifier = {
-				name = violent_suppression_modifier
-				multiplier = 2
+			add_modifier = {
+				name = violent_suppressed_meeting_modifier
+				months = normal_modifier_time
 			}
 		}
     }
