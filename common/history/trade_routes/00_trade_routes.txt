@@ -661,13 +661,13 @@
 			goods = iron
 			level = 3
 			direction = export
-			target = c:EGY.market
+			target = c:TUR.market
 		}	
 		create_trade_route = {
 			goods = liquor
 			level = 2
 			direction = import
-			target = c:EGY.market
+			target = c:TUR.market
 		}
 		create_trade_route = {
 			goods = tea
@@ -826,7 +826,7 @@
 			goods = liquor
 			level = 1
 			direction = import
-			target = c:EGY.market
+			target = c:TUR.market
 		}		
 	}
 	
@@ -875,13 +875,13 @@
 			goods = coffee
 			level = 3
 			direction = export
-			target = c:EGY.market
+			target = c:TUR.market
 		}
 		create_trade_route = {
 			goods = meat
 			level = 2
 			direction = import
-			target = c:EGY.market
+			target = c:TUR.market
 		}			
 	}
 	
@@ -1194,7 +1194,7 @@
 			goods = sugar
 			level = 7
 			direction = import
-			target = c:EGY.market
+			target = c:TUR.market
 		}					
 	}
 	
@@ -1381,7 +1381,7 @@
 			goods = liquor
 			level = 2
 			direction = import
-			target = c:EGY.market
+			target = c:TUR.market
 		}
 		create_trade_route = {
 			goods = luxury_clothes

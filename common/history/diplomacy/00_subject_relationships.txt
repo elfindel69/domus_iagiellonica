@@ -161,12 +161,6 @@
 			type = tributary
 		}		
 	}
-	c:EGY = {
-		create_diplomatic_pact = {
-			country = c:HDJ
-			type = tributary
-		}
-	}
 	c:TUR = {
 		create_diplomatic_pact = {
 			country = c:ALB
@@ -179,6 +173,14 @@
 		create_diplomatic_pact = {
 			country = c:TUN
 			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = tributary
 		}
 	}
 	c:BIC = {
