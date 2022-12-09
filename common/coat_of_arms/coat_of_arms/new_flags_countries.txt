@@ -40,11 +40,11 @@ PBT={
 }
 PLC_republic={
 	pattern="pattern_solid.tga"
-	color1="red"
+	color1="white"
 	colored_emblem={
 		texture="ce_tricolor_horizontal.dds"
-		color1="white"
-		color2="red"
+		color1="red"
+		color2="blue"
 	}
 	colored_emblem={
 		texture="ce_shield_accolade_03.dds"
@@ -89,59 +89,103 @@ PLC_theocracy={
 			scale={ 0.8 0.8 }
 			position={ 0.5 0.5 }
 		}
-		
 	}
 }
 PLC_fascist={
 	pattern="pattern_solid.tga"
 	color1="red"
 	colored_emblem={
-		texture="ce_tricolor_horizontal.dds"
+		texture="ce_rhombus.dds"
 		color1="white"
-		color2="red"
+		color2="white"
+		instance={
+			scale={ 0.8 0.8 }
+			position={ 0.5 0.5 }
+		}
 	}
 	colored_emblem={
 		texture="ce_falanga.dds"
 		color1="black"
 		color2="black"
+		instance={
+			scale={ 0.7 0.7 }
+			position={ 0.5 0.5 }
+		}
 	}
 }
 PLC_commies={
 	pattern="pattern_solid.tga"
 	color1="red"
-	colored_emblem={
-		texture="ce_tricolor_horizontal.dds"
-		color1="white"
-		color2="red"
-	}
-	colored_emblem={
-		texture="ce_star_frame_hammer_sickle.dds"
-		color1="yellow"
-		color2="red"
+	textured_emblem={
+		texture="te_plc_socialism.dds"
+		instance={
+			scale={ 0.9 0.9 }
+			position={ 0.5 0.5 }
+		}
 	}
 }
 PLC_dictatorial={
-	pattern="pattern_border_outlined_thin.dds"
+	pattern="pattern_solid.tga"
 	color1="red"
-	color2="white"
 	colored_emblem={
-		texture="ce_shield_accolade_03.dds"
+		texture="ce_collar_golden_fleece.dds"
+		color1="yellow"
+		color2="blue_light"
+		color3="red"
+		instance={
+			scale={ 0.85 0.85 }
+			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		texture="ce_frame_circle.dds"
+		color1="yellow_dark"
+		color2="yellow_dark"
+		instance={
+			scale={ 0.16 0.05 }
+			position={ 0.5 0.235 }
+		}
+	}
+	colored_emblem={
+		texture="ce_frame_circle.dds"
+		color1="brown"
+		color2="brown"
+		instance={
+			scale={ 0.16 0.05 }
+			position={ 0.5 0.225 }
+		}
+	}
+	colored_emblem={
+		texture="ce_shield_plc.dds"
 		color1="red"
 		color2="yellow"
 		instance={
-			scale={ 0.6 0.6 }
+			scale={ 0.75 0.75 }
 			position={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		texture="ce_solid.dds"
+		color1="red_dark"
+		color2="brown"
+		instance={
+			scale={ 0.21 0.005 }
+			position={ 0.5 0.5 }
+		}
+		instance={
+			scale={ 0.005 0.42 }
+			position={ 0.5 0.515 }
 		}
 	}
 	textured_emblem={
 		texture="te_vytis.dds"
 		instance={
 			scale={ 0.18 0.21 }
-			position={ 0.55 0.41 }
+			position={ 0.55 0.40 }
 		}
 		instance={
 			scale={ 0.18 0.21 }
-			position={ 0.45 0.575 }
+			position={ 0.45 0.595 }
 		}
 	}
 	colored_emblem={
@@ -150,11 +194,18 @@ PLC_dictatorial={
 		color2="yellow"
 		instance={
 			scale={ 0.2 0.22 }
-			position={ 0.45 0.41 }
+			position={ 0.45 0.40 }
 		}
 		instance={
 			scale={ 0.2 0.22 }
-			position={ 0.55 0.57 }
+			position={ 0.55 0.59 }
+		}
+	}
+	textured_emblem={
+		texture="te_crown_cut.dds"
+		instance={
+			scale={ 0.35 0.35 }
+			position={ 0.5 0.18 }
 		}
 	}
 }
@@ -236,4 +287,3 @@ FRA_monarchist={
 		}
 	}
 }
-
