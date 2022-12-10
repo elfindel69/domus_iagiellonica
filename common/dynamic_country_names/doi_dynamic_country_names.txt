@@ -83,7 +83,7 @@ FRA = { # France
 	}
 }
 
-PLC = { # France
+PLC = { # PLC
 	dynamic_country_name = {
 		name = dyn_c_plc_republic
 

@@ -13,7 +13,6 @@
 			}
 			on_created = {
 				set_variable = is_married
-				set_variable = {name = king_louis_philippe}
 			}
 		}
 

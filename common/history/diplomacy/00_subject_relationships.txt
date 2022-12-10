@@ -180,7 +180,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:HDJ
-			type = tributary
+			type = puppet
 		}
 	}
 	c:BIC = {
