@@ -6,7 +6,7 @@
 		}
 	}		
 
-	c:PRU = {
+	c:BRG = {
 		create_diplomatic_pact = {
 			country = c:AUS
 			type = rivalry
@@ -14,7 +14,7 @@
 	}
 	c:AUS = {
 		create_diplomatic_pact = {
-			country = c:PRU
+			country = c:BRG
 			type = rivalry
 		}
 	}	

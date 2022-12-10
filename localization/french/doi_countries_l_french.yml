@@ -6,6 +6,9 @@
  PBT:0 "Principauté Épiscopale de Trente"
  PBT_ADJ:0 "Tridentin"
  
+ BRG:0 "Brandebourg"
+ BRG_ADJ:0 "Brandebourgeoise"
+ 
  dyn_c_fra_republic:0 "République française"
  dyn_c_fra_monarchy:0 "Royaume de France"
  dyn_c_fra_commies:0 "Commune française"

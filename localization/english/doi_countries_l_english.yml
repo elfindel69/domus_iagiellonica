@@ -6,6 +6,9 @@
  PBT:0 "Prince-Bishopric of Trent"
  PBT_ADJ:0 "Trentine"
  
+ BRG:0 "Brandenburg"
+ BRG_ADJ:0 "Brandenburgian"
+ 
  dyn_c_fra_republic:0 "French Republic"
  dyn_c_fra_monarchy:0 "Kingdom of France"
  dyn_c_fra_commies:0 "French Commune"

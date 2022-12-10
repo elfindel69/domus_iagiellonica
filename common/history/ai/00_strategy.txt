@@ -81,7 +81,7 @@
 			50 = { set_strategy = ai_strategy_conservative_agenda }	
 		}				
 	}	
-	c:PRU = {
+	c:BRG = {
 		random_list = {	
 			65 = { set_strategy = ai_strategy_industrial_expansion }
 			35 = { set_strategy = ai_strategy_resource_expansion }

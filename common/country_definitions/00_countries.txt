@@ -3820,3 +3820,14 @@ SCH = {
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
+
+BRG = {
+	color = { 147 130 110 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_BRANDENBURG
+}

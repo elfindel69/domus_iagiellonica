@@ -1435,4 +1435,50 @@
 			target = c:GBR.market
 		}
 	}
+	
+	# Prussia
+	c:BRG = {	
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			target = c:DEN.market
+		}
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = iron
+			level = 7
+			direction = import
+			target = c:SWE.market
+		}			
+		create_trade_route = {
+			goods = dye
+			level = 7
+			direction = import
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 2
+			direction = import
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = clippers
+			level = 2
+			direction = import
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 6
+			direction = import
+			target = c:FRA.market
+		}				
+	}
 }
