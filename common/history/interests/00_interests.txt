@@ -5,7 +5,6 @@
 	c:GBR = {
 		add_declared_interest = region_baltic
 		add_declared_interest = region_brazil
-		add_declared_interest = region_rhine
 		add_declared_interest = region_france
 		add_declared_interest = region_south_china
 		add_declared_interest = region_north_china
@@ -27,7 +26,6 @@
 			
 	c:TUR = {	
 		add_declared_interest = region_dnieper
-		add_declared_interest = region_nile_basin
 		add_declared_interest = region_persia
 	}
 	c:RUS = {
@@ -88,7 +86,6 @@
 		add_declared_interest = region_russia
 	}
 	c:BRZ = {
-		add_declared_interest = region_andes
 		add_declared_interest = region_gran_colombia
 	}		
 	c:USA = {

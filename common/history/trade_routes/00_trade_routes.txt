@@ -767,12 +767,6 @@
 			direction = import
 			target = c:TUS.market
 		}	
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}	
 	}
 
 	# Egypt
@@ -813,12 +807,6 @@
 			direction = import
 			target = c:FRA.market
 		}
-		create_trade_route = {
-			goods = porcelain
-			level = 1
-			direction = import
-			target = c:TUR.market
-		}	
 	}
 	#Aussa
 	c:AWS = {
@@ -917,13 +905,7 @@
 			level = 4
 			direction = import
 			target = c:PAP.market
-		}
-		create_trade_route = {
-			goods = luxury_furniture
-			level = 2
-			direction = import
-			target = c:TUR.market
-		}		
+		}	
 	}
 
 	# Sweden 	

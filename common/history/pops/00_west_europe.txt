@@ -971,7 +971,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:BRG = {
+		region_state:HAN = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -992,29 +992,19 @@
 		region_state:BRG = {
 			create_pop = {
 				culture = north_german
-				size = 1376408
+				size = 1556416
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 199996
+				size = 215996
 			}
 			create_pop = {
 				culture = ashkenazi
 				size = 2996
 			}
 		}
-		region_state:ANH = {
-			create_pop = {
-				culture = north_german
-				size = 180008
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 16000
-			}
-		}
+		
 	}
 	s:STATE_RHINELAND = {
 		region_state:FRA = {
@@ -1032,7 +1022,7 @@
 				size = 323992
 			}
 		}
-		region_state:BRG = {
+		region_state:HES = {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1068,7 +1058,7 @@
 				size = 3004
 			}
 		}
-		region_state:BRG = {
+		region_state:HAN = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
