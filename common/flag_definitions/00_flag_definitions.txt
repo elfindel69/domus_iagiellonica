@@ -4208,7 +4208,7 @@ ITA = { # Italy
 					OR = {
 						state_region = s:STATE_SICILY 
 						state_region = s:STATE_CAMPANIA
-						state_region = s:STATE_ABRUZZO
+						state_region = s:STATE_ABRUZZI
 						state_region = s:STATE_APULIA
 					}
 				}
