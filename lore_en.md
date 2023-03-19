@@ -33,4 +33,4 @@ The king was deposed in 1820. Louis Philippe was crowned King of the French the 
  [*] Polish
 [/list]
 
-[url=https://discord.gg/tekuGaVC] lien vers le Discord [/url]
+[url=https://discord.gg/tekuGaVC] link to the Discord [/url]
