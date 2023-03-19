@@ -1,0 +1,53 @@
+﻿l_polish:
+ #agrarian
+ party_byzantian_farmers_league:0 "BSA"
+ party_ger_dlv_party:0 "DLV"
+ 
+ #anarchist
+ party_greek_anarchist_federation:0 "EAO"
+ party_ger_da_party:0 "DA"
+
+ #communist
+ party_hellenic_socialist_party:0 "ESK"
+ party_ppk:0 "PPK"
+ party_ger_kpd_party:0 "KPD"
+
+ #conservative
+ party_byzantian_christian_party:0 "BChK"
+ party_ppm:0 "PPM"
+ party_ger_mpd_party:0 "MPD"
+
+ #Fascists
+ party_pan_hellenic_front:0 "PEM"
+ party_falanga_onr:0 "Falanga - ONR"
+ party_ger_nsdap_party:0 "NSDAP"
+
+ #free-trade
+ party_merchants_league:0 "SE"
+ party_plk:0 "PLK"
+ party_ger_cdu_party:0 "CDU"
+
+ #liberal
+ party_byzantine_democratic_union:0 "BDE"
+ party_pld:0 "PLD"
+ party_ger_zentrum_party:0 "Zentrum"
+
+ #military
+ party_pan_roman_party:0 "PRK"
+ party_bbwr:0 "BBWR"
+ party_ger_dnvp_party:0 "DNVP"
+
+ #radical
+ party_hellenic_democratic_party:0 "EDK"
+ party_ppr:0 "PPR"
+ party_ger_rpd_party:0 "RPD"
+
+ #religious
+ party_orthodox_party:0 "OK"
+ party_polish_bk:0 "BK"
+ party_ger_duk_party:0 "DUK"
+ 
+ #social-democracy
+ party_hellenic_laborers_party:0 "KEE"
+ party_ppsd:0 "PPSD"
+ party_ger_spd_party:0 "SPD"
