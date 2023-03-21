@@ -5,4 +5,8 @@
 		add_declared_interest = region_south_china
 		add_declared_interest = region_south_germany
 	}
+	c:VEN = {
+		add_declared_interest = region_iberia
+		
+	}
 }

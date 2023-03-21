@@ -3,9 +3,27 @@
 		region_state:VEN={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				level=3
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -700,6 +718,12 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
+				building="building_tooling_workshops"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
 				building="building_paper_mills"
 				level=5
 				reserves=1
@@ -742,11 +766,29 @@
 				activate_production_methods={ "pm_simple_farming" "pm_vineyards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_logging_camp"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_arms_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
+			}
+			create_building={
 				building="building_port"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={
+				building="building_shipyards"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" "pm_military_shipbuilding_wooden" }
+			}	
 		}
 	}
 	s:STATE_SICILY={
@@ -1914,7 +1956,7 @@
 		}
 	}
 	s:STATE_ISTRIA={
-		region_state:AUS={
+		region_state:VEN={
 			create_building={
 				building="building_tooling_workshops"
 				level=3

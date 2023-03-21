@@ -1,20 +1,14 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:LOM = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
-				size = 1564936
+				size = 1647285
 			}
 			create_pop = {
 				culture = north_italian
 				religion = jewish
 				size = 396
-			}
-		}
-		region_state:VEN = {
-			create_pop = {
-				culture = north_italian
-				size = 82349
 			}
 		}
 	}
@@ -601,32 +595,18 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:AUS = {
-			create_pop = {
-				culture = croat
-				size = 297796
-			}
-			create_pop = {
-				culture = serb
-				size = 80000
-			}
-			create_pop = {
-				culture = north_italian
-				size = 2004
-			}
-		}
 		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
-				size = 102436
+				size = 104440
 			}
 			create_pop = {
 				culture = croat
-				size = 87942
+				size = 385738
 			}
 			create_pop = {
 				culture = serb
-				size = 17300
+				size = 97300
 			}
 		}
 	}
@@ -676,10 +656,10 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:AUS = {
+		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
-				size = 88721
+				size = 197173
 			}
 			create_pop = {
 				culture = hungarian
@@ -687,7 +667,7 @@
 			}
 			create_pop = {
 				culture = slovene
-				size = 344504
+				size = 418720
 			}
 			create_pop = {
 				culture = south_german
@@ -695,21 +675,7 @@
 			}
 			create_pop = {
 				culture = croat
-				size = 54000
-			}
-		}
-		region_state:VEN = {
-			create_pop = {
-				culture = north_italian
-				size = 108452
-			}
-			create_pop = {
-				culture = slovene
-				size = 74216
-			}
-			create_pop = {
-				culture = croat
-				size = 3602
+				size = 57602
 			}
 		}
 	}

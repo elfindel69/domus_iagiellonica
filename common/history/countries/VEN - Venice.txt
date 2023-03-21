@@ -4,18 +4,21 @@
 	c:VEN = {
 	
 		#TUTORIAL If your country is a republic at the start of game, you can set next election date here (Example: set_next_election_date = 1836.12.7)
-		set_next_election_date = 1836.10.10
+		set_next_election_date = 1838.10.10
 		
 		#TUTORIAL Change X to the technology tier you would like your country to start the game with (1 (Recommended), 2, 3, 4, 5 (Very late Game) )
-		effect_starting_technology_tier_1_tech = yes
+		effect_starting_technology_tier_2_tech = yes
+
 		add_technology_researched = atmospheric_engine
+		add_technology_researched = mechanical_tools
+		add_technology_researched = railways
 		
 		#TUTORIAL If you would like your country to be extra liberal, then enable this line
 		effect_starting_politics_liberal = yes
 		
 		#TUTORIAL The following activate_law lines, choose which laws the country has at the start of the game. The following set is for democratic nations
 		#TUTORIAL You can find laws in game\common\laws
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:monarchy
 		activate_law = law_type:law_census_voting
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_slavery_banned
@@ -37,11 +40,11 @@
 
 		#TUTORIAL Here we choose which interest group is ruling at start of game
 		#TUTORIAL Replace X with one of these (ig_devout, ig_armed_forces, ig_landowners, ig_intelligentsia, ig_petty_bourgeoisie, ig_rural_folk, ig_industrialists)
-		ig:ig_intelligentsia = {
+		ig:ig_devout = {
 			add_ruling_interest_group = yes
 		}
 		
-		ig:ig_industrialists = {
+		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}	
 		

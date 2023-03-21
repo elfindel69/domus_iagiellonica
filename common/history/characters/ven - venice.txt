@@ -1,0 +1,43 @@
+CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			first_name = "Efisio"
+			last_name = "De_Marchi"
+			ruler = yes
+			age = 37
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				reckless
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+
+		create_character = {
+			is_general = yes
+			first_name = Ottavio
+			last_name = Baldassi
+			commander_rank = commander_rank_3
+			age = 37
+			hq = region_italy
+			traits = {
+		#		polite
+		#		cursed_luck
+			}
+		}
+		create_character = {
+			is_general = yes
+			first_name = Maurizio
+			last_name = De_Ferrari
+			age = 40
+			hq = region_balkans
+			traits = {
+		#		polite
+		#		cursed_luck
+			}
+		}
+	}
+}
+	
