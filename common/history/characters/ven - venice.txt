@@ -38,6 +38,18 @@ CHARACTERS = {
 		#		cursed_luck
 			}
 		}
+
+		create_character = {
+			is_admiral = yes
+			first_name = Costanzo
+			last_name = Torelli
+			age = 42
+			hq = region_italy
+			traits = {
+		#		polite
+		#		cursed_luck
+			}
+		}
 	}
 }
 	

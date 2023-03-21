@@ -1480,18 +1480,6 @@
 			target = c:POR.market
 		}	
 		create_trade_route = {
-			goods = clippers
-			level = 3
-			direction = import
-			target = c:RUS.market
-		}			
-		create_trade_route = {
-			goods = iron
-			level = 4
-			direction = import
-			target = c:AUS.market
-		}
-		create_trade_route = {
 			goods = tools
 			level = 2
 			direction = import
@@ -1504,8 +1492,26 @@
 			target = c:AUS.market
 		}
 		create_trade_route = {
-			goods = engines
-			level = 2
+			goods = wood
+			level = 6
+			direction = import
+			target = c:RUS.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 6
+			direction = import
+			target = c:RUS.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 6
+			direction = import
+			target = c:TUR.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 7
 			direction = import
 			target = c:GBR.market
 		}

@@ -18,7 +18,7 @@
 		
 		#TUTORIAL The following activate_law lines, choose which laws the country has at the start of the game. The following set is for democratic nations
 		#TUTORIAL You can find laws in game\common\laws
-		activate_law = law_type:monarchy
+		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_census_voting
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_slavery_banned
