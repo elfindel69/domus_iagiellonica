@@ -6,6 +6,7 @@
 			last_name = "Buonaparte"
 			ruler = yes
 			age = 25
+			culture = cu:french
 			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
