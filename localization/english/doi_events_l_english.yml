@@ -16,3 +16,10 @@
  doi_austria.1.f: "Pesky Poles, weren't they happy with us all that long?"
  doi_austria.1.a: "Crush them!"
  doi_austria.1.b: "Give Silesia back" 
+
+ doi_poland_bohemia.1.t: "Poland claims Bohemian lands"
+ doi_poland_bohemia.1.d: "Once part of the Pax Jagiellonica, Bohemian lands are now in Austrian grasps. It is time to claim back these lands!"
+ doi_poland_bohemia.1.f: "For King and Country!"
+ doi_poland_bohemia.1.a: "Austria yealds back!" 
+ doi_poland_bohemia.1.b: "Austria yealds back!"
+ doi_poland_bohemia.1.c: "Give Bohemia back!" 

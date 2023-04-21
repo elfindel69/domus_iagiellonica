@@ -814,7 +814,7 @@
 		}
 	}
 	s:STATE_SILESIA={
-		region_state:AUS={
+		region_state:PLC={
 			create_building={
 				building="building_tooling_workshops"
 				level=2

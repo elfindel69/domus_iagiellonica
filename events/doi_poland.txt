@@ -91,3 +91,133 @@ doi_poland.1 = {
 		
     }
 }
+
+doi_poland_bohemia.1 = {
+	type = country_event
+	placement = scope:s:STATE_MAZOVIA.region_state:PLC
+
+	title = doi_poland_bohemia.1.t
+	desc = doi_poland_bohemia.1.d
+	flavor = doi_poland_bohemia.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/asia_poor_people_moving.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/poor_people_moving"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	immediate = {
+		
+		c:AUS = {
+			create_truce = {
+				country = c:PLC
+				months = normal_modifier_time
+			}
+		}
+	}
+
+	option = {
+		name = doi_poland_bohemia.1.a
+		default_option = yes
+		if = {
+			limit = {
+				c:AUS = {
+					owes_obligation_to = c:PLC
+				}
+			}
+			c:AUS = {
+				set_owes_obligation_to = {
+					country = c:PLC
+					setting = no
+				}
+			}	
+			random_state = {
+				limit = {
+					state_region = s:STATE_BOHEMIA
+				}
+				set_state_owner = c:PLC
+				 
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_MORAVIA
+				}
+				set_state_owner = c:PLC
+				 
+			}	
+		}
+		
+	}
+
+	option = {
+		name = doi_poland_bohemia.1.b
+		if = {
+			limit = {
+				c:AUS = {
+					is_subject_of = ROOT
+				}
+			}	
+			random_state = {
+				limit = {
+					state_region = s:STATE_BOHEMIA
+				}
+				set_state_owner = c:PLC
+				 
+			}
+			random_state = {
+				limit = {
+					state_region = s:STATE_MORAVIA
+				}
+				set_state_owner = c:PLC
+				 
+			}
+		}
+		
+	}
+
+	option = {
+		name = doi_poland_bohemia.1.c
+		if = {
+			limit = {
+				NOR = {
+					c:AUS = {
+						is_subject_of = ROOT
+					}
+					
+					c:AUS = {
+						owes_obligation_to = c:PLC
+					}
+					
+				}
+			}
+
+			ig:ig_armed_forces = {
+				add_modifier = {
+					name = ig_gaining_support
+					months = normal_modifier_time
+				}
+			}
+			create_diplomatic_play = {
+				name = claims_on_bohemia
+				type = dp_conquer_state
+
+				target_state = s:STATE_BOHEMIA.region_state:AUS
+
+				add_war_goal = {
+					holder = c:AUS
+					type = humiliation
+					target_country = c:PLC
+				}
+
+				add_war_goal = {
+					holder = c:AUS
+					type = conquer_state
+					target_state = s:STATE_MORAVIA
+				}
+			}	
+		}
+	}
+}

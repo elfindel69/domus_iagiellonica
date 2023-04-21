@@ -1,0 +1,93 @@
+﻿poland_claims_on_bohemia = {
+	is_shown = {
+		exists = c:PLC
+		this = c:PLC
+		is_subject = no
+		NOT = { 
+			has_global_variable = plc_claimed_bohemia
+		}
+		exists = c:AUS
+		
+	}
+
+	possible = {
+		this = c:PLC
+		c:PLC = {
+			has_technology_researched = nationalism
+			NOT = { 
+				AND = {
+					any_scope_state = {
+						state_region = s:STATE_BOHEMIA
+					}
+					any_scope_state = {
+						state_region = s:STATE_MORAVIA
+					}
+				}
+			}
+		}
+		c:AUS = {
+			NOT = {
+				has_truce_with = c:PLC
+			}
+			OR = {
+				is_subject = no
+				is_subject_of = ROOT
+			}
+			OR = {
+				any_country = {
+					has_war_with = c:AUS
+				}
+				c:PLC = {
+					is_owed_obligation_by = c:AUS
+				}
+			
+				AND = {
+					any_scope_state = {
+						state_region = s:STATE_BOHEMIA
+					}
+					any_scope_state = {
+						state_region = s:STATE_MORAVIA
+					}
+				}
+				is_player = no
+			}
+		}
+		c:PLC = {
+			country_rank >= rank_value:great_power
+		}
+	}
+
+	when_taken = {
+		if = {
+			limit = {
+				c:AUS = {
+					owes_obligation_to = ROOT
+				}
+			}
+			custom_tooltip = obligation_for_bohemia_tt
+		}
+		else_if = {
+			limit = {
+				c:AUS = {
+					is_subject_of = ROOT
+				}
+			}
+			custom_tooltip = transfer_of_bohemia_tt
+		}
+		else = {
+			c:PLC = {
+				create_incident = {
+					country = c:AUS
+					value = 10
+				}
+			}		
+		}
+		custom_tooltip = transfer_of_bohemia_tt
+		set_global_variable = plc_claimed_bohemia
+		trigger_event = { id = doi_poland_bohemia.1 popup = yes }
+	}
+
+	ai_chance = {
+		base = 15
+	}
+}
