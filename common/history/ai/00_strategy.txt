@@ -11,11 +11,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:SAR = {
-		set_strategy = ai_strategy_industrial_expansion		
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_progressive_agenda
-	}
+	
 	c:BRZ = {
 		random_list = {
 			75 = { set_strategy = ai_strategy_resource_expansion }
@@ -38,17 +34,7 @@
 			25 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}		
-	c:SIC = {
-		random_list = {	
-			75 = { set_strategy = ai_strategy_resource_expansion }
-			25 = { set_strategy = ai_strategy_industrial_expansion }
-		}	
-		set_strategy = ai_strategy_maintain_power_balance
-		random_list = {
-			75 = { set_strategy = ai_strategy_conservative_agenda }
-			25 = { set_strategy = ai_strategy_progressive_agenda }
-		}
-	}	
+	
 	c:FIN = {
 		set_strategy = ai_strategy_resource_expansion	
 		set_strategy = ai_strategy_maintain_power_balance

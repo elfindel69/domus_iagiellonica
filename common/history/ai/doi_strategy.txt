@@ -4,4 +4,9 @@
 		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_progressive_agenda
     }
+    c:ITA = {
+        set_strategy = ai_strategy_industrial_expansion		
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_progressive_agenda
+    }
 }

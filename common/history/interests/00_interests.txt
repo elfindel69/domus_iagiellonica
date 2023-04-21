@@ -39,10 +39,6 @@
 		add_declared_interest = region_manchuria
 		add_declared_interest = region_rhine
 	}
-	c:SIC = {
-		add_declared_interest = region_occitania
-		add_declared_interest = region_balkans
-	}	
 	
 	c:EGY = {
 		add_declared_interest = region_north_africa

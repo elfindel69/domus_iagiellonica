@@ -5,8 +5,10 @@
 		add_declared_interest = region_south_china
 		add_declared_interest = region_south_germany
 	}
-	c:VEN = {
-		add_declared_interest = region_iberia
-		
+	c:ITA = {
+		add_declared_interest = region_france
+		add_declared_interest = region_england
+		add_declared_interest = region_south_china
+		add_declared_interest = region_south_germany
 	}
 }

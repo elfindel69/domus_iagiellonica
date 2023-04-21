@@ -1,14 +1,13 @@
 ﻿CHARACTERS = {
 	c:ITA = {
 		create_character = {
-			# Gregory XVI
-			first_name = "Gregorius"
-			last_name = "Cappellari"
+			# Napoleon II
+			first_name = "Napoleone"
+			last_name = "Buonaparte"
 			ruler = yes
-			birth_date = 1765.9.18
-			dna = dna_pope_gregory_16
-			interest_group = ig_devout
-			ideology = ideology_theocrat
+			age = 25
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
 			traits = {
 				imperious
 			}

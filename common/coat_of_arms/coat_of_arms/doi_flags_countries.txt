@@ -311,3 +311,19 @@ BRG={
 	}
 
 }
+ITA_empire = {
+	# Flag of Napoleonic kingdom
+	
+	pattern = "pattern_rhombus_2.dds"
+	color1 = "green"
+	color2 = "white"
+	color3 = "red"
+	
+	colored_emblem = {
+		texture = "ce_eagle_napoleonian.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "green"
+		instance = { scale = { 0.55 0.55 } position = { 0.5 0.5 } }
+	}
+}
