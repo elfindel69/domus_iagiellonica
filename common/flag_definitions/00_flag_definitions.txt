@@ -309,6 +309,14 @@ AFS = {
 	}
 }
 
+AIT = { # Ait Abbas
+	flag_definition = {
+		coa = AIT
+		subject_canton = AIT
+		priority = 1
+	}
+}
+
 ALB = { # Albania
 	flag_definition = {
 		coa = ALB
@@ -347,6 +355,46 @@ ALD = { # Algeria
 			coa_def_french_ensign_trigger = yes
 		}
 	}	
+	flag_definition = {
+		coa = ALD_deylik
+		subject_canton = ALD_deylik
+		priority = 30
+		trigger = { 
+			scope:actor = { has_variable = algeria_deylik_restored }
+		}
+	}
+	flag_definition = {
+		coa = ALD_barbary
+		subject_canton = ALD_barbary
+		priority = 30
+		trigger = { 
+			scope:actor = { has_variable = algeria_barbary_restored }
+		}
+	}
+	flag_definition = {
+		coa = CON
+		subject_canton = CON
+		priority = 5
+		trigger = { 
+			scope:actor = { has_variable = algeria_constantine_var }
+		}
+	}
+	flag_definition = {
+		coa = MAS
+		subject_canton = MAS
+		priority = 5
+		trigger = { 
+			scope:actor = { has_variable = algeria_mascara_var }
+		}
+	}
+	flag_definition = {
+		coa = AIT
+		subject_canton = AIT
+		priority = 5
+		trigger = { 
+			scope:actor = { has_variable = algeria_ait_abbas_var }
+		}
+	}
 }
 
 AMZ = { # Amazonia
@@ -1809,6 +1857,14 @@ CHI = { # China
 			coa_def_communist_flag_trigger = yes
 		}
 	}		
+}
+
+CON = { # Constantine
+	flag_definition = {
+		coa = CON
+		subject_canton = CON
+		priority = 1
+	}
 }
 
 CHL = { # Chile
@@ -5244,6 +5300,14 @@ MAL = {	# Mali
 	flag_definition = {
 		coa = MAL
 		subject_canton = MAL
+		priority = 1
+	}
+}
+
+MAS = { # Mascara
+	flag_definition = {
+		coa = MAS
+		subject_canton = MAS
 		priority = 1
 	}
 }
