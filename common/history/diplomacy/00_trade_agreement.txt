@@ -5,12 +5,7 @@
 	#		type = trade_agreement
 	#	}
 	#}	
-	c:TUS = {
-		create_diplomatic_pact = {
-			country = c:SIC
-			type = trade_agreement
-		}
-	}	
+	
 	c:GBR = {
 		create_diplomatic_pact = {
 			country = c:POR

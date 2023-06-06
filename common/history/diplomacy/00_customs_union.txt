@@ -1,18 +1,5 @@
 ﻿DIPLOMACY = {
 	
-	c:FRA = {	
-		create_diplomatic_pact = {
-			country = c:NET
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:DEI
-			type = customs_union
-		}		
-	}
+	
 	
 }
