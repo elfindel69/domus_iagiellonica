@@ -198,7 +198,7 @@ STATES = {
 	}
 	s:STATE_POMERANIA={
 		create_state={
-		  country=c:BRG
+		  country=c:BRB
 		  owned_provinces={
 			x19AE19 x6A53CF xA04121 xE1A03A x567452
 		  }
@@ -6693,7 +6693,7 @@ STATES = {
 	}
 	s:STATE_ANHALT={
 		create_state={
-			country=c:BRG
+			country=c:BRB
 			owned_provinces={
 				x3C9B93 xA51232 xE0C0A0 xCBA4A5 x34386E xCF5D8E x618061 x12694A xA080E0 xED8F7B x8A448C
 			}
@@ -6760,7 +6760,7 @@ STATES = {
 	}
 	s:STATE_BRANDENBURG={
     	create_state={
-    		country=c:BRG
+    		country=c:BRB
       		owned_provinces={
         		xA65DA6 x83B1A8 x9B9076 xA040A0 x069CFB xF8D457 x61C0A0 x82F9A8 x9E7304 x76EF4E xDF4020 x60BF20
       		}
@@ -6963,7 +6963,7 @@ STATES = {
 	}
 	s:STATE_MECKLENBURG={
 		create_state={
-			country=c:BRG
+			country=c:BRB
 			owned_provinces={
 				xD9A469 xE041A0 x24CA48 x12E54F x4545BE xE080A0 xD8F441
 			}	

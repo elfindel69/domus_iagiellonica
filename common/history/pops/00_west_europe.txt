@@ -1091,7 +1091,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:BRG = {
+		region_state:BRB = {
 			create_pop = {
 				culture = north_german
 				size = 254700
@@ -1192,7 +1192,7 @@
 				
 	}
 	s:STATE_ANHALT = {
-		region_state:BRG = {
+		region_state:BRB = {
 			create_pop = {
 				culture = north_german
 				size = 1556416
@@ -1282,7 +1282,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:BRG = {
+		region_state:BRB = {
 			create_pop = {
 				culture = north_german
 				size = 1558704
@@ -1481,7 +1481,7 @@
 		}	
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:BRG = {
+		region_state:BRB = {
 			create_pop = {
 				culture = north_german
 				size = 575004

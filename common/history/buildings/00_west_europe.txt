@@ -2739,7 +2739,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:BRG={
+		region_state:BRB={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -2978,7 +2978,7 @@
 		}	
 	}
 	s:STATE_ANHALT={
-		region_state:BRG={
+		region_state:BRB={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -3234,7 +3234,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:BRG={
+		region_state:BRB={
 			create_building={
 				building="building_motor_industry"
 				level=4
@@ -3758,7 +3758,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG={
-		region_state:BRG={
+		region_state:BRB={
 			create_building={
 				building="building_rye_farm"
 				level=3

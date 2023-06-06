@@ -6,8 +6,8 @@
  PBT:0 "Prince-Bishopric of Trent"
  PBT_ADJ:0 "Trydentynka"
  
- BRG:0 "Brandenburgia"
- BRG_ADJ:0 "Brandenburka"
+ BRB:0 "Brandenburgia"
+ BRB_ADJ:0 "Brandenburka"
  
  dyn_c_fra_republic:0 "Republika Francuska"
  dyn_c_fra_monarchy:0 "Królestwo Francji"

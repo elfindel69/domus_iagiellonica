@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:BRG = {
+	c:BRB = {
 		effect_starting_technology_tier_1_tech = yes
 
 		add_taxed_goods = g:liquor

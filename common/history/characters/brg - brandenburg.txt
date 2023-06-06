@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:BRG = {
+	c:BRB = {
 		create_character = {
 			# Frederick William III of Prussia
 			first_name = "Friedrich_Wilhelm"

@@ -70,10 +70,10 @@ PBT = { # Bishopric of Trent
 	}
 }
 
-BRG = { # Brandenburg
+BRB = { # Brandenburg
 	flag_definition = {
-		coa = BRG
-		subject_canton = BRG
+		coa = BRB
+		subject_canton = BRB
 		priority = 1
 	}
 }

@@ -3821,7 +3821,7 @@ SCH = {
 	is_named_from_capital = yes
 }
 
-BRG = {
+BRB = {
 	color = { 147 130 110 }
 	
 	country_type = recognized
