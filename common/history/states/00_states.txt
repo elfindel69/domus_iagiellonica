@@ -64,10 +64,9 @@ STATES = {
 		add_homeland = british
 	}
 	s:STATE_PROVENCE = {
-		
 		create_state = {
 			country = c:FRA
-			owned_provinces = { x31C0DF x1727F7 xC03918 xB0C0E0 xB8E48D xBBB6AD x6D5E3F xB040E0 x3040E0 xCB9C34 xB0C060 x5080E0}
+			owned_provinces = { "x5080E0" "x3040E0" "x31C0DF" "x6D5E3F" "xB040E0" "xB0C060" "xB0C0E0" "xC03918" "xCB9C34" }
 		}
 		
 		add_homeland = french
