@@ -1156,27 +1156,56 @@
 	}
 	s:STATE_EAST_SWITZERLAND = {
 		region_state:SWI = {
+			# 895200 total
+			# 43.3% Protestant, 56.7% Catholic
+
 			create_pop = {
-				culture = swiss
+				culture = alemannic
 				religion = catholic
-				size = 506800
+				size = 320014
 			}
 			create_pop = {
-				culture = swiss
+				culture = alemannic
 				size = 388400
+			}
+
+			# Swiss Italians probably constituted something like 8 percent? That's been near the average over the 20th century back to 1910 statistics.
+			# No separate Romansh culture, but I'm arbitrarily pinning it at 1.5% and counting it towards the Italian total, so this figure should be 9.5% of the total starting Swiss population of 1966164
+			# Ticino and Grisons account for almost the entire Italian population, and Grisons further accounts for the Romansh population.
+			# I realize this runs into the old Questione Ladina. Don't care.
+
+			create_pop = {
+				culture = north_italian
+				size = 186786
 			}
 		}
 	}
 	s:STATE_WEST_SWITZERLAND = {
 		region_state:SWI = {
+			# 1070964 total
+			# 31.4% Catholic, 68.6% Protestant
+
+			# 412894 Franco-Provencal total, by guessing a total Romand population of Switzerland of 21%, derived by pulling a number out of thin air
 			create_pop = {
-				culture = swiss
-				size = 734404
+				culture = francoprovencal
+				# catholic
+				size = 129756
 			}
 			create_pop = {
-				culture = swiss
+				culture = francoprovencal
+				religion = protestant
+				size = 283138
+			}
+
+			# 658070 non-Romand Swiss, which I am treating as all being Swiss Germans
+			create_pop = {
+				culture = alemannic
+				size = 451436
+			}
+			create_pop = {
+				culture = alemannic
 				religion = catholic
-				size = 336560
+				size = 206634
 			}
 		}
 	}

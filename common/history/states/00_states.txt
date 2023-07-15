@@ -3309,7 +3309,7 @@ STATES = {
 			owned_provinces = { x7E4B86 x5FB41E xD00161 x90C0E0 x11C0E0 }
 		}
 		
-		add_homeland = swiss
+		add_homeland = alemannic
 	}
 	s:STATE_WEST_SWITZERLAND = {
 		create_state = {
@@ -3317,7 +3317,8 @@ STATES = {
 			owned_provinces = { xEBF5B1 xE51E78 x508060 xED07F7 x9080E0 xD08060 xA042B5 x117FE0 x7ACC0B x9041E0 }
 		}
 		
-		add_homeland = swiss
+		add_homeland = alemannic
+		add_homeland = francoprovencal
 	}
 	s:STATE_PUERTO_RICO = {
 		create_state = {
