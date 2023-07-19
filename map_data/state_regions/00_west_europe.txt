@@ -1202,14 +1202,14 @@ STATE_WEST_SWITZERLAND = {
 STATE_WESTPHALIA = {
     id = 61
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0180E0" "x1BA4F6" "x1DD141" "x218061" "x4101A0" "x418021" "x910095" "x9F0060" "xA08061" }
+    provinces = { "x1BA4F6" "x1DD141" "x218061" "x4101A0" "x418021" "x910095" "x9F0060" "xA08061" }
     prime_land = { "x418021" "xA08061" "x218061" "x1DD141" }
     traits = { "state_trait_ruhr_coalfield" }
     city = "xA08061"
     farm = "x1DD141"
     mine = "x218061"
     wood = "x0180E0"
-    arable_land = 88
+    arable_land = 60
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 80
@@ -1474,4 +1474,39 @@ STATE_MECKLENBURG = {
         bg_fishing = 10
     }
     naval_exit_id = 3019
+}
+
+STATE_RUHR = {
+    id = 584
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0180E0" "x2101E0" "x5101A0" xD08021 }
+    traits = { "state_trait_rhine_river" "state_trait_ruhr_coalfield" }
+    city = "x2101E0"
+    farm = "x5101A0"
+    mine = "xD08021"
+    wood = "x0180E0"
+    arable_land = 39
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 55
+        bg_iron_mining = 10
+        bg_logging = 4
+    }
+}
+
+STATE_MAINE_ANJOU = {
+    id = 970
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
+    traits = { "state_trait_loire_river" }
+    city = "x093DF5"
+    farm = "x192CA5"
+    mine = "x30E080"
+    wood = "x6B5474"
+    arable_land = 112
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_logging = 11
+    }
 }

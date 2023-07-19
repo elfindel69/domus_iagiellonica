@@ -1278,15 +1278,27 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
+		region_state:HAN = {
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 581265
+			}
+			create_pop = {
+				culture = north_german
+				size = 125893
+			}
+			
+		}
 		region_state:FRA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 1533008
+				size = 249114
 			}
 			create_pop = {
 				culture = north_german
-				size = 332004
+				size = 53954
 			}
 			create_pop = {
 				culture = wallonian
@@ -1294,26 +1306,25 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 3004
+				size = 1502
 			}
 		}
+	}
+
+	s:STATE_RUHR = {
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 766504
+				size = 702629
 			}
 			create_pop = {
 				culture = north_german
-				size = 166002
-			}
-			create_pop = {
-				culture = wallonian
-				size = 2000
+				size = 152157
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 1504
+				size = 1502
 			}
 		}
 	}
