@@ -477,9 +477,7 @@ owned_great_plains_region_states = {
 	owns_entire_state_region = STATE_WYOMING
 	owns_entire_state_region = STATE_COLORADO
 	owns_entire_state_region = STATE_KANSAS
-	owns_entire_state_region = STATE_OKLAHOMA
 	owns_entire_state_region = STATE_NEW_MEXICO
-	owns_entire_state_region = STATE_TEXAS
 }
 
 owned_pacific_coast_region_states = {
@@ -498,7 +496,7 @@ french_treaty_ports = {
 		owns_treaty_port_in = STATE_PICARDY
 		owns_treaty_port_in = STATE_NORMANDY
 		owns_treaty_port_in = STATE_BRITTANY
-		owns_treaty_port_in = STATE_LOIRE
+		owns_treaty_port_in = STATE_FRENCH_LOW_COUNTRIES
 		owns_treaty_port_in = STATE_POITOU
 		owns_treaty_port_in = STATE_AQUITAINE
 		owns_treaty_port_in = STATE_PROVENCE
@@ -535,7 +533,6 @@ british_treaty_ports = {
 		owns_treaty_port_in = STATE_MUNSTER
 	}
 }
-
 italian_treaty_ports = {
 	OR = {
 		owns_treaty_port_in = STATE_SARDINIA
