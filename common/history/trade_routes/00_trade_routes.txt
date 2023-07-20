@@ -607,12 +607,7 @@
 			direction = import
 			target = c:FRA.market
 		}	
-		create_trade_route = {
-			goods = tea
-			level = 1
-			direction = import
-			target = c:FRA.market
-		}		
+			
 	}
 	
 	# Algeria
@@ -753,12 +748,7 @@
 			direction = import
 			target = c:GBR.market
 		}
-		create_trade_route = {
-			goods = furniture
-			level = 1
-			direction = import
-			target = c:ITA.market
-		}	
+			
 		create_trade_route = {
 			goods = clothes
 			level = 1
@@ -1134,12 +1124,6 @@
 			level = 4
 			direction = import
 			target = c:GBR.market
-		}
-		create_trade_route = {
-			goods = fine_art
-			level = 1
-			direction = import
-			target = c:ITA.market
 		}			
 	}
 
@@ -1342,12 +1326,6 @@
 			level = 6
 			direction = import
 			target = c:RUS.market
-		}
-		create_trade_route = {
-			goods = fabric
-			level = 6
-			direction = import
-			target = c:TUR.market
 		}
 		create_trade_route = {
 			goods = iron

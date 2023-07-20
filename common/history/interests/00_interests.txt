@@ -99,7 +99,6 @@
 		add_declared_interest = region_anatolia
 		add_declared_interest = region_rhine
 		add_declared_interest = region_occitania
-		add_declared_interest = region_iberia
 		add_declared_interest = region_dnieper
 	}
 	c:NET = {
