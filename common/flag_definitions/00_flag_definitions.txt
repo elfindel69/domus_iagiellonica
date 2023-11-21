@@ -8785,3 +8785,340 @@ ZIM = { # Zimbabwe
 		priority = 1
 	}
 }
+
+
+YUZ = { # Yuanzhumin
+	flag_definition = {
+		coa = YUZ	
+		subject_canton = YUZ
+		priority = 1
+	}
+}
+
+PNS = { # Polynesia
+	flag_definition = {
+		coa = PNS
+		subject_canton = PNS
+		priority = 1
+	}
+	flag_definition = {
+		coa = PNS_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+PLY = { # Tahiti
+	flag_definition = {
+		coa = PLY	
+		subject_canton = PLY
+		priority = 1
+	}
+	flag_definition = {
+		coa = PLY_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+KAU = { # Kaurna
+	flag_definition = {
+		coa = KAU	
+		subject_canton = KAU
+		priority = 1
+	}
+}
+
+EQT = { # Confederation of the Equator
+	flag_definition = {
+		coa = EQT
+		subject_canton = EQT
+		priority = 1
+	}
+}
+
+CTR = { # Catharinense Republic
+	flag_definition = {
+		coa = CTR
+		subject_canton = CTR
+		priority = 1
+	}
+}
+
+MNG = { # Minas Gerais
+	flag_definition = {
+		coa = MNG
+		subject_canton = MNG
+		priority = 1
+	}
+}
+
+PAU = { # Paulistania
+	flag_definition = {
+		coa = PAU
+		subject_canton = PAU
+		priority = 1
+	}
+}
+
+BHI = { # Bahia
+	flag_definition = {
+		coa = BHI
+		subject_canton = BHI
+	}
+}
+
+PRC = { # Paris Commune
+	flag_definition = {
+		coa = PRC
+		subject_canton = PRC
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = PRS
+		subject_canton = PRS
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+HRE = {
+	flag_definition = {
+		coa = HRE	
+		subject_canton = HRE
+		priority = 1
+	}
+	flag_definition = {
+		coa = HRE_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			coa_def_communist_flag_trigger = no
+		}
+	}
+	flag_definition = {
+		coa = HRE_technate
+		priority = 15
+		trigger = { 
+			scope:actor ?= {
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+				has_law = law_type:law_technocracy
+			}
+		}
+	}
+	flag_definition = {
+		coa = HRE_fascist
+		priority = 20
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = HRE_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+UNL = {
+	flag_definition = {
+		coa = UNL	
+		subject_canton = UNL
+		priority = 1
+	}
+	flag_definition = {
+		coa = UNL_republic
+		priority = 5
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UNL_burgundy
+		priority = 5
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UNL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+RHN = {
+	flag_definition = {
+		coa = RHN	
+		subject_canton = RHN
+		priority = 1
+	}
+	flag_definition = {
+		coa = RHN_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+SPU = { # South Peru
+	flag_definition = {
+		coa = SPU
+		subject_canton = SPU
+		priority = 1
+	}
+}
+
+IQU = { # South Peru
+	flag_definition = {
+		coa = IQU
+		subject_canton = IQU
+		priority = 1
+	}
+}
+
+ALT = { # Los Altos
+	flag_definition = {
+		coa = ALT
+		subject_canton = ALT
+		priority = 1
+	}
+}
+
+NCR = { # North Carolina
+	flag_definition = {
+		coa = NCR
+		subject_canton = NCR
+		priority = 1
+	}
+	flag_definition = {
+		coa = NCR_confederate_pre_1861
+		priority = 10
+		trigger = { 
+			game_date < 1862.1.1 
+			NOT = {
+				scope:actor = {
+					has_law = law_type:law_slavery_banned
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = NCR_confederate
+		priority = 15
+		trigger = { 
+			game_date >= 1862.1.1 
+			NOT = {
+				scope:actor = {
+					has_law = law_type:law_slavery_banned
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = NCR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+
+SCR = { # South Carolina
+	flag_definition = {
+		coa = SCR
+		subject_canton = SCR
+		priority = 1
+	}
+	flag_definition = {
+		coa = SCR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+
+CLI = { # United Carolina
+	flag_definition = {
+		coa = CLI
+		subject_canton = CLI
+		priority = 1
+	}
+	flag_definition = {
+		coa = CLI_monarchist
+		priority = 5
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CLI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+GRG = { # Georgia
+	flag_definition = {
+		coa = GRG
+		subject_canton = GRG
+		priority = 1
+	}
+	flag_definition = {
+		coa = GRG_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+FLR = { # Florida
+	flag_definition = {
+		coa = FLR
+		subject_canton = FLR
+		priority = 1
+	}
+	flag_definition = {
+		coa = FLR_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+PLT = {
+	flag_definition = {
+		coa = PLT	
+		subject_canton = PLT
+		priority = 1
+	}
+	flag_definition = {
+		coa = PLT_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
