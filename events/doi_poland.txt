@@ -204,7 +204,7 @@ doi_poland_bohemia.1 = {
 				name = claims_on_bohemia
 				type = dp_conquer_state
 
-				target_state = s:STATE_BOHEMIA.region_state:AUS
+				target_state = s:STATE_BOHEMIA
 
 				add_war_goal = {
 					holder = c:AUS
