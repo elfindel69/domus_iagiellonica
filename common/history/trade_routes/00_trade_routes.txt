@@ -1203,43 +1203,10 @@
             goods = sugar
             level = 4
             direction = import
-            target = c:FRA.market
+            target = c:CHI.market
         }		
 		
-		create_trade_route = {
-			goods = iron
-			level = 4
-			direction = import
-			target = c:GBR.market
-		}
-		
-		create_trade_route = {
-			goods = sulfur
-			level = 1
-			direction = import
-			target = c:GBR.market
-		}
-				
-		
-		create_trade_route = {
-			goods = grain
-			level = 2
-			direction = import
-			target = c:GBR.market
-		}
-		
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 3
-			direction = import
-			target = c:FRA.market
-		}
-		create_trade_route = {
-			goods = explosives
-			level = 2
-			direction = import
-			target = c:GBR.market
-		}
+	
 	}
 	
 	# Prussia
