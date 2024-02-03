@@ -1,9 +1,93 @@
 ﻿MILITARY_FORMATIONS = {
+	c:PLC = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = "I Armia"
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_SILESIA
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_POSEN
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_EAST_PRUSSIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WEST_PRUSSIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EAST_PRUSSIA
+				count = 5
+			}
+			save_scope_as = i_armia
+
+			create_character = {
+				is_general = yes
+				first_name = "Paweł"
+				last_name = "Dąbrowski"
+				historical = yes
+				hq = sr:region_poland
+				age = 36
+				traits = {
+					expert_offensive_planner
+					resupply_commander
+					reserved
+				}
+				save_scope_as = dabrowski_gen
+			}
+			
+			scope:dabrowski_gen = {
+				transfer_to_formation = scope:i_armia
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_poland
+			name = "Marynarka Wojenna" # Somewhat anachronistic formation
+		
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_WEST_PRUSSIA
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_POMERANIA
+				count = 7
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_EAST_PRUSSIA
+				count = 16
+			}
+
+			
+		}
+
+		
+	}
 	c:BRB = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_germany
-			name = "Garde-Korps"
+			name = GardeKorps
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -27,7 +111,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_germany
-			name = "Kavallerie-Korps"
+			name = KavallerieKorps
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
@@ -63,7 +147,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_germany
-			name = "I. Korpskommando"
+			name = I_Korpskommando
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -113,7 +197,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_danubia
-			name = "II. Korpskommando"
+			name = II_Korpskommando
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -186,14 +270,12 @@
 		scope:karl_gen = {
 			transfer_to_formation = scope:ii_korps
 		}
-
-		create_military_formation = {
 		
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_balkans
-			name = "IV. Korpskommando"
+			name = IV_Korpskommando
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -250,7 +332,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_france
-			name = "1er Corps d’Armée"
+			name = 1er_Corps_dArme
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -280,7 +362,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_occitania
-			name = "2e Corps d’Armée"
+			name = 2e_Corps_dArme
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -323,7 +405,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_rhine
-			name = "3e Corps d’Armée"
+			name = 3e_Corps_dArme
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -365,7 +447,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_africa
-			name = "Armée d’Afrique"
+			name = Arme_dAfrique
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -413,7 +495,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_france
-			name = "Escadre du Nord" # Somewhat anachronistic formation
+			name = Escadre_du_Nord # Somewhat anachronistic formation
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -467,7 +549,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_occitania
-			name = "Escadre de la Méditerranée" # Slightly anachronistic formation
+			name = Escadre_de_la_Mditerrane # Slightly anachronistic formation
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -517,6 +599,15 @@
 
 		scope:charles_gen = {
 			transfer_to_formation = scope:fleetmedfra
+}
+		
+		activate_production_method = {
+			building_type = building_naval_base
+			production_method = pm_power_of_the_purse
+		}	
+		activate_production_method = {
+			building_type = building_barracks
+			production_method = pm_general_training
 		}
 	}
 
@@ -524,7 +615,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_england
-			name = "Household Division"
+			name = Household_Division
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -548,7 +639,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_north_sea_coast
-			name = "Army of Ireland"
+			name = Army_of_Ireland
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -590,7 +681,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_england
-			name = "Home Army"
+			name = Home_Army
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -656,7 +747,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "Army of the Mediterranean"
+			name = Army_of_the_Mediterranean
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -680,7 +771,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_caribbean
-			name = "Army of the West Indies"
+			name = Army_of_the_West_Indies
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -704,7 +795,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_zanj
-			name = "Army of the Cape of Good Hope" # Includes Sierra Leone regiment
+			name = Army_of_the_Cape_of_Good_Hope # Includes Sierra Leone regiment
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -722,7 +813,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_canada
-			name = "Army of Canada" # Includes Sierra Leone regiment
+			name = Army_of_Canada # Includes Sierra Leone regiment
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -746,7 +837,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_south_india
-			name = "Army of India"
+			name = Army_of_India
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -794,7 +885,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_indochina
-			name = "Army of Australia"
+			name = Army_of_Australia
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -830,7 +921,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_england
-			name = "Plymouth Station"
+			name = Plymouth_Station
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -848,7 +939,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_england
-			name = "Sheerness Station"
+			name = Sheerness_Station
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_HOME_COUNTIES
@@ -871,7 +962,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_italy
-			name = "Mediterranean Station"
+			name = Mediterranean_Station
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -916,7 +1007,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_new_england
-			name = "North America and West Indies Station"
+			name = North_America_and_West_Indies_Station
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -965,7 +1056,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_south_india
-			name = "East Indies and China Station" # Includes the 1 frigate of the Australia Station too
+			name = East_Indies_and_China_Station # Includes the 1 frigate of the Australia Station too
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -983,7 +1074,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_iberia
-			name = "Lisbon Station"
+			name = Lisbon_Station
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_MIDLANDS
@@ -1000,7 +1091,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_la_plata
-			name = "South America Station"
+			name = South_America_Station
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1032,7 +1123,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_zanj
-			name = "Cape of Good Hope Station"
+			name = Cape_of_Good_Hope_Station
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -1045,6 +1136,15 @@
 				state_region = s:STATE_MUNSTER
 				count = 1
 			}
+}
+		
+		activate_production_method = {
+			building_type = building_naval_base
+			production_method = pm_power_of_the_purse
+		}	
+		activate_production_method = {
+			building_type = building_barracks
+			production_method = pm_general_training
 		}
 	}
 
@@ -1052,7 +1152,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_baltic
-			name = "Gvardeyskiy Korpus"
+			name = Gvardeyskiy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1060,11 +1160,7 @@
 				count = 12
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ORSHA
-				count = 10
-			}
+			
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1078,17 +1174,23 @@
 				count = 3
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_LITHUANIA
-				count = 3
-			}
+			
+			save_scope_as = rus_guards_corps
+		}
+
+		create_character = {
+			template = RUS_friedrich_von_berg
+			save_scope_as = berg_gen
+		}
+
+		scope:berg_gen = {
+			transfer_to_formation = scope:rus_guards_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia
-			name = "Otdel’niy Grenaderskiy Korpus"
+			name = Otdelniy_Grenaderskiy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1118,7 +1220,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia
-			name = "1-y Pekhotniy Korpus"
+			name = 1y_Pekhotniy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1143,12 +1245,23 @@
 				state_region = s:STATE_TARTARIA
 				count = 5
 			}
+
+			save_scope_as = rus_1st_corps
+		}
+
+		create_character = {
+			template = RUS_nikolay_muravyov_karsky
+			save_scope_as = karsky_gen
+		}
+
+		scope:karsky_gen = {
+			transfer_to_formation = scope:rus_1st_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia
-			name = "2-y Pekhotniy Korpus"
+			name = 2y_Pekhotniy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1173,12 +1286,22 @@
 				state_region = s:STATE_GALICH
 				count = 5
 			}
+save_scope_as = rus_2nd_corps
+		}
+
+		create_character = {
+			template = RUS_mikhail_vorontsov
+			save_scope_as = vorontsov_gen
+		}
+
+		scope:vorontsov_gen = {
+			transfer_to_formation = scope:rus_2nd_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dnieper
-			name = "3-y Pekhotniy Korpus"
+			name = 3y_Pekhotniy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1203,12 +1326,22 @@
 				state_region = s:STATE_TARTARIA
 				count = 5
 			}
+save_scope_as = rus_3rd_corps
+		}
+
+		create_character = {
+			template = RUS_aleksandr_chernyshyov
+			save_scope_as = chernyshyov_gen
+		}
+
+		scope:chernyshyov_gen = {
+			transfer_to_formation = scope:rus_3rd_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_caucasus
-			name = "Otdel’niy Kavkazskiy Korpus"
+			name = Otdelniy_Kavkazskiy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1233,24 +1366,44 @@
 				state_region = s:STATE_GREATER_CAUCASUS
 				count = 5
 			}
+			save_scope_as = rus_caucasus_corps
+		}
+
+		create_character = {
+			template = RUS_matvey_khrapovitsky
+			save_scope_as = khrapovitsky_gen
+		}
+
+		scope:khrapovitsky_gen = {
+			transfer_to_formation = scope:rus_caucasus_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_west_siberia
-			name = "4-y Pekhotniy Korpus"
+			name = 4y_Pekhotniy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_PERM
 				count = 10
 			}
+			save_scope_as = rus_4th_corps
+		}
+
+		create_character = {
+			template = RUS_pavel_grabbe
+			save_scope_as = grabbe_gen
+		}
+
+		scope:grabbe_gen = {
+			transfer_to_formation = scope:rus_4th_corps
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland
-			name = "6-y Pekhotniy Korpus"
+			name = 6y_Pekhotniy_Korpus
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1269,12 +1422,22 @@
 				state_region = s:STATE_VOLHYNIA
 				count = 4
 			}
+			save_scope_as = rus_6th_corps
+		}
+
+		create_character = {
+			template = RUS_ivan_paskevich
+			save_scope_as = paskevich_gen
+		}
+
+		scope:paskevich_gen = {
+			transfer_to_formation = scope:rus_6th_corps
 		}
 
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_baltic
-			name = "Baltiyskiy Flot"
+			name = Baltiyskiy_Flot
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -1317,12 +1480,21 @@
 				state_region = s:STATE_ARKHANGELSK
 				count = 1
 			}
+			save_scope_as = rus_baltic_fleet
+		}
+
+		create_character = {
+			template = RUS_mikhail_lazarev
+			save_scope_as = lazarev_adm
+		}
+		scope:lazarev_adm = {
+			transfer_to_formation = scope:rus_baltic_fleet
 		}
 
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_dnieper
-			name = "Chernomorskiy Flot"
+			name = Chernomorskiy_Flot
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -1365,18 +1537,44 @@
 				state_region = s:STATE_LUHANSK
 				count = 1
 			}
+			save_scope_as = rus_black_sea_fleet
+		}
+
+		create_character = {
+			template = RUS_fabian_gottlieb_von_bellingshausen
+			save_scope_as = bellingshausen_adm
+		}
+		scope:bellingshausen_adm = {
+			transfer_to_formation = scope:rus_black_sea_fleet
+		}
+		
+		create_character = {
+			template = RUS_pyotr_ricord
+			save_scope_as = ricord_adm
+		}
+		scope:ricord_adm = {
+			transfer_to_formation = scope:rus_black_sea_fleet
 		}
 
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_east_siberia
-			name = "Okhotskaya Voyennaya Flotiliya"
+			name = Okhotskaya_Voyennaya_Flotiliya
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_OKHOTSK
 				count = 1
 			}
+			save_scope_as = rus_okhotsk_fleet
+		}
+		
+		create_character = {
+			template = RUS_vasily_zavoyko
+			save_scope_as = zavoyko_adm
+		}
+		scope:zavoyko_adm = {
+			transfer_to_formation = scope:rus_okhotsk_fleet
 		}
 	}
 
@@ -2177,7 +2375,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "Corpo Svizzeri" # Swiss soldiers in Sicilian service.
+			name = Corpo_Svizzeri # Swiss soldiers in Sicilian service.
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -2189,7 +2387,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "Guardia Reale"
+			name = Guardia_Reale
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -2207,7 +2405,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "I Corpo d'Armata"
+			name = I_Corpo_dArmata
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -2249,7 +2447,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_italy
-			name = "II Corpo d'Armata"
+			name = II_Corpo_dArmata
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -2396,7 +2594,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_rhine
-			name = "Koninklijke Marine"
+			name = Koninklijke_Marine
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -2428,13 +2626,22 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_rhine
-			name = "Marine Royale"
+			name = Marine_Royale
 
 			combat_unit = { # Nothing the size of a frigate
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_FLANDERS
 				count = 1
 			}
+}
+		
+		activate_production_method = {
+			building_type = building_naval_base
+			production_method = pm_power_of_the_purse
+		}			
+		activate_production_method = {
+			building_type = building_barracks
+			production_method = pm_general_training
 		}
 	}
 
@@ -2442,7 +2649,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_iberia
-			name = "Marinha Real Portuguesa"
+			name = Marinha_Real_Portuguesa
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -2486,7 +2693,7 @@
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_iberia
-			name = "Real Armada Española"
+			name = Real_Armada_Espaola
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war

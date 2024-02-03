@@ -110,7 +110,7 @@
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
-					}
+		}
 	}
 	s:STATE_MIDDLE_EGYPT={
 		region_state:EGY={
@@ -150,7 +150,7 @@
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
-					}
+		}
 	}
 	s:STATE_EGYPTIAN_DESERT={
 		region_state:EGY={
@@ -256,7 +256,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-					}
+		}
 	}
 	s:STATE_MARRAKECH={
 		region_state:MOR={
@@ -452,7 +452,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
-					}
+		}
 		region_state:FRA={
 			create_building={
 				building="building_port"
@@ -478,7 +478,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-					}
+		}
 	}
 	s:STATE_CONSTANTINE={
 		region_state:CON={
@@ -592,7 +592,7 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
-					}
+		}
 		region_state:FRA={
 			create_building={
 				building="building_port"
