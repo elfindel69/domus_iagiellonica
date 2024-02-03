@@ -56,6 +56,45 @@
 		}
 
 		create_military_formation = {
+			type = army
+			hq_region = sr:region_dnieper
+			name = "II Armia"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_KIEV
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MINSK
+				count = 10
+			}
+			save_scope_as = plc_ii_armia
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = "Frederyk"
+			last_name = "Sosna"
+			historical = yes
+			hq = sr:region_poland
+			age = 46
+			traits = {
+				expert_offensive_planner
+				resupply_commander
+				reserved
+			}
+			save_scope_as = sosna_gen
+		}
+		
+		scope:sosna_gen = {
+			transfer_to_formation = scope:plc_ii_armia
+		}
+	}
+
+		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_poland
 			name = "Marynarka Wojenna" # Somewhat anachronistic formation
@@ -1326,7 +1365,7 @@ save_scope_as = rus_2nd_corps
 				state_region = s:STATE_TARTARIA
 				count = 5
 			}
-save_scope_as = rus_3rd_corps
+			save_scope_as = rus_3rd_corps
 		}
 
 		create_character = {
