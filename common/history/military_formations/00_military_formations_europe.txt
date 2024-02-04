@@ -92,8 +92,7 @@
 		scope:sosna_gen = {
 			transfer_to_formation = scope:plc_ii_armia
 		}
-	}
-
+		
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_poland
@@ -119,9 +118,12 @@
 
 			
 		}
+	}
+
+	
 
 		
-	}
+	
 	c:BRB = {
 		create_military_formation = {
 			type = army
