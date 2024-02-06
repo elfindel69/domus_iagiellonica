@@ -12,6 +12,7 @@
 		add_technology_researched = atmospheric_engine
 		add_technology_researched = mechanical_tools
 		add_technology_researched = railways
+		add_technology_researched = percussion_cap
 		
 		#TUTORIAL If you would like your country to be extra liberal, then enable this line
 		effect_starting_politics_liberal = yes
