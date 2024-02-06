@@ -1605,7 +1605,7 @@ create_building={
 		region_state:FRA={
 			create_building={
 				building="building_steel_mills"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
@@ -2212,7 +2212,7 @@ create_building={
 			}		
 			create_building={
 				building="building_steel_mills"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
@@ -2251,7 +2251,7 @@ create_building={
 				level=6
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
-}
+			}
 			create_building={
 				building="building_sulfur_mine"
 				level=2
@@ -2479,6 +2479,18 @@ create_building={
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_arms_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
+				building="building_artillery_foundries"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" "pm_merchant_guilds_building_artillery_foundries" }
 			}
 		}
 	}
