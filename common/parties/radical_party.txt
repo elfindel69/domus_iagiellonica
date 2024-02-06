@@ -143,6 +143,13 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
+				desc = party_republican_union
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+				}
+			}
+			triggered_desc = {
 				desc = party_the_far_left
 				trigger = {
 					OR = {
@@ -210,9 +217,10 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
-				desc = party_progressive_league
+				desc = party_farroupilha
 				trigger = {
 					country_has_primary_culture = cu:brazilian
+					has_law = law_type:law_monarchy
 				}
 			}
 			triggered_desc = {
@@ -289,6 +297,7 @@ radical_party = {
 		leader = { # fascists and conservatives hate radicals
 			NOT = {
 				has_ideology = ideology:ideology_fascist
+				has_ideology = ideology:ideology_integralist
 				has_ideology = ideology:ideology_ethno_nationalist
 				has_ideology = ideology:ideology_traditionalist
 				has_ideology = ideology:ideology_royalist
@@ -307,6 +316,36 @@ radical_party = {
 		value = {
 			value = -5
 			desc = "base_value"
+		}
+		if = {
+			limit = {
+				owner = {
+					country_is_in_south_america = yes
+					any_primary_culture = {
+						has_discrimination_trait = hispanophone
+					}
+				}
+			}
+			add = {
+				value = -10
+				desc = "south_america_two_party_system"
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					country_is_in_north_america = yes
+					OR = {
+						country_has_primary_culture = cu:yankee
+						country_has_primary_culture = cu:dixie
+					}
+					has_law = law_type:law_presidential_republic
+				}
+			}
+			add = {
+				value = -10
+				desc = "usa_two_party_system"
+			}
 		}
 		if = { # radicals love radicalism
 			limit = {
@@ -340,7 +379,10 @@ radical_party = {
 				owner = {
 					any_interest_group = {
 						is_powerful = yes
-						has_ideology = ideology:ideology_liberal
+						OR = {
+							has_ideology = ideology:ideology_liberal
+							has_ideology = ideology:ideology_liberal_modern
+						}
 					}
 				}
 			}
@@ -352,7 +394,10 @@ radical_party = {
 		if = { # weak liberals will fall in line behind strong radicals
 			limit = {
 				is_powerful = no
-				has_ideology = ideology:ideology_liberal
+				OR = {
+					has_ideology = ideology:ideology_liberal
+					has_ideology = ideology:ideology_liberal_modern
+				}
 				owner = {
 					any_interest_group = {
 						is_powerful = yes
@@ -511,6 +556,7 @@ radical_party = {
 				OR = {
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_egalitarian
+					has_ideology = ideology:ideology_egalitarian_modern
 					leader = {
 						has_ideology = ideology:ideology_humanitarian
 					}
@@ -528,6 +574,7 @@ radical_party = {
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_liberal
+					has_ideology = ideology:ideology_liberal_modern
 					leader = {
 						OR = {	
 							has_ideology = ideology:ideology_humanitarian
@@ -574,6 +621,7 @@ radical_party = {
 				}
 				OR = {
 					has_ideology = ideology:ideology_egalitarian
+					has_ideology = ideology:ideology_egalitarian_modern
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
 					has_ideology = ideology:ideology_particularist

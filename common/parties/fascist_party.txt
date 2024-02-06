@@ -179,6 +179,12 @@
 				}
 			}
 			triggered_desc = {
+				desc = integralist_action
+				trigger = {
+					country_has_primary_culture = cu:brazilian
+				}
+			}
+			triggered_desc = {
 				desc = party_national_social_christian_party
 				trigger = {
 					country_has_primary_culture = cu:anglo_canadian
@@ -287,6 +293,7 @@
 					OR = {
 						has_ideology = ideology:ideology_fascist
 						has_ideology = ideology:ideology_ethno_nationalist
+						has_ideology = ideology:ideology_integralist
 					}
 				}
 			}
@@ -299,7 +306,10 @@
 			limit = {
 				is_powerful = yes
 				leader = {
-					has_ideology = ideology:ideology_fascist
+					OR = {
+						has_ideology = ideology:ideology_fascist
+						has_ideology = ideology:ideology_integralist
+					}
 				}
 			}
 			add = {
@@ -330,7 +340,10 @@
 					any_interest_group = {
 						is_powerful = yes
 						leader = {
-							has_ideology = ideology:ideology_fascist
+							OR = {
+								has_ideology = ideology:ideology_fascist
+								has_ideology = ideology:ideology_integralist
+							}
 						}
 					}
 				}
@@ -368,6 +381,7 @@
 						has_ideology = ideology:ideology_abolitionist
 						has_ideology = ideology:ideology_pacifist
 						has_ideology = ideology:ideology_humanitarian
+						has_ideology = ideology:ideology_humanitarian_royalist
 					}	
 				}
 			}
@@ -405,6 +419,31 @@
 			add = {
 				value = -3
 				desc = "from_moderate"
+			}
+		}
+		if = { # corporatists fall in line if they don't have christian democrats
+			limit = {
+				owner = {
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							OR = {
+								has_ideology = ideology:ideology_fascist
+								has_ideology = ideology:ideology_integralist
+							}
+						}
+					}
+				}
+				OR = {
+					has_ideology = ideology:ideology_corporatist
+					leader = {
+						has_ideology = ideology:ideology_corporatist_leader
+					}
+				}
+			}
+			add = {
+				value = 5
+				desc = "from_corporatism"
 			}
 		}
 		if = { # patriots are inclined towards fascism
@@ -629,6 +668,17 @@
 			}
 			multiply = {
 				value = 0
+			}
+		}
+		if = {
+			limit = {
+				leader = {
+					has_variable = caudillo_fascist
+				}
+			}
+			add = {
+				value = 20
+				desc = "caudillo_support"
 			}
 		}
 		if = {

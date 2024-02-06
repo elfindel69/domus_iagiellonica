@@ -1,0 +1,25 @@
+﻿MILITARY_DEPLOYMENTS = {
+	c:MEX = {
+		random_scope_general = {
+			limit = {
+				has_variable = is_santa_anna
+			}
+
+			commander_military_formation = {
+				fully_mobilize_army = yes
+				teleport_to_front = p:xA3A810.front
+			}
+		}
+	}
+
+	c:TEX = {
+		every_military_formation = {
+			fully_mobilize_army = yes
+			teleport_to_front = p:xC369DB.front
+		}
+	}
+
+	
+
+	
+}
