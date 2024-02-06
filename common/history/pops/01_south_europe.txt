@@ -119,7 +119,7 @@
 			}
 		}
 	}
-	s:STATE_ABRUZZI = {
+	s:STATE_ABRUZZO = {
 		region_state:ITA = {
 			create_pop = {
 				culture = south_italian

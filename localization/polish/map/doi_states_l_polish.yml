@@ -1,0 +1,8 @@
+﻿l_polish:
+
+  # ==== New States
+ STATE_BASILICATA:0 "Basilicata"
+ STATE_MARCHE:0 "Marche"
+ STATE_TRENTO:0 "Trydent"
+ STATE_LIGURIA:0 "Liguria"
+

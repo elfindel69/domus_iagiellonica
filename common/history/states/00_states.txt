@@ -5190,16 +5190,16 @@ STATES = {
 		
 		add_homeland = cu:georgian
 	}
-	s:STATE_MONTENEGRO={
-		create_state={
-			country=c:MON
-			owned_provinces={
-				x446E84 x8C6292 xA12F82 xF5F6C2
-			}		
+	s:STATE_MONTENEGRO = {
+		create_state = {
+			country = c:MON
+			owned_provinces = { xF5F6C2 xA12F82 x446E84 x8C6292 x90A0E0 }
 		}
-		add_homeland=cu:serb
-		add_homeland=cu:albanian
-		add_claim=c:MON
+		
+		
+		add_homeland = cu:serb
+		add_homeland = cu:albanian
+		add_claim = c:MON
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		create_state = {
@@ -6455,7 +6455,7 @@ STATES = {
 		
 		add_homeland = cu:south_italian
 	}
-	s:STATE_ABRUZZI = {
+	s:STATE_ABRUZZO = {
 		create_state = {
 			country = c:ITA
 			owned_provinces = { xA6F611 x31C0A0 x0AE57A x0D3025 xF34DC0 }
