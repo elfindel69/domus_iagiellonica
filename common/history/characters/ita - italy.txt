@@ -50,39 +50,6 @@
 			}
 		}
 
-		create_character = {
-	 		is_general = yes
-			first_name = Filippo 
-			last_name = Resta
-			age = 39
-			traits = {
-		# 		doughty
-		# 		military_family
-			}
-		}
-
-		create_character = {
-			is_general = yes
-			first_name = Costanzo
-			last_name = Massimo
-			commander_rank = commander_rank_3
-			age = 45
-		    traits = {
-	   # 		doughty
-	   # 		military_family
-		    }
-	   }
-
-	   create_character = {
-			is_admiral = yes
-			first_name = Luca 
-			last_name = Sacchetti
-			commander_rank = commander_rank_3
-			age = 45
-			traits = {
-		# 		doughty
-		# 		military_family
-			}
-        }
+	
 	}
 }

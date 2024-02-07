@@ -34,26 +34,25 @@
 				count = 5
 			}
 			save_scope_as = i_armia
-
-			create_character = {
-				is_general = yes
-				first_name = "Paweł"
-				last_name = "Dąbrowski"
-				historical = yes
-				hq = sr:region_poland
-				age = 36
-				traits = {
-					expert_offensive_planner
-					resupply_commander
-					reserved
-				}
-				save_scope_as = dabrowski_gen
-			}
-			
-			scope:dabrowski_gen = {
-				transfer_to_formation = scope:i_armia
-			}
 		}
+			
+		create_character = {
+			is_general = yes
+			first_name = Jaroslaw
+			last_name = Paskiewicz
+			age = 54
+			hq = region_poland
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+			}
+			save_scope_as = plc_paskiewicz_gen
+		}
+		
+		scope:plc_paskiewicz_gen = {
+			transfer_to_formation = scope:i_armia
+		}
+		
 
 		create_military_formation = {
 			type = army
@@ -71,28 +70,125 @@
 				state_region = s:STATE_MINSK
 				count = 10
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ORSHA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EAST_GALICIA
+				count = 5
+			}
 			save_scope_as = plc_ii_armia
+		}
+		create_character = {
+			is_general = yes
+			first_name = Henryk
+			last_name = Smolarczyk
+			age = 54
+			hq = region_dnieper
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+				expert_offensive_planner
+			}
+			save_scope_as = plc_smolarczyk_gen
+		}
+		
+		scope:plc_smolarczyk_gen = {
+			transfer_to_formation = scope:plc_ii_armia
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_germany
+			name = "III Armia"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_POMERANIA
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRANDENBURG
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WEST_GALICIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GREATER_POLAND
+				count = 5
+			}
+			save_scope_as = plc_iii_armia
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Frederyk
+			last_name = Sobolewski
+			hq = region_baltic
+			commander_rank = commander_rank_3
+			age = 42
+			traits = {
+				meticulous
+				surveyor
+			}
+			save_scope_as = plc_sobolewski_gen
+		}
+
+		scope:plc_sobolewski_gen = {
+			transfer_to_formation = scope:plc_iii_armia
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = "IV Armia"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LITHUANIA
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_LATVIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_BREST
+				count = 5
+			}
+			save_scope_as = plc_iv_armia
 		}
 
 		create_character = {
 			is_general = yes
-			first_name = "Frederyk"
-			last_name = "Sosna"
-			historical = yes
-			hq = sr:region_poland
-			age = 46
+			first_name = Henryk
+			last_name = Macieja
+			hq = region_baltic
+			age = 50
 			traits = {
-				expert_offensive_planner
-				resupply_commander
-				reserved
+	
 			}
-			save_scope_as = sosna_gen
+			save_scope_as = plc_macieja_gen
 		}
-		
-		scope:sosna_gen = {
-			transfer_to_formation = scope:plc_ii_armia
+
+		scope:plc_macieja_gen = {
+			transfer_to_formation = scope:plc_iv_armia
 		}
-		
+
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_poland
@@ -115,8 +211,28 @@
 				state_region = s:STATE_EAST_PRUSSIA
 				count = 16
 			}
-
+			save_scope_as = plc_marynarka
 			
+		}
+
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Fabian
+			last_name = Dabrowski
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1778.1.25
+			hq = region_baltic
+			commander_rank = commander_rank_2
+			traits = {
+				explorer
+				basic_naval_commander
+				popular_commander
+			}
+			save_scope_as = plc_dabrowski_adm
+		}
+		scope:plc_dabrowski_adm = {
+			transfer_to_formation = scope:plc_marynarka
 		}
 	}
 
@@ -640,7 +756,7 @@
 
 		scope:charles_gen = {
 			transfer_to_formation = scope:fleetmedfra
-}
+		}
 		
 		activate_production_method = {
 			building_type = building_naval_base
@@ -1439,41 +1555,8 @@ save_scope_as = rus_2nd_corps
 
 		scope:grabbe_gen = {
 			transfer_to_formation = scope:rus_4th_corps
-		}
 
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_poland
-			name = 6y_Pekhotniy_Korpus
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BREST
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_VOLHYNIA
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_VOLHYNIA
-				count = 4
-			}
-			save_scope_as = rus_6th_corps
-		}
-
-		create_character = {
-			template = RUS_ivan_paskevich
-			save_scope_as = paskevich_gen
-		}
-
-		scope:paskevich_gen = {
-			transfer_to_formation = scope:rus_6th_corps
-		}
+	
 
 		create_military_formation = {
 			type = fleet
