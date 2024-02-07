@@ -634,17 +634,6 @@ WUR = {
 	is_named_from_capital = yes
 }
 
-PBT = {
-	color = { 183  143  145 }
-	
-	country_type = recognized
-
-	tier = principality
-	
-	cultures = { north_italian south_german }
-	capital = STATE_TRENTO
-}
-
 LOM = {
 	color = { 146  108  146 }
 	
@@ -725,17 +714,6 @@ SAR = {
 	is_named_from_capital = yes
 }
 
-GEN = {
-	color = { 255  255  100 }
-	
-	country_type = recognized
-	
-	tier = kingdom
-	
-	cultures = { north_italian }
-	capital = STATE_LIGURIA
-}
-
 SIC = {
 	color = { 73  152  76 }
 	
@@ -745,17 +723,6 @@ SIC = {
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
-}
-
-HPA = {
-	color = { 176  196  222 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { maltese }
-	capital = STATE_MALTA
 }
 
 TRE = {
@@ -2471,7 +2438,7 @@ PLC = {
 	tier = empire
 	
 	cultures = { polish lithuanian }
-	capital = STATE_MAZOVIA
+	capital = STATE_WEST_GALICIA
 }
 
 GCO = {
@@ -3825,18 +3792,6 @@ SCH = {
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
-
-BRB = {
-	color = { 147 130 110 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { north_german }
-	capital = STATE_BRANDENBURG
-}
-
 
 KZH = {
 	color = { 90 120 120 }
