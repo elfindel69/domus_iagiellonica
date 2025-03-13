@@ -285,7 +285,7 @@
 				size = 40600
 			}
 			create_pop = {
-				culture = sephardic # Najran Jews
+				culture = sephardic
 				religion = jewish
 				size = 300
 			}
@@ -623,7 +623,7 @@
 				religion = sunni
 				size = 204608
 			}
-						create_pop = {
+			create_pop = {
 				culture = mashriqi
 				size = 116000
 			}
@@ -680,7 +680,7 @@
 				religion = oriental_orthodox
 				size = 52000
 			}
-            create_pop = {
+			create_pop = {
 				culture = armenian
 				religion = catholic
 				size = 7000
@@ -698,7 +698,7 @@
 				culture = bedouin
 				size = 16000
 			}
-		create_pop = {
+			create_pop = {
 				culture = sephardic
 				size = 4200
 			}
@@ -776,7 +776,7 @@
 				culture = lacustrine_bantu
 				size = 13000
 			}
-create_pop = {
+			create_pop = {
 				culture = sephardic
 				size = 1200
 			}
@@ -854,23 +854,7 @@ create_pop = {
 			}
 		}
 	}
-	s:STATE_SISTAN = {
-		region_state:PER = {
-			create_pop = {
-				culture = persian
-				size = 113192
-			}
-			create_pop = {
-				culture = baluchi
-				size = 82300
-			}
-			create_pop = {
-				culture = somali
-				size = 9750
-				pop_type = slaves
-			}
-		}
-	}
+	s:STATE_SISTAN = { }
 	s:STATE_KHORASAN = {
 		region_state:PER = {
 			create_pop = {
@@ -1116,7 +1100,7 @@ create_pop = {
 				culture = bulgarian
 				size = 240
 			}
-			create_pop = { # "Latins"
+			create_pop = {
 				culture = north_italian
 				size = 240
 			}
@@ -1273,7 +1257,7 @@ create_pop = {
 				culture = armenian
 				size = 36003
 			}
-			create_pop = { # Hemshin
+			create_pop = {
 				culture = armenian
 				religion = sunni
 				size = 10103
@@ -1282,7 +1266,7 @@ create_pop = {
 				culture = greek
 				size = 135110
 			}
-			create_pop = { # Laz
+			create_pop = {
 				culture = georgian
 				religion = sunni
 				size = 40320
@@ -1358,7 +1342,6 @@ create_pop = {
 				culture = georgian
 				religion = sunni
 				size = 27000
-
 			}
 			create_pop = {
 				culture = georgian

@@ -185,7 +185,6 @@
 				size = 40000
 			}
 		}
-		
 	}
 	s:STATE_KAZAN = {
 		region_state:RUS = {
@@ -261,7 +260,6 @@
 				size = 8996
 			}
 		}
-
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
@@ -272,7 +270,6 @@
 				size = 3500
 			}
 		}
-
 	}
 	s:STATE_KHIVA = {
 		region_state:KHI = {
@@ -517,10 +514,7 @@
 				size = 2700
 			}
 		}
-		
-		
 	}
-	# Please do not ask where these numbers come from.
 	s:STATE_JETISY = {
 		region_state:CHI = {
 			create_pop = {
@@ -552,7 +546,6 @@
 				size = 70000
 			}
 		}
-		
 	}
 	s:STATE_PASHTUNISTAN = {
 		region_state:PAN = {
@@ -566,84 +559,8 @@
 			}
 		}
 	}
-	s:STATE_WESTERN_AFGHANISTAN = {
-		region_state:AFG = {
-			create_pop = {
-				culture = tajik
-				size = 670172
-			}
-			create_pop = {
-				culture = uzbek
-				size = 90356
-			}
-			create_pop = {
-				culture = persian
-				size = 120352
-			}
-			create_pop = {
-				culture = baluchi
-				size = 20320
-			}
-			create_pop = {
-				culture = hazara
-				religion = sunni
-				size = 72400
-			}
-			create_pop = {
-				culture = pashtun
-				size = 814404
-			}
-			create_pop = {
-				culture = hazara
-				size = 265004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = hazara
-				size = 75000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = persian
-				size = 21000
-			}
-		}
-	}
-	s:STATE_EASTERN_AFGHANISTAN = {
-		region_state:AFG = {
-			create_pop = {
-				culture = pashtun
-				size = 1131236
-			}
-			create_pop = {
-				culture = uzbek
-				size = 28600
-			}
-			create_pop = {
-				culture = tajik
-				size = 604400
-			}
-			create_pop = {
-				culture = hazara
-				size = 140996
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = hazara
-				size = 45000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = panjabi
-				size = 32000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = uzbek
-				size = 21000
-			}
-		}
-	}
+	s:STATE_WESTERN_AFGHANISTAN = { }
+	s:STATE_EASTERN_AFGHANISTAN = { }
 	s:STATE_BALUCHISTAN = {
 		region_state:MAK = {
 			create_pop = {
@@ -704,7 +621,7 @@
 				size = 1820000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han
 				religion = animist
 				size = 100000
 			}
@@ -721,7 +638,7 @@
 				size = 824000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han
 				religion = animist
 				size = 42000
 			}

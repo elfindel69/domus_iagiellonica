@@ -66,7 +66,7 @@
 			}
 		}
 	}
-		s:STATE_MARCHE = {
+	s:STATE_MARCHE = {
 		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
@@ -74,16 +74,15 @@
 			}
 		}
 	}
-	
 	s:STATE_CORSICA = {
-		region_state:FRA = { # est. total 196476
+		region_state:FRA = {
 			create_pop = {
 				culture = corsican
 				size = 159146
 			}
 			create_pop = {
 				culture = french
-				size = 37330 # pls don't ask where this number comes from
+				size = 37330
 			}
 		}
 	}
@@ -211,7 +210,6 @@
 		}
 	}
 	s:STATE_GALICIA = {
-		# 840792
 		region_state:SPA = {
 			create_pop = {
 				culture = galician
@@ -224,7 +222,6 @@
 		}
 	}
 	s:STATE_ASTURIAS = {
-		# please don't ask for a source
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
@@ -234,7 +231,7 @@
 				culture = basque
 				size = 32000
 			}
-		}	
+		}
 	}
 	s:STATE_CASTILE = {
 		region_state:SPA = {
@@ -390,7 +387,6 @@
 			}
 		}
 	}
-
 	s:STATE_MADEIRA = {
 		region_state:POR = {
 			create_pop = {
@@ -403,7 +399,6 @@
 			}
 		}
 	}
-
 	s:STATE_CANARY_ISLANDS = {
 		region_state:SPA = {
 			create_pop = {
@@ -412,7 +407,6 @@
 			}
 		}
 	}
-
 	s:STATE_AZORES = {
 		region_state:POR = {
 			create_pop = {
@@ -680,7 +674,7 @@
 			create_pop = {
 				culture = albanian
 				size = 44000
-			}			
+			}
 		}
 	}
 	s:STATE_NORTHERN_SERBIA = {
@@ -739,7 +733,6 @@
 			}
 		}
 	}
-
 	s:STATE_EAST_AEGEAN_ISLANDS = {
 		region_state:GRE = {
 			create_pop = {
@@ -867,7 +860,6 @@
 				culture = lacustrine_bantu
 				size = 1500
 			}
-
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {

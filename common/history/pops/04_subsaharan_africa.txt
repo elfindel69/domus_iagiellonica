@@ -387,7 +387,6 @@
 				culture = equatorial_bantu
 				size = 20000
 			}
-		
 			create_pop = {
 				culture = mande
 				size = 40000
@@ -467,7 +466,6 @@
 			}
 		}
 	}
-	# If anyone has better numbers for ethnic makeup and overall population figures, hmu
 	s:STATE_OUTER_HAUSALAND = {
 		region_state:HAU = {
 			create_pop = {
@@ -509,47 +507,6 @@
 				culture = fulbe
 				size = 8550
 			}
-		}
-		region_state:SOK = {
-			create_pop = {
-				culture = hausa
-				size = 12752
-			}
-			create_pop = {
-				culture = dyula
-				size = 12040
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 72070
-			}
-			create_pop = {
-				culture = tuareg
-				size = 27518
-			}
-			create_pop = {
-				culture = songhai
-				size = 22792
-			}
-			create_pop = {
-				culture = fulbe
-				size = 18487
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tuareg
-				size = 8600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = songhai
-				size = 6450
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = fulbe
-				size = 6450
-			}		
 		}
 		region_state:BOR = {
 			create_pop = {
@@ -878,7 +835,6 @@
 				culture = songhai
 				size = 27460
 			}
-			
 		}
 	}
 	s:STATE_LINDI = {
@@ -1297,7 +1253,7 @@
 				size = 24000
 			}
 			create_pop = {
-				culture = kikuyu 
+				culture = kikuyu
 				size = 77040
 				pop_type = slaves
 			}
@@ -1339,7 +1295,7 @@
 				size = 4360
 			}
 			create_pop = {
-				culture = kikuyu 
+				culture = kikuyu
 				size = 6694
 				pop_type = slaves
 			}
@@ -1431,12 +1387,10 @@
 				culture = lacustrine_bantu
 				size = 60000
 			}
-		
 			create_pop = {
 				culture = sena
 				size = 14000
 			}
-			
 		}
 	}
 	s:STATE_SOMALILAND = {
@@ -1789,7 +1743,7 @@
 			create_pop = {
 				culture = portuguese
 				size = 3996
-			}		
+			}
 			create_pop = {
 				culture = sena
 				size = 96004
@@ -1847,21 +1801,6 @@
 				size = 8000
 			}
 		}
-		region_state:BOR = {
-			create_pop = {
-				culture = bedouin
-				size = 12000
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 14000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 3000
-			}
-		}
 	}
 	s:STATE_NORTH_CAMEROON = {
 		region_state:SOK = {
@@ -1895,8 +1834,7 @@
 				culture = equatorial_bantu
 				religion = sunni
 				size = 100400
-			}	
-			
+			}
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {

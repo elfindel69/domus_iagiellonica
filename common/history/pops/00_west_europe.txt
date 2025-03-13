@@ -157,44 +157,25 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_FINLAND = {
-		region_state:FIN = {
-			create_pop = {
-				culture = swedish
-				size = 154900
-			}
-			create_pop = {
-				culture = finnish
-				size = 690000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 400
-			}
-			create_pop = {
-				culture = russian
-				size = 300
-			}
-		}
-	}
+	s:STATE_SOUTHERN_FINLAND = { }
 	s:STATE_WEST_KARELIA = {
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
-				size = 177000
+				size = 221799
 			}
 			create_pop = {
 				culture = finnish
 				religion = orthodox
-				size = 10000
+				size = 15000
 			}
 			create_pop = {
 				culture = swedish
-				size = 1200
+				size = 8715
 			}
 			create_pop = {
 				culture = russian
-				size = 700
+				size = 3486
 			}
 		}
 	}
@@ -202,11 +183,11 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
-				size = 12000
+				size = 25800
 			}
 			create_pop = {
 				culture = finnish
-				size = 500
+				size = 1200
 			}
 		}
 	}
@@ -214,15 +195,11 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
-				size = 360000
+				size = 135542
 			}
 			create_pop = {
 				culture = swedish
-				size = 47000
-			}
-			create_pop = {
-				culture = sami
-				size = 18000
+				size = 66458
 			}
 		}
 	}
@@ -374,24 +351,24 @@
 	s:STATE_ULSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish
 				size = 1183122
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british
 				size = 407111
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish
 				religion = protestant
 				size = 71843
 			}
 			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
+				culture = scottish
 				size = 575084
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish
 				religion = protestant
 				size = 101485
 			}
@@ -400,24 +377,24 @@
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish
 				size = 2214388
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british
 				size = 71856
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish
 				religion = protestant
 				size = 47904
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british
 				size = 10049
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish
 				religion = protestant
 				size = 4040
 			}
@@ -426,28 +403,28 @@
 	s:STATE_LEINSTER = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish
 				size = 1677581
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british
 				size = 160989
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish
 				religion = protestant
 				size = 68994
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british
 				size = 14385
 			}
 			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
+				culture = scottish
 				size = 4300
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish
 				religion = protestant
 				size = 8007
 			}
@@ -461,24 +438,24 @@
 	s:STATE_CONNAUGHT = {
 		region_state:GBR = {
 			create_pop = {
-				culture = irish # Catholics
+				culture = irish
 				size = 1319428
 			}
 			create_pop = {
-				culture = british # Anglicans
+				culture = british
 				size = 28463
 			}
 			create_pop = {
-				culture = irish # Anglicans
+				culture = irish
 				religion = protestant
 				size = 33413
 			}
 			create_pop = {
-				culture = british  # Presbyterians and Methodists
+				culture = british
 				size = 4007
 			}
 			create_pop = {
-				culture = irish  # Presbyterians and Methodists
+				culture = irish
 				size = 5170
 			}
 		}
@@ -520,7 +497,7 @@
 				size = 37612
 			}
 			create_pop = {
-				culture = sephardic # Avignonese Jews, closer to Sephardi than Ashkenazi
+				culture = sephardic
 				size = 2440
 			}
 		}
@@ -799,7 +776,7 @@
 				religion = protestant
 				size = 3472
 			}
-			create_pop = { # Givet area Walloon
+			create_pop = {
 				culture = wallonian
 				size = 4167
 			}
@@ -1149,9 +1126,6 @@
 	}
 	s:STATE_EAST_SWITZERLAND = {
 		region_state:SWI = {
-			# 895200 total
-			# 43.3% Protestant, 56.7% Catholic
-
 			create_pop = {
 				culture = alemannic
 				religion = catholic
@@ -1161,12 +1135,6 @@
 				culture = alemannic
 				size = 388400
 			}
-
-			# Swiss Italians probably constituted something like 8 percent? That's been near the average over the 20th century back to 1910 statistics.
-			# No separate Romansh culture, but I'm arbitrarily pinning it at 1.5% and counting it towards the Italian total, so this figure should be 9.5% of the total starting Swiss population of 1966164
-			# Ticino and Grisons account for almost the entire Italian population, and Grisons further accounts for the Romansh population.
-			# I realize this runs into the old Questione Ladina. Don't care.
-
 			create_pop = {
 				culture = north_italian
 				size = 186786
@@ -1175,13 +1143,8 @@
 	}
 	s:STATE_WEST_SWITZERLAND = {
 		region_state:SWI = {
-			# 1070964 total
-			# 31.4% Catholic, 68.6% Protestant
-
-			# 412894 Franco-Provencal total, by guessing a total Romand population of Switzerland of 21%, derived by pulling a number out of thin air
 			create_pop = {
 				culture = francoprovencal
-				# catholic
 				size = 129756
 			}
 			create_pop = {
@@ -1189,8 +1152,6 @@
 				religion = protestant
 				size = 283138
 			}
-
-			# 658070 non-Romand Swiss, which I am treating as all being Swiss Germans
 			create_pop = {
 				culture = alemannic
 				size = 451436
@@ -1218,7 +1179,6 @@
 				size = 542096
 			}
 		}
-				
 	}
 	s:STATE_ANHALT = {
 		region_state:BRB = {
@@ -1236,7 +1196,6 @@
 				size = 2996
 			}
 		}
-		
 	}
 	s:STATE_RHINELAND = {
 		region_state:FRA = {
@@ -1281,7 +1240,6 @@
 				culture = north_german
 				size = 125893
 			}
-			
 		}
 		region_state:FRA = {
 			create_pop = {
@@ -1303,7 +1261,6 @@
 			}
 		}
 	}
-
 	s:STATE_RUHR = {
 		region_state:HAN = {
 			create_pop = {
@@ -1336,10 +1293,8 @@
 				religion = catholic
 				size = 44000
 			}
-			
 		}
 		region_state:PLC = {
-			
 			create_pop = {
 				culture = polish
 				size = 20000
@@ -1388,7 +1343,7 @@
 				culture = south_german
 				size = 625092
 			}
-		}		
+		}
 	}
 	s:STATE_BADEN = {
 		region_state:BAD = {
@@ -1427,7 +1382,6 @@
 				size = 4004
 			}
 		}
-		
 	}
 	s:STATE_BRUNSWICK = {
 		region_state:HAN = {
@@ -1491,7 +1445,7 @@
 				culture = ashkenazi
 				size = 7019
 			}
-			create_pop = { # rough estimate of 200k Sorbs in 1836
+			create_pop = {
 				culture = sorb
 				size = 150106
 			}
@@ -1500,10 +1454,9 @@
 				religion = protestant
 				size = 50106
 			}
-		}	
+		}
 	}
 	s:STATE_HESSE = {
-		
 		region_state:HES = {
 			create_pop = {
 				culture = north_german
@@ -1518,7 +1471,7 @@
 				culture = ashkenazi
 				size = 11200
 			}
-		}	
+		}
 	}
 	s:STATE_MECKLENBURG = {
 		region_state:BRB = {

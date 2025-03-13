@@ -314,7 +314,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 68033 
+				size = 68033
 			}
 			create_pop = {
 				pop_type = slaves
@@ -339,7 +339,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = kanauji
-				size = 40200 
+				size = 40200
 			}
 			create_pop = {
 				pop_type = slaves
@@ -350,7 +350,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 3000 
+				size = 3000
 			}
 		}
 		region_state:GWA = {
@@ -365,7 +365,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 63000 
+				size = 63000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -385,12 +385,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 30000 
+				size = 30000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 1000 
+				size = 1000
 			}
 		}
 		region_state:BIC = {
@@ -409,12 +409,12 @@
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 100900 
+				size = 100900
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 20080 
+				size = 20080
 			}
 		}
 	}
@@ -829,12 +829,10 @@
 				size = 12000
 			}
 			create_pop = {
-			#	pop_type = slaves
 				culture = tamil
 				size = 21000
 			}
 			create_pop = {
-			#	pop_type = slaves
 				culture = sinhala
 				size = 6400
 			}
@@ -1008,7 +1006,7 @@
 			}
 			create_pop = {
 				culture = malayalam
-				religion = oriental_orthodox # St. Thomas Christians
+				religion = oriental_orthodox
 				size = 111996
 			}
 			create_pop = {
@@ -1029,7 +1027,7 @@
 			}
 			create_pop = {
 				culture = malayalam
-				religion = oriental_orthodox # St. Thomas Christians
+				religion = oriental_orthodox
 				size = 124000
 			}
 			create_pop = {

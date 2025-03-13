@@ -27,7 +27,6 @@
 			}
 		}
 	}
-
 	s:STATE_TASMANIA = {
 		region_state:TAS = {
 			create_pop = {
@@ -57,7 +56,7 @@
 			create_pop = {
 				culture = australian
 				size = 10800
-			}		
+			}
 			create_pop = {
 				culture = aborigine
 				size = 73000
@@ -68,7 +67,7 @@
 		region_state:WAS = {
 			create_pop = {
 				culture = aborigine
-				size = 68600 # Pops previously allocated to Noongar: 21100.
+				size = 68600
 			}
 			create_pop = {
 				culture = australian
