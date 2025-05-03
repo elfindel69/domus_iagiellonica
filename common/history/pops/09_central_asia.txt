@@ -649,6 +649,41 @@
 		}
 	}
 	s:STATE_HIMALAYAS = {
+		region_state:NEP = {
+			create_pop = {
+				culture = nepali
+				size = 619204
+			}
+			create_pop = {
+				culture = bihari
+				religion = animist
+				size = 172000
+			}
+			create_pop = {
+				culture = tibetan
+				size = 192008
+			}
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:TIB = {
+			create_pop = {
+				culture = naga
+				size = 20102
+			}
+			create_pop = {
+				culture = kachin
+				size = 21022
+			}
+			create_pop = {
+				culture = assamese
+				size = 7012
+			}
+			create_pop = {
+				culture = tibetan
+				size = 102010
+			}
+		}
 		region_state:SIK = {
 			create_pop = {
 				culture = tibetan
@@ -667,21 +702,6 @@
 			create_pop = {
 				culture = nepali
 				size = 16004
-			}
-		}
-		region_state:NEP = {
-			create_pop = {
-				culture = nepali
-				size = 619204
-			}
-			create_pop = {
-				culture = bihari
-				religion = animist
-				size = 172000
-			}
-			create_pop = {
-				culture = tibetan
-				size = 192008
 			}
 		}
 	}

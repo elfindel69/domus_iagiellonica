@@ -1055,18 +1055,7 @@
 			}
 		}
 	}
-	s:STATE_TRENTO = {
-		region_state:ITA = {
-			create_pop = {
-				culture = south_german
-				size = 3251
-			}
-			create_pop = {
-				culture = north_italian
-				size = 4745
-			}
-		}
-	}
+	
 	s:STATE_POMERANIA = {
 		region_state:BRB = {
 			create_pop = {
@@ -1163,7 +1152,7 @@
 			}
 		}
 	}
-	s:STATE_WESTPHALIA = {
+	s:STATE_WESTPHASA = {
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german
@@ -1345,23 +1334,7 @@
 			}
 		}
 	}
-	s:STATE_BADEN = {
-		region_state:BAD = {
-			create_pop = {
-				culture = south_german
-				size = 1048400
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2000
-			}
-			create_pop = {
-				culture = south_german
-				religion = protestant
-				size = 251000
-			}
-		}
-	}
+	
 	s:STATE_HANNOVER = {
 		region_state:HAN = {
 			create_pop = {

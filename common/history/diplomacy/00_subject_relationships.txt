@@ -30,6 +30,14 @@
 			country = c:FIN
 			type = personal_union
 		}
+		create_diplomatic_pact = {
+			country = c:UBD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ALK
+			type = puppet
+		}
 	}
 	
 	c:CHI ?= {

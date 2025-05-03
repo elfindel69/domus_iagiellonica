@@ -96,7 +96,7 @@
 		}
 	}
 	s:STATE_ALASKA = {
-		region_state:RUS = {
+		region_state:ALK = {
 			create_pop = {
 				culture = athabaskan
 				size = 19780

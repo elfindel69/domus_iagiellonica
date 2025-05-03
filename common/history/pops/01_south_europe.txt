@@ -29,19 +29,7 @@
 			}
 		}
 	}
-	s:STATE_LIGURIA = {
-		region_state:ITA = {
-			create_pop = {
-				culture = north_italian
-				size = 621792
-			}
-			create_pop = {
-				culture = north_italian
-				religion = jewish
-				size = 1002
-			}
-		}
-	}
+	
 	s:STATE_SARDINIA = {
 		region_state:ITA = {
 			create_pop = {
@@ -66,14 +54,7 @@
 			}
 		}
 	}
-	s:STATE_MARCHE = {
-		region_state:ITA = {
-			create_pop = {
-				culture = south_italian
-				size = 269000
-			}
-		}
-	}
+	
 	s:STATE_CORSICA = {
 		region_state:FRA = {
 			create_pop = {
@@ -107,14 +88,6 @@
 			create_pop = {
 				culture = south_italian
 				size = 1184392
-			}
-		}
-	}
-	s:STATE_BASILICATA = {
-		region_state:ITA = {
-			create_pop = {
-				culture = south_italian
-				size = 117283
 			}
 		}
 	}

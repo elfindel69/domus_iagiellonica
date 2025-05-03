@@ -1454,7 +1454,6 @@
 				culture = shan
 				size = 30200
 			}
-		
 			create_pop = {
 				culture = shan
 				size = 490100
@@ -1481,6 +1480,39 @@
 		}
 	}
 
+	s:STATE_MANDALAY = {
+		region_state:BUR = {
+			create_pop = {
+				culture = burmese
+				size = 840200
+			}
+			create_pop = {
+				culture = shan
+				size = 105012
+			}
+			create_pop = {
+				culture = karen
+				religion = animist
+				size = 31501
+			}
+			create_pop = {
+				culture = karen
+				religion = theravada
+				size = 21021
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 50200
+			}
+		}
+		region_state:KKI = {
+			create_pop = {
+				culture = lushai
+				size = 37012
+			}
+		}
+	}
 	s:STATE_PEGU = {
 		region_state:BUR = {
 			create_pop = {
@@ -1505,13 +1537,6 @@
 				pop_type = slaves
 				culture = burmese
 				size = 35912
-			}
-		}
-		region_state:DEN = {
-			create_pop = {
-				culture = mon
-				religion = animist
-				size = 9102
 			}
 		}
 		region_state:BIC = {

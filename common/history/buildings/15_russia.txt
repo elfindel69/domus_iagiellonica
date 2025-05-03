@@ -1709,12 +1709,12 @@
 		}
 	}
 	s:STATE_SEMIRECHE={
-		region_state:OZH={
+		region_state:KAZ={
 			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:OZH"
+						country="c:KAZ"
 						levels=1
 					}
 				}
@@ -1728,12 +1728,12 @@
 		}
 	}
 	s:STATE_AKMOLINSK={
-		region_state:OZH={
+		region_state:KAZ={
 			create_building={
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:OZH"
+						country="c:KAZ"
 						levels=2
 					}
 				}

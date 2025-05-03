@@ -418,8 +418,6 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:ATB={
-		}
 	}
 	s:STATE_WASHINGTON={
 		region_state:ORG={
