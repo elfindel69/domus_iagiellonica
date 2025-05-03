@@ -662,8 +662,7 @@
 				culture = south_german
 				size = 2513
 			}
-		}
-		region_state:CHC = {
+		
 			create_pop = {
 				culture = chechen
 				size = 85000
@@ -672,8 +671,7 @@
 				culture = north_caucasian
 				size = 21000
 			}
-		}
-		region_state:CIR = {
+		
 			create_pop = {
 				culture = circassian
 				size = 57809
@@ -918,7 +916,7 @@
 		}
 	}
 	s:STATE_CHELYABINSK = {
-		region_state:KZH = {
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 27045
@@ -947,8 +945,7 @@
 				culture = chuvash
 				size = 1346
 			}
-		}
-		region_state:OZH = {
+		
 			create_pop = {
 				culture = russian
 				size = 22140
@@ -969,8 +966,7 @@
 				culture = mordvin
 				size = 710
 			}
-		}
-		region_state:RUS = {
+		
 			create_pop = {
 				culture = russian
 				size = 278355
