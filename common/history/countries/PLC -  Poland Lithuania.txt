@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 
 	#TUTORIAL Replace TUT with your country's tag
-	c:PLC = {
+	c:PLC ?= {
 	
 		#TUTORIAL If your country is a republic at the start of game, you can set next election date here (Example: set_next_election_date = 1836.12.7)
 		set_next_election_date = 1836.10.10

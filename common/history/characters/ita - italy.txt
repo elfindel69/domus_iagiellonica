@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:ITA = {
+	c:ITA ?= {
 		create_character = {
 			# Napoleon II
 			first_name = "Napoleone"

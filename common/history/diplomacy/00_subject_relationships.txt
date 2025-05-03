@@ -1,5 +1,5 @@
 ﻿DIPLOMACY = {
-	c:SPA = {
+	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
 			type = puppet
@@ -9,7 +9,7 @@
 			type = puppet
 		}	
 	}
-	c:NET = {
+	c:NET ?= {
 		create_diplomatic_pact = {
 			country = c:DEI
 			type = dominion
@@ -19,20 +19,20 @@
 			type = puppet
 		}
 	}
-	c:SWE = {
+	c:SWE ?= {
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
 		}
 	}
-	c:RUS = {
+	c:RUS ?= {
 		create_diplomatic_pact = {
 			country = c:FIN
 			type = personal_union
 		}
 	}
 	
-	c:CHI = {
+	c:CHI ?= {
 		create_diplomatic_pact = {
 			country = c:TIB
 			type = vassal
@@ -47,14 +47,14 @@
 		}			
 	}
 	
-	c:USA = {
+	c:USA ?= {
 		create_diplomatic_pact = {
 			country = c:LIB
 			type = protectorate
 		}
 		
 	}
-	c:GBR = {
+	c:GBR ?= {
 		create_diplomatic_pact = {
 			country = c:ABU
 			type = protectorate
@@ -262,21 +262,21 @@
 		}		
 	}
 
-	c:POR = {
+	c:POR ?= {
 		create_diplomatic_pact = {
 			country = c:BRZ
 			type = dominion
 		}
 	}	
 	
-	c:PLC = {
+	c:PLC ?= {
 		create_diplomatic_pact = {
 			country = c:MOL
 			type = protectorate
 		}
 	}	
 	
-	c:AUS = {
+	c:AUS ?= {
 		create_diplomatic_pact = {
 			country = c:BOS
 			type = dominion
@@ -291,7 +291,7 @@
 		}	
 		
 	}
-	c:DEI = {
+	c:DEI ?= {
 		create_diplomatic_pact = {
 			country = c:YOG
 			type = puppet
@@ -321,7 +321,7 @@
 			type = puppet
 		}
 	}
-	c:FRA = {
+	c:FRA ?= {
 		# Tahiti
 		create_diplomatic_pact = {
 			country = c:PLY

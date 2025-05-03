@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:FRA = {
+	c:FRA ?= {
 		create_character = {
 			first_name = Louis-Philippe
 			last_name = d_Orleans

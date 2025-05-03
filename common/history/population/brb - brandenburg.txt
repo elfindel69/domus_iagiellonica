@@ -1,8 +1,7 @@
 ﻿POPULATION = {
-	c:BRB = {
+	c:BRB ?= {
 		
 		effect_starting_pop_wealth_high = yes
 		effect_starting_pop_literacy_high = yes
-		#
 	}
 }

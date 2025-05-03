@@ -5720,18 +5720,18 @@
 				building = "building_paper_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_paper_mills
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_paper_mills
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+						
 					}
 					country = {
 						country = c:AUS
@@ -5835,18 +5835,18 @@
 				building = "building_food_industry"
 				add_ownership = {
 					building = {
-						{
-							type = building_food_industry
-							country = c:AUS
-							levels = 4
-							region = STATE_BOHEMIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_food_industry
+						country = c:AUS
+						levels = 4
+						region = STATE_BOHEMIA
+					}
+					building ={
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					
 					}
 				}
 				reserves = 1
@@ -5858,19 +5858,19 @@
 				building = "building_glassworks"
 				add_ownership = {
 					building = {
-						{
-							type = building_glassworks
-							country = c:AUS
-							levels = 2
-							region = STATE_BOHEMIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_glassworks
+						country = c:AUS
+						levels = 2
+						region = STATE_BOHEMIA
 					}
+					building =	{
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

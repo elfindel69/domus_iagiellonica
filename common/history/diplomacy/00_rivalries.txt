@@ -1,5 +1,5 @@
 ﻿DIPLOMACY = {
-	c:GBR = {
+	c:GBR ?= {
 		create_diplomatic_pact = {
 			country = c:FRA
 			type = rivalry
@@ -10,26 +10,26 @@
 
 	
 
-	c:RUS = {
+	c:RUS ?= {
 		create_diplomatic_pact = {
 			country = c:TUR
 			type = rivalry
 		}
 	}
-	c:TUR = {
+	c:TUR ?= {
 		create_diplomatic_pact = {
 			country = c:RUS
 			type = rivalry
 		}
 	}
 
-	c:SIA = {
+	c:SIA ?= {
 		create_diplomatic_pact = {
 			country = c:DAI
 			type = rivalry
 		}
 	}
-	c:DAI = {
+	c:DAI ?= {
 		create_diplomatic_pact = {
 			country = c:SIA
 			type = rivalry

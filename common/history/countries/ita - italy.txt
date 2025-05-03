@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:ITA = {
+	c:ITA ?= {
 		#TUTORIAL If your country is a republic at the start of game, you can set next election date here (Example: set_next_election_date = 1836.12.7)
 		set_next_election_date = 1836.10.10
 		

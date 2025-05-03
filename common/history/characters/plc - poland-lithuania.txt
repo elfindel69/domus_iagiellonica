@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:PLC = {
+	c:PLC ?= {
 		
 		create_character = {
 			# Tsar Nicholas I of Russia
