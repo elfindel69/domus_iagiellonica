@@ -832,8 +832,6 @@
 				size = 8720
 				pop_type = slaves
 			}
-		}
-		region_state:OMA = {
 			create_pop = {
 				culture = persian
 				size = 33100
@@ -854,7 +852,76 @@
 			}
 		}
 	}
-	s:STATE_SISTAN = { }
+	s:STATE_SISTAN = {
+		region_state:MAK = {
+			create_pop = {
+				culture = baluchi
+				size = 101002
+			}
+			create_pop = {
+				culture = persian
+				size = 8005
+			}
+			create_pop = {
+				culture = kurdish
+				size = 5004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 5200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 8200
+			}
+		}
+		region_state:OMA = {
+			create_pop = {
+				culture = baluchi
+				size = 5102
+			}
+			create_pop = {
+				culture = bedouin
+				size = 106
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 213
+			}
+		}
+		region_state:KAN = {
+			create_pop = {
+				culture = persian
+				size = 9800
+			}
+			create_pop = {
+				culture = baluchi
+				size = 5007
+			}
+			create_pop = {
+				culture = pashtun
+				size = 405
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 500
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baluchi
+				size = 300
+			}
+		}
+	 }
 	s:STATE_KHORASAN = {
 		region_state:PER = {
 			create_pop = {

@@ -44,10 +44,9 @@
 			}
 		}
 	}
-	s:STATE_BREST = { }
-	s:STATE_VOLHYNIA = { }
+	
 	s:STATE_KIEV = {
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
 				size = 2610320
@@ -74,7 +73,6 @@
 			}
 		}
 	}
-	s:STATE_BRYANSK = { }
 	s:STATE_SMOLENSK = {
 		region_state:RUS = {
 			create_pop = {
@@ -92,7 +90,6 @@
 			}
 		}
 	}
-	s:STATE_ORSHA = { }
 	s:STATE_EAST_KARELIA = {
 		region_state:RUS = {
 			create_pop = {
@@ -186,7 +183,6 @@
 			}
 		}
 	}
-	s:STATE_LUHANSK = { }
 	s:STATE_KURSK = {
 		region_state:RUS = {
 			create_pop = {
@@ -303,10 +299,6 @@
 			}
 		}
 	}
-	s:STATE_ESTONIA = { }
-	s:STATE_LATVIA = { }
-	s:STATE_LITHUANIA = { }
-	s:STATE_MAZOVIA = { }
 	s:STATE_SILESIA = {
 		region_state:PLC = {
 			create_pop = {

@@ -157,7 +157,6 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_FINLAND = { }
 	s:STATE_WEST_KARELIA = {
 		region_state:FIN = {
 			create_pop = {
@@ -1152,7 +1151,7 @@
 			}
 		}
 	}
-	s:STATE_WESTPHASA = {
+	s:STATE_WESTPHALIA = {
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german

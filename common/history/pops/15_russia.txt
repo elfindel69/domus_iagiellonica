@@ -215,9 +215,88 @@
 			}
 		}
 	}
-	s:STATE_MAZOVIA = { }
-	s:STATE_GREATER_POLAND = { }
-	s:STATE_LESSER_POLAND = { }
+	s:STATE_MAZOVIA = {
+		region_state:PLC = {
+			create_pop = {
+				culture = polish
+				size = 970792
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 180591
+			}
+			create_pop = {
+				culture = north_german
+				size = 39499
+			}
+			create_pop = {
+				culture = russian
+				size = 53083
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 50440
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 21106
+			}
+		}
+	 }
+	s:STATE_GREATER_POLAND = {
+		region_state:PLC = {
+			create_pop = {
+				culture = polish
+				size = 2004469
+			}
+			create_pop = {
+				culture = polish
+				religion = protestant
+				size = 30000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 358977
+			}
+			create_pop = {
+				culture = north_german
+				size = 134245
+			}
+			create_pop = {
+				culture = russian
+				size = 60600
+			}
+		}
+	 }
+	s:STATE_LESSER_POLAND = { 
+		region_state:PLC = {
+			create_pop = {
+				culture = polish
+				size = 633163
+			}
+			create_pop = {
+				culture = polish
+				religion = protestant
+				size = 26000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 117162
+			}
+			create_pop = {
+				culture = north_german
+				size = 19663
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 160774
+			}
+			create_pop = {
+				culture = russian
+				size = 35435
+			}
+		}
+	}
 	s:STATE_UUSIMAA = {
 		region_state:FIN = {
 			create_pop = {
@@ -376,8 +455,54 @@
 			}
 		}
 	}
-	s:STATE_BREST = { }
-	s:STATE_MINSK = { }
+	s:STATE_BREST = { 
+		region_state:PLC = {
+			create_pop = {
+				culture = byelorussian
+				size = 512334
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 10524
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 133659
+			}
+			create_pop = {
+				culture = polish
+				size = 22504
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 59387
+			}
+			create_pop = {
+				culture = russian
+				size = 32924
+			}
+		}
+	}
+	s:STATE_MINSK = { 
+		region_state:PLC = {
+			create_pop = {
+				culture = polish
+				size = 29910
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 569714
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 149520
+			}
+			create_pop = {
+				culture = russian
+				size = 38883
+			}
+		}
+	}
 	s:STATE_MOGILEV = {
 		region_state:RUS = {
 			create_pop = {
@@ -422,9 +547,36 @@
 			}
 		}
 	}
-	s:STATE_VOLHYNIA = { }
+	s:STATE_VOLHYNIA = {
+		region_state:PLC = {
+			create_pop = {
+				culture = ukrainian
+				size = 526356
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 94529
+			}
+			create_pop = {
+				culture = polish
+				size = 44400
+			}
+			create_pop = {
+				culture = south_german
+				size = 40819
+			}
+			create_pop = {
+				culture = czech
+				size = 10026
+			}
+			create_pop = {
+				culture = russian
+				size = 716
+			}
+		}
+	 }
 	s:STATE_KIEV = {
-		region_state:RUS = {
+		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
 				size = 2610320

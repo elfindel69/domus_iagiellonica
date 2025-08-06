@@ -23,8 +23,6 @@
 				culture = russian
 				size = 45500
 			}
-		}
-		region_state:CHC = {
 			create_pop = {
 				culture = north_caucasian
 				size = 92200
@@ -57,8 +55,6 @@
 				culture = mongol
 				size = 4000
 			}
-		}
-		region_state:CIR = {
 			create_pop = {
 				culture = circassian
 				size = 531000
@@ -559,8 +555,6 @@
 			}
 		}
 	}
-	s:STATE_WESTERN_AFGHANISTAN = { }
-	s:STATE_EASTERN_AFGHANISTAN = { }
 	s:STATE_BALUCHISTAN = {
 		region_state:MAK = {
 			create_pop = {

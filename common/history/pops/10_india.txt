@@ -285,8 +285,6 @@ POPS = {
 				religion = hindu # jains
 				size = 16764
 			}
-		}
-		region_state:MUG = {
 			create_pop = {
 				culture = hindustani
 				religion = hindu
@@ -317,8 +315,6 @@ POPS = {
 				religion = hindu # jains
 				size = 5794
 			}
-		}
-		region_state:PTA = {
 			create_pop = {
 				culture = panjabi
 				religion = hindu
