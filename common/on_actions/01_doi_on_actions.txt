@@ -1,0 +1,20 @@
+
+on_character_death = {
+	effect = {
+		if = {
+			limit = {
+				is_ruler = yes
+				exists = c:FRA
+				owner = c:FRA
+				owner = {
+					has_law = law_type:law_monarchy
+					NOT = { has_variable = kings_death }
+				}
+			}
+			owner = {
+				trigger_event = doi_france.1
+			}
+		
+		}
+	}
+}
