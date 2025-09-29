@@ -237,8 +237,8 @@ FIN = {
 
 	tier = grand_principality
 	
-	cultures = { finnish }
-	capital = STATE_SOUTHERN_FINLAND
+	cultures = { finnish swedish }
+	capital = STATE_UUSIMAA
 }
 
 NOR = {
@@ -634,17 +634,6 @@ WUR = {
 	is_named_from_capital = yes
 }
 
-PBT = {
-	color = { 183  143  145 }
-	
-	country_type = recognized
-
-	tier = principality
-	
-	cultures = { north_italian south_german }
-	capital = STATE_TRENTO
-}
-
 LOM = {
 	color = { 146  108  146 }
 	
@@ -725,17 +714,6 @@ SAR = {
 	is_named_from_capital = yes
 }
 
-GEN = {
-	color = { 255  255  100 }
-	
-	country_type = recognized
-	
-	tier = kingdom
-	
-	cultures = { north_italian }
-	capital = STATE_LIGURIA
-}
-
 SIC = {
 	color = { 73  152  76 }
 	
@@ -745,17 +723,6 @@ SIC = {
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
-}
-
-HPA = {
-	color = { 176  196  222 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { maltese }
-	capital = STATE_MALTA
 }
 
 TRE = {
@@ -859,8 +826,7 @@ LIT = {
 	tier = principality
 	
 	cultures = { lithuanian }	
-	capital = STATE_LITHUANIA
-	is_named_from_capital = yes
+	capital = STATE_KAUNAS
 }
 
 LAT = {
@@ -871,8 +837,7 @@ LAT = {
 	tier = principality
 	
 	cultures = { latvian }	
-	capital = STATE_LATVIA
-	is_named_from_capital = yes
+	capital = STATE_RIGA
 }
 
 POL = {
@@ -1161,7 +1126,7 @@ AFG = {
 	tier = principality
 	
 	cultures = { pashtun tajik }
-	capital = STATE_EASTERN_AFGHANISTAN
+	capital = STATE_KABUL
 }
 
 ARM = {
@@ -1413,7 +1378,7 @@ HND = {
 	
 	tier = empire
 	
-	cultures = { kanauji marathi bihari tamil oriya gujarati }
+	cultures = {  marathi bihari tamil oriya gujarati }
 	capital = STATE_DELHI
 }
 
@@ -1434,9 +1399,10 @@ BAS = {
 	country_type = unrecognized
 	
 	tier = principality
-	
-	cultures = { telegu }
-	capital = STATE_NAGPUR
+	social_hierarchy = british_indian_caste_system
+
+	cultures = { gondi telegu }
+	capital = STATE_CENTRAL_PROVINCES
 }
 
 BER = {
@@ -1456,9 +1422,10 @@ BHO = {
 	country_type = unrecognized
 	
 	tier = principality
-	
-	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	social_hierarchy = british_indian_caste_system
+
+	cultures = { marathi pathan }
+	capital = STATE_MALWA
 }
 
 BIK = {
@@ -1478,9 +1445,10 @@ BUN = {
 	country_type = unrecognized
 	
 	tier = principality
+	social_hierarchy = british_indian_caste_system
 	
-	cultures = { kanauji }
-	capital = STATE_CENTRAL_INDIA
+	cultures = { bundeli }
+	capital = STATE_BUNDELKHAND
 }
 
 GWA = {
@@ -1489,9 +1457,10 @@ GWA = {
 	country_type = unrecognized
 	
 	tier = principality
-	
-	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	social_hierarchy = british_indian_caste_system
+
+	cultures = { marathi bundeli }
+	capital = STATE_MALWA
 }
 
 HYD = {
@@ -1513,8 +1482,8 @@ BGL = {
 	
 	tier = principality
 	
-	cultures = { bengali bihari }
-	capital = STATE_SOUTH_BENGAL
+	cultures = { bengali }
+	capital = STATE_EAST_BENGAL
 }
 
 IND = {
@@ -1523,9 +1492,10 @@ IND = {
 	country_type = unrecognized
 	
 	tier = principality
-	
+	social_hierarchy = british_indian_caste_system
+
 	cultures = { marathi }
-	capital = STATE_CENTRAL_INDIA
+	capital = STATE_MALWA
 }
 
 JAI = {
@@ -1645,9 +1615,10 @@ NAG = {
 	country_type = unrecognized
 	
 	tier = principality
-	
+	social_hierarchy = british_indian_caste_system
+
 	cultures = { marathi }
-	capital = STATE_NAGPUR
+	capital = STATE_CENTRAL_PROVINCES
 	is_named_from_capital = yes
 }
 
@@ -1785,7 +1756,7 @@ BUR = {
 	tier = kingdom
 	
 	cultures = { burmese }
-	capital = STATE_BURMA
+	capital = STATE_MANDALAY
 }
 
 CAM = {
@@ -2449,7 +2420,7 @@ UBD = {
 	tier = kingdom
 	
 	cultures = { latvian estonian lithuanian }
-	capital = STATE_LATVIA
+	capital = STATE_RIGA
 }
 
 BYE = {
@@ -2502,9 +2473,10 @@ BIC = {
 	country_type = colonial
 	
 	tier = principality
+	social_hierarchy = british_indian_caste_system
 	
 	cultures = { british }
-	capital = STATE_SOUTH_BENGAL
+	capital = STATE_WEST_BENGAL
 }
 
 BRI = {
@@ -2844,7 +2816,7 @@ HZJ = { # Hazarajat
 
 	cultures = { hazara }
 
-	capital = STATE_WESTERN_AFGHANISTAN
+	capital = STATE_CENTRAL_HIGHLANDS
 }
 
 TRC = { # Turkmenia
@@ -3748,7 +3720,7 @@ BHT = {
 
 	tier = hegemony
 	
-	cultures = { assamese avadhi baluchi bengali bihari gujarati kanauji kannada malayalam marathi oriya panjabi pashtun rajput sindi tamil telegu }
+	cultures = { assamese avadhi baluchi bengali bihari gujarati kannada malayalam marathi oriya panjabi pathan rajput sindi tamil telegu hindustani bundeli pahari gondi bageli chhattisgarhi deccani }
 	capital = STATE_DELHI
 }
 
@@ -3916,6 +3888,183 @@ PRC = {
 	capital = STATE_ILE_DE_FRANCE
 }
 
+###Russian Minors
+
+KRL = {
+	color = { 22 63 26 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { karelian }
+	capital = STATE_EAST_KARELIA
+}
+
+TAR = {
+	color = { 31 218 229 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { tatar }
+	capital = STATE_KAZAN
+}
+
+BKR = {
+	color = { 71 219 129 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { bashkir }
+	capital = STATE_UFA
+}
+
+BRY = {
+	color = { 50 50 120 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { buryat }
+	capital = STATE_BURYATIA
+}
+
+KMC = {
+	color = { 25 47 119 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { siberian }
+	capital = STATE_KAMCHATKA
+}
+
+CKC = {
+	color = { 99 236 240 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { siberian }
+	capital = STATE_CHUKOTKA
+}
+
+ALI = {
+	color = { 74 121 198 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { mongol }
+	capital = STATE_ALTAI
+}
+
+URL = {
+	color = { 55 89 88 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { russian }
+	capital = STATE_URAL
+}
+
+KNT = {
+	color = { 156 190 196 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { ugrian }
+	capital = STATE_SURGUT
+}
+
+UDM = {
+	color = { 82 12 12 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { udmurt }
+	capital = STATE_VYATKA
+}
+
+CHV = {
+	color = { 249 125 4 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { chuvash }
+	capital = STATE_CHUVASHIA
+}
+
+MRD = {
+	color = { 222 147 226 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { mordvin }
+	capital = STATE_TAMBOV
+}
+
+MRI = {
+	color = { 139 98 193 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { mari }
+	capital = STATE_CHUVASHIA
+}
+
+TJI = {
+	color = {45 85 45 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { tajik }
+	capital = STATE_TAJIKISTAN
+}
+
+UZB = {
+	color = { 199 199 170 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { uzbek }
+	capital = STATE_FERGANA
+}
+
+KYR = {
+	color = { 161 87 87 }
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { kirgiz }
+	capital = STATE_KIRGHIZIA
+}
 PAU = {
 	color = { 69 103 77 }
 	
