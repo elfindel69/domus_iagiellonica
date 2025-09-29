@@ -134,13 +134,13 @@
 		}
 	}
 	s:STATE_COURLAND={
-		region_state:UBD={
+		region_state:PLC={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:UBD"
+						country="c:PLC"
 						levels=2
 						region="STATE_COURLAND"
 					}
@@ -151,13 +151,13 @@
 		}
 	}
 	s:STATE_KAUNAS={
-		region_state:RUS={
+		region_state:PLC={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:RUS"
+						country="c:PLC"
 						levels=2
 						region="STATE_KAUNAS"
 					}
@@ -169,7 +169,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:PLC"
 						levels=1
 					}
 				}
@@ -179,13 +179,13 @@
 		}
 	}
 	s:STATE_VILNIUS={
-		region_state:RUS={
+		region_state:PLC={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:RUS"
+						country="c:PLC"
 						levels=2
 						region="STATE_VILNIUS"
 					}
@@ -198,7 +198,7 @@
 				add_ownership={
 					building={
 						type="building_furniture_manufacturies"
-						country="c:RUS"
+						country="c:PLC"
 						levels=1
 						region="STATE_VILNIUS"
 					}

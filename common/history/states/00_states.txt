@@ -6477,7 +6477,7 @@ STATES = {
 	}
 	s:STATE_COURLAND = {
 		create_state = {
-			country = c:UBD
+			country = c:PLC
 			owned_provinces = { x01E021 x4A8E5D x4D08D8 x74042F x806121 x898083 x8D4F76 xABA718 xF4B54B xF8BBB0 xFA8436 xFCC2E1 xFD1424 }
 			state_type = incorporated
 		}
@@ -6486,16 +6486,16 @@ STATES = {
 	}
 	s:STATE_KAUNAS = {
 		create_state = {
-			country = c:RUS
+			country = c:PLC
 			owned_provinces = { x0980C8 x0B6577 x21F318 x232B98 x406DC9 x6175AD x629C46 x7A5D64 x8060A0 x80D858 x95171C xA8FF51 xAF73F2 xBFE867 xC0A0A0 xCC4C28 xCD7291 xE0B943 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		
 		add_homeland = cu:lithuanian
 	}
 	s:STATE_VILNIUS = {
 		create_state = {
-			country = c:RUS
+			country = c:PLC
 			owned_provinces = { x00E0A0 x0161A0 x4177AF x41E061 x4678E5 x577C69 xA916E3 xF2CB3D }
 			state_type = unincorporated
 		}
@@ -6590,6 +6590,7 @@ STATES = {
 			owned_provinces = {
 				x1A750E x2390CB x44A62C x48AE67 x5DA229  x6C9619 x7052F1 x85CE06 xA94DAF xCDD089 x151461 x2565D9 x42B020 x527607 x68146B x6F2EC3 x8DFA40 xB36D9F xB4B7D9 xB7128C xC1BBAD xE4D8D8 xEF90FF xFEB233 x596BB1
 				x224CB7 x5B18B1 x62B5FA x65165E x6DA038 x6DD7B6 x94C7A6 x9856D4 xB09020 xD84D24
+			}
 		}
 		
 		add_homeland = cu:uzbek
@@ -7438,7 +7439,7 @@ STATES = {
 		create_state = {
 			country = c:PLC
 			owned_provinces = { x0E40DA x1CB894 x1F6F99 x24BBED x29408F x2F0D92 x471A61 x577EE4 x57A53D x5FF022 x6000DF x738072 x8FE2DB x955F09 x9FEDC5 xA03316 xA3A3A9 xA7B86B xAB3C62 xC02B8C xC061A0 xC0E0A0 xD0A0E0 xDE06BA }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		
 		add_homeland = cu:polish
@@ -7447,7 +7448,7 @@ STATES = {
 		create_state = {
 			country = c:PLC
 			owned_provinces = { x40DF20 x4161A0 x44ACBB x46B950 x496950 x51A0E0 x9444C9 xAEB9A5 xB491B1 xE0BB00 xEB0783 xF73169 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		
 		add_homeland = cu:polish
