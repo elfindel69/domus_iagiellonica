@@ -5555,24 +5555,30 @@ STATES = {
 		add_homeland = cu:albanian
 		add_claim = c:MON
 	}
-	s:STATE_NORTHERN_SERBIA = {
+	s:STATE_WESTERN_SERBIA = {
 		create_state = {
 			country = c:SER
-			owned_provinces = { x4D115A xF9E78E x10A060 x4B1F45 xEDBA20 x3B6092 x74F1F4 x9061A0 x40AF95 x90A061 }
+			owned_provinces = { x10A060 x4B1F45 x4D115A x90A061 xEDBA20 xF9E78E x4773E6 x9DFFAF }
 		}
-		
 		add_homeland = cu:serb
 	}
-	s:STATE_SOUTHERN_SERBIA = {
+	s:STATE_EASTERN_SERBIA = {
 		create_state = {
 			country = c:SER
-			owned_provinces = { xA5D3A9 x9DFFAF x334B53 xD021E0 x18B761 x4773E6 xB852BB xD02161 x45E06A x62A730 xAC083C }
+			owned_provinces = {  x18B761 x334B53 x62A730 xAC083C xD021E0  x9061A0 x3B6092 x40AF95 x74F1F4 }
 		}
-		
+
 		add_homeland = cu:serb
-		add_homeland = cu:turkish
+		
+	}
+	s:STATE_KOSOVO = {
+		create_state = {
+			country = c:SER
+			owned_provinces = { x45E06A xA5D3A9 xB852BB xD02161 }
+		}
+
+		add_homeland = cu:serb
 		add_homeland = cu:albanian
-		add_claim = c:SER
 	}
 	s:STATE_HUDAVENDIGAR = {
 		create_state = {
@@ -7008,21 +7014,22 @@ STATES = {
 		add_homeland = cu:polish
 		add_homeland = cu:ukrainian
 	}
-	s:STATE_WEST_SLOVAKIA = {
+	s:STATE_SLOVAKIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { x695F42 x516161 xCA932B x853117 x90E0E0 xD06161 x082416 xB386BA x1F3F2B x6B444C xFC6F14 x51306A }
+			owned_provinces = { x02CE3A x082416 x1F3F2B x20C000 x51306A x516161 x51E061 x695F42 x6B444C x7DE5D3 x853117 x90E0E0 xB23DA0 xB386BA xC54074 xCA932B xD06161 xFC6F14 }
 		}
-		
+
 		add_homeland = cu:slovak
 		add_homeland = cu:hungarian
-	}	
-	s:STATE_EAST_SLOVAKIA = {
+	}
+	s:STATE_RUTHENIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { xC54074 xB23DA0 x7DE5D3 x51E061 x20C000 x02CE3A xA0531B x69BAC7 xC85CD0 x359378 }
+			owned_provinces = { x359378 x69BAC7 xA0531B xC85CD0 xD0E061 }
 		}
-		
+
+		add_homeland = cu:ukrainian
 		add_homeland = cu:slovak
 		add_homeland = cu:hungarian
 	}
@@ -7255,15 +7262,26 @@ STATES = {
 		
 		add_homeland = cu:north_german
 	}
-	s:STATE_SILESIA = {
+	s:STATE_LOWER_SILESIA = {
 		create_state = {
 			country = c:PLC
-			owned_provinces = { xC108EA x732DC0 x6E617F x1B72C9 x272E48 xC00121 xCE74AB x94D624 xAF9F20 x88194B x90B12B x821F52 x5E9091 x7B2F62 }
+			owned_provinces = { x1B72C9 x272E48 x614121 x6E617F x732DC0 x94D624 xC00121 xC108EA xCE74AB }
 		}
-		
+
+		add_homeland = cu:north_german
+		add_homeland = cu:sorb
+	}
+
+	s:STATE_UPPER_SILESIA = {
+		create_state = {
+			country = c:PLC
+			owned_provinces = {  x9061E0 x71E080 xF0E080 x5E9091 x7B2F62 x821F52 x90B12B xAF9F20 x71E080 xF0E080 x88194B }
+		}
 		add_homeland = cu:north_german
 		add_homeland = cu:polish
+		add_homeland = cu:czech
 	}
+
 	s:STATE_BRANDENBURG = {
 		create_state = {
 			country = c:BRB

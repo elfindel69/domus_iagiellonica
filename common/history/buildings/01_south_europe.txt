@@ -1744,7 +1744,7 @@
 			}
 		}
 	}
-	s:STATE_ASGREIAS={
+	s:STATE_ASTURIAS={
 		region_state:SPA={
 			create_building={
 				building="building_gold_mine"
@@ -1764,7 +1764,7 @@
 						type="building_manor_house"
 						country="c:SPA"
 						levels=1
-						region="STATE_ASGREIAS"
+						region="STATE_ASTURIAS"
 					}
 				}
 				reserves=1
@@ -1777,7 +1777,7 @@
 						type="building_manor_house"
 						country="c:SPA"
 						levels=3
-						region="STATE_ASGREIAS"
+						region="STATE_ASTURIAS"
 					}
 				}
 				reserves=1
@@ -1790,7 +1790,7 @@
 						type="building_fishing_wharf"
 						country="c:SPA"
 						levels=2
-						region="STATE_ASGREIAS"
+						region="STATE_ASTURIAS"
 					}
 				}
 				reserves=1
@@ -3858,7 +3858,7 @@
 			}
 		}
 	}
-	s:STATE_NORTHERN_SERBIA={
+	s:STATE_WESTERN_SERBIA={
 		region_state:SER={
 			create_building={
 				building="building_livestock_ranch"
@@ -3867,7 +3867,7 @@
 						type="building_manor_house"
 						country="c:SER"
 						levels=1
-						region="STATE_NORTHERN_SERBIA"
+						region="STATE_WESTERN_SERBIA"
 					}
 				}
 				reserves=1
@@ -3880,7 +3880,7 @@
 						type="building_manor_house"
 						country="c:SER"
 						levels=1
-						region="STATE_NORTHERN_SERBIA"
+						region="STATE_WESTERN_SERBIA"
 					}
 				}
 				reserves=1
@@ -3893,7 +3893,7 @@
 						type="building_manor_house"
 						country="c:SER"
 						levels=1
-						region="STATE_NORTHERN_SERBIA"
+						region="STATE_WESTERN_SERBIA"
 					}
 				}
 				reserves=1
@@ -3901,7 +3901,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTHERN_SERBIA={
+	s:STATE_EASTERN_SERBIA={
 		region_state:SER={
 			create_building={
 				building="building_livestock_ranch"
@@ -3910,13 +3910,13 @@
 						type="building_manor_house"
 						country="c:SER"
 						levels=1
-						region="STATE_SOUTHERN_SERBIA"
+						region="STATE_EASTERN_SERBIA"
 					}
 					building={
 						type="building_manor_house"
 						country="c:SER"
 						levels=2
-						region="STATE_EASTERN_THRACE"
+						region="STATE_EASTERN_SERBIA"
 					}
 				}
 				reserves=1
@@ -3929,13 +3929,16 @@
 						type="building_manor_house"
 						country="c:SER"
 						levels=1
-						region="STATE_SOUTHERN_SERBIA"
+						region="STATE_EASTERN_SERBIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 		}
+	}
+	s:STATE_KOSOVO = {
+		region_state:SER = {}
 	}
 	s:STATE_CRETE={
 		region_state:EGY={
