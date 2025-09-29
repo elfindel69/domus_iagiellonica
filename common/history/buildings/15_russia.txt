@@ -789,7 +789,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=5
+						levels=15
 					}
 				}
 				reserves=1
