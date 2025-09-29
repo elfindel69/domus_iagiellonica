@@ -20,13 +20,13 @@
 					building={
 						type="building_paper_mills"
 						country="c:PLC"
-						levels=1
+						levels=2
 						region="STATE_MAZOVIA"
 					}
 					building={
 						type="building_financial_district"
 						country="c:PLC"
-						levels=1
+						levels=2
 						region="STATE_MAZOVIA"
 					}
 					country={
@@ -214,7 +214,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=2
+						levels=4
 					}
 				}
 				reserves=1
@@ -224,6 +224,19 @@
 	}
 	s:STATE_UPPER_SILESIA={
 		region_state:PLC={
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					building={
+						type="building_sulfur_mine"
+						country="c:PLC"
+						levels=1
+						region="STATE_UPPER_SILESIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_textile_mills"
 				add_ownership={
@@ -352,6 +365,17 @@
 	}
 	s:STATE_GREATER_POLAND={
 		region_state:PLC={
+			create_building={
+				building="building_paper_mills"
+				add_ownership={
+					country={
+						country="c:PLC"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
+			}
 			create_building = {
 				building = "building_artillery_foundries"
 				add_ownership = {
@@ -410,7 +434,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PLC"
-						levels=3
+						levels=5
 						region="STATE_GREATER_POLAND"
 					}
 				}
@@ -422,7 +446,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=4
+						levels=7
 					}
 				}
 				reserves=1
@@ -463,7 +487,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -500,6 +524,19 @@
 	s:STATE_WEST_PRUSSIA={
 		region_state:PLC={
 			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					building={
+						type="building_sulfur_mine"
+						country="c:PLC"
+						levels=1
+						region="STATE_WEST_PRUSSIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
@@ -518,7 +555,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PLC"
-						levels=3
+						levels=5
 						region="STATE_WEST_PRUSSIA"
 					}
 				}
@@ -652,7 +689,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -662,6 +699,19 @@
 	}
 	s:STATE_WEST_GALICIA={
 		region_state:PLC={
+			create_building={
+				building="building_sulfur_mine"
+				add_ownership={
+					building={
+						type="building_sulfur_mine"
+						country="c:PLC"
+						levels=1
+						region="STATE_WEST_GALICIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
 			create_building={
 				building="building_tooling_workshops"
 				add_ownership={
@@ -680,7 +730,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=6
+						levels=7
 					}
 				}
 				reserves=1
@@ -759,7 +809,7 @@
 				add_ownership={
 					country={
 						country="c:PLC"
-						levels=6
+						levels=8
 					}
 				}
 				reserves=1
