@@ -1333,7 +1333,28 @@
 			}
 		}
 	}
-	
+	s:STATE_BADEN = {
+		region_state:BAD = {
+			create_pop = {
+				culture = south_german
+				size = 905246
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2000
+			}
+			create_pop = {
+				culture = south_german
+				religion = protestant
+				size = 251000
+			}
+
+			create_pop = {
+				culture = alemannic
+				size = 143154
+			}
+		}
+	}
 	s:STATE_HANNOVER = {
 		region_state:HAN = {
 			create_pop = {

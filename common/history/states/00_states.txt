@@ -7326,6 +7326,15 @@ STATES = {
 		add_homeland = cu:south_german
 		add_homeland = cu:alemannic
 	}
+	s:STATE_BADEN = {
+		create_state = {
+			country = c:BAD
+			owned_provinces = { xE0A2B9 xB00160 xB08061 xAEBA2A x318061 }
+		}
+
+		add_homeland = cu:south_german
+		add_homeland = cu:alemannic
+	}
 	s:STATE_HANNOVER = {
 		create_state = {
 			country = c:HAN
