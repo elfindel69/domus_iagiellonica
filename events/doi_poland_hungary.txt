@@ -1,0 +1,156 @@
+﻿namespace = doi_poland_hungary
+
+doi_poland_hungary.1 = {
+	type = country_event
+	placement = scope:ROOT.capital
+
+	title = doi_poland_hungary.1.t
+	desc = doi_poland_hungary.1.d
+	flavor = doi_poland_hungary.1.f
+
+	event_image = { video = "gfx/event_pictures/europe_rally.bk2" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europe/crowd_cheer"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	immediate = {
+		OR = {
+			if = { limit = { AND = {exists = c:AUS NOT = {exists = HUN}}} c:AUS = { create_truce = { country = c:PLC months = short_modifier_time } } }
+			if = { limit = { exists = c:HUN } c:HUN = { create_truce = { country = c:PLC months = short_modifier_time } } }
+		}
+		# Short truces to prevent instant re-click loops while the window is open
+		
+	}
+
+	# === OPTION A: Austria settles via obligation (AUS -> PLC transfer of Hungarian homelands) ===
+	option = {
+		name = doi_poland_hungary.1.a
+		default_option = yes
+		if = {
+			limit = {
+				exists = c:AUS
+				NOT = { exists = c:HUN }
+				c:AUS = { owes_obligation_to = c:PLC }
+			}
+			c:AUS = {
+				# Spend obligation
+				set_owes_obligation_to = { country = c:PLC setting = no }
+
+				# Transfer all AUS-owned Hungarian homeland states
+				every_scope_state = {
+					limit = { owner = c:AUS is_homeland_of = hungarian }
+					set_state_owner = c:PLC
+				}
+			}
+			# Optional: AUS retaliates with humiliation (inside the same DP if one forms later)
+			# c:AUS = { add_war_goal = { holder = c:AUS type = humiliation target_country = c:PLC } }
+		}
+	}
+
+	# === OPTION B: Austria is PLC subject — administrative transfer ===
+	option = {
+		name = doi_poland_hungary.1.b
+		if = {
+			limit = {
+				exists = c:AUS
+				NOT = { exists = c:HUN }
+				c:AUS = { is_subject_of = ROOT }
+			}
+			c:AUS = {
+				every_scope_state = {
+					limit = { owner = c:AUS is_homeland_of = hungarian }
+					set_state_owner = c:PLC
+				}
+			}
+		}
+	}
+
+	# === OPTION C: Hungary settles via obligation (HUN -> PLC transfer) ===
+	option = {
+		name = doi_poland_hungary.1.c
+		if = {
+			limit = {
+				exists = c:HUN
+				c:HUN = { owes_obligation_to = c:PLC }
+			}
+			c:HUN = {
+				set_owes_obligation_to = { country = c:PLC setting = no }
+				every_scope_state = {
+					limit = { owner = c:HUN is_homeland_of = hungarian }
+					set_state_owner = c:PLC
+				}
+			}
+		}
+	}
+
+	# === OPTION D: Hungary is PLC subject — administrative transfer ===
+	option = {
+		name = doi_poland_hungary.1.d
+		if = {
+			limit = {
+				exists = c:HUN
+				c:HUN = { is_subject_of = ROOT }
+			}
+			c:HUN = {
+				every_scope_state = {
+					limit = { owner = c:HUN is_homeland_of = hungarian }
+					set_state_owner = c:PLC
+				}
+			}
+		}
+	}
+
+	# === OPTION E: No leverage — escalate to a DP for Hungarian cores ===
+	option = {
+		name = doi_poland_hungary.1.e
+
+		if = {
+			limit = {
+				NOR = {
+					AND = { exists = c:AUS NOT = {exists=c:HUN} c:AUS = { is_subject_of = ROOT } }
+					AND = { exists = c:AUS NOT = {exists=c:HUN} c:AUS = { owes_obligation_to = c:PLC } }
+					AND = { exists = c:HUN c:HUN = { is_subject_of = ROOT } }
+					AND = { exists = c:HUN c:HUN = { owes_obligation_to = c:PLC } }
+				}
+			}
+
+			# Choose a primary target: prefer Austria if it holds any Hungarian homelands, else Hungary
+			if = {
+				limit = { exists = c:AUS NOT = {exists=c:HUN} any_scope_state = { limit = { owner = c:AUS } is_homeland_of = hungarian } }
+				create_diplomatic_play = {
+					name = claims_on_hungary
+					type = dp_conquer_state
+					target_country = c:AUS
+					# Primary target (safe default): Hungary region core — replace with your canonical first target
+					target_state = s:STATE_HUNGARY
+
+					# Add more Hungarian regions as wargoals; replace with exact IDs used in your mod
+					add_war_goal = { type = conquer_state target_state = s:STATE_TRANSDANUBIA }
+					add_war_goal = { type = conquer_state target_state = s:STATE_CENTRAL_HUNGARY } # NOTE: replace with s:STATE_ALFÖLD (ASCII: STATE_ALFOLD)
+					add_war_goal = { type = conquer_state target_state = s:STATE_BANAT }
+					# Transylvania parts if desired (may belong to AUS or others in your setup)
+					add_war_goal = { type = conquer_state target_state = s:STATE_NORTHERN_TRANSYLVANIA }
+					add_war_goal = { type = conquer_state target_state = s:STATE_SOUTHERN_TRANSYLVANIA }
+				}
+				# Optional retaliation
+				c:AUS = { add_war_goal = { holder = c:AUS type = humiliation target_country = c:PLC } }
+			}
+			else_if = {
+				limit = { exists = c:HUN any_scope_state = { limit = { owner = c:HUN } is_homeland_of = hungarian } }
+				create_diplomatic_play = {
+					name = claims_on_hungary
+					type = dp_conquer_state
+					target_country = c:HUN
+					target_state = s:STATE_HUNGARY
+					add_war_goal = { type = conquer_state target_state = s:STATE_TRANSDANUBIA }
+					add_war_goal = { type = conquer_state target_state = s:STATE_CENTRAL_HUNGARY } # NOTE: replace with s:STATE_ALFOLD if that's your key
+					add_war_goal = { type = conquer_state target_state = s:STATE_BANAT }
+					add_war_goal = { type = conquer_state target_state = s:STATE_NORTHERN_TRANSYLVANIA }
+					add_war_goal = { type = conquer_state target_state = s:STATE_SOUTHERN_TRANSYLVANIA }
+				}
+				# Optional retaliation
+				c:HUN = { add_war_goal = { holder = c:HUN type = humiliation target_country = c:PLC } }
+			}
+		}
+	}
+}

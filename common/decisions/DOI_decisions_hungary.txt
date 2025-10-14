@@ -1,0 +1,65 @@
+﻿poland_claims_on_hungary = {
+	is_shown = {
+		this = c:PLC
+		is_subject = no
+		# At least Austria or Hungary exists
+		OR = {
+			exists = c:AUS
+			exists = c:HUN
+		}
+		NOT = { has_global_variable = plc_claimed_hungary }
+	}
+
+	possible = {
+		c:PLC = {
+			has_technology_researched = romanticism
+			has_technology_researched = pan_nationalism
+			country_rank >= rank_value:great_power
+
+			# Don't show if PLC already owns a significant chunk (both main cores) — adjust to taste
+			NOT = {
+				AND = {
+					any_scope_state = { state_region = s:STATE_HUNGARY owner = c:PLC }
+					any_scope_state = { state_region = s:STATE_TRANSDANUBIA owner = c:PLC }
+				}
+			}
+		}
+
+		# Target side sanity: either AUS or HUN is a valid counterpart and no active truce with PLC
+		OR = {
+			AND = {
+				exists = c:AUS
+				NOT = {exists=c:HUN} # Only AUS
+				NOT = { has_truce_with = c:PLC }
+				# Situation makes sense: Austria holds Hungarian homelands or is vulnerable
+				OR = {
+					# Any AUS-owned Hungarian homeland (broad net)
+					any_scope_state = {
+						limit = { owner = c:AUS }
+						is_homeland_of = hungarian
+					}
+					# Already at war with someone (opportunity)
+					any_country = { has_war_with = c:AUS }
+					# PLC has leverage
+					c:PLC = { is_owed_obligation_by = c:AUS }
+				}
+			}
+			AND = {
+				exists = c:HUN
+				NOT = { has_truce_with = c:PLC }
+				# Hungary owns any Hungarian homeland (should be true if it exists but check anyway)
+				any_scope_state = {
+					limit = { owner = c:HUN }
+					is_homeland_of = hungarian
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		set_global_variable = plc_claimed_hungary
+		trigger_event = { id = doi_poland_hungary.1 popup = yes }
+	}
+
+	ai_chance = { base = 12 }
+}
