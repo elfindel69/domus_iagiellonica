@@ -15,7 +15,7 @@ doi_poland_hungary.1 = {
 
 	immediate = {
 		
-		if = { limit = { exists = c:HUN } c:HUN = { create_truce = { country = c:PLC months = short_modifier_time } } 
+		c:HUN = { create_truce = { country = c:PLC months = short_modifier_time } }
 		# Short truces to prevent instant re-click loops while the window is open
 		
 	}
