@@ -13,14 +13,14 @@
 			has_technology_researched = pan-nationalism
 			country_rank >= rank_value:great_power
 
-			# Don't show if PLC already owns a significant chunk (both main cores) — adjust to taste
+			# Don't show if PLC already owns a significant chunk (both main cores)
 			NOR = {
 				any_scope_state = { state_region=s:STATE_HUNGARY }
 				any_scope_state = { state_region=s:STATE_TRANSDANUBIA }
 			}
 		}
 
-		# Target side sanity: either AUS or HUN is a valid counterpart and no active truce with PLC
+		# HUN is a valid counterpart and no active truce with PLC
 		c:HUN = {
 			NOT = { has_truce_with = c:PLC }
 

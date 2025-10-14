@@ -4,7 +4,6 @@
 		is_subject = no
 		exists = c:AUS
 		NOT = { has_global_variable = plc_claimed_bohemia }
-		exists = c:AUS	
 	}
 
 	possible = {
