@@ -13,12 +13,11 @@
 			has_technology_researched = nationalism
 			country_rank >= rank_value:great_power
 
-			NOT = {
-				AND = {
-					any_scope_state = { state_region = s:STATE_BOHEMIA }
-					any_scope_state = { state_region = s:STATE_MORAVIA }
-				}
+			NOR = {
+				any_scope_state = { state_region = s:STATE_BOHEMIA }
+				any_scope_state = { state_region = s:STATE_MORAVIA }
 			}
+			
 		}
 		c:AUS = {
 			NOT = { has_truce_with = c:PLC }
@@ -39,7 +38,7 @@
 
 				# AUS actually holds at least one of the target regions
 				any_scope_state = {
-					limit = { owner = c:AUS }
+					filter = { owner = c:AUS }
 					OR = {
 						state_region = s:STATE_BOHEMIA
 						state_region = s:STATE_MORAVIA

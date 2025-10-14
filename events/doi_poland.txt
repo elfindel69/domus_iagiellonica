@@ -3,7 +3,7 @@
 
 doi_poland_bohemia.1 = {
 	type = country_event
-	placement = scope:ROOT.capital
+	placement = ROOT.capital
 
 	title = doi_poland_bohemia.1.t
 	desc = doi_poland_bohemia.1.d
@@ -113,7 +113,7 @@ doi_poland_bohemia.1 = {
 					target_country = c:PLC
 				}
 
-				add_war_goal = { type = conquer_state target_state = s:STATE_MORAVIA }
+				add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_MORAVIA }
 
 			}	
 		}

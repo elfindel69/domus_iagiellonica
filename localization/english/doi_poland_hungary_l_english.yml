@@ -1,15 +1,13 @@
 ﻿l_english:
   poland_claims_on_hungary:0 "Polish Claims on Hungary"
-  poland_claims_on_hungary_desc:0 "The Hungarian Crownlands once fell within the orbit of the Pax Jagiellonica. With Poland's stature restored, Vienna —or Budapest— must now answer our claims."
+  poland_claims_on_hungary_desc:0 "The Hungarian Crownlands once fell within the orbit of the Pax Jagiellonica. With Poland's stature restored, Budapest must now answer our claims."
 
   doi_poland_hungary.1.t:0 "Poland Claims Hungarian Lands"
-  doi_poland_hungary.1.d:0 "Austria holds sway over the Hungarian homelands, though Hungary itself may rise anew. With the fires of Romanticism and Pan-Nationalism stoked, Warsaw demands a reckoning."
+  doi_poland_hungary.1.d:0 "The Hungarian Crownlands once fell within the orbit of the Pax Jagiellonica. With Poland's stature restored, Budapest must now answer our claims."
   doi_poland_hungary.1.f:0 "“For King and Country—and the Crown of St. Stephen.”"
 
-  doi_poland_hungary.1.a:0 "Vienna yields by obligation."
-  doi_poland_hungary.1.b:0 "Administrative transfer (Austria is our subject)."
-  doi_poland_hungary.1.c:0 "Budapest yields by obligation."
-  doi_poland_hungary.1.d:0 "Administrative transfer (Hungary is our subject)."
-  doi_poland_hungary.1.e:0 "Press the claim with a Diplomatic Play."
+  doi_poland_hungary.1.a:0 "Budapest yields by obligation."
+  doi_poland_hungary.1.b:0 "Administrative transfer (Hungary is our subject)."
+  doi_poland_hungary.1.c:0 "Press the claim with a Diplomatic Play."
 
   claims_on_hungary:0 "Claims on Hungary"
