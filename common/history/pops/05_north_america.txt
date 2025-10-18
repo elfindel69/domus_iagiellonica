@@ -148,7 +148,7 @@
 		}
 	}
 	s:STATE_IDAHO = {
-		region_state:ORG = {
+		region_state:MEX = {
 			create_pop = {
 				culture = paiute
 				size = 20000
@@ -217,7 +217,7 @@
 		region_state:MEX = {
 			create_pop = {
 				culture = siouan
-				size = 10000
+				size = 24000
 			}
 			create_pop = {
 				culture = dakota
@@ -234,12 +234,6 @@
 			create_pop = {
 				culture = dakota
 				size = 6000
-			}
-		}
-		region_state:BLF = {
-			create_pop = {
-				culture = siouan
-				size = 14000
 			}
 		}
 	}

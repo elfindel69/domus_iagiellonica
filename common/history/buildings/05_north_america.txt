@@ -504,7 +504,7 @@
 		}
 	}
 	s:STATE_IDAHO = {
-		region_state:ORG = { }
+		region_state:MEX = { }
 		region_state:NZP = { }
 	}
 	s:STATE_COLORADO = {
@@ -521,7 +521,6 @@
 		region_state:MEX = { }
 		region_state:ABS = { }
 		region_state:LKT = { }
-		region_state:BLF = { }
 	}
 	s:STATE_NORTH_DAKOTA = {
 		region_state:MEX = { }
