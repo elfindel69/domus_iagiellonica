@@ -256,16 +256,6 @@
 				size = 8996
 			}
 		}
-		region_state:KAZ = {
-			create_pop = {
-				culture = kazak
-				size = 35500
-			}
-			create_pop = {
-				culture = uzbek
-				size = 3500
-			}
-		}
 	}
 	s:STATE_KHIVA = {
 		region_state:KHI = {

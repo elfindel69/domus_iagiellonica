@@ -1054,7 +1054,6 @@
 			}
 		}
 	}
-	
 	s:STATE_POMERANIA = {
 		region_state:BRB = {
 			create_pop = {
@@ -1348,7 +1347,6 @@
 				religion = protestant
 				size = 251000
 			}
-
 			create_pop = {
 				culture = alemannic
 				size = 143154

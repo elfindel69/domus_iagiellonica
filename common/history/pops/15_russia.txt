@@ -242,7 +242,7 @@
 				size = 21106
 			}
 		}
-	 }
+	}
 	s:STATE_GREATER_POLAND = {
 		region_state:PLC = {
 			create_pop = {
@@ -267,8 +267,8 @@
 				size = 60600
 			}
 		}
-	 }
-	s:STATE_LESSER_POLAND = { 
+	}
+	s:STATE_LESSER_POLAND = {
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -455,7 +455,7 @@
 			}
 		}
 	}
-	s:STATE_BREST = { 
+	s:STATE_BREST = {
 		region_state:PLC = {
 			create_pop = {
 				culture = byelorussian
@@ -483,7 +483,7 @@
 			}
 		}
 	}
-	s:STATE_MINSK = { 
+	s:STATE_MINSK = {
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -503,26 +503,7 @@
 			}
 		}
 	}
-	s:STATE_MOGILEV = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 23216
-			}
-			create_pop = {
-				culture = byelorussian
-				size = 514176
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 81190
-			}
-			create_pop = {
-				culture = polish
-				size = 6240
-			}
-		}
-	}
+	s:STATE_MOGILEV = { }
 	s:STATE_VITEBSK = {
 		region_state:RUS = {
 			create_pop = {
@@ -574,7 +555,7 @@
 				size = 716
 			}
 		}
-	 }
+	}
 	s:STATE_KIEV = {
 		region_state:PLC = {
 			create_pop = {
@@ -814,7 +795,6 @@
 				culture = south_german
 				size = 2513
 			}
-		
 			create_pop = {
 				culture = chechen
 				size = 85000
@@ -823,7 +803,6 @@
 				culture = north_caucasian
 				size = 21000
 			}
-		
 			create_pop = {
 				culture = circassian
 				size = 57809
@@ -1097,7 +1076,6 @@
 				culture = chuvash
 				size = 1346
 			}
-		
 			create_pop = {
 				culture = russian
 				size = 22140
@@ -1118,7 +1096,6 @@
 				culture = mordvin
 				size = 710
 			}
-		
 			create_pop = {
 				culture = russian
 				size = 278355

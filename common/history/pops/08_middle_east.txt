@@ -921,7 +921,7 @@
 				size = 300
 			}
 		}
-	 }
+	}
 	s:STATE_KHORASAN = {
 		region_state:PER = {
 			create_pop = {
@@ -943,27 +943,7 @@
 			}
 		}
 	}
-	s:STATE_KHUZESTAN = {
-		region_state:PER = {
-			create_pop = {
-				culture = persian
-				size = 183996
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1004
-			}
-			create_pop = {
-				culture = mashriqi
-				size = 94996
-			}
-			create_pop = {
-				culture = sephardic
-				size = 20400
-				pop_type = slaves
-			}
-		}
-	}
+	s:STATE_KHUZESTAN = { }
 	s:STATE_ISFAHAN = {
 		region_state:PER = {
 			create_pop = {

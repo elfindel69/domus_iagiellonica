@@ -29,7 +29,6 @@
 			}
 		}
 	}
-	
 	s:STATE_SARDINIA = {
 		region_state:ITA = {
 			create_pop = {
@@ -54,7 +53,6 @@
 			}
 		}
 	}
-	
 	s:STATE_CORSICA = {
 		region_state:FRA = {
 			create_pop = {
