@@ -31,19 +31,19 @@
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 5
-							region = STATE_BIHAR
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 15
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 5
+						region = STATE_BIHAR
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 15
+						region = STATE_HOME_COUNTIES
+					}
+					
 					company = {
 						type = company_east_india_company
 						country = c:BIC
@@ -59,19 +59,19 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_BIHAR
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 2
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_BIHAR
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 2
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -82,19 +82,19 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_BIHAR
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 2
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_BIHAR
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 2
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -105,19 +105,19 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_BIHAR
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+					
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_BIHAR
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -203,19 +203,19 @@
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 5
-							region = STATE_WEST_BENGAL
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 15
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 5
+						region = STATE_WEST_BENGAL
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 15
+						region = STATE_HOME_COUNTIES
+					}
+					
 					company = {
 						type = company_east_india_company
 						country = c:BIC
@@ -231,19 +231,19 @@
 				building = "building_silk_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_WEST_BENGAL
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_WEST_BENGAL
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -254,19 +254,19 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_WEST_BENGAL
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_WEST_BENGAL
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 					company = {
 						type = company_east_india_company
 						country = c:BIC
@@ -340,19 +340,19 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_WEST_BENGAL
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_WEST_BENGAL
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -483,19 +483,18 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 4
-							region = STATE_EAST_BENGAL
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 4
-							region = STATE_HOME_COUNTIES
-						}
+						type = building_manor_house
+						country = c:BIC
+						levels = 4
+						region = STATE_EAST_BENGAL
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 4
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -551,19 +550,19 @@
 				building = "building_tea_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_ASSAM
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 1
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_ASSAM
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 1
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -715,19 +714,19 @@
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 4
-							region = STATE_AWADH
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 9
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 4
+						region = STATE_AWADH
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 9
+						region = STATE_HOME_COUNTIES
+					}
+					
 					company = {
 						type = company_east_india_company
 						country = c:BIC
@@ -743,19 +742,19 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_AWADH
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 6
-							region = STATE_HOME_COUNTIES
-						}
+					
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_AWADH
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 6
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -832,19 +831,19 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_AWADH
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_AWADH
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1764,19 +1763,19 @@
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_CENTRAL_PROVINCES
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 2
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_CENTRAL_PROVINCES
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 2
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2138,18 +2137,18 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_CIRCARS
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 1
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_CIRCARS
+					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 1
+						region = STATE_HOME_COUNTIES
+						
 					}
 				}
 				reserves = 1
@@ -2161,19 +2160,19 @@
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_CIRCARS
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 2
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_CIRCARS
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 2
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2199,18 +2198,18 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 1
-							region = STATE_CIRCARS
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 1
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 1
+						region = STATE_CIRCARS
+					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 1
+						region = STATE_HOME_COUNTIES
+						
 					}
 				}
 				reserves = 1
@@ -2464,19 +2463,19 @@
 				building = "building_silk_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:BIC
-							levels = 2
-							region = STATE_MADRAS
-						}
-						{
-							type = building_manor_house
-							country = c:GBR
-							levels = 3
-							region = STATE_HOME_COUNTIES
-						}
+						
+						type = building_manor_house
+						country = c:BIC
+						levels = 2
+						region = STATE_MADRAS
 					}
+					building = {
+						type = building_manor_house
+						country = c:GBR
+						levels = 3
+						region = STATE_HOME_COUNTIES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

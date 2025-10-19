@@ -7837,7 +7837,6 @@
 			owned_provinces = {
 				x009F60 x1AA8FB x46B451 x4F022C x802161 x809F60 xC17590 xDC58D0 xE165F5 xF8C8F6 xDE551D x117AE1 x4969E4 xC06121 x0087C9
 			}
-			state_type = unincorporated
 		}
 		add_homeland = cu:polish
 	}

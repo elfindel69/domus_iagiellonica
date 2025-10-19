@@ -520,31 +520,31 @@
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 2
-							region = STATE_WEST_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 10
-							region = STATE_HOLLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 2
-							region = STATE_FRIESLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 3
-							region = STATE_GELRE
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 2
+						region = STATE_WEST_JAVA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 10
+						region = STATE_HOLLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 2
+						region = STATE_FRIESLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 3
+						region = STATE_GELRE
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -555,24 +555,24 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_WEST_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 7
-							region = STATE_HOLLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 2
-							region = STATE_FRIESLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_WEST_JAVA
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 7
+						region = STATE_HOLLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 2
+						region = STATE_FRIESLAND
+						
 					}
 				}
 				reserves = 1
@@ -614,24 +614,24 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 4
-							region = STATE_HOLLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 1
-							region = STATE_FRIESLAND
-						}
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 2
-							region = STATE_WEST_JAVA
-						}
+						
+						type = building_manor_house
+						country = c:NET
+						levels = 4
+						region = STATE_HOLLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 1
+						region = STATE_FRIESLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:DEI
+						levels = 2
+						region = STATE_WEST_JAVA
+					
 					}
 				}
 				reserves = 1
@@ -688,24 +688,24 @@
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 2
-							region = STATE_EAST_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 4
-							region = STATE_HOLLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 2
-							region = STATE_FRIESLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 2
+						region = STATE_EAST_JAVA
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 4
+						region = STATE_HOLLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 2
+						region = STATE_FRIESLAND
+						
 					}
 				}
 				reserves = 1
@@ -732,18 +732,18 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_EAST_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 4
-							region = STATE_HOLLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_EAST_JAVA
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 4
+						region = STATE_HOLLAND
+						
 					}
 				}
 				reserves = 1
@@ -800,24 +800,24 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 3
-							region = STATE_HOLLAND
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 1
-							region = STATE_GELRE
-						}
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_EAST_JAVA
-						}
+						
+						type = building_manor_house
+						country = c:NET
+						levels = 3
+						region = STATE_HOLLAND
+					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 1
+						region = STATE_GELRE
+					}
+					building = {
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_EAST_JAVA
+						
 					}
 				}
 				reserves = 1
@@ -846,19 +846,19 @@
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_CENTRAL_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 4
-							region = STATE_HOLLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_CENTRAL_JAVA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 4
+						region = STATE_HOLLAND
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -884,19 +884,19 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_CENTRAL_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 2
-							region = STATE_HOLLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_CENTRAL_JAVA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 2
+						region = STATE_HOLLAND
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -937,19 +937,19 @@
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_CENTRAL_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 1
-							region = STATE_HOLLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_CENTRAL_JAVA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 1
+						region = STATE_HOLLAND
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -960,19 +960,19 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:DEI
-							levels = 1
-							region = STATE_CENTRAL_JAVA
-						}
-						{
-							type = building_manor_house
-							country = c:NET
-							levels = 1
-							region = STATE_HOLLAND
-						}
+						
+						type = building_manor_house
+						country = c:DEI
+						levels = 1
+						region = STATE_CENTRAL_JAVA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NET
+						levels = 1
+						region = STATE_HOLLAND
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

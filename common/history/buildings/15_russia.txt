@@ -348,19 +348,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:FIN
-							levels = 1
-							region = STATE_UUSIMAA
-						}
-						{
-							type = building_financial_district
-							country = c:FIN
-							levels = 1
-							region = STATE_UUSIMAA
-						}
+						
+						type = building_logging_camp
+						country = c:FIN
+						levels = 1
+						region = STATE_UUSIMAA
 					}
+					building = {
+						type = building_financial_district
+						country = c:FIN
+						levels = 1
+						region = STATE_UUSIMAA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -944,18 +944,17 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 11
-							region = STATE_KIEV
-						}
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 4
-							region = STATE_MAZOVIA
-						}
+						
+						type = building_manor_house
+						country = c:PLC
+						levels = 11
+						region = STATE_KIEV
+					
+						type = building_manor_house
+						country = c:PLC
+						levels = 4
+						region = STATE_MAZOVIA
+						
 					}
 				}
 				reserves = 1
@@ -1059,19 +1058,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 8
-							region = STATE_ORYOL
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 2
-							region = STATE_MOSCOW
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 8
+						region = STATE_ORYOL
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 2
+						region = STATE_MOSCOW
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1116,19 +1115,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 4
-							region = STATE_SMOLENSK
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 4
-							region = STATE_MOSCOW
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 4
+						region = STATE_SMOLENSK
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 4
+						region = STATE_MOSCOW
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1191,19 +1190,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 4
-							region = STATE_NOVGOROD
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 1
-							region = STATE_INGRIA
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 4
+						region = STATE_NOVGOROD
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 1
+						region = STATE_INGRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1314,19 +1313,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
+						
 							type = building_logging_camp
 							country = c:RUS
 							levels = 7
 							region = STATE_KURSK
 						}
-						{
+						building = {
 							type = building_financial_district
 							country = c:RUS
 							levels = 3
-							region = STATE_KIEV
+							region = STATE_KURSK
 						}
-					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1341,19 +1340,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 7
-							region = STATE_TVER
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 3
-							region = STATE_MOSCOW
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 7
+						region = STATE_TVER
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 3
+						region = STATE_MOSCOW
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1520,19 +1519,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:PLC
-							levels = 3
-							region = STATE_MINSK
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 2
-							region = STATE_MINSK
-						}
+						
+						type = building_logging_camp
+						country = c:PLC
+						levels = 3
+						region = STATE_MINSK
 					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_MINSK
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1733,19 +1732,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 4
-							region = STATE_KAZAN
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 1
-							region = STATE_MOSCOW
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 4
+						region = STATE_KAZAN
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 1
+						region = STATE_MOSCOW
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1929,19 +1928,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 15
-							region = STATE_TAURIDA
-						}
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 5
-							region = STATE_KIEV
-						}
+						
+						type = building_manor_house
+						country = c:RUS
+						levels = 15
+						region = STATE_TAURIDA
 					}
+					building = {
+						type = building_manor_house
+						country = c:RUS
+						levels = 5
+						region = STATE_KIEV
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1967,19 +1966,19 @@
 				building = "building_vineyard_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 14
-							region = STATE_TAURIDA
-						}
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 4
-							region = STATE_KIEV
-						}
+					
+						type = building_manor_house
+						country = c:RUS
+						levels = 14
+						region = STATE_TAURIDA
 					}
+					building = {
+						type = building_manor_house
+						country = c:RUS
+						levels = 4
+						region = STATE_KIEV
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2130,19 +2129,19 @@
 						levels = 1
 					}
 					building = {
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 1
-							region = STATE_VITEBSK
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 1
-							region = STATE_INGRIA
-						}
+						
+						type = building_financial_district
+						country = c:RUS
+						levels = 1
+						region = STATE_VITEBSK
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 1
+						region = STATE_INGRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2153,19 +2152,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:RUS
-							levels = 4
-							region = STATE_VITEBSK
-						}
-						{
-							type = building_financial_district
-							country = c:RUS
-							levels = 2
-							region = STATE_INGRIA
-						}
+						
+						type = building_logging_camp
+						country = c:RUS
+						levels = 4
+						region = STATE_VITEBSK
 					}
+					building = {
+						type = building_financial_district
+						country = c:RUS
+						levels = 2
+						region = STATE_INGRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2366,19 +2365,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 15
-							region = STATE_CHERNIHIV
-						}
-						{
-							type = building_manor_house
-							country = c:RUS
-							levels = 5
-							region = STATE_KIEV
-						}
+						
+						type = building_manor_house
+						country = c:RUS
+						levels = 15
+						region = STATE_CHERNIHIV
 					}
+					building = {
+						type = building_manor_house
+						country = c:RUS
+						levels = 5
+						region = STATE_KIEV
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

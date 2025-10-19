@@ -583,19 +583,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:CLM
-							levels = 1
-							region = STATE_CUNDINAMARCA
-						}
-						{
-							type = building_financial_district
-							country = c:CLM
-							levels = 1
-							region = STATE_CUNDINAMARCA
-						}
+						
+						type = building_logging_camp
+						country = c:CLM
+						levels = 1
+						region = STATE_CUNDINAMARCA
 					}
+					building = {
+						type = building_financial_district
+						country = c:CLM
+						levels = 1
+						region = STATE_CUNDINAMARCA
+					}
+				
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1111,19 +1111,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:NPU
-							levels = 1
-							region = STATE_LIMA
-						}
-						{
-							type = building_manor_house
-							country = c:NPU
-							levels = 2
-							region = STATE_LIMA
-						}
+					
+						type = building_maize_farm
+						country = c:NPU
+						levels = 1
+						region = STATE_LIMA
 					}
+					building = {
+						type = building_manor_house
+						country = c:NPU
+						levels = 2
+						region = STATE_LIMA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1237,19 +1237,19 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:SPU
-							levels = 1
-							region = STATE_ICA
-						}
-						{
-							type = building_livestock_ranch
-							country = c:SPU
-							levels = 1
-							region = STATE_ICA
-						}
+					
+						type = building_manor_house
+						country = c:SPU
+						levels = 1
+						region = STATE_ICA
 					}
+					building = {
+						type = building_livestock_ranch
+						country = c:SPU
+						levels = 1
+						region = STATE_ICA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1831,19 +1831,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:ARG
-							levels = 1
-							region = STATE_SANTA_FE
-						}
-						{
-							type = building_financial_district
-							country = c:ARG
-							levels = 1
-							region = STATE_BUENOS_AIRES
-						}
+						
+						type = building_logging_camp
+						country = c:ARG
+						levels = 1
+						region = STATE_SANTA_FE
 					}
+					building = {
+						type = building_financial_district
+						country = c:ARG
+						levels = 1
+						region = STATE_BUENOS_AIRES
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2707,19 +2707,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:BRZ
-							levels = 2
-							region = STATE_MINAS_GERAIS
-						}
-						{
-							type = building_financial_district
-							country = c:BRZ
-							levels = 2
-							region = STATE_RIO_DE_JANEIRO
-						}
+						
+						type = building_logging_camp
+						country = c:BRZ
+						levels = 2
+						region = STATE_MINAS_GERAIS
 					}
+					building = {
+						type = building_financial_district
+						country = c:BRZ
+						levels = 2
+						region = STATE_RIO_DE_JANEIRO
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2745,19 +2745,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:BRZ
-							levels = 2
-							region = STATE_MINAS_GERAIS
-						}
-						{
-							type = building_manor_house
-							country = c:BRZ
-							levels = 2
-							region = STATE_MINAS_GERAIS
-						}
+						
+						type = building_maize_farm
+						country = c:BRZ
+						levels = 2
+						region = STATE_MINAS_GERAIS
 					}
+					building = {
+						type = building_manor_house
+						country = c:BRZ
+						levels = 2
+						region = STATE_MINAS_GERAIS
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2916,19 +2916,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:BRZ
-							levels = 4
-							region = STATE_RIO_DE_JANEIRO
-						}
-						{
-							type = building_manor_house
-							country = c:BRZ
-							levels = 2
-							region = STATE_RIO_DE_JANEIRO
-						}
+						
+						type = building_maize_farm
+						country = c:BRZ
+						levels = 4
+						region = STATE_RIO_DE_JANEIRO
 					}
+					building = {
+						type = building_manor_house
+						country = c:BRZ
+						levels = 2
+						region = STATE_RIO_DE_JANEIRO
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -3042,19 +3042,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:BRZ
-							levels = 2
-							region = STATE_BAHIA
-						}
-						{
-							type = building_manor_house
-							country = c:BRZ
-							levels = 4
-							region = STATE_BAHIA
-						}
+						
+						type = building_maize_farm
+						country = c:BRZ
+						levels = 2
+						region = STATE_BAHIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:BRZ
+						levels = 4
+						region = STATE_BAHIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -3080,19 +3080,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:BRZ
-							levels = 2
-							region = STATE_BAHIA
-						}
-						{
-							type = building_financial_district
-							country = c:BRZ
-							levels = 2
-							region = STATE_RIO_DE_JANEIRO
-						}
+						
+						type = building_logging_camp
+						country = c:BRZ
+						levels = 2
+						region = STATE_BAHIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:BRZ
+						levels = 2
+						region = STATE_RIO_DE_JANEIRO
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -3417,19 +3417,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:BRZ
-							levels = 2
-							region = STATE_PERNAMBUCO
-						}
-						{
-							type = building_manor_house
-							country = c:BRZ
-							levels = 2
-							region = STATE_PERNAMBUCO
-						}
+						
+						type = building_maize_farm
+						country = c:BRZ
+						levels = 2
+						region = STATE_PERNAMBUCO
 					}
+					building = {
+						type = building_manor_house
+						country = c:BRZ
+						levels = 2
+						region = STATE_PERNAMBUCO
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

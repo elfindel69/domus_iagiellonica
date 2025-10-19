@@ -232,19 +232,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_wheat_farm
-							country = c:USA
-							levels = 2
-							region = STATE_NEW_YORK
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 1
-							region = STATE_NEW_YORK
-						}
+					
+						type = building_wheat_farm
+						country = c:USA
+						levels = 2
+						region = STATE_NEW_YORK
 					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 1
+						region = STATE_NEW_YORK
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -255,19 +255,19 @@
 				building = "building_vineyard_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 1
-							region = STATE_NEW_YORK
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 1
-							region = STATE_NEW_YORK
-						}
+						
+						type = building_manor_house
+						country = c:USA
+						levels = 1
+						region = STATE_NEW_YORK
 					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 1
+						region = STATE_NEW_YORK
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -357,19 +357,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_VIRGINIA
-						}
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 3
-							region = STATE_VIRGINIA
-						}
+						
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_VIRGINIA
 					}
+					building = {
+						type = building_maize_farm
+						country = c:USA
+						levels = 3
+						region = STATE_VIRGINIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -628,19 +628,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:MEX
-							levels = 1
-							region = STATE_MISSOURI
-						}
-						{
-							type = building_maize_farm
-							country = c:MEX
-							levels = 1
-							region = STATE_MISSOURI
-						}
+						
+						type = building_manor_house
+						country = c:MEX
+						levels = 1
+						region = STATE_MISSOURI
 					}
+					building = {
+						type = building_maize_farm
+						country = c:MEX
+						levels = 1
+						region = STATE_MISSOURI
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -708,18 +708,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:USA
-							levels = 1
-							region = STATE_INDIANA
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 1
-							region = STATE_INDIANA
-						}
+						
+						type = building_logging_camp
+						country = c:USA
+						levels = 1
+						region = STATE_INDIANA
+					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 1
+						region = STATE_INDIANA
+						
 					}
 				}
 				reserves = 1
@@ -731,18 +731,18 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 4
-							region = STATE_INDIANA
-						}
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 4
-							region = STATE_INDIANA
-						}
+						
+						type = building_manor_house
+						country = c:USA
+						levels = 4
+						region = STATE_INDIANA
+					}
+					building = {
+						type = building_maize_farm
+						country = c:USA
+						levels = 4
+						region = STATE_INDIANA
+						
 					}
 				}
 				reserves = 1
@@ -848,18 +848,18 @@
 				building = "building_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 1
-							region = STATE_OHIO
-						}
-						{
-							type = building_furniture_manufacturies
-							country = c:USA
-							levels = 1
-							region = STATE_OHIO
-						}
+					
+						type = building_financial_district
+						country = c:USA
+						levels = 1
+						region = STATE_OHIO
+					}
+					building = {
+						type = building_furniture_manufacturies
+						country = c:USA
+						levels = 1
+						region = STATE_OHIO
+						
 					}
 				}
 				reserves = 1
@@ -901,18 +901,18 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 2
-							region = STATE_OHIO
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_OHIO
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 2
+						region = STATE_OHIO
+					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_OHIO
+						
 					}
 				}
 				reserves = 1
@@ -939,18 +939,18 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_livestock_ranch
-							country = c:USA
-							levels = 1
-							region = STATE_OHIO
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 1
-							region = STATE_OHIO
-						}
+						
+						type = building_livestock_ranch
+						country = c:USA
+						levels = 1
+						region = STATE_OHIO
+					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 1
+						region = STATE_OHIO
+						
 					}
 				}
 				reserves = 1
@@ -1037,19 +1037,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_KENTUCKY
-						}
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 2
-							region = STATE_KENTUCKY
-						}
+					
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_KENTUCKY
 					}
+					building = {
+						type = building_maize_farm
+						country = c:USA
+						levels = 2
+						region = STATE_KENTUCKY
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1122,18 +1122,18 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 5
-							region = STATE_TENNESSEE
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 5
-							region = STATE_TENNESSEE
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 5
+						region = STATE_TENNESSEE
+					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 5
+						region = STATE_TENNESSEE
+					
 					}
 				}
 				reserves = 1
@@ -1160,18 +1160,18 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_tobacco_plantation
-							country = c:USA
-							levels = 10
-							region = STATE_TENNESSEE
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 10
-							region = STATE_TENNESSEE
-						}
+					
+						type = building_tobacco_plantation
+						country = c:USA
+						levels = 10
+						region = STATE_TENNESSEE
+					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 10
+						region = STATE_TENNESSEE
+						
 					}
 				}
 				reserves = 1
@@ -1230,18 +1230,18 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 2
-							region = STATE_MISSISSIPPI
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_MISSISSIPPI
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 2
+						region = STATE_MISSISSIPPI
+					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_MISSISSIPPI
+						
 					}
 				}
 				reserves = 1
@@ -1285,19 +1285,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 3
-							region = STATE_ALABAMA
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 3
-							region = STATE_ALABAMA
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 3
+						region = STATE_ALABAMA
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 3
+						region = STATE_ALABAMA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1386,19 +1386,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 3
-							region = STATE_GEORGIA
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_GEORGIA
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 3
+						region = STATE_GEORGIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_GEORGIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1698,19 +1698,19 @@
 				building = "building_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						{
-							type = building_furniture_manufacturies
-							country = c:USA
-							levels = 2
-							region = STATE_PENNSYLVANIA
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 2
-							region = STATE_PENNSYLVANIA
-						}
+						
+						type = building_furniture_manufacturies
+						country = c:USA
+						levels = 2
+						region = STATE_PENNSYLVANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 2
+						region = STATE_PENNSYLVANIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1764,19 +1764,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 2
-							region = STATE_PENNSYLVANIA
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 1
-							region = STATE_PENNSYLVANIA
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 2
+						region = STATE_PENNSYLVANIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 1
+						region = STATE_PENNSYLVANIA
+					}
+				
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1832,19 +1832,19 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_livestock_ranch
-							country = c:USA
-							levels = 3
-							region = STATE_PENNSYLVANIA
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 3
-							region = STATE_PENNSYLVANIA
-						}
+						
+						type = building_livestock_ranch
+						country = c:USA
+						levels = 3
+						region = STATE_PENNSYLVANIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 3
+						region = STATE_PENNSYLVANIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1855,19 +1855,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:USA
-							levels = 2
-							region = STATE_PENNSYLVANIA
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 3
-							region = STATE_PENNSYLVANIA
-						}
+						
+						type = building_logging_camp
+						country = c:USA
+						levels = 2
+						region = STATE_PENNSYLVANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 3
+						region = STATE_PENNSYLVANIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2021,19 +2021,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 1
-							region = STATE_ILLINOIS
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 1
-							region = STATE_ILLINOIS
-						}
+						
+						type = building_maize_farm
+						country = c:USA
+						levels = 1
+						region = STATE_ILLINOIS
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 1
+						region = STATE_ILLINOIS
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2179,19 +2179,19 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:USA
-							levels = 2
-							region = STATE_MASSACHUSETTS
-						}
-						{
-							type = building_financial_district
-							country = c:USA
-							levels = 1
-							region = STATE_MASSACHUSETTS
-						}
+						
+						type = building_textile_mills
+						country = c:USA
+						levels = 2
+						region = STATE_MASSACHUSETTS
 					}
+					building = {
+						type = building_financial_district
+						country = c:USA
+						levels = 1
+						region = STATE_MASSACHUSETTS
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2261,19 +2261,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_wheat_farm
-							country = c:USA
-							levels = 1
-							region = STATE_MASSACHUSETTS
-						}
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 1
-							region = STATE_MASSACHUSETTS
-						}
+						
+						type = building_wheat_farm
+						country = c:USA
+						levels = 1
+						region = STATE_MASSACHUSETTS
 					}
+					building = {
+						type = building_manor_house
+						country = c:USA
+						levels = 1
+						region = STATE_MASSACHUSETTS
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2559,19 +2559,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_NORTH_CAROLINA
-						}
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 3
-							region = STATE_NORTH_CAROLINA
-						}
+						
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_NORTH_CAROLINA
 					}
+					building = {
+						type = building_maize_farm
+						country = c:USA
+						levels = 3
+						region = STATE_NORTH_CAROLINA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2677,19 +2677,19 @@
 				building = "building_maize_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:USA
-							levels = 2
-							region = STATE_SOUTH_CAROLINA
-						}
-						{
-							type = building_maize_farm
-							country = c:USA
-							levels = 3
-							region = STATE_SOUTH_CAROLINA
-						}
+						
+						type = building_manor_house
+						country = c:USA
+						levels = 2
+						region = STATE_SOUTH_CAROLINA
 					}
+					building = {
+						type = building_maize_farm
+						country = c:USA
+						levels = 3
+						region = STATE_SOUTH_CAROLINA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {

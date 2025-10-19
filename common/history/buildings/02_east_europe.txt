@@ -20,19 +20,19 @@
 				building = "building_paper_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_paper_mills
-							country = c:PLC
-							levels = 2
-							region = STATE_MAZOVIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 2
-							region = STATE_MAZOVIA
-						}
+						
+						type = building_paper_mills
+						country = c:PLC
+						levels = 2
+						region = STATE_MAZOVIA
 					}
+					building ={
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_MAZOVIA
+					}
+				
 					country = {
 						country = c:PLC
 						levels = 1
@@ -127,9 +127,6 @@
 		region_state:PLC = {
 			create_building = {
 				building = "building_trade_center"
-				activate_production_methods = {
-					"pm_trade_center_trade_quantity_normal"
-				}
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -138,24 +135,28 @@
 						region = STATE_LOWER_SILESIA
 					}
 				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
 				reserves = 1
 			}
 			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
+						
 							type = building_textile_mills
 							country = c:PLC
 							levels = 1
 							region = STATE_LOWER_SILESIA
 						}
-						{
+					building = {
 							type = building_financial_district
 							country = c:PLC
 							levels = 5
 							region = STATE_LOWER_SILESIA
-						}
+						
 					}
 				}
 				reserves = 1
@@ -287,18 +288,17 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:PLC
-							levels = 1
-							region = STATE_UPPER_SILESIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 1
-							region = STATE_UPPER_SILESIA
-						}
+					
+						type = building_textile_mills
+						country = c:PLC
+						levels = 1
+						region = STATE_UPPER_SILESIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 1
+						region = STATE_UPPER_SILESIA
 					}
 				}
 				reserves = 1
@@ -323,19 +323,19 @@
 				building = "building_coal_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_coal_mine
-							country = c:PLC
-							levels = 2
-							region = STATE_UPPER_SILESIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 4
-							region = STATE_UPPER_SILESIA
-						}
+					
+						type = building_coal_mine
+						country = c:PLC
+						levels = 2
+						region = STATE_UPPER_SILESIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 4
+						region = STATE_UPPER_SILESIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -346,19 +346,19 @@
 				building = "building_lead_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_lead_mine
-							country = c:PLC
-							levels = 1
-							region = STATE_UPPER_SILESIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 2
-							region = STATE_UPPER_SILESIA
-						}
+					
+						type = building_lead_mine
+						country = c:PLC
+						levels = 1
+						region = STATE_UPPER_SILESIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_UPPER_SILESIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -369,19 +369,19 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:PLC
-							levels = 1
-							region = STATE_UPPER_SILESIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 2
-							region = STATE_UPPER_SILESIA
-						}
+					
+						type = building_iron_mine
+						country = c:PLC
+						levels = 1
+						region = STATE_UPPER_SILESIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_UPPER_SILESIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -673,19 +673,19 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:PLC
-							levels = 1
-							region = STATE_EAST_PRUSSIA
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 1
-							region = STATE_EAST_PRUSSIA
-						}
+						
+						type = building_textile_mills
+						country = c:PLC
+						levels = 1
+						region = STATE_EAST_PRUSSIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 1
+						region = STATE_EAST_PRUSSIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -696,19 +696,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 4
-							region = STATE_EAST_PRUSSIA
-						}
-						{
-							type = building_logging_camp
-							country = c:PLC
-							levels = 1
-							region = STATE_EAST_PRUSSIA
-						}
+						
+						type = building_financial_district
+						country = c:PLC
+						levels = 4
+						region = STATE_EAST_PRUSSIA
 					}
+					building = {
+						type = building_logging_camp
+						country = c:PLC
+						levels = 1
+						region = STATE_EAST_PRUSSIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -993,7 +993,7 @@
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
-						country = c:PLC
+						country = c:AUS
 						levels = 1
 					}
 				}
@@ -1006,19 +1006,19 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:PLC
-							levels = 1
-							region = STATE_CENTRAL_HUNGARY
-						}
-						{
-							type = building_financial_district
-							country = c:PLC
-							levels = 1
-							region = STATE_CENTRAL_HUNGARY
-						}
+						
+						type = building_iron_mine
+						country = c:AUS
+						levels = 1
+						region = STATE_CENTRAL_HUNGARY
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_CENTRAL_HUNGARY
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1030,7 +1030,7 @@
 				add_ownership = {
 					building = {
 						type = building_food_industry
-						country = c:PLC
+						country = c:AUS
 						levels = 2
 						region = STATE_CENTRAL_HUNGARY
 					}
@@ -1044,19 +1044,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 2
-							region = STATE_CENTRAL_HUNGARY
-						}
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_manor_house
+						country = c:AUS
+						levels = 2
+						region = STATE_CENTRAL_HUNGARY
 					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1067,19 +1067,19 @@
 				building = "building_vineyard_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 3
-							region = STATE_CENTRAL_HUNGARY
-						}
-						{
-							type = building_manor_house
-							country = c:PLC
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+					
+						type = building_manor_house
+						country = c:AUS
+						levels = 3
+						region = STATE_CENTRAL_HUNGARY
 					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1188,18 +1188,18 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 1
-							region = STATE_TRANSDANUBIA
-						}
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_TRANSDANUBIA
+					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					
 					}
 				}
 				reserves = 1
@@ -1264,18 +1264,18 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 1
-							region = STATE_BANAT
-						}
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 3
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_BANAT
+					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 3
+						region = STATE_AUSTRIA
+						
 					}
 				}
 				reserves = 1
@@ -1304,19 +1304,19 @@
 				building = "building_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						{
-							type = building_furniture_manufacturies
-							country = c:AUS
-							levels = 1
-							region = STATE_SLOVAKIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_furniture_manufacturies
+						country = c:AUS
+						levels = 1
+						region = STATE_SLOVAKIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1392,19 +1392,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:AUS
-							levels = 3
-							region = STATE_SOUTHERN_TRANSYLVANIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+					
+						type = building_logging_camp
+						country = c:AUS
+						levels = 3
+						region = STATE_SOUTHERN_TRANSYLVANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1415,19 +1415,19 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:AUS
-							levels = 1
-							region = STATE_SOUTHERN_TRANSYLVANIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_iron_mine
+						country = c:AUS
+						levels = 1
+						region = STATE_SOUTHERN_TRANSYLVANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1470,19 +1470,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:AUS
-							levels = 1
-							region = STATE_NORTHERN_TRANSYLVANIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+					
+						type = building_logging_camp
+						country = c:AUS
+						levels = 1
+						region = STATE_NORTHERN_TRANSYLVANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1664,19 +1664,19 @@
 				building = "building_coal_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_coal_mine
-							country = c:WAL
-							levels = 3
-							region = STATE_WALLACHIA
-						}
-						{
-							type = building_financial_district
-							country = c:WAL
-							levels = 1
-							region = STATE_WALLACHIA
-						}
+						
+						type = building_coal_mine
+						country = c:WAL
+						levels = 3
+						region = STATE_WALLACHIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:WAL
+						levels = 1
+						region = STATE_WALLACHIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1717,18 +1717,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:WAL
-							levels = 3
-							region = STATE_WALLACHIA
-						}
-						{
-							type = building_financial_district
-							country = c:WAL
-							levels = 2
-							region = STATE_WALLACHIA
-						}
+						
+						type = building_logging_camp
+						country = c:WAL
+						levels = 3
+						region = STATE_WALLACHIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:WAL
+						levels = 2
+						region = STATE_WALLACHIA
+						
 					}
 				}
 				reserves = 1

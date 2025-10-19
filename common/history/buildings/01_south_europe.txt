@@ -31,19 +31,19 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:ITA
-							levels = 3
-							region = STATE_LOMBARDY
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_LOMBARDY
-						}
+						
+						type = building_textile_mills
+						country = c:ITA
+						levels = 3
+						region = STATE_LOMBARDY
 					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_LOMBARDY
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -86,19 +86,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 1
-							region = STATE_LOMBARDY
-						}
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+					
+						type = building_manor_house
+						country = c:ITA
+						levels = 1
+						region = STATE_LOMBARDY
 					}
+					building ={
+						type = building_manor_house
+						country = c:ITA
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -358,18 +358,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:ITA
-							levels = 3
-							region = STATE_SARDINIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_SARDINIA
-						}
+					
+						type = building_logging_camp
+						country = c:ITA
+						levels = 3
+						region = STATE_SARDINIA
+					}
+					building ={
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_SARDINIA
+					
 					}
 				}
 				reserves = 1
@@ -625,18 +625,18 @@
 				building = "building_tooling_workshops"
 				add_ownership = {
 					building = {
-						{
-							type = building_tooling_workshops
-							country = c:ITA
-							levels = 2
-							region = STATE_CAMPANIA
-						}
-						{
-							type = building_tooling_workshops
-							country = c:ITA
-							levels = 1
-							region = STATE_CAMPANIA
-						}
+					
+						type = building_tooling_workshops
+						country = c:ITA
+						levels = 2
+						region = STATE_CAMPANIA
+					}
+					building ={
+						type = building_tooling_workshops
+						country = c:ITA
+						levels = 1
+						region = STATE_CAMPANIA
+						
 					}
 				}
 				reserves = 1
@@ -661,19 +661,19 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:ITA
-							levels = 2
-							region = STATE_CAMPANIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 1
-							region = STATE_CAMPANIA
-						}
+						
+						type = building_textile_mills
+						country = c:ITA
+						levels = 2
+						region = STATE_CAMPANIA
 					}
+					building ={
+						type = building_financial_district
+						country = c:ITA
+						levels = 1
+						region = STATE_CAMPANIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -789,18 +789,18 @@
 				building = "building_food_industry"
 				add_ownership = {
 					building = {
-						{
-							type = building_food_industry
-							country = c:ITA
-							levels = 1
-							region = STATE_CALABRIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 1
-							region = STATE_CALABRIA
-						}
+						
+						type = building_food_industry
+						country = c:ITA
+						levels = 1
+						region = STATE_CALABRIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 1
+						region = STATE_CALABRIA
+						
 					}
 				}
 				reserves = 1
@@ -1373,19 +1373,19 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:ITA
-							levels = 2
-							region = STATE_TUSCANY
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_TUSCANY
-						}
+						
+						type = building_iron_mine
+						country = c:ITA
+						levels = 2
+						region = STATE_TUSCANY
 					}
+					building ={
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_TUSCANY
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1631,18 +1631,18 @@
 				building = "building_glassworks"
 				add_ownership = {
 					building = {
-						{
-							type = building_glassworks
-							country = c:ITA
-							levels = 3
-							region = STATE_VENETIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_glassworks
+						country = c:ITA
+						levels = 3
+						region = STATE_VENETIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_AUSTRIA
+						
 					}
 				}
 				reserves = 1
@@ -1654,24 +1654,24 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:ITA
-							levels = 4
-							region = STATE_VENETIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_VENETIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_textile_mills
+						country = c:ITA
+						levels = 4
+						region = STATE_VENETIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_VENETIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_AUSTRIA
+						
 					}
 				}
 				reserves = 1
@@ -1698,19 +1698,19 @@
 				building = "building_silk_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 1
-							region = STATE_VENETIA
-						}
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 4
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_manor_house
+						country = c:ITA
+						levels = 1
+						region = STATE_VENETIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:ITA
+						levels = 4
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1736,18 +1736,18 @@
 				building = "building_vineyard_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 3
-							region = STATE_AUSTRIA
-						}
-						{
-							type = building_manor_house
-							country = c:ITA
-							levels = 1
-							region = STATE_VENETIA
-						}
+						
+						type = building_manor_house
+						country = c:ITA
+						levels = 3
+						region = STATE_AUSTRIA
+					}
+					building = {
+						type = building_manor_house
+						country = c:ITA
+						levels = 1
+						region = STATE_VENETIA
+					
 					}
 				}
 				reserves = 1
@@ -1999,19 +1999,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:SPA
-							levels = 1
-							region = STATE_GALICIA
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 1
-							region = STATE_GALICIA
-						}
+						
+						type = building_logging_camp
+						country = c:SPA
+						levels = 1
+						region = STATE_GALICIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 1
+						region = STATE_GALICIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2335,18 +2335,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:SPA
-							levels = 3
-							region = STATE_NAVARRA
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 2
-							region = STATE_NAVARRA
-						}
+						
+						type = building_logging_camp
+						country = c:SPA
+						levels = 3
+						region = STATE_NAVARRA
+					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 2
+						region = STATE_NAVARRA
+						
 					}
 				}
 				reserves = 1
@@ -2405,18 +2405,18 @@
 				building = "building_furniture_manufacturies"
 				add_ownership = {
 					building = {
-						{
-							type = building_furniture_manufacturies
-							country = c:SPA
-							levels = 2
-							region = STATE_ARAGON
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 2
-							region = STATE_TOLEDO
-						}
+						
+						type = building_furniture_manufacturies
+						country = c:SPA
+						levels = 2
+						region = STATE_ARAGON
+					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 2
+						region = STATE_TOLEDO
+						
 					}
 				}
 				reserves = 1
@@ -2428,18 +2428,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:SPA
-							levels = 2
-							region = STATE_ARAGON
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 1
-							region = STATE_ARAGON
-						}
+						
+						type = building_logging_camp
+						country = c:SPA
+						levels = 2
+						region = STATE_ARAGON
+					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 1
+						region = STATE_ARAGON
+					
 					}
 				}
 				reserves = 1
@@ -2556,19 +2556,19 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:SPA
-							levels = 4
-							region = STATE_CATALONIA
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 2
-							region = STATE_CATALONIA
-						}
+						
+						type = building_textile_mills
+						country = c:SPA
+						levels = 4
+						region = STATE_CATALONIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 2
+						region = STATE_CATALONIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2727,19 +2727,19 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:SPA
-							levels = 2
-							region = STATE_ANDALUSIA
-						}
-						{
-							type = building_manor_house
-							country = c:SPA
-							levels = 3
-							region = STATE_TOLEDO
-						}
+						
+						type = building_manor_house
+						country = c:SPA
+						levels = 2
+						region = STATE_ANDALUSIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:SPA
+						levels = 3
+						region = STATE_TOLEDO
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2797,18 +2797,18 @@
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:SPA
-							levels = 2
-							region = STATE_GRANADA
-						}
-						{
-							type = building_manor_house
-							country = c:SPA
-							levels = 2
-							region = STATE_GRANADA
-						}
+						
+						type = building_manor_house
+						country = c:SPA
+						levels = 2
+						region = STATE_GRANADA
+					}
+					building = {
+						type = building_manor_house
+						country = c:SPA
+						levels = 2
+						region = STATE_GRANADA
+						
 					}
 				}
 				reserves = 1
@@ -2935,18 +2935,18 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:SPA
-							levels = 2
-							region = STATE_VALENCIA
-						}
-						{
-							type = building_financial_district
-							country = c:SPA
-							levels = 1
-							region = STATE_VALENCIA
-						}
+				
+						type = building_textile_mills
+						country = c:SPA
+						levels = 2
+						region = STATE_VALENCIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:SPA
+						levels = 1
+						region = STATE_VALENCIA
+						
 					}
 				}
 				reserves = 1
@@ -3063,18 +3063,18 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:POR
-							levels = 1
-							region = STATE_BEIRA
-						}
-						{
-							type = building_financial_district
-							country = c:POR
-							levels = 1
-							region = STATE_BEIRA
-						}
+						
+						type = building_textile_mills
+						country = c:POR
+						levels = 1
+						region = STATE_BEIRA
+					}
+					building = {
+						type = building_financial_district
+						country = c:POR
+						levels = 1
+						region = STATE_BEIRA
+						
 					}
 				}
 				reserves = 1
@@ -3499,19 +3499,19 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:POR
-							levels = 1
-							region = STATE_MADEIRA
-						}
-						{
-							type = building_manor_house
-							country = c:POR
-							levels = 1
-							region = STATE_ESTREMADURA
-						}
+						
+						type = building_manor_house
+						country = c:POR
+						levels = 1
+						region = STATE_MADEIRA
 					}
+					building = {
+						type = building_manor_house
+						country = c:POR
+						levels = 1
+						region = STATE_ESTREMADURA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -3807,19 +3807,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:ALB
-							levels = 1
-							region = STATE_ALBANIA
-						}
-						{
-							type = building_financial_district
-							country = c:ALB
-							levels = 1
-							region = STATE_ALBANIA
-						}
+						
+						type = building_logging_camp
+						country = c:ALB
+						levels = 1
+						region = STATE_ALBANIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:ALB
+						levels = 1
+						region = STATE_ALBANIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -3888,18 +3888,18 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:BOS
-							levels = 3
-							region = STATE_BOSNIA
-						}
-						{
-							type = building_financial_district
-							country = c:BOS
-							levels = 1
-							region = STATE_BOSNIA
-						}
+						
+						type = building_iron_mine
+						country = c:BOS
+						levels = 3
+						region = STATE_BOSNIA
+					}
+					building = {
+						type = building_financial_district
+						country = c:BOS
+						levels = 1
+						region = STATE_BOSNIA
+						
 					}
 				}
 				reserves = 1
@@ -4025,19 +4025,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 1
-							region = STATE_SLOVENIA
-						}
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_SLOVENIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -4157,19 +4157,19 @@
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 1
-							region = STATE_CROATIA
-						}
-						{
-							type = building_manor_house
-							country = c:AUS
-							levels = 1
-							region = STATE_AUSTRIA
-						}
+					
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_CROATIA
 					}
+					building = {
+						type = building_manor_house
+						country = c:AUS
+						levels = 1
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -4210,19 +4210,19 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 1
-							region = STATE_CROATIA
-						}
-						{
-							type = building_financial_district
-							country = c:AUS
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_financial_district
+						country = c:AUS
+						levels = 1
+						region = STATE_CROATIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:AUS
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -4312,19 +4312,19 @@
 				building = "building_tooling_workshops"
 				add_ownership = {
 					building = {
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 1
-							region = STATE_ISTRIA
-						}
-						{
-							type = building_financial_district
-							country = c:ITA
-							levels = 2
-							region = STATE_AUSTRIA
-						}
+						
+						type = building_financial_district
+						country = c:ITA
+						levels = 1
+						region = STATE_ISTRIA
 					}
+					building = {
+						type = building_financial_district
+						country = c:ITA
+						levels = 2
+						region = STATE_AUSTRIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -4476,18 +4476,18 @@
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
-						{
-							type = building_manor_house
-							country = c:SER
-							levels = 1
-							region = STATE_EASTERN_SERBIA
-						}
-						{
-							type = building_manor_house
-							country = c:SER
-							levels = 2
-							region = STATE_EASTERN_SERBIA
-						}
+					
+						type = building_manor_house
+						country = c:SER
+						levels = 1
+						region = STATE_EASTERN_SERBIA
+					}
+					building = {
+						type = building_manor_house
+						country = c:SER
+						levels = 2
+						region = STATE_EASTERN_SERBIA
+						
 					}
 				}
 				reserves = 1
@@ -4694,18 +4694,18 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
-						{
-							type = building_logging_camp
-							country = c:GRE
-							levels = 1
-							region = STATE_ATTICA
-						}
-						{
-							type = building_financial_district
-							country = c:GRE
-							levels = 1
-							region = STATE_ATTICA
-						}
+						
+						type = building_logging_camp
+						country = c:GRE
+						levels = 1
+						region = STATE_ATTICA
+					}
+					building = {
+						type = building_financial_district
+						country = c:GRE
+						levels = 1
+						region = STATE_ATTICA
+						
 					}
 				}
 				reserves = 1
@@ -4826,19 +4826,19 @@
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
-						{
-							type = building_iron_mine
-							country = c:SER
-							levels = 1
-							region = STATE_SKOPIA
-						}
-						{
-							type = building_financial_district
-							country = c:SER
-							levels = 1
-							region = STATE_EASTERN_THRACE
-						}
+						
+						type = building_iron_mine
+						country = c:SER
+						levels = 1
+						region = STATE_SKOPIA
 					}
+					building ={
+						type = building_financial_district
+						country = c:SER
+						levels = 1
+						region = STATE_SKOPIA
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -4960,18 +4960,18 @@
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
-						{
-							type = building_textile_mills
-							country = c:GRE
-							levels = 1
-							region = STATE_WESTERN_THRACE
-						}
-						{
-							type = building_financial_district
-							country = c:GRE
-							levels = 1
-							region = STATE_WESTERN_THRACE
-						}
+						
+						type = building_textile_mills
+						country = c:GRE
+						levels = 1
+						region = STATE_WESTERN_THRACE
+					}
+					building ={
+						type = building_financial_district
+						country = c:GRE
+						levels = 1
+						region = STATE_WESTERN_THRACE
+					
 					}
 				}
 				reserves = 1
@@ -4983,19 +4983,19 @@
 				building = "building_glassworks"
 				add_ownership = {
 					building = {
-						{
-							type = building_glassworks
-							country = c:GRE
-							levels = 3
-							region = STATE_WESTERN_THRACE
-						}
-						{
-							type = building_financial_district
-							country = c:GRE
-							levels = 1
-							region = STATE_WESTERN_THRACE
-						}
+						
+						type = building_glassworks
+						country = c:GRE
+						levels = 3
+						region = STATE_WESTERN_THRACE
 					}
+					building ={
+						type = building_financial_district
+						country = c:GRE
+						levels = 1
+						region = STATE_WESTERN_THRACE
+					}
+					
 				}
 				reserves = 1
 				activate_production_methods = {
