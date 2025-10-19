@@ -6,7 +6,7 @@
 			name = "I Armia"
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_SILESIA
+				state_region = s:STATE_UPPER_SILESIA
 				count = 15
 			}
 
@@ -70,16 +70,12 @@
 				state_region = s:STATE_MINSK
 				count = 10
 			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_ORSHA
-				count = 5
-			}
+
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_EAST_GALICIA
-				count = 5
+				count = 10
 			}
 			save_scope_as = plc_ii_armia
 		}
@@ -155,13 +151,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LITHUANIA
+				state_region = s:STATE_RIGA
 				count = 15
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_LATVIA
+				state_region = s:STATE_COURLAND
 				count = 5
 			}
 
@@ -384,13 +380,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_WEST_SLOVAKIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_EAST_SLOVAKIA
+				state_region = s:STATE_SLOVAKIA
 				count = 5
 			}
 
@@ -1347,12 +1337,6 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BRYANSK
-				count = 25
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MOSCOW
 				count = 10
 			}
@@ -1379,12 +1363,6 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KURSK
 				count = 20
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LUHANSK
-				count = 10
 			}
 
 			combat_unit = {
@@ -1460,12 +1438,6 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KIEV
 				count = 20
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LUHANSK
-				count = 10
 			}
 
 			combat_unit = {
@@ -1567,13 +1539,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ESTONIA
+				state_region = s:STATE_TALINN
 				count = 11
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_LATVIA
+				state_region = s:STATE_RIGA
 				count = 2
 			}
 
@@ -1585,13 +1557,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ESTONIA
+				state_region = s:STATE_TALINN
 				count = 6
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LATVIA
+				state_region = s:STATE_RIGA
 				count = 1
 			}
 
@@ -1652,11 +1624,6 @@
 				count = 4
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LUHANSK
-				count = 1
-			}
 			save_scope_as = rus_black_sea_fleet
 		}
 
@@ -2380,19 +2347,19 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_NORTHERN_SERBIA
+				state_region = s:STATE_WESTERN_SERBIA
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_NORTHERN_SERBIA
+				state_region = s:STATE_WESTERN_SERBIA
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_NORTHERN_SERBIA
+				state_region = s:STATE_WESTERN_SERBIA
 				count = 1
 			}
 		}
