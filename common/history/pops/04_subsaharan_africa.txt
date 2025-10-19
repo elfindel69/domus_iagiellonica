@@ -847,10 +847,7 @@
 				culture = chewa
 				size = 6000
 			}
-			create_pop = {
-				culture = unyamwezi
-				size = 54200
-			}
+
 			create_pop = {
 				culture = makua
 				size = 58900
@@ -869,11 +866,6 @@
 				pop_type = slaves
 				culture = chewa
 				size = 2000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = unyamwezi
-				size = 5000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -938,10 +930,6 @@
 				size = 28000
 			}
 			create_pop = {
-				culture = unyamwezi
-				size = 92000
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = swahili
 				size = 30000
@@ -955,10 +943,6 @@
 	}
 	s:STATE_TANGANYIKA = {
 		region_state:NYM = {
-			create_pop = {
-				culture = unyamwezi
-				size = 331200
-			}
 			create_pop = {
 				culture = luo
 				size = 44400

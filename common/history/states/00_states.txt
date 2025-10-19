@@ -4739,7 +4739,6 @@
 		}
 		add_homeland = cu:yao
 		add_homeland = cu:makua
-		add_homeland = cu:unyamwezi
 		add_homeland = cu:lacustrine_bantu
 		add_homeland = cu:chewa
 	}
@@ -4786,7 +4785,6 @@
 			}
 		}
 		add_homeland = cu:lacustrine_bantu
-		add_homeland = cu:unyamwezi
 		add_homeland = cu:rundi
 		add_homeland = cu:ruanda
 		add_homeland = cu:sukuma
