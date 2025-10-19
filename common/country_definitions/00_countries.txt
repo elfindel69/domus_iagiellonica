@@ -2450,7 +2450,7 @@ PLC = {
 	tier = empire
 	
 	cultures = { polish lithuanian }
-	capital = STATE_MAZOVIA
+	capital = STATE_GREATER_POLAND
 }
 
 GCO = {
