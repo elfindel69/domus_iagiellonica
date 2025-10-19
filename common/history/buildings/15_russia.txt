@@ -949,7 +949,8 @@
 						country = c:PLC
 						levels = 11
 						region = STATE_KIEV
-					
+					}
+					building ={						
 						type = building_manor_house
 						country = c:PLC
 						levels = 4
