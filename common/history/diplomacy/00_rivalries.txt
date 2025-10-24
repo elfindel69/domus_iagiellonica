@@ -1,14 +1,16 @@
 ﻿DIPLOMACY = {
-	c:GBR ?= {
+	c:RUS ?= {
 		create_diplomatic_pact = {
-			country = c:FRA
+			country = c:GBR
 			type = rivalry
 		}
-	}		
-
-		
-
-	
+	}
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = rivalry
+		}
+	}
 
 	c:RUS ?= {
 		create_diplomatic_pact = {
@@ -32,6 +34,31 @@
 	c:DAI ?= {
 		create_diplomatic_pact = {
 			country = c:SIA
+			type = rivalry
+		}
+	}
+
+	c:BRZ ?= {
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = rivalry
+		}
+	}
+	c:ARG ?= {
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = rivalry
+		}
+	}
+	c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:PLC
+			type = rivalry
+		}
+	}
+	c:PLC ?= {
+		create_diplomatic_pact = {
+			country = c:RUS
 			type = rivalry
 		}
 	}
