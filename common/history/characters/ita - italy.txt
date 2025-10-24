@@ -2,8 +2,8 @@
 	c:ITA ?= {
 		create_character = {
 			# Napoleon II
-			first_name = "Napoleone"
-			last_name = "Buonaparte"
+			first_name = Napoleone
+			last_name = Buonaparte
 			ruler = yes
 			age = 25
 			culture = cu:french
