@@ -41,7 +41,6 @@ doi_poland_bohemia.1 = {
 				country = c:PLC
 				setting = no
 			}
-			# Transfer every AUS-owned state in Bohemia and Moravia
 			every_scope_state = {
 				limit = { owner = c:AUS state_region = s:STATE_BOHEMIA }
 				set_state_owner = c:PLC
@@ -50,9 +49,8 @@ doi_poland_bohemia.1 = {
 				limit = { owner = c:AUS state_region = s:STATE_MORAVIA }
 				set_state_owner = c:PLC
 			}
+			# Transfer every AUS-owned state in Bohemia and Moravia
 		}	
-			
-		
 		
 	}
 
@@ -81,15 +79,16 @@ doi_poland_bohemia.1 = {
 	option = {
 		name = doi_poland_bohemia.1.c
 		trigger = {
-			NOR = {
-				c:AUS = {
-					is_subject_of = ROOT
+			NOT = {
+				OR = {
+					c:AUS = {
+						is_subject_of = ROOT
+					}
+					
+					c:AUS = {
+						owes_obligation_to = c:PLC
+					}
 				}
-				
-				c:AUS = {
-					owes_obligation_to = c:PLC
-				}
-				
 			}
 		}
 
