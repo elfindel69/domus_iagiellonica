@@ -24,58 +24,55 @@ doi_poland_hungary.1 = {
 	option = {
 		name = doi_poland_hungary.1.a
 		default_option = yes
-		if = {
-			limit = {
-				exists = c:HUN
-				c:HUN = { owes_obligation_to = c:PLC }
-			}
-			c:HUN = {
-				set_owes_obligation_to = { country = c:PLC setting = no }
-				every_scope_state = {
-					limit = { owner = c:HUN }
-					set_state_owner = c:PLC
-				}
+		trigger = {
+			exists = c:HUN
+			c:HUN = { owes_obligation_to = c:PLC }
+		}
+		c:HUN = {
+			set_owes_obligation_to = { country = c:PLC setting = no }
+			every_scope_state = {
+				limit = { owner = c:HUN }
+				set_state_owner = c:PLC
 			}
 		}
+		
 	}
 
 	# === OPTION B: Hungary is PLC subject — administrative transfer ===
 	option = {
 		name = doi_poland_hungary.1.b
-		if = {
-			limit = {
-				exists = c:HUN
-				c:HUN = { is_subject_of = ROOT }
-			}
-			c:HUN = {
-				every_scope_state = {
-					limit = { owner = c:HUN }
-					set_state_owner = c:PLC
-				}
+		trigger = {
+			exists = c:HUN
+			c:HUN = { is_subject_of = ROOT }
+		}
+		c:HUN = {
+			every_scope_state = {
+				limit = { owner = c:HUN }
+				set_state_owner = c:PLC
 			}
 		}
 	}
-	# === OPTION E: No leverage — escalate to a DP for Hungarian cores ===
+
+	# === OPTION C: No leverage — escalate to a DP for Hungarian cores ===
 	option = {
 		name = doi_poland_hungary.1.c
-		if = {
-			limit = {
-				NOR = {
-					AND = { exists = c:HUN c:HUN = { is_subject_of = ROOT } }
-					AND = { exists = c:HUN c:HUN = { owes_obligation_to = c:PLC } }
-				}
-			}	
-			create_diplomatic_play = {
-				name = claims_on_hungary
-				type = dp_conquer_state
-				target_country = c:HUN
-				target_state = s:STATE_CENTRAL_HUNGARY.region_state:HUN
-				add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_TRANSDANUBIA.region_state:HUN }
-				add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_BANAT.region_state:HUN }
-				add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_NORTHERN_TRANSYLVANIA.region_state:HUN }
-				add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_SOUTHERN_TRANSYLVANIA.region_state:HUN}
-				add_war_goal = { holder = c:HUN type = humiliation target_country = c:PLC }
+		trigger = {
+			NOR = {
+				AND = { exists = c:HUN c:HUN = { is_subject_of = ROOT } }
+				AND = { exists = c:HUN c:HUN = { owes_obligation_to = c:PLC } }
 			}
+		}	
+		create_diplomatic_play = {
+			name = claims_on_hungary
+			type = dp_conquer_state
+			target_country = c:HUN
+			target_state = s:STATE_CENTRAL_HUNGARY.region_state:HUN
+			add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_TRANSDANUBIA.region_state:HUN }
+			add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_BANAT.region_state:HUN }
+			add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_NORTHERN_TRANSYLVANIA.region_state:HUN }
+			add_war_goal = { holder=c:PLC type = conquer_state target_state = s:STATE_SOUTHERN_TRANSYLVANIA.region_state:HUN}
+			add_war_goal = { holder = c:HUN type = humiliation target_country = c:PLC }
 		}
+		
 	}
 }
