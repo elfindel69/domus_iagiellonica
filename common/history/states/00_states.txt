@@ -6827,7 +6827,7 @@
 			owned_provinces = {
 				x00E0A0 x0161A0 x4177AF x41E061 x4678E5 x577C69 xA916E3 xF2CB3D
 			}
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:lithuanian
 		add_homeland = cu:polish

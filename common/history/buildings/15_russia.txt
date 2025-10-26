@@ -902,7 +902,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 25
+						levels = 35
 					}
 				}
 				reserves = 1
@@ -1371,7 +1371,7 @@
 						type = building_financial_district
 						country = c:RUS
 						levels = 4
-						region = STATE_KIEV
+						region = STATE_CHERSON
 					}
 				}
 				reserves = 1
@@ -1939,7 +1939,7 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 5
-						region = STATE_KIEV
+						region = STATE_TAURIDA
 					}
 					
 				}
@@ -1977,7 +1977,7 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 4
-						region = STATE_KIEV
+						region = STATE_TAURIDA
 					}
 					
 				}
@@ -2376,7 +2376,7 @@
 						type = building_manor_house
 						country = c:RUS
 						levels = 5
-						region = STATE_KIEV
+						region = STATE_CHERNIHIV
 					}
 					
 				}

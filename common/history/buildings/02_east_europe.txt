@@ -87,6 +87,19 @@
 					"pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"
 				}
 			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:PLC
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats"
+				}
+			}
 		}
 	}
 	s:STATE_BREST = {
@@ -131,7 +144,7 @@
 					building = {
 						type = building_financial_district
 						country = c:PLC
-						levels = 1
+						levels = 2
 						region = STATE_LOWER_SILESIA
 					}
 				}
@@ -257,7 +270,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 4
+						levels = 7
 					}
 				}
 				reserves = 1
@@ -436,11 +449,40 @@
 	s:STATE_GREATER_POLAND = {
 		region_state:PLC = {
 			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_GREATER_POLAND
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
+			create_building = {
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = c:PLC
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_scholastic_education" "pm_secular_academia"
+				}
+			}
+			create_building = {
 				building = "building_paper_mills"
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -522,7 +564,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 7
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -565,7 +607,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -607,6 +649,22 @@
 	}
 	s:STATE_WEST_PRUSSIA = {
 		region_state:PLC = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_WEST_PRUSSIA
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
 			create_building = {
 				building = "building_sulfur_mine"
 				add_ownership = {
@@ -669,6 +727,22 @@
 	}
 	s:STATE_EAST_PRUSSIA = {
 		region_state:PLC = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_EAST_PRUSSIA
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
 			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
@@ -735,6 +809,35 @@
 	s:STATE_POSEN = {
 		region_state:PLC = {
 			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_GREATER_POLAND
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
+			create_building = {
+				building = "building_paper_mills"
+				add_ownership = {
+					country = {
+						country = c:PLC
+						levels = 4
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pulp_pressing" "pm_automation_disabled"
+				}
+			}
+			create_building = {
 				building = "building_munition_plants"
 				add_ownership = {
 					country = {
@@ -797,7 +900,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -809,6 +912,22 @@
 	}
 	s:STATE_WEST_GALICIA = {
 		region_state:PLC = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_WEST_GALICIA
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
 			create_building = {
 				building = "building_sulfur_mine"
 				add_ownership = {
@@ -844,7 +963,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 7
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -887,7 +1006,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -915,6 +1034,22 @@
 	s:STATE_EAST_GALICIA = {
 		region_state:PLC = {
 			create_building = {
+				building = "building_trade_center"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:PLC
+						levels = 2
+						region = STATE_EAST_GALICIA
+					}
+				}
+				activate_production_methods = {
+					"pm_trade_center_trade_quantity_normal"
+				}
+				
+				reserves = 1
+			}
+			create_building = {
 				building = "building_tooling_workshops"
 				add_ownership = {
 					building = {
@@ -934,7 +1069,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLC
-						levels = 8
+						levels = 13
 					}
 				}
 				reserves = 1
@@ -970,6 +1105,19 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"
+				}
+			}
+			create_building = {
+				building = "building_university"
+				add_ownership = {
+					country = {
+						country = c:PLC
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_scholastic_education" "pm_secular_academia"
 				}
 			}
 		}
