@@ -498,84 +498,61 @@
 	}
 
 # Starting liberty desire
-	c:BIC = {
+	c:BIC ?= {
 		add_liberty_desire = -30
 	}
 
-	c:DEI = {
+	c:DEI ?= {
 		add_liberty_desire = -30
 	}
 
-	c:SAF = {
+	c:SAF ?= {
 		add_liberty_desire = -30
 	}
 
-	c:NSW = {
+	c:NSW ?= {
 		add_liberty_desire = -30
 	}
 
-	c:WAS = {
+	c:WAS ?= {
 		add_liberty_desire = -30
 	}
 
-	c:SAS = {
+	c:SAS ?= {
 		add_liberty_desire = -30
 	}
 
-	c:TAS = {
+	c:TAS ?= {
 		add_liberty_desire = -30
 	}
 
-	c:UNT = {
+	c:UNT ?= {
 		add_liberty_desire = 10
 	}
 
-	c:FIN = {
+	c:FIN ?= {
 		add_liberty_desire = 10
 	}
 
-	c:OZH = {
-		add_liberty_desire = 10
-	}
 
-	c:KZH = {
-		add_liberty_desire = 10
-	}
-
-	c:UZH = {
-		add_liberty_desire = 10
-	}
-
-	c:SEQ = {
-		add_liberty_desire = 10
-	}
-
-	c:SER = {
+	c:SER ?= {
 		add_liberty_desire = 20
 	}
 
-	c:MOL = {
+	c:MOL ?= {
 		add_liberty_desire = 20
 	}
 
-	c:WAL = {
+	c:WAL ?= {
 		add_liberty_desire = 20
 	}
 
-	c:EGY = {
+	c:EGY ?= {
 		add_liberty_desire = 45
 	}
 
 	c:CAM ?= {
 		add_liberty_desire = 20
-	}
-
-	c:NPU = {
-		add_liberty_desire = 30
-	}
-
-	c:IQU = {
-		add_liberty_desire = -10
 	}
 
 	c:BIC ?= {
