@@ -68,4 +68,26 @@
 			}
 		}
 	}
+
+	c:PLC = {
+		create_power_bloc = {
+			name = RZECZPOSPOLITA
+
+			map_color = { 217 90 63 }
+
+			founding_date = 1569.7.1 # Union of Lublin
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
 }
