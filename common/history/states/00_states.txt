@@ -86,13 +86,12 @@
 		}
 		add_homeland = cu:french
 	}
-	s:STATE_ANDALUSIA = {
+	s:STATE_LOWER_ANDALUSIA = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x58E3EB x809020 x2B6ABC xD06000 x59202C
-			}
+			owned_provinces = { x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x58E3EB x809020 x2B6ABC xD06000 x59202C }
 		}
+
 		add_homeland = cu:spanish
 	}
 	s:STATE_HOLLAND = {
@@ -978,13 +977,24 @@
 		add_homeland = cu:central_american
 		add_homeland = cu:afro_caribeno
 	}
-	s:STATE_CUBA = {
+	s:STATE_WESTERN_CUBA = {
 		create_state = {
 			country = c:CUB
-			owned_provinces = {
-				xF3F2C9 x61FC10 xB325C7 xFCDEED xDCAB5D x4DD008 xA70607 x58C211 x20EFEA xFE4123 xC3EB7D x0DA38C xC464AE x9957D8 xEBE1C7 x152D1C xD810EC x69C041 x30B001 xE70FA4 x519343 xB48FF1
-			}
-			state_type = unincorporated
+			owned_provinces = { x4DD008 x61FC10 xB325C7 xDCAB5D xF3F2C9 xFCDEED }
+		}
+		add_homeland = cu:caribeno
+	}
+	s:STATE_EASTERN_CUBA = {
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x0DA38C x30B001 x519343 x69C041 xB48FF1 xE70FA4 }
+		}
+		add_homeland = cu:caribeno
+	}
+	s:STATE_CENTRAL_CUBA = {
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x152D1C x20EFEA x58C211 x9957D8 xA70607 xC3EB7D xC464AE xD810EC xEBE1C7 xFE4123 }
 		}
 		add_homeland = cu:caribeno
 	}
@@ -1183,57 +1193,60 @@
 	s:STATE_ASTURIAS = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x0F84B8 x3E77F9 x5060C0 x525202 xA1037C xBF2564 xF0A000
-			}
+			owned_provinces = { x0F84B8 x3E77F9 x5060C0 x525202 }
 		}
+
 		add_homeland = cu:spanish
+		add_homeland = cu:asturleonese
 	}
-	s:STATE_CASTILE = {
+	s:STATE_OLD_CASTILE = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38
-			}
+			owned_provinces = { x0543B8 x10C4E5 x22193A x24A9D6 x3A3528 x4D18FC x50E0C0 x590C75 x5DB702 x702000 x70A000 xA1037C xAC1425 xBF2564 xC3ED38 xCA2220 xCB3245 xD7A4DE xDC8B19 xF02000 xF0A000 xF44AAA }
 		}
+
 		add_homeland = cu:spanish
 	}
-	s:STATE_ARAGON = {
+		s:STATE_ARAGON = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x30A080 x5FB607 x3CBF9E x45B331 xA603C7
-			}
+			owned_provinces = { x202982 x9060C0 x339B06 x2555A4 x076DE0 x3CBF9E x45B331 xA603C7 }
 		}
+		create_state = {
+			country = c:SPC
+			owned_provinces = { x506040 x5FB607 x30A080 }
+		}
+
 		add_homeland = cu:spanish
+		add_homeland = cu:aragonese
 	}
-	s:STATE_NAVARRA = {
+	s:STATE_BASQUE_COUNTRY = {
 		create_state = {
-			country = c:SPA
-			owned_provinces = {
-				x48868C x702080 x10E0C0 xABE0B3 xAC1425 x9EC9B8 xCB3245
-			}
+			country = c:SPC
+			owned_provinces = { x10E0C0 x48868C x702080 xABE0B3 x9EC9B8 }
 		}
+
 		add_homeland = cu:spanish
 		add_homeland = cu:basque
 	}
-	s:STATE_CATALONIA = {
-		create_state = {
+			create_state = {
 			country = c:SPA
-			owned_provinces = {
-				xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622
-			}
+			owned_provinces = { xE0C020 xD616D2 x11E041 x906040 xC2FFD9 x890622 }
 		}
+		create_state = {
+			country = c:SPC
+			owned_provinces = { x2914C3 x0C64AC x945748 x08B4D6 x936FF3 }
+		}
+
 		add_homeland = cu:spanish
 		add_homeland = cu:catalan
 	}
-	s:STATE_BALEARES = {
+	s:STATE_BALEARIC_ISLANDS = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x7D3FD7 x60F080
-			}
+			owned_provinces = { x7D3FD7 x60F080 }
 		}
+
 		add_homeland = cu:spanish
 		add_homeland = cu:catalan
 	}
@@ -3426,60 +3439,75 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:portuguese
-	}
-	s:STATE_CANARY_ISLANDS = {
+	}	s:STATE_CANARY_ISLANDS = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x20EF01 xF0EF86 x655491 x64C2B3 xC2C164
-			}
-			state_type = unincorporated
+			owned_provinces = { x20EF01 xf0ef86 x655491 x64c2b3 xc2c164 }
 		}
+
 		add_homeland = cu:spanish
 	}
-	s:STATE_GRANADA = {
+	s:STATE_UPPER_ANDALUSIA = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x099199 xA0B040 x27E575 x2030C0 xEE7F54 x20B040 x0010A0 x0362A1 x203DB5 xF50658 xEB9217 x07E82B
-			}
+			owned_provinces = { x099199 xA0B040 x27E575 x2030C0 xEE7F54 x20B040 x0010A0 x0362A1 x203DB5 xF50658 xEB9217 x07E82B }
 		}
+
 		create_state = {
 			country = c:GBR
-			owned_provinces = {
-				xBC6ED3
-			}
+			owned_provinces = { xBC6ED3 }
 			state_type = unincorporated
 		}
+
 		add_homeland = cu:spanish
 	}
-	s:STATE_BADAJOZ = {
+	s:STATE_EXTREMADURA = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				xB4471A x679A01 x009020 x97FBA4 x342BE6 x506000 xC694C3 xF19B02 x7500D4 x30A000 x4A8E78 xE47DCF
-			}
+			owned_provinces = { xB4471A x679A01 x009020 x97FBA4 x342BE6 x506000 xC694C3 xF19B02 x7500D4 x30A000 x4A8E78 xE47DCF }
 		}
 		add_homeland = cu:spanish
+		add_homeland = cu:asturleonese
 	}
 	s:STATE_VALENCIA = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x721583 xCAC27C x99E5CE x8FDF80 xD06040 xDFEF80 x25DD5C xB03776 x71158B x626878 xE0BED4 x6549AD xA03040 x134657
-			}
+			owned_provinces = { x25DD5C x721583 x8FDF80 x99E5CE xCAC27C xDFEF80 xD06040 }
 		}
 		add_homeland = cu:catalan
 		add_homeland = cu:spanish
 	}
-	s:STATE_TOLEDO = {
+	s:STATE_NEW_CASTILE = {
 		create_state = {
 			country = c:SPA
-			owned_provinces = {
-				x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xB02080 xF44640 x88CEE5 x8010A0 xA1BEC2
-			}
+			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xF44640 x88CEE5 x8010A0 xA1BEC2 }
 		}
 		add_homeland = cu:spanish
+	}
+	s:STATE_MURCIA = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x134657 x626878 x6549AD x71158B xA03040 xB03776 xE0BED4 xB02080 }
+		}
+
+		add_homeland = cu:spanish
+	}
+	s:STATE_LEON = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x0D5242 x2C00C8 x38C557 x70F50D x906201 xB02000 xB1C098 xB3BC6E xD060C0 xD30171 }
+		}
+
+		add_homeland = cu:spanish
+		add_homeland = cu:asturleonese
+	}
+	s:STATE_ENTRE_DOURO_E_MINHO = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { x0EF845 x37ADD8 x641376 xA64B2E xD0A000 xD0E0C0 }
+		}
+
+		add_homeland = cu:portuguese
 	}
 	s:STATE_WALLONIA = {
 		create_state = {
@@ -4317,50 +4345,54 @@
 	s:STATE_MINDANAO = {
 		create_state = {
 			country = c:PHI
-			owned_provinces = {
-				x2D5E65 x988CCA xCAFE73 xC3EC2D x7B364D xBC5002
-			}
+			owned_provinces = { xCAFE73 xF0014A x7B364D }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:SUL
-			owned_provinces = {
-				x0180F0 x99D030
-			}
+			owned_provinces = { x0180F0 x99D030 }
+		}
+		create_state = {
+			country = c:MND
+			owned_provinces = { x62D16D xAA1CA3 x585200 x2D5E65 x988CCA xC3EC2D xBC5002 x62D16D xAA1CA3 xE90347 x585200 }
 		}
 		create_state = {
 			country = c:MGD
-			owned_provinces = {
-				x62D16D xAA1CA3 x4C67A7 x355FBE x678557 xE90347 x585200 xE804B7 xF0014A
-			}
+			owned_provinces = { x355FBE x4C67A7 x678557 xE90347 xE804B7 }
 		}
-		add_homeland = cu:filipino
+
+		add_claim = c:PHI
+		add_claim = c:MGD
+		add_claim = c:SUL
+
+		add_homeland = cu:filipino_mestizo
+		add_homeland = cu:visayan
+		add_homeland = cu:lumad
 		add_homeland = cu:moro
 	}
 	s:STATE_LUZON = {
 		create_state = {
 			country = c:PHI
-			owned_provinces = {
-				x51BC8C x33B5F8 x0D8236 xB0F0E0 x5C0D4C xB08546 x1C8BCF x95102A x63FA56 xEB310E xECF5E9 x795BD8 x707061 xF4CD9C x5ED347 xCDE626 xD2AEEB xE173C4 x31F0E0 x2291B3 x6D44B5 xB0F0B0 x97B9E0 x1B9953
-			}
+			owned_provinces = { x51BC8C x33B5F8 x0D8236 xB0F0E0 x5C0D4C xB08546 x1C8BCF x95102A x63FA56 xEB310E xECF5E9 x795BD8 x707061 xF4CD9C x5ED347 xCDE626 xD2AEEB xE173C4 x31F0E0 x2291B3 x6D44B5 xB0F0B0 x97B9E0 x1B9953}
 		}
 		create_state = {
 			country = c:SUL
-			owned_provinces = {
-				x946A22
-			}
+			owned_provinces = { x946A22 }
 		}
-		add_homeland = cu:filipino
-		add_homeland = cu:moro
+
+		add_homeland = cu:filipino_mestizo
+		add_homeland = cu:tagalog
+		add_homeland = cu:ilocano
 	}
 	s:STATE_VISAYAS = {
 		create_state = {
 			country = c:PHI
-			owned_provinces = {
-				xE2086C x46EA60 x8ABD23 x8001F0 x48B8C8 x591034 x223245 xB4699E x05FD19 xCFAFEE x90F80A xF001E2 xB971C4 xD2CA4A x02E634
-			}
+			owned_provinces = {xE2086C x46EA60 x8ABD23 x8001F0 x48B8C8 x591034 x223245 xB4699E x05FD19 xCFAFEE x90F80A xF001E2 xB971C4 xD2CA4A x02E634 }
+			state_type = unincorporated
 		}
-		add_homeland = cu:filipino
-		add_homeland = cu:moro
+
+		add_homeland = cu:filipino_mestizo
+		add_homeland = cu:visayan
 	}
 	s:STATE_ATTICA = {
 		create_state = {
