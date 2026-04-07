@@ -1,18 +1,17 @@
 {
-  "name" : "Domus Iagiellonica",
-  "id" : "",
-  "version" : "0.0.3",
-  "supported_game_version" : "1.12.*",
-  "short_description" : "Alpha version *WIP* \n What if the Jagiellons ruled until the Victorian Era? \n How the world would like? ",
-  "tags" : [],
-  "relationships" : [],
-  "game_custom_data" : {
-    "multiplayer_synchronized" : true,
-    "replace_paths": [
-      "common/history/states",
-      "common/history/pops",
-      "common/history/buildings"
-    ]
-  }
-  
+	"name": "Domus Iagiellonica",
+	"id": "",
+	"version": "0.0.3",
+	"supported_game_version": "1.12.*",
+	"short_description": "Alpha version *WIP* \n What if the Jagiellons ruled until the Victorian Era? \n How the world would like? ",
+	"tags": [],
+	"relationships": [],
+	"game_custom_data": {
+		"multiplayer_synchronized": true,
+		"replace_paths": [
+			"common/history/buildings",
+			"common/history/pops",
+			"common/history/states"
+		]
+	}
 }
