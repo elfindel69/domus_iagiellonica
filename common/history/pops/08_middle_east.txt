@@ -748,7 +748,7 @@
 	}
 	s:STATE_BASRA = {
 		region_state:TUR = {
-			create_pop = {
+				create_pop = {
 				culture = mashriqi
 				size = 272000
 			}
@@ -814,41 +814,63 @@
 	}
 	s:STATE_LARISTAN = {
 		region_state:PER = {
-			create_pop = {
-				culture = persian
-				size = 200092
+				create_pop = {
+				culture = bedouin
+				size = 10270
 			}
 			create_pop = {
 				culture = bedouin
-				size = 30696
-			}
-			create_pop = {
-				culture = somali
-				size = 8920
-				pop_type = slaves
-			}
-			create_pop = {
-				culture = bambara
-				size = 8720
-				pop_type = slaves
+				religion = sunni
+				size = 6001
 			}
 			create_pop = {
 				culture = persian
-				size = 33100
+				size = 20050
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 3200
+			}
+			create_pop = {
+				culture = persian
+				size = 40100
 			}
 			create_pop = {
 				culture = bedouin
-				size = 9300
+				religion = ibadi
+				size = 8012
 			}
 			create_pop = {
-				culture = somali
-				size = 2000
-				pop_type = slaves
+				culture = baluchi
+				size = 5002
 			}
 			create_pop = {
-				culture = bambara
-				size = 2200
+				culture = bedouin
+				religion = sunni
+				size = 2006
+			}
+			create_pop = {
+				culture = sephardic
+				size = 910
+			}
+			create_pop = {
 				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 8200
+			}
+			create_pop = {
+				culture = bedouin
+				size = 5002
+			}
+			create_pop = {
+				culture = persian
+				size = 2006
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 230
 			}
 		}
 	}
@@ -884,6 +906,7 @@
 			}
 			create_pop = {
 				culture = bedouin
+				religion = ibadi
 				size = 106
 			}
 			create_pop = {
@@ -926,24 +949,78 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size = 480104
+				size = 610733
 			}
 			create_pop = {
-				culture = sephardic
-				size = 1004
+				culture = kurdish
+				size = 72012
+			}
+			create_pop = {
+				culture = baluchi
+				size = 6123
+			}
+			create_pop = {
+				culture = mazanderani
+				size = 2042
+			}
+			create_pop = {
+				culture = hazara
+				size = 3001
 			}
 			create_pop = {
 				culture = turkmen
-				size = 79996
+				size = 12042
+			}
+			create_pop = { # Mashad
+				culture = sephardic
+				size = 3469
 			}
 			create_pop = {
-				culture = sephardic
-				size = 22444
 				pop_type = slaves
+				culture = baluchi
+				size = 200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 6200
 			}
 		}
 	}
-	s:STATE_KHUZESTAN = { }
+	s:STATE_KHUZESTAN = {
+		region_state:ARB = {
+			create_pop = {
+				culture = mashriqi
+				size = 391998
+			}
+			create_pop = {
+				culture = persian
+				size = 34102
+			}
+			create_pop = {
+				culture = luri
+				size = 20012
+			}
+			create_pop = {
+				culture = circassian
+				religion = shiite
+				size = 2074
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 8200
+			}
+			create_pop = {
+				culture = sephardic
+				size = 856
+			}
+			create_pop = {
+				culture = assyrian
+				size = 1256
+			}
+		}
+	 }
 	s:STATE_ISFAHAN = {
 		region_state:PER = {
 			create_pop = {

@@ -1531,7 +1531,36 @@
 			}
 		}
 	}
-	s:STATE_RUTHENIA = { }
+	s:STATE_RUTHENIA = {
+		region_state:AUS={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:AUS"
+						levels=1
+						region="STATE_RUTHENIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:AUS"
+						levels=3
+						region="STATE_RUTHENIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_hardwood" "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
+			}
+		}
+	 }
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
 		region_state:AUS = {
 			create_building = {
