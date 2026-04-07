@@ -89,30 +89,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_KARELIA = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 114636
-			}
-			create_pop = {
-				culture = finnish
-				size = 757
-			}
-			create_pop = {
-				culture = karelian
-				size = 53619
-			}
-		}
-	}
-	s:STATE_ARKHANGELSK = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 238520
-			}
-		}
-	}
+	
 	s:STATE_TVER = {
 		region_state:RUS = {
 			create_pop = {
@@ -123,62 +100,6 @@
 				culture = ugrian
 				religion = orthodox
 				size = 59996
-			}
-		}
-	}
-	s:STATE_CRIMEA = {
-		region_state:RUS = {
-			create_pop = {
-				culture = ukrainian
-				size = 24006
-			}
-			create_pop = {
-				culture = russian
-				size = 72719
-			}
-			create_pop = {
-				culture = tatar
-				size = 75704
-			}
-			create_pop = {
-				culture = south_german
-				size = 12010
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 9388
-			}
-			create_pop = {
-				culture = bulgarian
-				size = 2816
-			}
-			create_pop = {
-				culture = greek
-				size = 6582
-			}
-			create_pop = {
-				culture = armenian
-				size = 2626
-			}
-			create_pop = {
-				culture = polish
-				size = 2097
-			}
-			create_pop = {
-				culture = czech
-				size = 239
-			}
-			create_pop = {
-				culture = estonian
-				size = 318
-			}
-			create_pop = {
-				culture = turkish
-				size = 427
-			}
-			create_pop = {
-				culture = south_italian
-				size = 326
 			}
 		}
 	}

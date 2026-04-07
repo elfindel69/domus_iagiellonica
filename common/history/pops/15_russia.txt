@@ -111,9 +111,9 @@
 			}
 		}
 	}
-	s:STATE_TALINN = {
+	s:STATE_TALINN = { #DONE
 		region_state:UBD = {
-				create_pop = {
+			create_pop = {
 				culture = swedish
 				pop_type = aristocrats
 				size = 600
@@ -141,7 +141,7 @@
 			}
 		}
 	}
-	s:STATE_RIGA = {
+	s:STATE_RIGA = { #DONE
 		region_state:UBD = {
 			create_pop = {
 				culture = east_german
@@ -213,9 +213,9 @@
 			}
 		}
 	}
-	s:STATE_KAUNAS = {
+	s:STATE_KAUNAS = { #DONE
 		region_state:PLC = {
-		create_pop = { # Most Lithuanian aristocrats identified as Polish
+			create_pop = { # Most Lithuanian aristocrats identified as Polish
 				culture = polish
 				pop_type = aristocrats
 				size = 4500
@@ -250,7 +250,7 @@
 			}
 		}
 	}
-	s:STATE_MAZOVIA = {
+	s:STATE_MAZOVIA = { #Mazovia - DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -283,7 +283,7 @@
 			}
 		}
 	}
-	s:STATE_GREATER_POLAND = {
+	s:STATE_GREATER_POLAND = { #Warszawa - DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -318,7 +318,7 @@
 			}
 		}
 	}
-	s:STATE_LESSER_POLAND = {
+	s:STATE_LESSER_POLAND = { #Lublin - DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -347,7 +347,7 @@
 			}
 		}
 	}
-	s:STATE_UUSIMAA = {
+	s:STATE_UUSIMAA = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
@@ -359,7 +359,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_KARELIA = {
+	s:STATE_WEST_KARELIA = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
@@ -380,7 +380,7 @@
 			}
 		}
 	}
-	s:STATE_ALAND = {
+	s:STATE_ALAND = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
@@ -392,7 +392,7 @@
 			}
 		}
 	}
-	s:STATE_OSTROBOTHNIA = {
+	s:STATE_OSTROBOTHNIA = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
@@ -404,7 +404,7 @@
 			}
 		}
 	}
-	s:STATE_OULU = {
+	s:STATE_OULU = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
@@ -420,7 +420,7 @@
 			}
 		}
 	}
-	s:STATE_KUOPIO = {
+	s:STATE_KUOPIO = { #DONE
 		region_state:FIN = {
 			create_pop = {
 				culture = finnish
@@ -432,7 +432,7 @@
 			}
 		}
 	}
-	s:STATE_KOLA = {
+	s:STATE_KOLA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -456,7 +456,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_KARELIA = {
+	s:STATE_EAST_KARELIA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -472,7 +472,7 @@
 			}
 		}
 	}
-	s:STATE_NENETSIA = {
+	s:STATE_NENETSIA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -484,7 +484,7 @@
 			}
 		}
 	}
-	s:STATE_ARKHANGELSK = {
+	s:STATE_ARKHANGELSK = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -492,7 +492,7 @@
 			}
 		}
 	}
-	s:STATE_GALICH = {
+	s:STATE_GALICH = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -505,7 +505,7 @@
 			}
 		}
 	}
-	s:STATE_BREST = {
+	s:STATE_BREST = { #DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = byelorussian
@@ -533,7 +533,7 @@
 			}
 		}
 	}
-	s:STATE_MINSK = {
+	s:STATE_MINSK = { #DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = polish
@@ -553,8 +553,27 @@
 			}
 		}
 	}
-	s:STATE_MOGILEV = { }
-	s:STATE_VITEBSK = {
+	s:STATE_MOGILEV = { #DONE
+		region_state:PLC = {
+			create_pop = {
+				culture = russian
+				size = 23216
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 514176
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 81190
+			}
+			create_pop = {
+				culture = polish
+				size = 6240
+			}
+		}
+	}
+	s:STATE_VITEBSK = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -578,7 +597,7 @@
 			}
 		}
 	}
-	s:STATE_VOLHYNIA = {
+	s:STATE_VOLHYNIA = { #DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
@@ -593,7 +612,7 @@
 				size = 44400
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 40819
 			}
 			create_pop = {
@@ -606,14 +625,24 @@
 			}
 		}
 	}
-	s:STATE_KIEV = {
+	s:STATE_KIEV = { #DONE
 		region_state:PLC = {
 			create_pop = {
 				culture = ukrainian
-				size = 2610320
+				pop_type = aristocrats
+				size = 34300
 			}
 			create_pop = {
-				culture = south_german
+				culture = russian
+				pop_type = aristocrats
+				size = 6000
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 2576020
+			}
+			create_pop = {
+				culture = east_german
 				size = 30125
 			}
 			create_pop = {
@@ -626,7 +655,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 87600
+				size = 81600
 			}
 			create_pop = {
 				culture = romanian
@@ -634,7 +663,7 @@
 			}
 		}
 	}
-	s:STATE_CRIMEA = {
+	s:STATE_CRIMEA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
@@ -649,7 +678,7 @@
 				size = 75704
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 12010
 			}
 			create_pop = {
@@ -690,7 +719,7 @@
 			}
 		}
 	}
-	s:STATE_KHARKOV = {
+	s:STATE_KHARKOV = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
@@ -706,7 +735,7 @@
 			}
 		}
 	}
-	s:STATE_CHERSON = {
+	s:STATE_CHERSON = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
@@ -725,7 +754,7 @@
 				size = 39420
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 32500
 			}
 			create_pop = {
@@ -734,7 +763,7 @@
 			}
 		}
 	}
-	s:STATE_CHERNIHIV = {
+	s:STATE_CHERNIHIV = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
@@ -754,7 +783,7 @@
 			}
 		}
 	}
-	s:STATE_TAURIDA = {
+	s:STATE_TAURIDA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
@@ -769,7 +798,7 @@
 				size = 55930
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 57928
 			}
 			create_pop = {
@@ -805,7 +834,7 @@
 				size = 28832
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 16864
 			}
 			create_pop = {
@@ -815,7 +844,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_CAUCASUS = {
+	s:STATE_NORTH_CAUCASUS = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -842,9 +871,11 @@
 				size = 15405
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 2513
 			}
+		}
+		region_state:CHC = {
 			create_pop = {
 				culture = chechen
 				size = 85000
@@ -853,6 +884,8 @@
 				culture = north_caucasian
 				size = 21000
 			}
+		}
+		region_state:CIR = {
 			create_pop = {
 				culture = circassian
 				size = 57809
@@ -863,7 +896,7 @@
 			}
 		}
 	}
-	s:STATE_ELIZAVETPOL = {
+	s:STATE_ELIZAVETPOL = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = azerbaijani
@@ -887,7 +920,7 @@
 				size = 92855
 			}
 			create_pop = {
-				culture = south_german
+				culture = east_german
 				size = 681
 			}
 			create_pop = {
@@ -896,7 +929,7 @@
 			}
 		}
 	}
-	s:STATE_STAVROPOL = {
+	s:STATE_STAVROPOL = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -920,7 +953,7 @@
 			}
 		}
 	}
-	s:STATE_KALMYKIA = {
+	s:STATE_KALMYKIA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = kalmyk
@@ -932,7 +965,7 @@
 			}
 		}
 	}
-	s:STATE_PSKOV = {
+	s:STATE_PSKOV = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -964,7 +997,7 @@
 			}
 		}
 	}
-	s:STATE_YAROSLAVL = {
+	s:STATE_YAROSLAVL = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -976,7 +1009,7 @@
 			}
 		}
 	}
-	s:STATE_RYAZAN = {
+	s:STATE_RYAZAN = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -988,7 +1021,7 @@
 			}
 		}
 	}
-	s:STATE_TAMBOV = {
+	s:STATE_TAMBOV = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -1004,7 +1037,7 @@
 			}
 		}
 	}
-	s:STATE_NIZHNY_NOVGOROD = {
+	s:STATE_NIZHNY_NOVGOROD = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -1024,7 +1057,7 @@
 			}
 		}
 	}
-	s:STATE_CHUVASHIA = {
+	s:STATE_CHUVASHIA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -1048,7 +1081,7 @@
 			}
 		}
 	}
-	s:STATE_VYATKA = {
+	s:STATE_VYATKA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -1068,7 +1101,7 @@
 			}
 		}
 	}
-	s:STATE_UFA = {
+	s:STATE_UFA = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = bashkir
@@ -1096,8 +1129,8 @@
 			}
 		}
 	}
-	s:STATE_CHELYABINSK = {
-		region_state:RUS = {
+	s:STATE_CHELYABINSK = { #DONE
+		region_state:KZH = {
 			create_pop = {
 				culture = russian
 				size = 27045
@@ -1126,6 +1159,8 @@
 				culture = chuvash
 				size = 1346
 			}
+		}
+		region_state:OZH = {
 			create_pop = {
 				culture = russian
 				size = 22140
@@ -1146,6 +1181,8 @@
 				culture = mordvin
 				size = 710
 			}
+		}
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 278355
@@ -1180,9 +1217,9 @@
 			}
 		}
 	}
-	s:STATE_ALTAI = {
+	s:STATE_ALTAI = { #DONE
 		region_state:CHI = {
-			create_pop = {
+			create_pop = { #Altaians
 				culture = mongol
 				religion = animist
 				size = 22940

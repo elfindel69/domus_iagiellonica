@@ -1670,11 +1670,12 @@
 				size = 1067036
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 18712
 			}
 		}
 	}
+
 	s:STATE_RYUKYU_ISLANDS = {
 		region_state:JAP = {
 			create_pop = {
@@ -1683,6 +1684,7 @@
 			}
 		}
 	}
+
 	s:STATE_CHUGOKU = {
 		region_state:JAP = {
 			create_pop = {
