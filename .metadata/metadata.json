@@ -1,4 +1,4 @@
-﻿{
+{
 	"name": "Domus Iagiellonica",
 	"id": "domus_iagiellonica",
 	"version": "0.0.3",
@@ -11,7 +11,8 @@
 		"replace_paths": [
 			"common/history/buildings",
 			"common/history/pops",
-			"common/history/states"
+			"common/history/states",
+			"map_data/state_regions"
 		]
 	}
 }
