@@ -456,7 +456,7 @@
 	}
 	s:STATE_LEBANON = {
 		region_state:TUR = {
-		create_pop = {
+			create_pop = {
 				culture = mashriqi
 				religion = sunni
 				size = 88000

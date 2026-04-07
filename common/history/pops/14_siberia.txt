@@ -1,24 +1,4 @@
 ﻿POPS = {
-	s:STATE_URAL = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 320760
-			}
-			create_pop = {
-				culture = ugrian
-				size = 23760
-			}
-			create_pop = {
-				culture = bashkir
-				size = 13484
-			}
-			create_pop = {
-				culture = tatar
-				size = 19800
-			}
-		}
-	}
 	s:STATE_TOMSK = {
 		region_state:RUS = {
 			create_pop = {
@@ -49,7 +29,7 @@
 		}
 	}
 	s:STATE_TOBOLSK = {
-		region_state:RUS = {
+			region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 386252

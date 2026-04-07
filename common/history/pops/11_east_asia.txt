@@ -459,11 +459,11 @@
 	s:STATE_GANSU = {
 		region_state:CHI = {
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 3633588
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = mahayana
 				size = 606085
 			}
@@ -476,7 +476,7 @@
 				size = 1735900
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = sunni
 				size = 401660
 			}
@@ -489,11 +489,11 @@
 	s:STATE_XIAN = {
 		region_state:CHI = {
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 6351000
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = mahayana
 				size = 2000000
 			}
@@ -506,7 +506,7 @@
 				size = 1122488
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = sunni
 				size = 216304
 			}
@@ -536,7 +536,7 @@
 				size = 56000
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = sunni
 				size = 8004
 			}
@@ -545,11 +545,11 @@
 	s:STATE_CHONGQING = {
 		region_state:CHI = {
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 10546404
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = mahayana
 				size = 9546404
 			}
@@ -571,7 +571,7 @@
 				size = 5200
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 774792
 			}
 			create_pop = {
@@ -602,7 +602,7 @@
 				religion = mahayana
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = animist
 				size = 204400
 			}

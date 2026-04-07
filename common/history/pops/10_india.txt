@@ -1230,6 +1230,8 @@
 				religion = sunni
 				size = 10844
 			}
+		}
+		region_state:BIC = {
 			create_pop = {
 				culture = rajput
 				size = 170578
@@ -1253,6 +1255,8 @@
 				pop_type = aristocrats
 				size = 213
 			}
+		}
+		region_state:ALW = {
 			create_pop = {
 				culture = rajput
 				size = 414651
@@ -1286,6 +1290,8 @@
 				religion = sikh
 				size = 217
 			}
+		}
+		region_state:KOT = {
 			create_pop = {
 				culture = rajput
 				size = 269698
@@ -1309,6 +1315,8 @@
 				religion = sunni
 				size = 1701
 			}
+		}
+		region_state:IND = {
 			create_pop = {
 				culture = rajput
 				size = 29021
@@ -1318,6 +1326,8 @@
 				religion = sunni
 				size = 2012
 			}
+		}
+		region_state:GWA = {
 			create_pop = {
 				culture = rajput
 				size = 26010
@@ -1337,7 +1347,7 @@
 			}
 			create_pop = {
 				culture = lacustrine_bantu
-				size = 700
+				size =700
 			}
 			create_pop = {
 				culture = tamil
@@ -1363,7 +1373,7 @@
 			}
 			create_pop = {
 				culture = sinhala
-				size = 36200
+				size =36200
 			}
 			create_pop = {
 				culture = sinhala
@@ -1418,12 +1428,12 @@
 			create_pop = {
 				culture = afro_antillean
 				religion = catholic
-				size = 801
+				size = 2801
 			}
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:FRA = {
+			region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 29992
@@ -1462,7 +1472,7 @@
 		}
 	}
 	s:STATE_ORISSA = {
-		region_state:NAR = {
+			region_state:NAR = {
 			create_pop = {
 				culture = oriya
 				size = 35625

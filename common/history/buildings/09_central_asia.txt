@@ -475,6 +475,7 @@
 	s:STATE_JETISY = {
 		region_state:CHI = { }
 	}
+	
 	s:STATE_TURKMENIA = {
 		region_state:KHI = {
 			create_building = {
