@@ -7,12 +7,12 @@
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {
-    "multiplayer_synchronized" : true
-  },
-  "replace_paths": [
-    "common/history/states",
-    "common/history/pops",
-    "common/history/buildings"
-
-  ]
+    "multiplayer_synchronized" : true,
+    "replace_paths": [
+      "common/history/states",
+      "common/history/pops",
+      "common/history/buildings"
+    ]
+  }
+  
 }
