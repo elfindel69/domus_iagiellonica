@@ -227,11 +227,11 @@
 				religion = mahayana
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 2068000
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 500000
 				religion = mahayana
 			}
