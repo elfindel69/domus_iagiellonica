@@ -1586,7 +1586,7 @@
 				culture = ainu
 				size = 29500
 			}
-			create_pop = {
+			create_pop = { # traders and fishermen associated with contract fisheries
 				culture = japanese
 				size = 831
 			}

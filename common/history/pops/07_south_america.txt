@@ -1183,5 +1183,33 @@
 			}
 		}
 	}
-	s:STATE_PARA = { }
+	s:STATE_PARA = {
+		region_state:BRZ = {
+			create_pop = {
+				culture = amazonic
+				size = 111297
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_brazilian
+				size = 65737
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 77642
+			}
+			create_pop = {
+				culture = amazonian
+				size = 43800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3646
+			}
+			create_pop = {
+				culture = french
+				size = 416
+			}
+		}
+	}
 }

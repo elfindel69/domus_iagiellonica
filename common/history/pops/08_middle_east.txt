@@ -20,9 +20,9 @@
 	}
 	s:STATE_OMAN = {
 		region_state:OMA = {
-			create_pop = {
+				create_pop = {
 				culture = bedouin
-				religion = shiite
+				religion = ibadi
 				size = 158000
 			}
 			create_pop = {
@@ -93,7 +93,7 @@
 		region_state:OMA = {
 			create_pop = {
 				culture = bedouin
-				religion = shiite
+				religion = ibadi
 				size = 1600
 			}
 			create_pop = {
@@ -108,7 +108,7 @@
 			}
 			create_pop = {
 				culture = baluchi
-				religion = shiite
+				religion = ibadi
 				size = 230
 			}
 			create_pop = {
@@ -285,7 +285,7 @@
 				size = 40600
 			}
 			create_pop = {
-				culture = sephardic
+				culture = sephardic # Najran Jews
 				religion = jewish
 				size = 300
 			}
@@ -1263,7 +1263,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 300074
+				size = 270062
 			}
 			create_pop = {
 				culture = kurdish
@@ -1271,11 +1271,11 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 35606
+				size = 33596
 			}
 			create_pop = {
 				culture = greek
-				size = 6026
+				size = 5023
 			}
 			create_pop = {
 				culture = greek
@@ -1285,12 +1285,34 @@
 			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
-				size = 500
+				size = 400
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
-				size = 1400
+				size = 1000
+			}
+			create_pop = {
+				culture = turkish
+				size = 30012
+			}
+			create_pop = {
+				culture = armenian
+				size = 2010
+			}
+			create_pop = {
+				culture = greek
+				size = 1003
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 400
 			}
 		}
 	}
@@ -1304,7 +1326,7 @@
 				culture = armenian
 				size = 36003
 			}
-			create_pop = {
+			create_pop = { # Hemshin
 				culture = armenian
 				religion = sunni
 				size = 10103
@@ -1313,7 +1335,7 @@
 				culture = greek
 				size = 135110
 			}
-			create_pop = {
+			create_pop = { # Laz
 				culture = georgian
 				religion = sunni
 				size = 40320
@@ -1339,11 +1361,22 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 244045
+				size = 150831
 			}
 			create_pop = {
 				culture = kurdish
-				size = 380301
+				size = 166211
+			}
+			# Alevis, Bektashis, Zazaki and the more heterodox end of Anatolian folk Islam
+			create_pop = {
+				culture = turkish
+				size = 93214
+				religion = shiite
+			}
+			create_pop = {
+				culture = kurdish
+				size = 204090
+				religion = shiite
 			}
 			create_pop = {
 				culture = greek

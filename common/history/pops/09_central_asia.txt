@@ -3,29 +3,44 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = north_caucasian
-				size = 271100
+				size = 56100
 			}
 			create_pop = {
 				culture = sephardic
-				size = 5200
+				size = 7078
 			}
 			create_pop = {
 				culture = north_caucasian
 				religion = orthodox
-				size = 72200
+				size = 42200
 			}
 			create_pop = {
-				culture = azerbaijani
-				religion = sunni
-				size = 32000
+				culture = armenian
+				size = 2440
+			}
+			create_pop = {
+				culture = kazak
+				size = 19615
 			}
 			create_pop = {
 				culture = russian
-				size = 45500
+				size = 32156
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 2777
+			}
+			create_pop = {
+				culture = persian
+				size = 4454
 			}
 			create_pop = {
 				culture = north_caucasian
-				size = 92200
+				size = 198000
+			}
+			create_pop = {
+				culture = chechen
+				size = 6309
 			}
 		}
 	}
