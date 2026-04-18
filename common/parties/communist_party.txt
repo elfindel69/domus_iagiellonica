@@ -21,12 +21,6 @@
 				trigger = {
 					exists = c:BYZ
 					THIS = c:BYZ
-					any_interest_group = {
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology_vanguardist
-						}
-					}
 				}
 			}
 			triggered_desc = {
@@ -35,7 +29,7 @@
 					country_has_primary_culture = cu:russian
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -45,10 +39,10 @@
 				desc = party_british_socialist_party
 				trigger = {
 					exists = c:GBR
-					THIS = c:GBR
+					c:GBR ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -58,10 +52,10 @@
 				desc = party_pcf
 				trigger = {
 					exists = c:FRA
-					THIS = c:FRA
+					c:FRA ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -71,10 +65,10 @@
 				desc = party_kps
 				trigger = {
 					exists = c:SWI
-					THIS = c:SWI
+					c:SWI ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -84,10 +78,10 @@
 				desc = party_nkp
 				trigger = {
 					exists = c:NOR
-					THIS = c:NOR
+					c:NOR ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -97,10 +91,10 @@
 				desc = party_dkp
 				trigger = {
 					exists = c:DEN
-					THIS = c:DEN
+					c:DEN ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -110,10 +104,10 @@
 				desc = party_skp
 				trigger = {
 					exists = c:SWE
-					THIS = c:SWE
+					c:SWE ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -123,10 +117,10 @@
 				desc = party_skp
 				trigger = {
 					exists = c:FIN
-					THIS = c:FIN
+					c:FIN ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -136,10 +130,10 @@
 				desc = party_kpl
 				trigger = {
 					exists = c:LUX
-					THIS = c:LUX
+					c:LUX ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -149,10 +143,10 @@
 				desc = party_bkp
 				trigger = {
 					exists = c:BUL
-					THIS = c:BUL
+					c:BUL ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -162,10 +156,10 @@
 				desc = party_mkp
 				trigger = {
 					exists = c:HUN
-					THIS = c:HUN
+					c:HUN ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -175,10 +169,10 @@
 				desc = party_kpo
 				trigger = {
 					exists = c:AUS
-					THIS = c:AUS
+					c:AUS ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -188,10 +182,10 @@
 				desc = party_jcp
 				trigger = {
 					exists = c:JAP
-					THIS = c:JAP
+					c:JAP ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -201,10 +195,10 @@
 				desc = party_justice_party
 				trigger = {
 					exists = c:PER
-					THIS = c:PER
+					c:PER ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -214,10 +208,10 @@
 				desc = party_socialist_workers_party
 				trigger = {
 					exists = c:MEX
-					THIS = c:MEX
+					c:MEX ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -227,10 +221,10 @@
 				desc = party_kke
 				trigger = {
 					exists = c:GRE
-					THIS = c:GRE
+					c:GRE ?= THIS
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -246,7 +240,7 @@
 						}
 						any_interest_group = {
 							is_powerful = yes
-							leader = {
+							leader ?= {
 								has_ideology = ideology:ideology_vanguardist
 							}
 						}
@@ -259,7 +253,7 @@
 					country_has_primary_culture = cu:brazilian
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							has_ideology = ideology:ideology_vanguardist
 						}
 					}
@@ -275,9 +269,33 @@
 						}
 						any_interest_group = {
 							is_powerful = yes
+							leader ?= {
+								has_ideology = ideology:ideology_vanguardist
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_maximalist_federation
+				trigger = {
+					c:POR ?= this
+					NOT = {
+						any_interest_group = {
 							leader = {
 								has_ideology = ideology:ideology_vanguardist
 							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_portuguese_communist_party
+				trigger = {
+					c:POR ?= this
+					any_interest_group = {
+						leader = {
+							has_ideology = ideology:ideology_vanguardist
 						}
 					}
 				}
@@ -297,7 +315,7 @@
 						}
 						any_interest_group = {
 							is_powerful = yes
-							leader = {
+							leader ?= {
 								has_ideology = ideology:ideology_vanguardist
 							}
 						}
@@ -325,12 +343,17 @@
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-			any_interest_group = {
-				leader = {
-					OR = {
-						has_ideology = ideology:ideology_communist
-						has_ideology = ideology:ideology_vanguardist
-						has_ideology = ideology:ideology_anarchist
+			OR = {
+				py:communist_party ?= {
+					any_member = {}
+				}
+				any_interest_group = {
+					leader ?= {
+						OR = {
+							has_ideology = ideology:ideology_communist
+							has_ideology = ideology:ideology_vanguardist
+							has_ideology = ideology:ideology_anarchist
+						}
 					}
 				}
 			}
@@ -339,13 +362,14 @@
 			is_interest_group_type = ig_industrialists
 			is_interest_group_type = ig_landowners
 		}
-		leader = { # fascists, conservatives, and capitalists hate communism
+		leader ?= { # fascists, conservatives, and capitalists hate communism
 			NOR = {
 				has_ideology = ideology:ideology_fascist
 				has_ideology = ideology:ideology_integralist
 				has_ideology = ideology:ideology_ethno_nationalist
 				has_ideology = ideology:ideology_market_liberal
 				has_ideology = ideology:ideology_traditionalist
+				character_has_carlist_ideology = yes
 				has_ideology = ideology:ideology_royalist
 				has_ideology = ideology:ideology_orleanist
 				has_ideology = ideology:ideology_bonapartist
@@ -354,18 +378,8 @@
 				has_ideology = ideology:ideology_corporatist_leader
 			}
 		}
-		OR = {
-	     	NOT = {
-	         	owner = {
-	         		has_variable = only_valid_party
-	         	}
-	        }
-	        owner.var:only_valid_party = {
-	        	is_party_type = communist_party
-	        }
-	    }
 	}
-	
+
 	# Root - IG considering joining
 	# scope:number - the number of IGs that would join this party before the root IG
 	join_weight = {
@@ -373,9 +387,30 @@
 			value = -5
 			desc = "base_value"
 		}
+		if = {
+			limit = {
+				owner = {
+					c:BIC ?= this
+					is_subject = yes
+					OR = {
+						has_modifier = modifier_india_crown_rule
+						has_modifier = modifier_india_company_rule
+						has_modifier = modifier_india_company_rule_upgraded
+					}
+				}
+				OR = {
+					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_armed_forces
+				}
+			}
+			add = {
+				value = -100
+				desc = "india_colonial_government"
+			}
+		}
 		if = { # communists love communism
 			limit = {
-				leader = {
+				leader ?= {
 					OR = {
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
@@ -391,7 +426,7 @@
 		if = { # communists love communism
 			limit = {
 				is_powerful = yes
-				leader = {
+				leader ?= {
 					OR = {
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
@@ -407,7 +442,7 @@
 		if = { # weak social democrats and radicals may side with strong communists
 			limit = {
 				is_powerful = no
-				leader = {
+				leader ?= {
 					OR = {
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_radical
@@ -416,7 +451,7 @@
 				owner = {
 					any_interest_group = {
 						is_powerful = yes
-						leader = {
+						leader ?= {
 							OR = {
 								has_ideology = ideology:ideology_communist
 								has_ideology = ideology:ideology_vanguardist
@@ -433,11 +468,11 @@
 		}
 		if = { # post-revolution anarchists not excited about vanguard party
 			limit = {
-				leader = {
+				leader ?= {
 					has_ideology = ideology:ideology_anarchist
 				}
 				owner = {
-					has_law = law_type:law_council_republic
+					has_law_or_variant = law_type:law_council_republic
 					ruler = {
 						has_ideology = ideology:ideology_vanguardist
 					}
@@ -468,7 +503,7 @@
 		}
 		if = { # moderates are scared of radical politics
 			limit = {
-				leader = {
+				leader ?= {
 					has_ideology = ideology:ideology_moderate
 				}
 			}
@@ -481,13 +516,14 @@
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_meritocratic
+					has_ideology = ideology:ideology_cartist
 					has_ideology = ideology:ideology_agrarian
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_social_democrat
 					}
 				}
 				owner = {
-					has_law = law_type:law_land_based_taxation
+					has_law_or_variant = law_type:law_land_based_taxation
 				}
 			}
 			add = {
@@ -499,12 +535,12 @@
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_anti_clerical
-					leader = {
-						has_ideology = ideology:ideology_atheist
+					leader ?= {
+						has_ideology = ideology:ideology_nihilist
 					}
 				}
 				owner = {
-					has_law = law_type:law_state_religion
+					has_law_or_variant = law_type:law_state_religion
 				}
 			}
 			add = {
@@ -519,10 +555,10 @@
 					has_ideology = ideology:ideology_agrarian
 				}
 				owner = {
-					has_law = law_type:law_free_trade
+					has_law_or_variant = law_type:law_free_trade
 				}
 				NOT = {
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_market_liberal
 					}
 				}
@@ -537,15 +573,15 @@
 				OR = {
 					has_ideology = ideology:ideology_socialist
 					has_ideology = ideology:ideology_agrarian
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_protectionist
 					}
 				}
 				owner = {
-					has_law = law_type:law_laissez_faire
+					has_law_or_variant = law_type:law_laissez_faire
 				}
 				NOT = {
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_market_liberal
 					}
 				}
@@ -559,22 +595,22 @@
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_proletarian
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_social_democrat
 					}
 					AND = {
 						has_ideology = ideology:ideology_loyalist
 						owner = {
 							NOR = {
-								has_law = law_type:law_proportional_taxation
-								has_law = law_type:law_per_capita_based_taxation
+								has_law_or_variant = law_type:law_proportional_taxation
+								has_law_or_variant = law_type:law_per_capita_based_taxation
 							}
 						}
 					}
 				}
 				owner = {
 					NOT = {
-						has_law = law_type:law_graduated_taxation
+						has_law_or_variant = law_type:law_graduated_taxation
 					}
 				}
 			}
@@ -586,7 +622,7 @@
 		if = { # anti-serfdom
 			limit = {
 				owner = {
-					has_law = law_type:law_serfdom
+					has_law_or_variant = law_type:law_serfdom
 				}
 				OR = {
 					has_ideology = ideology:ideology_egalitarian
@@ -594,10 +630,13 @@
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
 					has_ideology = ideology:ideology_particularist
-					leader = {
-						has_ideology = ideology:ideology_abolitionist
-						has_ideology = ideology:ideology_social_democrat
-						has_ideology = ideology:ideology_communist
+					leader ?= {
+						OR = {
+							has_ideology = ideology:ideology_abolitionist
+							has_ideology = ideology:ideology_social_democrat
+							has_ideology = ideology:ideology_communist
+							has_ideology = ideology:ideology_vanguardist
+						}
 					}
 				}
 			}
@@ -610,13 +649,14 @@
 			limit = {
 				owner = {
 					OR = {
-						has_law = law_type:law_legacy_slavery
-						has_law = law_type:law_slave_trade
+						has_law_or_variant = law_type:law_legacy_slavery
+						has_law_or_variant = law_type:law_slave_trade
+						has_law_or_variant = law_type:law_colonial_slavery
 					}
 				}
 				OR = {
 					has_ideology = ideology:ideology_anti_slavery
-					leader = {
+					leader ?= {
 						has_ideology = ideology:ideology_abolitionist
 					}
 				}
@@ -630,7 +670,7 @@
 			limit = {
 				scope:number = 1
 				is_powerful = no
-				is_marginal = no
+				ig_counts_as_marginal = no
 			}
 			multiply = {
 				value = 2
@@ -651,7 +691,7 @@
 				scope:number = 3
 			}
 			multiply = {
-				value = 0.25
+				value = 0.05
 				desc = "from_three_prior_members"
 			}
 		}
@@ -660,65 +700,19 @@
 				scope:number > 3
 			}
 			multiply = {
-				value = 0.1
+				value = 0.0
 				desc = "from_more_than_three_prior_members"
 			}
 		}
 		if = {
 			limit = {
-				owner = {
-	         		has_variable = only_valid_party
-	         	}
-	         	NOT = {
-			        owner.var:only_valid_party = {
-			        	is_party_type = communist_party
-			        }
-			    }
-			}
-			multiply = {
-				value = 0
-			}
-		}
-		if = {
-			limit = {
-				leader = {
+				leader ?= {
 					has_variable = caudillo_communist
 				}
 			}
 			add = {
 				value = 20
 				desc = "caudillo_support"
-			}
-		}
-		if = {
-			limit = {
-				owner = {
-	         		has_variable = only_valid_party
-	         	}
-				owner.var:only_valid_party = {
-					is_party_type = communist_party
-				}
-	         	owner.ruler = {
-					this.interest_group = prev
-				}
-			}
-			add = {
-				value = 1000
-				desc = "from_only_legal_party"
-			}
-		}
-		else_if = {
-			limit = {
-				owner = {
-	         		has_variable = only_valid_party
-	         	}
-	         	 owner.var:only_valid_party = {
-		        	is_party_type = communist_party
-		        }
-			}
-			add = {
-				value = 3
-				desc = "from_only_legal_party"
 			}
 		}
 	}

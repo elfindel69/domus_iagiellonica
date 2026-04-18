@@ -17,7 +17,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NEJ
@@ -47,7 +47,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -77,7 +77,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:OMA
@@ -122,7 +122,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:ABU
@@ -195,11 +195,11 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:ZAI
@@ -225,7 +225,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 		}
@@ -242,7 +242,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -280,7 +280,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:HDJ
@@ -297,7 +297,7 @@
 	s:STATE_HAIL = {
 		region_state:JAB = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAB
@@ -327,7 +327,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NEJ
@@ -359,7 +359,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -370,7 +370,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -525,10 +525,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUR
 						levels = 1
 						region = STATE_SYRIA
@@ -651,10 +651,10 @@
 	s:STATE_BAGHDAD = {
 		region_state:TUR = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUR
 						levels = 1
 						region = STATE_BAGHDAD
@@ -815,7 +815,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -826,7 +826,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -879,7 +879,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -890,7 +890,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1160,10 +1160,10 @@
 	s:STATE_MAZANDARAN = {
 		region_state:PER = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:PER
 						levels = 2
 						region = STATE_MAZANDARAN
@@ -1239,10 +1239,10 @@
 	s:STATE_IRAKAJEMI = {
 		region_state:PER = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:PER
 						levels = 1
 						region = STATE_IRAKAJEMI
@@ -1314,10 +1314,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:PER
 						levels = 2
 						region = STATE_TABRIZ
@@ -1493,10 +1493,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUR
 						levels = 1
 						region = STATE_HUDAVENDIGAR
@@ -1508,7 +1508,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1612,10 +1612,10 @@
 	s:STATE_AYDIN = {
 		region_state:TUR = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUR
 						levels = 1
 						region = STATE_AYDIN
@@ -1627,10 +1627,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:TUR
 						levels = 2
 						region = STATE_AYDIN

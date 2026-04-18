@@ -307,7 +307,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -360,10 +360,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 7
 						region = STATE_WEST_BENGAL
@@ -375,10 +375,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:BIC
 						levels = 2
 						region = STATE_WEST_BENGAL
@@ -435,10 +435,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 4
 						region = STATE_EAST_BENGAL
@@ -602,10 +602,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 1
 						region = STATE_DELHI
@@ -664,10 +664,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:AWA
 						levels = 2
 						region = STATE_AWADH
@@ -679,10 +679,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:AWA
 						levels = 2
 						region = STATE_AWADH
@@ -777,10 +777,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 2
 						region = STATE_AWADH
@@ -875,13 +875,13 @@
 						region = STATE_HOME_COUNTIES
 					}
 				}
-				reserves = 2
+				reserves = 1
 				activate_production_methods = {
 					"pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -909,10 +909,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 2
 						region = STATE_AGRA
@@ -956,10 +956,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:BER
 						levels = 1
 						region = STATE_GUJARAT
@@ -971,10 +971,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BER
 						levels = 1
 						region = STATE_GUJARAT
@@ -1116,10 +1116,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:IND
 						levels = 1
 						region = STATE_MALWA
@@ -1180,10 +1180,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BHO
 						levels = 1
 						region = STATE_MALWA
@@ -1242,7 +1242,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:KAS
@@ -1285,10 +1285,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:KAS
 						levels = 1
 						region = STATE_KASHMIR
@@ -1300,10 +1300,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:KAS
 						levels = 1
 						region = STATE_KASHMIR
@@ -1388,10 +1388,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:PAN
 						levels = 3
 						region = STATE_PUNJAB
@@ -1403,10 +1403,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:PAN
 						levels = 1
 						region = STATE_PUNJAB
@@ -1418,10 +1418,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:PAN
 						levels = 1
 						region = STATE_PUNJAB
@@ -1557,10 +1557,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:PAN
 						levels = 1
 						region = STATE_HILL_PUNJAB
@@ -1636,10 +1636,10 @@
 	s:STATE_CENTRAL_PROVINCES = {
 		region_state:NAG = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:NAG
 						levels = 2
 						region = STATE_CENTRAL_PROVINCES
@@ -1856,10 +1856,10 @@
 		region_state:JOD = { }
 		region_state:JAI = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:JAI
 						levels = 1
 						region = STATE_RAJPUTANA
@@ -1946,7 +1946,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2119,10 +2119,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 5
 						region = STATE_CIRCARS
@@ -2235,10 +2235,10 @@
 	s:STATE_MYSORE = {
 		region_state:MYS = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:MYS
 						levels = 2
 						region = STATE_MYSORE
@@ -2274,7 +2274,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2347,7 +2347,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2396,7 +2396,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 		}
@@ -2483,10 +2483,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 4
 						region = STATE_MADRAS
@@ -2567,7 +2567,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2708,10 +2708,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:HYD
 						levels = 1
 						region = STATE_HYDERABAD
@@ -2770,7 +2770,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2785,7 +2785,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -2796,7 +2796,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2815,10 +2815,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:BIC
 						levels = 1
 						region = STATE_BOMBAY
@@ -2843,10 +2843,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BIC
 						levels = 4
 						region = STATE_BOMBAY
@@ -2871,7 +2871,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:BIC

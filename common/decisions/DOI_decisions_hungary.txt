@@ -15,7 +15,7 @@
 
 			# Don't show if PLC already owns a significant chunk (both main cores)
 			NOR = {
-				any_scope_state = { state_region=s:STATE_HUNGARY }
+				any_scope_state = { state_region=s:STATE_CENTRAL_HUNGARY }
 				any_scope_state = { state_region=s:STATE_TRANSDANUBIA }
 			}
 		}

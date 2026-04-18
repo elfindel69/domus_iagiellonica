@@ -153,7 +153,7 @@
 	s:STATE_GREATER_CAUCASUS = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -332,7 +332,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BUK
@@ -379,7 +379,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOK
@@ -441,7 +441,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOK
@@ -494,7 +494,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KHI
@@ -607,10 +607,10 @@
 	s:STATE_KANDAHAR = {
 		region_state:KAN = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:KAN
 						levels = 1
 						region = STATE_KANDAHAR
@@ -737,10 +737,10 @@
 	s:STATE_HERAT = {
 		region_state:HER = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:HER
 						levels = 1
 						region = STATE_HERAT
@@ -814,10 +814,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:KAB
 						levels = 1
 						region = STATE_KABUL
@@ -1032,7 +1032,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TIB
@@ -1064,7 +1064,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TIB
@@ -1111,7 +1111,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NEP
@@ -1128,7 +1128,7 @@
 	s:STATE_EASTERN_HIMALAYAS = {
 		region_state:SIK = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SIK
@@ -1143,7 +1143,7 @@
 		}
 		region_state:BHU = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BHU

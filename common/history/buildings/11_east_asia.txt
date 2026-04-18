@@ -83,7 +83,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:CHI
@@ -175,10 +175,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:CHI
 						levels = 7
 						region = STATE_GUIZHOU
@@ -543,10 +543,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:CHI
 						levels = 4
 						region = STATE_BEIJING
@@ -558,10 +558,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:CHI
 						levels = 5
 						region = STATE_BEIJING
@@ -890,10 +890,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 4
 						region = STATE_CHONGQING
@@ -1027,7 +1027,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					country = {
 						country = c:CHI
@@ -1040,7 +1040,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:CHI
@@ -1205,10 +1205,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:CHI
 						levels = 8
 						region = STATE_ZHEJIANG
@@ -1494,10 +1494,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 11
 						region = STATE_ZHILI
@@ -1648,10 +1648,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:CHI
 						levels = 10
 						region = STATE_SOUTHERN_ANHUI
@@ -1678,10 +1678,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 6
 						region = STATE_SOUTHERN_ANHUI
@@ -1772,10 +1772,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 9
 						region = STATE_WESTERN_HUBEI
@@ -1787,10 +1787,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:CHI
 						levels = 10
 						region = STATE_WESTERN_HUBEI
@@ -1849,10 +1849,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:CHI
 						levels = 8
 						region = STATE_EASTERN_HUBEI
@@ -1879,10 +1879,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 9
 						region = STATE_EASTERN_HUBEI
@@ -2080,10 +2080,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:CHI
 						levels = 8
 						region = STATE_SHANDONG
@@ -2170,10 +2170,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:CHI
 						levels = 7
 						region = STATE_SUZHOU
@@ -2300,7 +2300,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SIA
@@ -2349,7 +2349,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:CAM
@@ -2439,7 +2439,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SIA
@@ -2514,7 +2514,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:DAI
@@ -2561,7 +2561,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:DAI
@@ -2621,7 +2621,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:DAI
@@ -2666,7 +2666,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:LUA
@@ -2696,7 +2696,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SIA
@@ -2711,7 +2711,7 @@
 		}
 		region_state:CHP = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:CHP
@@ -2758,7 +2758,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:CMI
@@ -2820,7 +2820,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SIA
@@ -3134,7 +3134,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3267,7 +3267,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3310,10 +3310,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:JAP
 						levels = 2
 						region = STATE_CHUBU
@@ -3325,10 +3325,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:JAP
 						levels = 2
 						region = STATE_CHUBU
@@ -3415,7 +3415,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3458,10 +3458,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:JAP
 						levels = 4
 						region = STATE_KANSAI
@@ -3473,10 +3473,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:JAP
 						levels = 3
 						region = STATE_KANSAI
@@ -3578,7 +3578,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3608,7 +3608,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3621,10 +3621,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:JAP
 						levels = 2
 						region = STATE_KYUSHU
@@ -3726,7 +3726,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -3816,10 +3816,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:JAP
 						levels = 2
 						region = STATE_CHUGOKU
@@ -3936,7 +3936,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -4041,7 +4041,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JAP
@@ -4144,7 +4144,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR
@@ -4174,7 +4174,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					country = {
 						country = c:KOR
@@ -4247,7 +4247,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR
@@ -4350,7 +4350,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR
@@ -4425,7 +4425,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR
@@ -4515,7 +4515,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KOR

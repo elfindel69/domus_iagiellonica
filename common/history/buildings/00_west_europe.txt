@@ -41,10 +41,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:SWE
 						levels = 3
 						region = STATE_SVEALAND
@@ -154,7 +154,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -286,10 +286,10 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
-						type = building_shipyards
+						type = building_shipyard
 						country = c:SWE
 						levels = 1
 						region = STATE_SCANIA
@@ -301,7 +301,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:SWE
@@ -314,10 +314,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:SWE
 						levels = 1
 						region = STATE_SCANIA
@@ -556,7 +556,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -571,7 +571,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:DEN
@@ -584,7 +584,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -685,10 +685,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:DEN
 						levels = 1
 						region = STATE_ZEALAND
@@ -719,7 +719,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -826,7 +826,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -989,7 +989,7 @@
 				}
 			}
 			create_building = {
-				building = "building_arts_academy"
+				building = "building_art_academy"
 				add_ownership = {
 					building = {
 						
@@ -1038,7 +1038,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1057,7 +1057,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1076,7 +1076,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1091,7 +1091,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:GBR
@@ -1104,7 +1104,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1217,7 +1217,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
@@ -1233,7 +1233,7 @@
 						region = STATE_HOME_COUNTIES
 					}
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:GBR
 						levels = 4
 						region = STATE_LANCASHIRE
@@ -1272,7 +1272,7 @@
 				}
 			}
 			create_building = {
-				building = "building_munition_plants"
+				building = "building_munition_plant"
 				add_ownership = {
 					country = {
 						country = c:GBR
@@ -1410,7 +1410,7 @@
 	s:STATE_WALES = {
 		region_state:GBR = {
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1512,7 +1512,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
@@ -1548,7 +1548,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 					
@@ -1571,7 +1571,7 @@
 				}
 			}
 			create_building = {
-				building = "building_steel_mills"
+				building = "building_steel_mill"
 				add_ownership = {
 					building = {
 						
@@ -1804,7 +1804,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
@@ -1814,7 +1814,7 @@
 						region = STATE_MIDLANDS
 					}
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:GBR
 						levels = 6
 						region = STATE_MIDLANDS
@@ -1833,7 +1833,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:GBR
@@ -1846,7 +1846,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
@@ -1856,7 +1856,7 @@
 						region = STATE_MIDLANDS
 					}
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:GBR
 						levels = 2
 						region = STATE_MIDLANDS
@@ -1869,7 +1869,7 @@
 				}
 			}
 			create_building = {
-				building = "building_chemical_plants"
+				building = "building_chemical_plant"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2039,7 +2039,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
@@ -2107,7 +2107,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2122,7 +2122,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2268,7 +2268,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
@@ -2291,7 +2291,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
@@ -2314,7 +2314,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						
@@ -2337,7 +2337,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2367,7 +2367,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -2378,7 +2378,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2886,7 +2886,7 @@
 				}
 			}
 			create_building = {
-				building = "building_arts_academy"
+				building = "building_art_academy"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -2901,11 +2901,11 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:FRA
 						levels = 8
 						region = STATE_ILE_DE_FRANCE
@@ -2954,7 +2954,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2992,11 +2992,11 @@
 	s:STATE_PROVENCE = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:FRA
 						levels = 2
 						region = STATE_PROVENCE
@@ -3060,7 +3060,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3071,7 +3071,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3105,10 +3105,10 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
-						type = building_shipyards
+						type = building_shipyard
 						country = c:FRA
 						levels = 3
 						region = STATE_NORMANDY
@@ -3120,7 +3120,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3135,11 +3135,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:FRA
 						levels = 4
 						region = STATE_NORMANDY
@@ -3286,7 +3286,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3297,7 +3297,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3346,11 +3346,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:FRA
 						levels = 4
 						region = STATE_RHONE
@@ -3369,7 +3369,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3472,7 +3472,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3483,7 +3483,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3525,7 +3525,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:FRA
@@ -3553,7 +3553,7 @@
 				}
 			}
 			create_building = {
-				building = "building_munition_plants"
+				building = "building_munition_plant"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3653,10 +3653,10 @@
 	s:STATE_PICARDY = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:FRA
 						levels = 5
 						region = STATE_PICARDY
@@ -3710,7 +3710,7 @@
 	s:STATE_ALSACE_LORRAINE = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_steel_mills"
+				building = "building_steel_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3761,7 +3761,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3772,7 +3772,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3810,7 +3810,7 @@
 	s:STATE_POITOU = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3844,7 +3844,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3855,7 +3855,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3906,7 +3906,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -3917,7 +3917,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3955,7 +3955,7 @@
 	s:STATE_GUYENNE = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -3993,7 +3993,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						
@@ -4012,7 +4012,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4056,7 +4056,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:FRA
@@ -4075,11 +4075,11 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:FRA
 						levels = 1
 						region = STATE_AUVERGNE_LIMOUSIN
@@ -4161,7 +4161,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						
@@ -4184,7 +4184,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:FRA
@@ -4242,7 +4242,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4253,7 +4253,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4297,11 +4297,11 @@
 	s:STATE_BURGUNDY = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:FRA
 						levels = 3
 						region = STATE_BURGUNDY
@@ -4373,11 +4373,11 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						
-						type = building_vineyard_plantation
+						type = building_vineyard
 						country = c:FRA
 						levels = 5
 						region = STATE_BURGUNDY
@@ -4392,7 +4392,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 		}
@@ -4438,7 +4438,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4449,7 +4449,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4472,7 +4472,7 @@
 	s:STATE_FRANCHE_COMTE = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
@@ -4488,7 +4488,7 @@
 						region = STATE_ILE_DE_FRANCE
 					}
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:FRA
 						levels = 2
 						region = STATE_FRANCHE_COMTE
@@ -4531,7 +4531,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4542,7 +4542,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 		}
@@ -4550,11 +4550,11 @@
 	s:STATE_LORRAINE = {
 		region_state:FRA = {
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:FRA
 						levels = 2
 						region = STATE_LORRAINE
@@ -4713,7 +4713,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4724,7 +4724,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4775,7 +4775,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4786,7 +4786,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4848,7 +4848,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -4863,7 +4863,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -4895,11 +4895,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:NET
 						levels = 2
 						region = STATE_HOLLAND
@@ -4991,7 +4991,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -5021,7 +5021,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5070,7 +5070,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -5113,7 +5113,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
@@ -5123,7 +5123,7 @@
 						region = STATE_GELRE
 					}
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:NET
 						levels = 1
 						region = STATE_GELRE
@@ -5181,7 +5181,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -5226,7 +5226,7 @@
 				}
 			}
 			create_building = {
-				building = "building_steel_mills"
+				building = "building_steel_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5254,7 +5254,7 @@
 				}
 			}
 			create_building = {
-				building = "building_chemical_plants"
+				building = "building_chemical_plant"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5284,7 +5284,7 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5389,7 +5389,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:FRA
@@ -5432,7 +5432,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -5488,7 +5488,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
@@ -5498,7 +5498,7 @@
 						region = STATE_FLANDERS
 					}
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:NET
 						levels = 1
 						region = STATE_FLANDERS
@@ -5511,11 +5511,11 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 					
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:NET
 						levels = 2
 						region = STATE_FLANDERS
@@ -5610,7 +5610,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NET
@@ -5679,7 +5679,7 @@
 				}
 			}
 			create_building = {
-				building = "building_arts_academy"
+				building = "building_art_academy"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -5694,7 +5694,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
@@ -5704,7 +5704,7 @@
 						region = STATE_AUSTRIA
 					}
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:AUS
 						levels = 4
 						region = STATE_AUSTRIA
@@ -5717,11 +5717,11 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:AUS
 						levels = 2
 						region = STATE_AUSTRIA
@@ -5946,10 +5946,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:AUS
 						levels = 2
 						region = STATE_BOHEMIA
@@ -5965,11 +5965,11 @@
 	s:STATE_MORAVIA = {
 		region_state:AUS = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:AUS
 						levels = 2
 						region = STATE_MORAVIA
@@ -6289,10 +6289,10 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
-						type = building_shipyards
+						type = building_shipyard
 						country = c:PLC
 						levels = 1
 						region = STATE_POMERANIA
@@ -6304,7 +6304,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:PLC
@@ -6321,7 +6321,7 @@
 	s:STATE_ELBE = {
 		region_state:HAN = {
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:HAN
@@ -6347,7 +6347,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -6437,10 +6437,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:SWI
 						levels = 1
 						region = STATE_EAST_SWITZERLAND
@@ -6497,7 +6497,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SWI
@@ -6527,7 +6527,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:SWI
@@ -6570,7 +6570,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -6581,11 +6581,11 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SWI
@@ -6642,7 +6642,7 @@
 				}
 			}
 			create_building = {
-				building = "building_steel_mills"
+				building = "building_steel_mill"
 					add_ownership = {
 						building = {
 							type = building_financial_district
@@ -6657,11 +6657,11 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:HAN
 						levels = 3
 						region = STATE_WESTPHALIA
@@ -6699,11 +6699,11 @@
 	s:STATE_ANHALT = {
 		region_state:BRB = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:BRB
 						levels = 2
 						region = STATE_ANHALT
@@ -6797,11 +6797,11 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:FRA
 						levels = 3
 						region = STATE_RHINELAND
@@ -6852,7 +6852,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -6863,7 +6863,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -6901,7 +6901,7 @@
 				}
 			}
 			create_building = {
-				building = "building_munition_plants"
+				building = "building_munition_plant"
 				add_ownership = {
 					country = {
 						country = c:HAN
@@ -6914,10 +6914,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:HAN
 						levels = 2
 						region = STATE_NORTH_RHINE
@@ -6991,10 +6991,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:FRA
 						levels = 2
 						region = STATE_NORTH_RHINE
@@ -7051,11 +7051,11 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_muskets""pm_cannons"
+					"pm_muskets" "pm_cannons"
 				}
 			}
 			create_building = {
-				building = "building_munition_plants"
+				building = "building_munition_plant"
 				add_ownership = {
 					country = {
 						country = c:HAN
@@ -7187,7 +7187,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -7217,10 +7217,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:BRB
 						levels = 4
 						region = STATE_BRANDENBURG
@@ -7399,10 +7399,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:WUR
 						levels = 2
 						region = STATE_WURTTEMBERG
@@ -7414,10 +7414,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:WUR
 						levels = 2
 						region = STATE_WURTTEMBERG
@@ -7429,10 +7429,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:WUR
 						levels = 2
 						region = STATE_WURTTEMBERG
@@ -7550,7 +7550,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -7561,7 +7561,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -7860,7 +7860,7 @@
 				}
 			}
 			create_building = {
-				building = "building_arts_academy"
+				building = "building_art_academy"
 				level = 1
 				reserves = 1
 				activate_production_methods = {
@@ -7868,10 +7868,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BAV
 						levels = 1
 						region = STATE_FRANCONIA
@@ -7883,7 +7883,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -7894,7 +7894,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_lathe""pm_automation_disabled" "pm_luxury_furniture"
+					"pm_lathe" "pm_automation_disabled" "pm_luxury_furniture"
 				}
 			}
 			create_building = {
@@ -7939,7 +7939,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_saw_mills""pm_no_equipment" "pm_road_carts" "pm_hardwood"
+					"pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood"
 				}
 			}
 		}
@@ -8060,10 +8060,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:HES
 						levels = 1
 						region = STATE_HESSE
@@ -8075,10 +8075,10 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:HES
 						levels = 1
 						region = STATE_HESSE
@@ -8090,10 +8090,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:HES
 						levels = 1
 						region = STATE_HESSE
@@ -8131,7 +8131,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming""pm_tools_disabled" "pm_potatoes"
+					"pm_simple_farming" "pm_tools_disabled" "pm_potatoes"
 				}
 			}
 			create_building = {

@@ -59,7 +59,6 @@
 	}	
 	c:CHI = {	
 		add_declared_interest = region_japan
-		add_declared_interest = region_north_india
 		add_declared_interest = region_indochina
 	}		
 	c:FRA = {

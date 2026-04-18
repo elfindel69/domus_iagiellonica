@@ -28,7 +28,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:EGY
@@ -41,10 +41,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:EGY
 						levels = 3
 						region = STATE_LOWER_EGYPT
@@ -69,7 +69,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					country = {
 						country = c:EGY
@@ -82,7 +82,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:EGY
@@ -471,7 +471,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:DFR
@@ -514,7 +514,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -610,7 +610,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MOR
@@ -653,10 +653,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:MOR
 						levels = 1
 						region = STATE_FEZ
@@ -698,7 +698,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MOR
@@ -724,10 +724,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:MOR
 						levels = 1
 						region = STATE_FEZ
@@ -773,7 +773,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MOR
@@ -794,7 +794,7 @@
 						type = building_manor_house
 						country = c:SPA
 						levels = 1
-						region = STATE_TOLEDO
+						region = STATE_OLD_CASTILE
 					}
 				}
 				reserves = 1
@@ -850,7 +850,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MOR
@@ -925,7 +925,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -936,7 +936,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1060,7 +1060,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1071,7 +1071,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1090,7 +1090,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:CON
@@ -1163,7 +1163,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1174,7 +1174,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1193,7 +1193,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:AIT
@@ -1240,7 +1240,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1251,7 +1251,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1332,10 +1332,10 @@
 	s:STATE_TUNISIA = {
 		region_state:TUN = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUN
 						levels = 1
 						region = STATE_TUNISIA
@@ -1400,7 +1400,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TUN
@@ -1460,7 +1460,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TRI
@@ -1520,7 +1520,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TRI
@@ -1544,7 +1544,7 @@
 		region_state:AHG = { }
 		region_state:TUG = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TUG
@@ -1566,7 +1566,7 @@
 		region_state:TRZ = { }
 		region_state:FTR = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:FTR
@@ -1620,7 +1620,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MSN
@@ -1652,7 +1652,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SGU
@@ -1682,7 +1682,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KRT
@@ -1721,7 +1721,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:WAD

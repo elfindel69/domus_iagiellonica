@@ -28,11 +28,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 3
 						region = STATE_LOMBARDY
@@ -70,7 +70,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -106,7 +106,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -117,7 +117,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 		}
@@ -179,7 +179,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -192,10 +192,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:ITA
 						levels = 1
 						region = STATE_PIEDMONT
@@ -207,7 +207,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -222,10 +222,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:ITA
 						levels = 2
 						region = STATE_PIEDMONT
@@ -267,7 +267,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -282,7 +282,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -406,7 +406,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -579,7 +579,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -594,7 +594,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -622,17 +622,17 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 					
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:ITA
 						levels = 2
 						region = STATE_CAMPANIA
 					}
 					building ={
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:ITA
 						levels = 1
 						region = STATE_CAMPANIA
@@ -658,11 +658,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 2
 						region = STATE_CAMPANIA
@@ -711,7 +711,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -722,7 +722,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -769,7 +769,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -839,7 +839,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -850,7 +850,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -965,10 +965,10 @@
 	s:STATE_ABRUZZO = {
 		region_state:ITA = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:ITA
 						levels = 1
 						region = STATE_ABRUZZO
@@ -1010,7 +1010,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1021,7 +1021,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1059,7 +1059,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1070,7 +1070,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1136,7 +1136,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1147,7 +1147,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1166,10 +1166,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 1
 						region = STATE_EMILIA
@@ -1265,10 +1265,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 2
 						region = STATE_TUSCANY
@@ -1295,7 +1295,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1306,7 +1306,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1410,10 +1410,10 @@
 	s:STATE_ROMAGNA = {
 		region_state:ITA = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 1
 						region = STATE_ROMAGNA
@@ -1440,7 +1440,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1451,7 +1451,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1502,7 +1502,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -1524,13 +1524,13 @@
 						region = STATE_LAZIO
 					}
 				}
-				reserves = 2
+				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1541,7 +1541,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1609,7 +1609,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1651,11 +1651,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ITA
 						levels = 4
 						region = STATE_VENETIA
@@ -1733,7 +1733,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						
@@ -1752,7 +1752,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4130,7 +4130,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:TUR
@@ -4156,7 +4156,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					country = {
 						country = c:TUR
@@ -4169,7 +4169,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:TUR
@@ -4182,10 +4182,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:TUR
 						levels = 2
 						region = STATE_EASTERN_THRACE
@@ -4340,7 +4340,7 @@
 	s:STATE_ALBANIA = {
 		region_state:ALB = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -4410,10 +4410,10 @@
 	s:STATE_BOSNIA = {
 		region_state:BOS = {
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:BOS
 						levels = 2
 						region = STATE_BOSNIA
@@ -4438,7 +4438,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:BOS
@@ -4508,7 +4508,7 @@
 	s:STATE_NORTHERN_THRACE = {
 		region_state:BUL = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -4523,7 +4523,7 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -4766,7 +4766,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4777,7 +4777,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4834,7 +4834,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -4845,7 +4845,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -4966,7 +4966,7 @@
 	s:STATE_ISTRIA = {
 		region_state:ITA = {
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
@@ -4989,7 +4989,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5004,7 +5004,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:ITA
@@ -5111,7 +5111,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -5122,7 +5122,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 		}
@@ -5273,7 +5273,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -5303,7 +5303,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -5314,7 +5314,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -5416,10 +5416,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:GRE
 						levels = 1
 						region = STATE_THESSALIA
@@ -5614,11 +5614,11 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
 						
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:GRE
 						levels = 1
 						region = STATE_WESTERN_THRACE
@@ -5737,7 +5737,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -5748,7 +5748,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {

@@ -123,7 +123,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -221,10 +221,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:PLC
 						levels = 1
 						region = STATE_VILNIUS
@@ -287,10 +287,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:FIN
 						levels = 2
 						region = STATE_UUSIMAA
@@ -531,7 +531,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -579,7 +579,7 @@
 				}
 			}
 			create_building = {
-				building = "building_artillery_foundries"
+				building = "building_artillery_foundry"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -618,10 +618,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:RUS
 						levels = 2
 						region = STATE_INGRIA
@@ -648,7 +648,7 @@
 				}
 			}
 			create_building = {
-				building = "building_arts_academy"
+				building = "building_art_academy"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -691,7 +691,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -734,10 +734,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:RUS
 						levels = 5
 						region = STATE_MOSCOW
@@ -762,10 +762,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:RUS
 						levels = 3
 						region = STATE_MOSCOW
@@ -777,10 +777,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:RUS
 						levels = 5
 						region = STATE_MOSCOW
@@ -964,10 +964,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:PLC
 						levels = 2
 						region = STATE_KIEV
@@ -983,10 +983,10 @@
 	s:STATE_ORYOL = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:RUS
 						levels = 2
 						region = STATE_ORYOL
@@ -1013,10 +1013,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:RUS
 						levels = 2
 						region = STATE_ORYOL
@@ -1173,10 +1173,10 @@
 	s:STATE_NOVGOROD = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
-						type = building_paper_mills
+						type = building_paper_mill
 						country = c:RUS
 						levels = 3
 						region = STATE_NOVGOROD
@@ -1365,7 +1365,7 @@
 	s:STATE_CHERSON = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1380,7 +1380,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -1487,10 +1487,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:PLC
 						levels = 2
 						region = STATE_MINSK
@@ -1502,10 +1502,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:PLC
 						levels = 1
 						region = STATE_MINSK
@@ -1589,7 +1589,7 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1604,7 +1604,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -1681,7 +1681,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1758,7 +1758,7 @@
 		region_state:RUS = { }
 		region_state:KZH = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KZH
@@ -1820,7 +1820,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KHI
@@ -1837,7 +1837,7 @@
 	s:STATE_SEMIRECHE = {
 		region_state:KAZ = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KAZ
@@ -1857,7 +1857,7 @@
 	s:STATE_AKMOLINSK = {
 		region_state:KAZ = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KAZ
@@ -1964,7 +1964,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 					
@@ -1983,7 +1983,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2036,10 +2036,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:RUS
 						levels = 1
 						region = STATE_TAMBOV
@@ -2085,10 +2085,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:RUS
 						levels = 2
 						region = STATE_RYAZAN
@@ -2100,7 +2100,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -2123,7 +2123,7 @@
 	s:STATE_VITEBSK = {
 		region_state:RUS = {
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					country = {
 						country = c:RUS
@@ -2260,10 +2260,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:RUS
 						levels = 2
 						region = STATE_NIZHNY_NOVGOROD

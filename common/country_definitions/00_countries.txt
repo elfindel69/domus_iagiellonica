@@ -406,7 +406,7 @@ NAV = {
 	tier = kingdom
 	
 	cultures = { basque }
-	capital = STATE_NAVARRA
+	capital = STATE_BASQUE_COUNTRY
 	is_named_from_capital = yes
 }
 
@@ -418,7 +418,7 @@ SPA = {
 	tier = kingdom
 	
 	cultures = { spanish }
-	capital = STATE_TOLEDO
+	capital = STATE_NEW_CASTILE
 }
 
 WLL = {
@@ -2022,7 +2022,7 @@ CUB = {
 	tier = principality
 	
 	cultures = { caribeno }
-	capital = STATE_CUBA
+	capital = STATE_WESTERN_CUBA
 	is_named_from_capital = yes
 }
 
@@ -2573,7 +2573,7 @@ IBE = {
 	tier = empire
 	
 	cultures = { spanish catalan portuguese basque galician }
-	capital = STATE_TOLEDO
+	capital = STATE_NEW_CASTILE
 }
 
 ORG = {
@@ -2763,7 +2763,7 @@ ANL = {
 	tier = principality
 	
 	cultures = { spanish }
-	capital = STATE_ANDALUSIA
+	capital = STATE_LOWER_ANDALUSIA
 	is_named_from_capital = yes
 }
 
@@ -2775,7 +2775,7 @@ CAS = {
 	tier = kingdom
 	
 	cultures = { spanish }
-	capital = STATE_TOLEDO
+	capital = STATE_NEW_CASTILE
 	is_named_from_capital = yes
 }
 

@@ -2,7 +2,7 @@
 
 dna_king_jan_jagiello_01 = {
     portrait_info={
-        type=male
+
         genes={ 		
             hair_color={ 151 138 179 174 }
              skin_color={ 47 44 111 3 }

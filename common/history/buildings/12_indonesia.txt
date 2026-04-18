@@ -32,7 +32,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JOH
@@ -95,7 +95,7 @@
 		}
 		region_state:PRK = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:PRK
@@ -125,7 +125,7 @@
 		}
 		region_state:SEL = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SEL
@@ -172,7 +172,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BRU
@@ -220,7 +220,7 @@
 	s:STATE_WEST_BORNEO = {
 		region_state:LAN = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:LAN
@@ -249,7 +249,7 @@
 		region_state:DEI = { }
 		region_state:SMB = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SMB
@@ -307,7 +307,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:PON
@@ -322,7 +322,7 @@
 		}
 		region_state:STG = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:STG
@@ -384,7 +384,7 @@
 		}
 		region_state:BLG = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BLG
@@ -444,7 +444,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BNJ
@@ -459,7 +459,7 @@
 		}
 		region_state:KTI = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:KTI
@@ -592,7 +592,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -763,7 +763,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -915,7 +915,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -993,7 +993,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1012,7 +1012,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:YOG
@@ -1042,7 +1042,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SRK
@@ -1147,7 +1147,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SAK
@@ -1192,7 +1192,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:JMB
@@ -1301,7 +1301,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:ACE
@@ -1359,7 +1359,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SAK
@@ -1516,7 +1516,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:TID
@@ -1577,7 +1577,7 @@
 		}
 		region_state:BTN = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BTN
@@ -1643,7 +1643,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BAL
@@ -1737,7 +1737,7 @@
 		}
 		region_state:SUL = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SUL
@@ -1780,7 +1780,7 @@
 		}
 		region_state:MGD = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:MGD
@@ -1885,7 +1885,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:PHI
@@ -1961,7 +1961,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:PHI

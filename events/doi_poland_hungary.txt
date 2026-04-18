@@ -8,9 +8,9 @@ doi_poland_hungary.1 = {
 	desc = doi_poland_hungary.1.d
 	flavor = doi_poland_hungary.1.f
 
-	event_image = { video = "gfx/event_pictures/europe_rally.bk2" }
+	event_image = { video = "europenorthamerica_political_extremism" }
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/europe/crowd_cheer"
+	on_opened_soundeffect = "event:/SFX/Events/generic/enthusiastic"
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
 	immediate = {

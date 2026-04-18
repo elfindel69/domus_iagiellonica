@@ -193,7 +193,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -505,10 +505,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:CLM
 						levels = 1
 						region = STATE_CUNDINAMARCA
@@ -565,7 +565,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -633,7 +633,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -754,7 +754,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BOL
@@ -784,10 +784,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:BOL
 						levels = 1
 						region = STATE_LA_PAZ
@@ -814,10 +814,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:BOL
 						levels = 1
 						region = STATE_LA_PAZ
@@ -883,11 +883,11 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BOL
@@ -962,7 +962,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:BOL
@@ -992,10 +992,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:NPU
 						levels = 1
 						region = STATE_CAJAMARCA
@@ -1037,7 +1037,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NPU
@@ -1067,7 +1067,7 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1131,7 +1131,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1142,7 +1142,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1176,7 +1176,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:NPU
@@ -1302,7 +1302,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SPU
@@ -1336,7 +1336,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:IQU
@@ -1398,7 +1398,7 @@
 				}
 			}
 			create_building = {
-				building = "building_barracks"
+				building = "building_barrack"
 				add_ownership = {
 					country = {
 						country = c:SPU
@@ -1525,10 +1525,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:PRG
 						levels = 1
 						region = STATE_BAJO_PARAGUAY
@@ -1663,10 +1663,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:ARG
 						levels = 1
 						region = STATE_BUENOS_AIRES
@@ -1709,7 +1709,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -1720,7 +1720,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -1778,10 +1778,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:ARG
 						levels = 1
 						region = STATE_LA_PAMPA
@@ -1813,7 +1813,7 @@
 		region_state:GNI = { }
 		region_state:ARG = {
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -1953,10 +1953,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:CHL
 						levels = 1
 						region = STATE_SANTIAGO
@@ -2039,7 +2039,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -2050,7 +2050,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 		}
@@ -2088,7 +2088,7 @@
 				}
 			}
 			create_building = {
-				building = "building_vineyard_plantation"
+				building = "building_vineyard"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -2099,7 +2099,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_vineyard_plantation" "pm_road_carts"
+					"default_building_vineyard" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2420,7 +2420,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2535,7 +2535,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2597,7 +2597,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2661,10 +2661,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:BRZ
 						levels = 1
 						region = STATE_MINAS_GERAIS
@@ -2776,7 +2776,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2838,10 +2838,10 @@
 				}
 			}
 			create_building = {
-				building = "building_furniture_manufacturies"
+				building = "building_furniture_manufactory"
 				add_ownership = {
 					building = {
-						type = building_furniture_manufacturies
+						type = building_furniture_manufactory
 						country = c:BRZ
 						levels = 1
 						region = STATE_RIO_DE_JANEIRO
@@ -2853,7 +2853,7 @@
 				}
 			}
 			create_building = {
-				building = "building_paper_mills"
+				building = "building_paper_mill"
 				add_ownership = {
 					building = {
 						type = building_financial_district
@@ -2894,7 +2894,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -2981,10 +2981,10 @@
 				}
 			}
 			create_building = {
-				building = "building_shipyards"
+				building = "building_shipyard"
 				add_ownership = {
 					building = {
-						type = building_shipyards
+						type = building_shipyard
 						country = c:BRZ
 						levels = 1
 						region = STATE_BAHIA
@@ -2996,7 +2996,7 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyards"
+				building = "building_military_shipyard"
 				add_ownership = {
 					country = {
 						country = c:BRZ
@@ -3020,7 +3020,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"default_building_coffee_plantation" "pm_road_carts"
+					"coffee_plantation_wet_process_manual" "pm_road_carts"
 				}
 			}
 			create_building = {
@@ -3141,10 +3141,10 @@
 				}
 			}
 			create_building = {
-				building = "building_tooling_workshops"
+				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
-						type = building_tooling_workshops
+						type = building_tooling_workshop
 						country = c:BRZ
 						levels = 1
 						region = STATE_BAHIA
@@ -3307,10 +3307,10 @@
 	s:STATE_PARAIBA = {
 		region_state:BRZ = {
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BRZ
 						levels = 1
 						region = STATE_PARAIBA
@@ -3369,10 +3369,10 @@
 				}
 			}
 			create_building = {
-				building = "building_textile_mills"
+				building = "building_textile_mill"
 				add_ownership = {
 					building = {
-						type = building_textile_mills
+						type = building_textile_mill
 						country = c:BRZ
 						levels = 3
 						region = STATE_PERNAMBUCO

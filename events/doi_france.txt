@@ -19,7 +19,7 @@ doi_france.1 = {
 	duration = 3
 
 	event_image = {
-		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+		video = "unspecific_ruler_speaking_to_people"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"

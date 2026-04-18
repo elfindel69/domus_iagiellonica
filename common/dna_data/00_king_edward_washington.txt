@@ -2,7 +2,7 @@
 
 dna_king_edward_washington_01  = {
     portrait_info={
-        type=male
+
         genes={ 		
             hair_color={ 182 80 124 118 }
              skin_color={ 98 79 64 30 }

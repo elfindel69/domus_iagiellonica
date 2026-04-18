@@ -1592,32 +1592,47 @@
 				xE02F10 x6B6FCF x366D0F x63F919 xA4C378 x2BB939 x08502B x7062D6 x18F33E xEE9F2D xD52D82 x91E57E x91AD7F xCB2DDE x181E0E xF57E66
 			}
 		}
+		create_state = {
+			country = c:POR
+			owned_provinces = {
+				x7486F1
+			}
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:KBU
+			owned_provinces = {
+				x7B55A9 x6D295A x97F797 x5A627D xEB469A x9933B7 x04FDE5 x146701
+			}
+		}
+
 		add_homeland = cu:fulbe
 		add_homeland = cu:mande
 		add_homeland = cu:dyula
 		add_homeland = cu:kissi
 	}
-	s:STATE_GHANA = {
+	s:STATE_GOLD_COAST = {
 		create_state = {
-			country = c:GBR
-			owned_provinces = {
-				x8504E6
-			}
+			country = c:DEN
+			owned_provinces = { x802111 }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:SIL
+			owned_provinces = { x8504E6 }
 			state_type = unincorporated
 		}
 		create_state = {
 			country = c:NET
-			owned_provinces = {
-				x6C8064
-			}
+			owned_provinces = { x6C8064 }
 			state_type = unincorporated
+
 		}
 		create_state = {
 			country = c:ASH
-			owned_provinces = {
-				x1472E7 xDE4D17 xB99E19 x4B8CBE x111F0C xBC1F14 xE63565 x61C0D0 x6A6B14 xB9D107 xDBB653 x14F486 x364DF5 x6B5943 x6C9759 xA624EE x589734 x6FFF10 xE0C0D0 xE9F5E6 x801552 xE0CF6C x946D4E x76AA0B xE797D7 xFBC3B8 xE80D2D xAAFDFC xD14671 x925167 xD845A1 x15B10C x961786 xEC0AF9 xF02A4B xC2E0C0
-			}
+			owned_provinces = { x1472E7 xDE4D17 xB99E19 x4B8CBE x111F0C xBC1F14 xE63565 x61C0D0 x6A6B14 xB9D107 xDBB653 x14F486 x364DF5 x6B5943 x6C9759 xA624EE x589734 x6FFF10 xE0C0D0 xE9F5E6 x801552 xE0CF6C x946D4E x76AA0B xE797D7 xFBC3B8 xE80D2D xAAFDFC xD14671 x925167 xD845A1 x15B10C x961786 xEC0AF9 xF02A4B xC2E0C0 }
 		}
+
 		add_homeland = cu:akan
 		add_homeland = cu:mossi
 		add_homeland = cu:ewe
