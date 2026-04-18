@@ -1624,7 +1624,7 @@
 			}
 			create_pop = {
 				culture = kannada
-				religion = hindu
+				religion = hindu # jainism
 				size = 19030
 			}
 			create_pop = {
@@ -1654,11 +1654,11 @@
 		}
 		region_state:BIC = {
 			create_pop = {
-				culture = kannada
+				culture = kannada # tulu
 				size = 184548
 			}
 			create_pop = {
-				culture = kannada
+				culture = kannada # tulu
 				religion = sunni
 				size = 20102
 			}
@@ -1731,6 +1731,7 @@
 				culture = tamil
 				size = 22021
 			}
+
 			create_pop = {
 				culture = malayalam
 				size = 420102
@@ -1770,6 +1771,19 @@
 				culture = tamil
 				religion = catholic
 				size = 27773
+			}
+			create_pop = {
+				culture = tamil
+				size = 30102
+			}
+			create_pop = {
+				culture = tamil
+				religion = sunni
+				size = 4010
+			}
+			create_pop = {
+				culture = danish
+				size = 201
 			}
 		}
 		region_state:BIC = {
@@ -1820,6 +1834,7 @@
 				culture = kannada
 				size = 34002
 			}
+		
 			create_pop = {
 				culture = tamil
 				size = 202480
@@ -2014,7 +2029,7 @@
 			}
 			create_pop = {
 				culture = persian
-				religion = animist
+				religion = animist # parsis
 				size = 8910
 			}
 			create_pop = {
@@ -2274,7 +2289,7 @@
 			}
 			create_pop = {
 				culture = panjabi
-				religion = hindu
+				religion = hindu # jains
 				size = 5389
 			}
 		}
@@ -2333,7 +2348,7 @@
 			}
 			create_pop = {
 				culture = panjabi
-				religion = hindu
+				religion = hindu # jains
 				size = 4917
 			}
 		}
@@ -2365,7 +2380,7 @@
 			}
 			create_pop = {
 				culture = pahari
-				religion = hindu
+				religion = hindu # jains
 				size = 229
 			}
 		}

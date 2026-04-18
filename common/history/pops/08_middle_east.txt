@@ -20,7 +20,7 @@
 	}
 	s:STATE_OMAN = {
 		region_state:OMA = {
-				create_pop = {
+			create_pop = {
 				culture = bedouin
 				religion = ibadi
 				size = 158000

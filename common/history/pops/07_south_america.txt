@@ -1181,14 +1181,14 @@
 		}
 	}
 	s:STATE_GOIAS = {
-		region_state:BRZ = {
+	region_state:BRZ = {
 			create_pop = {
 				culture = nordestino
 				size = 21921
 			}
 			create_pop = {
 				culture = tupinamba
-				size = 994
+				size = 994 # 1825 estimate
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1203,7 +1203,7 @@
 	}
 	s:STATE_PARA = {
 		region_state:BRZ = {
-			create_pop = {
+		create_pop = {
 				culture = amazonic
 				size = 111297
 			}
