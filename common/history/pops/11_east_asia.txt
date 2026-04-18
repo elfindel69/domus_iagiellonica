@@ -368,17 +368,17 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+			region_state:CHI = {
 			create_pop = {
 				culture = manchu
 				size = 5210800
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 2511992
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 511992
 				religion = mahayana
 			}
@@ -411,16 +411,16 @@
 	s:STATE_SHANXI = {
 		region_state:CHI = {
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 11377592
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 3300092
 				religion = mahayana
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = sunni
 				size = 160000
 			}
@@ -433,11 +433,11 @@
 	s:STATE_NINGXIA = {
 		region_state:CHI = {
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 4637392
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 2000392
 				religion = mahayana
 			}
@@ -446,11 +446,11 @@
 				size = 2604
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				size = 1688000
 			}
 			create_pop = {
-				culture = han
+				culture = han # nanfaren
 				religion = sunni
 				size = 492200
 			}
