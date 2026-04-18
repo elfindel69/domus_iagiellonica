@@ -1207,7 +1207,7 @@
 
 		add_homeland = cu:spanish
 	}
-		s:STATE_ARAGON = {
+	s:STATE_ARAGON = {
 		create_state = {
 			country = c:SPA
 			owned_provinces = { x202982 x9060C0 x339B06 x2555A4 x076DE0 x3CBF9E x45B331 xA603C7 }
@@ -1229,7 +1229,8 @@
 		add_homeland = cu:spanish
 		add_homeland = cu:basque
 	}
-			create_state = {
+	s:STATE_CATALONIA = {
+		create_state = {
 			country = c:SPA
 			owned_provinces = { xE0C020 xD616D2 x11E041 x906040 xC2FFD9 x890622 }
 		}
@@ -5333,6 +5334,7 @@
 				x6D828F xF3164C xE04050 x2040D0 x8F42EF x93D980 x7D3EA7 xA0BF50 xB75AF3 x8DE591 x1FB6E1 xEBEEEF x8A1594
 			}
 		}
+
 		add_homeland = cu:kru
 		add_homeland = cu:mande
 		add_homeland = cu:akan
@@ -5364,21 +5366,8 @@
 				x696F38 x15407B x12B16A
 			}
 		}
-		add_homeland = cu:fulbe
-		add_homeland = cu:wolof
-		add_homeland = cu:mande
-		add_homeland = cu:dyula
-	}
-	s:STATE_GAMBIA = {
 		create_state = {
-			country = c:POR
-			owned_provinces = {
-				x7486F1 x9933B7 x04FDE5 x146701
-			}
-			state_type = unincorporated
-		}
-		create_state = {
-			country = c:GBR
+			country = c:SIL
 			owned_provinces = {
 				x7B561C xB07040
 			}
@@ -5397,16 +5386,29 @@
 			}
 		}
 		create_state = {
-			country = c:KBU
+			country = c:DIO
 			owned_provinces = {
-				xCD9D60 xF8E5E2 xD633FE x30EF40 x7B55A9 x6D295A x97F797 x5A627D xEB469A
+				xD633FE xF8E5E2
 			}
 		}
-		add_homeland = cu:mande
-		add_homeland = cu:akan
-		add_homeland = cu:bambara
+		create_state = {
+			country = c:KBU
+			owned_provinces = {
+				xCD9D60
+			}
+		}
+		create_state = {
+			country = c:POR
+			owned_provinces = {
+				x30EF40
+			}
+			state_type = unincorporated
+		}
+
 		add_homeland = cu:fulbe
 		add_homeland = cu:wolof
+		add_homeland = cu:mande
+		add_homeland = cu:dyula
 	}
 	s:STATE_SIERRA_LEONE = {
 		create_state = {
