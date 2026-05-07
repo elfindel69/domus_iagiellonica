@@ -2996,19 +2996,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:BRZ
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_coffee_plantation"
 				add_ownership = {
 					building = {

@@ -776,7 +776,12 @@
 			create_pop = {
 				culture = hungarian
 				religion = protestant
-				size = 286000
+				size = 188760
+			}
+			create_pop = {
+				culture = szekely
+				religion = protestant
+				size = 97240
 			}
 			create_pop = {
 				culture = romanian
@@ -784,15 +789,21 @@
 			}
 			create_pop = {
 				culture = south_german
+				religion = catholic
 				size = 3008
 			}
 			create_pop = {
-				culture = north_german
+				culture = south_german
+				religion = protestant
 				size = 164000
 			}
 			create_pop = {
 				culture = hungarian
-				size = 142000
+				size = 93720
+			}
+			create_pop = {
+				culture = szekely
+				size = 48280
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -800,6 +811,39 @@
 			}
 		}
 	}
+	s:STATE_BUKOVINA = {
+		region_state:AUS = {
+			create_pop = {
+				culture = polish
+				size = 20008
+			}
+			create_pop = {
+				culture = romanian
+				size = 144000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 20004
+			}
+			create_pop = {
+				culture = szekely
+				size = 10012
+			}
+			create_pop = {
+				culture = hungarian
+				size = 1986
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 144400
+			}
+			create_pop = {
+				culture = south_german
+				size = 32000
+			}
+		}
+	}
+
 	s:STATE_MOLDAVIA = {
 		region_state:MOL = {
 			create_pop = {

@@ -690,19 +690,6 @@
 					"pm_basic_port"
 				}
 			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:RUS
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
 		}
 	}
 	s:STATE_MOSCOW = {
@@ -1380,19 +1367,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:RUS
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -1601,19 +1575,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:RUS
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
 				}
 			}
 		}

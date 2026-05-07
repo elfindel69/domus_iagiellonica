@@ -301,19 +301,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:SWE
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
@@ -568,19 +555,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:DEN
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
 				}
 			}
 			create_building = {
@@ -1088,19 +1062,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:GBR
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden_2"
 				}
 			}
 			create_building = {
@@ -2122,25 +2083,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:GBR
-						levels = 1
-						region = STATE_EAST_ANGLIA
-					}
-					country = {
-						country = c:GBR
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden_2"
-				}
-			}
-			create_building = {
 				building = "building_rye_farm"
 				add_ownership = {
 					building = {
@@ -2317,7 +2259,7 @@
 				building = "building_shipyard"
 				add_ownership = {
 					building = {
-						
+
 						type = building_financial_district
 						country = c:GBR
 						levels = 5
@@ -2328,27 +2270,12 @@
 						country = c:GBR
 						levels = 5
 						region = STATE_HOME_COUNTIES
-					
+
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:GBR
-						levels = 2
-						region = STATE_HOME_COUNTIES
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden_2"
 				}
 			}
 			create_building = {
@@ -3117,21 +3044,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:FRA
-						levels = 2
-						region = STATE_NORMANDY
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
 				}
 			}
 			create_building = {
@@ -4184,19 +4096,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:FRA
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -4860,19 +4759,6 @@
 				reserves = 1
 				activate_production_methods = {
 					"pm_basic_shipbuilding"
-				}
-			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:NET
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
 				}
 			}
 			create_building = {
@@ -6303,20 +6189,6 @@
 					"pm_basic_shipbuilding"
 				}
 			}
-			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:PLC
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-		}
 	}
 	s:STATE_ELBE = {
 		region_state:HAN = {

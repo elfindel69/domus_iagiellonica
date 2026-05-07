@@ -82,19 +82,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:EGY
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_wheat_farm"
 				add_ownership = {
 					building = {

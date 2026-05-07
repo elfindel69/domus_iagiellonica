@@ -726,19 +726,6 @@
 				}
 			}
 			create_building = {
-				building = "building_military_shipyard"
-				add_ownership = {
-					country = {
-						country = c:PLC
-						levels = 1
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_military_shipbuilding_wooden"
-				}
-			}
-			create_building = {
 				building = "building_port"
 				add_ownership = {
 					country = {
@@ -1723,6 +1710,55 @@
 				activate_production_methods = {
 					"pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"
 				}
+			}
+		}
+	}
+	s:STATE_BUKOVINA={
+		region_state:AUS={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:AUS"
+						levels=1
+						region="STATE_AUSTRIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:AUS"
+						levels=2
+						region="STATE_AUSTRIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:AUS"
+						levels=1
+						region="STATE_BUKOVINA"
+					}
+					building={
+						type="building_financial_district"
+						country="c:AUS"
+						levels=1
+						region="STATE_AUSTRIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
