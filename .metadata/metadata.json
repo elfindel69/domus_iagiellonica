@@ -4,7 +4,7 @@
   "version" : "0.0.3",
   "game_id" : "victoria3",
   "picture" : null,
-  "supported_game_version" : "1.12.*",
+  "supported_game_version" : "1.13.*",
   "short_description" : "Alpha version *WIP* \n What if the Jagiellons ruled until the Victorian Era? \n How the world would like? ",
   "tags" : [ "Overhaul", "Alternate History" ],
   "relationships" : [ ],
