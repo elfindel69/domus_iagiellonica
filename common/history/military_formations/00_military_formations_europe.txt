@@ -41,7 +41,7 @@
 			first_name = Jaroslaw
 			last_name = Paskiewicz
 			age = 54
-			hq = region_poland
+			hq = region_eastern_europe
 			commander_rank = commander_rank_3
 			traits = {
 				brave
@@ -84,7 +84,7 @@
 			first_name = Henryk
 			last_name = Smolarczyk
 			age = 54
-			hq = region_dnieper
+			hq = region_eastern_europe
 			commander_rank = commander_rank_3
 			traits = {
 				brave
@@ -200,6 +200,24 @@
 				type = ship_type:ship_type_frigate
 				count = 15
 			}
+			save_scope_as = plc_navy
+		}
+
+		create_character = {
+			is_admiral = yes
+			first_name = Jacint
+			last_name = Macieja
+			age = 54
+			hq = region_eastern_europe
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+			}
+			save_scope_as = plc_macieja_adm
+		}
+		
+		scope:plc_macieja_adm = {
+			transfer_to_formation = scope:plc_navy
 		}
 	}	
 	
@@ -246,7 +264,7 @@
 			first_name = Helmuth
 			last_name = von_Moltke
 			historical = yes
-			hq = region_north_germany
+			hq = region_central_europe
 			age = 36
 			traits = {
 				expert_offensive_planner
@@ -321,7 +339,7 @@
 			last_name = Radetzky
 			historical = yes
 			birth_date = 1766.11.2
-			hq = region_south_germany
+			hq = region_central_europe
 			commander_rank = commander_rank_3
 			traits = {
 				persistent
@@ -446,7 +464,7 @@
 			interest_group = ig_armed_forces
 			ideology = ideology_royalist
 			birth_date = 1777.11.3
-			hq = region_italy
+			hq = region_southern_europe
 			commander_rank = commander_rank_2
 			traits = {
 				basic_offensive_planner
