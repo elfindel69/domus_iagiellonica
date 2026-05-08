@@ -6189,6 +6189,7 @@
 					"pm_basic_shipbuilding"
 				}
 			}
+		}
 	}
 	s:STATE_ELBE = {
 		region_state:HAN = {
