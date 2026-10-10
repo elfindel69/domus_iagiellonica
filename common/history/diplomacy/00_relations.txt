@@ -112,6 +112,7 @@
 		set_relations = { country = c:USA value = -50 }
 	}
 	c:MOL ?= { 
+		set_relations = { country = c:PLC value = 30 }
 		set_relations = { country = c:TUR value = -30 }
 		set_relations = { country = c:WAL value = 50 }
 		set_relations = { country = c:RUS value = 40 }
@@ -240,4 +241,15 @@
         set_relations = { country = c:PLC value = -10 }
 	}
 	
+	# DOI: established Austrian Balkan subjects.
+	c:BOS ?= {
+		set_relations = { country = c:AUS value = 30 }
+	}
+	c:BUL ?= {
+		set_relations = { country = c:AUS value = 30 }
+	}
+	c:WAL ?= {
+		set_relations = { country = c:AUS value = 30 }
+	}
+
 }

@@ -564,11 +564,7 @@
 				source_country = c:WAL
 				target_country = c:RUS
 			}
-			{ # To increase liberty desire
-				article = support_independence
-				source_country = c:RUS
-				target_country = c:WAL
-			}
+			# DOI: no inherited Russian support for independence at game start.
 		}
 	}
 
@@ -601,11 +597,7 @@
 				source_country = c:MOL
 				target_country = c:RUS
 			}
-			{ # To increase liberty desire
-				article = support_independence
-				source_country = c:RUS
-				target_country = c:MOL
-			}
+			# DOI: no inherited Russian support for independence at game start.
 		}
 	}
 	

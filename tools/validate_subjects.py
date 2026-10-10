@@ -28,6 +28,8 @@ EXPECTED = {
        ("BIC", "HBC", "ORG", "ONT", "QUE", "NSW", "WAS", "SAS", "TAS")},
 }
 
+STARTING_LOYALTY = {"MOL", "WAL", "BOS", "BUL"}
+
 
 def parse(text):
     """Parse the assignment/block subset used by diplomacy history."""
@@ -68,9 +70,12 @@ def parse(text):
 def validate(text):
     errors = []
     subjects = defaultdict(list)
+    liberty_adjustments = defaultdict(list)
 
     def visit(entries, country=None):
         for key, value in entries:
+            if key == "add_liberty_desire" and country in STARTING_LOYALTY:
+                liberty_adjustments[country].append(value)
             if not isinstance(value, list):
                 continue
             if key == "create_diplomatic_pact":
@@ -94,6 +99,10 @@ def validate(text):
             errors.append(f"{subject}: expected {expected}, found {subjects[subject]}")
     if subjects.get("ALB"):
         errors.append(f"ALB: should start independent, found {subjects['ALB']}")
+    for subject in sorted(STARTING_LOYALTY):
+        values = liberty_adjustments[subject]
+        if len(values) != 1 or not re.fullmatch(r"-\d+(?:\.\d+)?", str(values[0])):
+            errors.append(f"{subject}: expected one negative starting liberty adjustment, found {values}")
     return errors
 
 

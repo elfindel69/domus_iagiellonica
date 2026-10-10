@@ -521,11 +521,22 @@
 	}
 
 	c:MOL ?= {
-		add_liberty_desire = 20
+		# DOI: established subject at the start, rather than Ottoman-era unrest.
+		add_liberty_desire = -30
 	}
 
 	c:WAL ?= {
-		add_liberty_desire = 20
+		# DOI: established subject at the start, rather than Ottoman-era unrest.
+		add_liberty_desire = -30
+	}
+
+	# DOI: Austria's other Balkan subjects use the same starting loyalty.
+	c:BOS ?= {
+		add_liberty_desire = -30
+	}
+
+	c:BUL ?= {
+		add_liberty_desire = -30
 	}
 
 	c:EGY ?= {

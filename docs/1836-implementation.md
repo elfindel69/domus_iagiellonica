@@ -30,6 +30,31 @@ The redundant nested Spanish scope and duplicate BIC pacts for Beroda (`BER`)
 and Mayurbhanj (`MYB`) are removed. South Africa now has one explicit overlord.
 Other relationships absent from the sheet retain their existing setup.
 
+## Immediate independence report
+
+An in-game report identified immediate independence from Moldavia and
+Austria's Balkan subjects. Moldavia and Wallachia retained Ottoman-era `+20`
+liberty desire adjustments and Russian `support_independence` treaty articles.
+The latter explicitly existed to raise their liberty desire. Bosnia and Bulgaria
+had no corresponding negative startup adjustment.
+
+This follow-up gives MOL, WAL, BOS and BUL a `-30` liberty desire adjustment,
+sets relations with their actual overlords to `30`, and removes the two inherited
+Russian independence-support articles. Other articles in those treaties remain
+pending a wider treaty/law audit. These are initial conditions, not a recurring
+loyalty reset; subjects can still seek independence through normal gameplay.
+
+The precise cause of the reported breakaways is not yet established. The pact
+types remain as in the first alignment pass. In particular, verify the engine's
+acceptance/conversion of recognized Moldavia's `vassal` pact and the Austrian
+subjects' `dominion` pacts against the installed 1.13 subject definitions and
+error log. This repository does not include those vanilla definitions.
+
+Start a **new** campaign, inspect each subject while paused, record actual pact
+types, liberty desire and its breakdown, then advance one day and one month.
+Distinguish an independence demand/play from a pact disappearing without a play.
+Existing saves will not receive changed history initialization.
+
 ## Validation
 
 From the repository root, run:
@@ -41,7 +66,9 @@ git diff --check
 
 The validator parses this diplomacy file's assignment/block syntax, checks
 27 explicit canon relationships and Albania's independence, and rejects
-duplicate subject pacts, including conflicting overlords. It is not a complete
+duplicate subject pacts, including conflicting overlords.
+It also checks that the four reported Balkan subjects have one negative starting
+liberty adjustment. It is not a complete
 Paradox script validator and does not validate engine effects or vanilla files.
 
 For an in-game check, start a new 1836 campaign with DOI enabled on the target
