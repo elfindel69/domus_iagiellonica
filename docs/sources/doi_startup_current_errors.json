@@ -31,6 +31,10 @@
     {
       "file": "aus - austria(1).txt",
       "sha256": "d544a07ba8ec93afa7dacaf11302135f25faa1dd8131de4d3ec12427000ecc65"
+    },
+    {
+      "file": "country_aus.txt",
+      "sha256": "54334525180b274a118f4016b7bf650968e293991f7147bdfbe6beb32283f702"
     }
   ],
   "tested_script_errors": 11,
@@ -64,7 +68,13 @@
     {
       "country": "AUS",
       "template": "aus_von_haynau",
-      "hq": "region_southern_europe"
+      "hq": "region_southern_europe",
+      "template_source_hq": "region_eastern_europe",
+      "source_hq_owned_states": [],
+      "override_hq_owned_states": [
+        "STATE_ISTRIA",
+        "STATE_SOUTH_TYROL"
+      ]
     }
   ]
 }

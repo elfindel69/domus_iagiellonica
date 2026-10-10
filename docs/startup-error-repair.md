@@ -169,14 +169,16 @@ target to Brandenburg; it was the only absent target for an active country in
 repository relation history. Add localization for the mod's Shroder and Schimmer
 character surnames. Give Haynau an explicit Southern Europe HQ, which Austria
 can support with its current holdings, retaining his template and all other
-Austrian character history. This is a targeted HQ compatibility trial; the
-character template is needed if creation still fails. Source hashes and compatibility choices are recorded in
+Austrian character history. The supplied `country_aus.txt` confirms that his
+template defaults to `region_eastern_europe`, where Austria owns no states.
+The override uses `region_southern_europe`, containing Austrian Istria and
+South Tyrol. The source diagnosis is confirmed; creation still needs another
+in-game test. Source hashes and compatibility choices are recorded in
 `sources/doi_startup_current_errors.json`.
 
 These changes need another new-game log. Remaining items still require source
 files or an active-mod/settings check:
 
-- The Austrian `aus_von_haynau` character template if the HQ override still fails.
 - The inherited TUR/MON embargo and ATL country-formation/creation definitions.
 - The Kiel canal definition and its adjacent sea endpoints.
 - The supplied log's unlocalized GUI text at `gui/custom_tooltip.gui:8801`.
