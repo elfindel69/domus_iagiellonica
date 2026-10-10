@@ -7338,7 +7338,7 @@
 						type = building_manor_house
 						country = c:WUR
 						levels = 3
-						region = STATE_SCHLESWIG_HOLSTEIN
+						region = STATE_WURTTEMBERG
 					}
 				}
 				reserves = 1

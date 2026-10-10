@@ -587,21 +587,7 @@
 					"pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards"
 				}
 			}
-			create_building = {
-				building = "building_tea_plantation"
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:CHI
-						levels = 5
-						region = STATE_BEIJING
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"default_building_tea_plantation" "pm_road_carts"
-				}
-			}
+
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -755,21 +741,7 @@
 					"pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards"
 				}
 			}
-			create_building = {
-				building = "building_tea_plantation"
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:CHI
-						levels = 3
-						region = STATE_SHANXI
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"default_building_tea_plantation" "pm_road_carts"
-				}
-			}
+
 		}
 	}
 	s:STATE_NINGXIA = {
@@ -1525,21 +1497,7 @@
 					"pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"
 				}
 			}
-			create_building = {
-				building = "building_tea_plantation"
-				add_ownership = {
-					building = {
-						type = building_manor_house
-						country = c:CHI
-						levels = 10
-						region = STATE_ZHILI
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"default_building_tea_plantation" "pm_road_carts"
-				}
-			}
+
 		}
 	}
 	s:STATE_JIANGXI = {
@@ -1964,6 +1922,54 @@
 						type = building_manor_house
 						country = c:CHI
 						levels = 8
+						region = STATE_HUNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation" "pm_road_carts"
+				}
+			}
+
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:CHI
+						levels = 5
+						region = STATE_HUNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation" "pm_road_carts"
+				}
+			}
+
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:CHI
+						levels = 3
+						region = STATE_HUNAN
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"default_building_tea_plantation" "pm_road_carts"
+				}
+			}
+
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:CHI
+						levels = 10
 						region = STATE_HUNAN
 					}
 				}
@@ -3073,8 +3079,8 @@
 		region_state:ULT={
 		}
 	}
-	s:STATE_HOKKAIDO={
-		region_state:EZO={
+	s:STATE_HOKKAIDO = {
+		region_state:AIN = {
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
@@ -3086,23 +3092,39 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
-		}
-		region_state:JAP={
+
+
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_manor_house"
 						country="c:JAP"
-						levels=2
+						levels = 1
 						region="STATE_HOKKAIDO"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
+		}
+		region_state:JAP = {
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:JAP"
+						levels = 1
+						region="STATE_HOKKAIDO"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+			}
+
 		}
 	}
 	s:STATE_TOHOKU={

@@ -17,7 +17,7 @@ SUBJECT_TYPES = {
 # Lore vassal/dominion descriptions map to protectorates for the Balkan subjects.
 EXPECTED = {
     "SAF": ("NET", "dominion"), "MOL": ("PLC", "protectorate"),
-    "CUB": ("SPA", "puppet"), "NOR": ("SWE", "personal_union"),
+    "CUB": ("SPA", "colony"), "NOR": ("SWE", "personal_union"),
     "FIN": ("RUS", "personal_union"), "HAN": ("GBR", "personal_union"),
     "UBD": ("RUS", "puppet"), "ALK": ("RUS", "chartered_company"),
     "BOS": ("AUS", "protectorate"), "BUL": ("AUS", "protectorate"),

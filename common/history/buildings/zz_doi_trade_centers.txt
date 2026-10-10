@@ -1,0 +1,159 @@
+﻿BUILDINGS = {
+	s:STATE_CAMPANIA = {
+		region_state:ITA = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:ITA levels = 1 region = STATE_CAMPANIA } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_FRANCHE_COMTE = {
+		region_state:FRA = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:FRA levels = 1 region = STATE_FRANCHE_COMTE } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_GUANGDONG = {
+		region_state:CHI = {
+			create_building = {
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:CHI"
+						levels=40
+						region="STATE_GUANGDONG"
+					}
+				}
+				reserves=1
+			}
+		}
+	}
+	s:STATE_GUANGDONG = {
+		region_state:POR = {
+			create_building = {
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:POR"
+						levels=3
+						region="STATE_GUANGDONG"
+					}
+					building={
+						type="building_financial_district"
+						country="c:POR"
+						levels=3
+						region="STATE_ESTREMADURA"
+					}
+				}
+				reserves=1
+			}
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:GBR = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:GBR levels = 1 region = STATE_HOME_COUNTIES } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_INGRIA = {
+		region_state:RUS = {
+			create_building = {
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:RUS"
+						levels=10
+						region="STATE_INGRIA"
+					}
+				}
+				reserves=1
+			}
+		}
+	}
+	s:STATE_LOUISIANA = {
+		region_state:MEX = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:MEX levels = 1 region = STATE_LOUISIANA } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_RHONE = {
+		region_state:FRA = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:FRA levels = 1 region = STATE_RHONE } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SANTIAGO = {
+		region_state:CHL = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:CHL levels = 1 region = STATE_SANTIAGO } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:ITA = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:ITA levels = 1 region = STATE_SICILY } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_SVEALAND = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:SWE levels = 1 region = STATE_SVEALAND } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WEST_BENGAL = {
+		region_state:BIC = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:BIC levels = 1 region = STATE_WEST_BENGAL } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:GBR = {
+			create_building = {
+				building = "building_trade_center"
+				add_ownership = { building = { type = building_financial_district country = c:GBR levels = 1 region = STATE_WEST_COUNTRY } }
+				activate_production_methods = { "pm_trade_center_trade_quantity_normal" }
+				reserves = 1
+			}
+		}
+	}
+}

@@ -222,7 +222,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:PCO = {
+		region_state:SPA = {
 			create_pop = {
 				culture = caribeno
 				size = 136653
@@ -240,6 +240,7 @@
 				culture = afro_caribeno
 				size = 32002
 			}
+
 		}
 	}
 	s:STATE_BAHAMAS = {
@@ -264,6 +265,7 @@
 				culture = afro_antillean
 				size = 216104
 			}
+
 		}
 		region_state:DEN = {
 			create_pop = {
@@ -274,6 +276,7 @@
 				culture = afro_caribbean
 				size = 39996
 			}
+
 		}
 		region_state:GBR = {
 			create_pop = {
@@ -288,8 +291,9 @@
 				culture = dutch
 				size = 396
 			}
+
 		}
-		region_state:NET = {
+		region_state:VNZ = {
 			# Population of ~23700 recorded in 1849
 			create_pop = {
 				culture = afro_brazilian # Papiamento-speakers
@@ -308,8 +312,7 @@
 				culture = sephardic
 				size = 1202
 			}
-		}
-		region_state:VNZ = {
+
 			# Very rough backwards calculation of Nueva Esparta's population in 1921
 			create_pop = {
 				culture = north_andean
@@ -324,6 +327,7 @@
 				culture = afro_caribeno
 				size = 1012
 			}
+
 		}
 	}
 	s:STATE_JAMAICA = {

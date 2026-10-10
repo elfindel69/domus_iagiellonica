@@ -1,0 +1,10 @@
+﻿l_polish:
+
+ objective_tutorial_name_SAF:0 "#v $dyn_c_south_africa$#!"
+ objective_tutorial_desc_SAF:0 "#lore $SAF_FLAVOR_TEXT$#!"
+
+
+
+
+ objective_hegemon_name_PRU:0 "#v $PRU$#!"
+ objective_hegemon_desc_PRU:0 "#lore $PRU_FLAVOR_TEXT$#!"

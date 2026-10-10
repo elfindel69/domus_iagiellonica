@@ -1,9 +1,13 @@
+﻿on_character_death = {
+	on_actions = { doi_on_french_monarch_death }
+}
 
-on_character_death = {
+
+doi_on_french_monarch_death = {
 	effect = {
 		if = {
 			limit = {
-				ruler = { is_monarch = yes }
+				is_monarch = yes
 				exists = c:FRA
 				owner = c:FRA
 				owner = {

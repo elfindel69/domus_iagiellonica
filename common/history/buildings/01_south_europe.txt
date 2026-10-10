@@ -96,7 +96,7 @@
 						type = building_manor_house
 						country = c:ITA
 						levels = 2
-						region = STATE_AUSTRIA
+						region = STATE_LOMBARDY
 					}
 					
 				}
@@ -237,7 +237,7 @@
 				}
 			}
 			create_building = {
-				building = "building_wheat_farm"
+				building = "building_rice_farm"
 				add_ownership = {
 					building = {
 						type = building_manor_house
@@ -248,7 +248,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_simple_farming" "pm_citrus_orchards" "pm_tools"
+					"pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"
 				}
 			}
 			create_building = {
@@ -1615,7 +1615,7 @@
 						type = building_financial_district
 						country = c:ITA
 						levels = 2
-						region = STATE_AUSTRIA
+						region = STATE_VENETIA
 						
 					}
 				}
@@ -1644,7 +1644,7 @@
 						type = building_financial_district
 						country = c:ITA
 						levels = 2
-						region = STATE_AUSTRIA
+						region = STATE_VENETIA
 						
 					}
 				}
@@ -1682,7 +1682,7 @@
 						type = building_manor_house
 						country = c:ITA
 						levels = 4
-						region = STATE_AUSTRIA
+						region = STATE_VENETIA
 					}
 					
 				}
@@ -1714,7 +1714,7 @@
 						type = building_manor_house
 						country = c:ITA
 						levels = 3
-						region = STATE_AUSTRIA
+						region = STATE_VENETIA
 					}
 					building = {
 						type = building_manor_house
@@ -4231,7 +4231,7 @@
 						type = building_financial_district
 						country = c:WAL
 						levels = 1
-						region = STATE_EASTERN_THRACE
+						region = STATE_DOBRUDJA
 					}
 				}
 				reserves = 1
@@ -4536,7 +4536,7 @@
 						type="building_financial_district"
 						country="c:BUL"
 						levels=1
-						region="STATE_EASTERN_THRACE"
+						region="STATE_BULGARIA"
 					}
 				}
 				reserves=1
@@ -5413,7 +5413,7 @@
 						type = building_manor_house
 						country = c:SER
 						levels = 4
-						region = STATE_EASTERN_THRACE
+						region = STATE_SKOPIA
 					}
 				}
 				reserves = 1
@@ -5462,7 +5462,7 @@
 						type = building_manor_house
 						country = c:GRE
 						levels = 1
-						region = STATE_EASTERN_THRACE
+						region = STATE_MACEDONIA
 					}
 				}
 				reserves = 1

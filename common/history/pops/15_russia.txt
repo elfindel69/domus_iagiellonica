@@ -833,7 +833,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_CAUCASUS = { #DONE
+	s:STATE_NORTH_CAUCASUS = {
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
@@ -863,8 +863,7 @@
 				culture = east_german
 				size = 2513
 			}
-		}
-		region_state:CHC = {
+
 			create_pop = {
 				culture = chechen
 				size = 85000
@@ -873,8 +872,7 @@
 				culture = north_caucasian
 				size = 21000
 			}
-		}
-		region_state:CIR = {
+
 			create_pop = {
 				culture = circassian
 				size = 57809
@@ -883,6 +881,7 @@
 				culture = north_caucasian
 				size = 13000
 			}
+
 		}
 	}
 	s:STATE_ELIZAVETPOL = { #DONE

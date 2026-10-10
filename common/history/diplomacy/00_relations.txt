@@ -88,7 +88,7 @@
 	c:FRA ?= {
 		set_relations = { country = c:PLC value = 30 }
 		set_relations = { country = c:GBR value = -50 }
-		set_relations = { country = c:PRU value = -20 }
+		set_relations = { country = c:BRB value = -20 }
 		set_relations = { country = c:AUS value = 20 }
 		set_relations = { country = c:NET value = -30 }
 		set_relations = { country = c:SPA value = -20 }
