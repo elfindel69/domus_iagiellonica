@@ -14,10 +14,11 @@ Keep the internal tags `USA` (FKA), `BIC` (British India), `ORG` (Oregon),
 | Subject | Overlord | Starting type | Source status |
 | --- | --- | --- | --- |
 | South Africa | Netherlands | `dominion` | Dutch Dominion |
-| Moldova | PLC | `vassal` | Polish vassal |
+| Moldavia | PLC | `protectorate` | Polish vassal (lore) |
+| Bosnia, Bulgaria, Wallachia | Austria | `protectorate` | Austrian dominions (lore) |
 | Cuba | Spain | `puppet` | Spanish Puppet |
 | Albania | Independent | None | Kingdom |
-| Oregon, Ontario, Quebec | Great Britain | `chartered_company` | British Charter Colony |
+| Oregon, Ontario, Quebec, New Brunswick | Great Britain | `chartered_company` | British Charter Colony |
 | Western Australia, New South Wales, South Australia, Tasmania | Great Britain | `chartered_company` | British Charter Colony |
 
 “Charter Colony” is mapped to the existing `chartered_company` pact type,
@@ -30,30 +31,24 @@ The redundant nested Spanish scope and duplicate BIC pacts for Beroda (`BER`)
 and Mayurbhanj (`MYB`) are removed. South Africa now has one explicit overlord.
 Other relationships absent from the sheet retain their existing setup.
 
-## Immediate independence report
+## Tested protectorate setup
 
-An in-game report identified immediate independence from Moldavia and
-Austria's Balkan subjects. Moldavia and Wallachia retained Ottoman-era `+20`
-liberty desire adjustments and Russian `support_independence` treaty articles.
-The latter explicitly existed to raise their liberty desire. Bosnia and Bulgaria
-had no corresponding negative startup adjustment.
+The user tested PR #2's protectorates and reported that they remain under their
+overlords while liberty desire declines over time. Keep MOL under PLC and BOS,
+BUL and WAL under AUS as `protectorate`. The lore terms "vassal" and "dominion"
+do not require those literal engine pact types.
 
-This follow-up gives MOL, WAL, BOS and BUL a `-30` liberty desire adjustment,
-sets relations with their actual overlords to `30`, and removes the two inherited
-Russian independence-support articles. Other articles in those treaties remain
-pending a wider treaty/law audit. These are initial conditions, not a recurring
-loyalty reset; subjects can still seek independence through normal gameplay.
+Preserve PR #2's `-20` initial liberty desire adjustments for MOL and WAL.
+BOS and BUL use their normal initial liberty desire. Relations with their
+overlords are `30` for BOS/BUL and `20` for MOL/WAL; repeated assignments use
+matching values. Both inherited Adrianople treaties are removed entirely,
+including Russian independence support, military access, embassy rights and
+Organic Regulation law commitments. These changes initialize a new campaign;
+ordinary autonomy and independence mechanics remain available.
 
-The precise cause of the reported breakaways is not yet established. The pact
-types remain as in the first alignment pass. In particular, verify the engine's
-acceptance/conversion of recognized Moldavia's `vassal` pact and the Austrian
-subjects' `dominion` pacts against the installed 1.13 subject definitions and
-error log. This repository does not include those vanilla definitions.
-
-Start a **new** campaign, inspect each subject while paused, record actual pact
-types, liberty desire and its breakdown, then advance one day and one month.
-Distinguish an independence demand/play from a pact disappearing without a play.
-Existing saves will not receive changed history initialization.
+The exact cause of the earlier breakaways is not isolated by this test. The
+reported result supports retaining this tested setup. Existing saves do not
+receive updated history initialization.
 
 ## Validation
 
@@ -65,16 +60,17 @@ git diff --check
 ```
 
 The validator parses this diplomacy file's assignment/block syntax, checks
-27 explicit canon relationships and Albania's independence, and rejects
+28 explicit starting relationships and Albania's independence, and rejects
 duplicate subject pacts, including conflicting overlords.
-It also checks that the four reported Balkan subjects have one negative starting
+It also checks that Moldavia and Wallachia have one negative starting
 liberty adjustment. It is not a complete
 Paradox script validator and does not validate engine effects or vanilla files.
 
 For an in-game check, start a new 1836 campaign with DOI enabled on the target
 version. Inspect the relationships above, verify chartered subjects' governments
 and rulers, advance one month, and inspect the game error log for subject history
-errors. A Victoria 3 installation is required; this has not been performed here.
+errors. The user has tested protectorate retention and declining liberty desire.
+A full launch, chartered-government and error-log check has not been performed here.
 
 ## Next implementation work
 

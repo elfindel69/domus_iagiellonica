@@ -13,22 +13,23 @@ SUBJECT_TYPES = {
     "vassal", "tributary", "chartered_company",
 }
 
-# Explicit statuses in Leaders 1836(2).odt. Unlisted relationships are preserved.
+# Leaders 1836(2).odt, with PR #2's tested gameplay mappings and New Brunswick charter.
+# Lore vassal/dominion descriptions map to protectorates for the Balkan subjects.
 EXPECTED = {
-    "SAF": ("NET", "dominion"), "MOL": ("PLC", "vassal"),
+    "SAF": ("NET", "dominion"), "MOL": ("PLC", "protectorate"),
     "CUB": ("SPA", "puppet"), "NOR": ("SWE", "personal_union"),
     "FIN": ("RUS", "personal_union"), "HAN": ("GBR", "personal_union"),
     "UBD": ("RUS", "puppet"), "ALK": ("RUS", "chartered_company"),
-    "BOS": ("AUS", "dominion"), "BUL": ("AUS", "dominion"),
-    "WAL": ("AUS", "dominion"), "BRZ": ("POR", "dominion"),
+    "BOS": ("AUS", "protectorate"), "BUL": ("AUS", "protectorate"),
+    "WAL": ("AUS", "protectorate"), "BRZ": ("POR", "dominion"),
     "TIB": ("CHI", "vassal"), "KOR": ("CHI", "tributary"),
     "EGY": ("TUR", "protectorate"), "TUN": ("TUR", "protectorate"),
     "HDJ": ("TUR", "puppet"), "TRI": ("TUR", "puppet"),
     **{tag: ("GBR", "chartered_company") for tag in
-       ("BIC", "HBC", "ORG", "ONT", "QUE", "NSW", "WAS", "SAS", "TAS")},
+       ("BIC", "HBC", "ORG", "ONT", "QUE", "NBS", "NSW", "WAS", "SAS", "TAS")},
 }
 
-STARTING_LOYALTY = {"MOL", "WAL", "BOS", "BUL"}
+STARTING_LOYALTY = {"MOL", "WAL"}
 
 
 def parse(text):
