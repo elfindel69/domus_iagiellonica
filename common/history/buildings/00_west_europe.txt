@@ -6770,7 +6770,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_muskets" "pm_cannons"
+					"pm_muskets"
 				}
 			}
 			create_building = {
@@ -6860,7 +6860,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_muskets" "pm_cannons"
+					"pm_muskets"
 				}
 			}
 			create_building = {
@@ -6924,7 +6924,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_muskets" "pm_cannons"
+					"pm_muskets"
 				}
 			}
 			create_building = {
@@ -7056,7 +7056,7 @@
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_muskets" "pm_cannons"
+					"pm_muskets"
 				}
 			}
 			create_building = {

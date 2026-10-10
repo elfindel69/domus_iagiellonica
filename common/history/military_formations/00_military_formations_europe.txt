@@ -867,7 +867,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caribbean
+			hq_region = sr:region_mid_atlantic_coast
 			name = Army_of_the_West_Indies
 
 			combat_unit = {
@@ -891,7 +891,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_zanj
+			hq_region = sr:region_southern_africa
 			name = Army_of_the_Cape_of_Good_Hope # Includes Sierra Leone regiment
 
 			combat_unit = {
@@ -1276,7 +1276,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_caucasus
+			hq_region = sr:region_russia
 			name = Otdelniy_Kavkazskiy_Korpus
 
 			combat_unit = {
@@ -1316,7 +1316,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_west_siberia
+			hq_region = sr:region_russia
 			name = 4y_Pekhotniy_Korpus
 
 			combat_unit = {

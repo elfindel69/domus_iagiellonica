@@ -1152,17 +1152,7 @@ liberal_party = {
 					culture = cu:yankee
 				}
 			}
-			if = {
-				limit = {
-					leader ?= {
-						has_template = usa_robert_rantoul_character_template # Northern Democrat
-					}
-				}
-				add = {
-					value = -10
-					desc = "from_northern_democrats"
-				}
-			}
+		
 			else = {
 				add = {
 					value = 3

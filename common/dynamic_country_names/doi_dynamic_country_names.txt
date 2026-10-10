@@ -5,7 +5,7 @@
 ################################################################
 
 
-FRA = { # France
+REPLACE:FRA = { # France
 	dynamic_country_name = {
 		name = dyn_c_fra_republic
 
@@ -81,7 +81,7 @@ FRA = { # France
 	}
 }
 
-PLC = { # PLC
+REPLACE:PLC = { # PLC
 	dynamic_country_name = {
 		name = dyn_c_plc_republic
 

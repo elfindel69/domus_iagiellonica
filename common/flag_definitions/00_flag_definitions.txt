@@ -9450,14 +9450,6 @@ KAF = { # Kafiristan
 		subject_canton = KAF
 		priority = 1
 	}
-}
-
-KAF = { # Kafiristan
-	flag_definition = {
-		coa = KAF
-		subject_canton = KAF
-		priority = 1
-	}
 	flag_definition = {
 		coa = KAF_muslim
 		subject_canton = KAF_muslim

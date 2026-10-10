@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.txt": "paradox-vic3",
+        "**/gfx/**/*.asset": "paradox-vic3",
+        "*.gui": "paradox-gui",
+        "*.mod": "paradox-mod",
+        "**/localization/**/*.yml": "paradox-loc"
+    },
+    "px.tigerRunOn": "save",
+    "px.diagnostics.vanilla": false
+}
