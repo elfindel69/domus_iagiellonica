@@ -218,11 +218,6 @@
       "method": "Divide existing Micronesian population between four MCR provinces and one JAP province; retain rounding in MCR."
     }
   ],
-  "population_total": 1038506772,
-  "known_missing_population_partitions": [
-    [
-      "STATE_ORYOL",
-      "RUS"
-    ]
-  ]
+  "population_total": 1041862894,
+  "known_missing_population_partitions": []
 }

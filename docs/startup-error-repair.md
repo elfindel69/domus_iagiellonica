@@ -132,18 +132,18 @@ The supplied Austrian character history's failing line refers to
 `aus_anton_von_dovlohh-dier`; it is a template reference, so its template definition
 is needed before changing the spelling or recreating the character.
 
-Restore 16 missing population partitions from the supplied vanilla population
+Restore 17 missing population partitions from the supplied vanilla population
 files: Dahomey/BRG, East Sahara/TUG, Florida/SML, Semnan/PER, five Sakhalin
-partitions, six Senegal partitions and Malaya/GBR. They add **1,009,882** people, bringing the
-recorded total to **1,038,506,772** without modifying existing populations.
+partitions, six Senegal partitions, Malaya/GBR and Oryol/RUS. They add **4,366,004** people, bringing the
+recorded total to **1,041,862,894** without modifying existing populations.
 Source hashes, partition totals and military baselines are recorded in
 `sources/doi_startup_followup.json`. The supplied building files are used only
 for the missing trade-center records; existing mod buildings are retained.
 
 ## Remaining source and in-game checks
 
-Oryol/RUS still lacks a supplied population record. The validator reports this
-known gap separately.
+All 17 previously missing population partitions now have supplied source records.
+The validator reports no population gaps.
 
 The remaining logged inherited scripts require their 1.13.11 definitions:
 

@@ -323,4 +323,20 @@
 
 		}
 	}
+s:STATE_ORYOL = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 3327590
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 23410
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 5122
+			}
+		}
+	}
 }

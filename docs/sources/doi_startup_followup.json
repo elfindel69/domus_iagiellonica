@@ -95,6 +95,10 @@
     {
       "file": "12_indonesia.txt",
       "sha256": "e51b4d93273d1356ca1a071cdcc7875d4b93c59a4fdd25b900551825c263a6e7"
+    },
+    {
+      "file": "02_east_europe.txt",
+      "sha256": "8f0d3de17d9ab60fea2121a5b46218f622a7fb9b8b859f22739b339cce5843c9"
     }
   ],
   "military_unit_baselines": {
@@ -1369,10 +1373,15 @@
       "state": "STATE_MALAYA",
       "country": "GBR",
       "population": 124196
+    },
+    {
+      "state": "STATE_ORYOL",
+      "country": "RUS",
+      "population": 3356122
     }
   ],
   "population_before_restoration": 1037496890,
-  "population_restored": 1009882,
+  "population_restored": 4366004,
   "character_role_overrides": [
     "QUE",
     "ONT",
