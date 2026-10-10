@@ -45,5 +45,5 @@
 		trigger_event = { id = doi_poland_hungary.1 popup = yes }
 	}
 
-	ai_chance = { base = 12 }
+	ai_chance = { value = 12 }
 }

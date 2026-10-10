@@ -80,7 +80,7 @@
 			first_name = Thomas
 			last_name = Bugeaud
 			birth_date = 1784.10.15
-			hq = region_rhine
+			hq = sr:region_western_europe
 			interest_group = ig_rural_folk
 			traits = {
 				ambitious

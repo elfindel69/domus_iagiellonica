@@ -3,7 +3,7 @@ on_character_death = {
 	effect = {
 		if = {
 			limit = {
-				is_ruler = yes
+				ruler = { is_monarch = yes }
 				exists = c:FRA
 				owner = c:FRA
 				owner = {
@@ -15,6 +15,6 @@ on_character_death = {
 				trigger_event = doi_france.1
 			}
 		
-		}
+		} 
 	}
 }

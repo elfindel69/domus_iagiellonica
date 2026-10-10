@@ -103,7 +103,7 @@
 			ig_leader = yes
 			interest_group = ig_armed_forces
 			ideology = ideology_jingoist_leader
-			hq = region_new_england
+			hq = sr:region_atlantic_coast
 			commander_rank = commander_rank_2
 			traits = {
 				cautious

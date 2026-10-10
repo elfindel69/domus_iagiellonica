@@ -8,7 +8,7 @@
 			is_general = yes # both ruler and general
 			age = 66
 			dna = dna_king_frederik_william_03
-			hq = region_north_germany
+			hq = sr:region_central_europe
 			interest_group = ig_armed_forces
 			ideology= ideology_royalist
 			traits = {
