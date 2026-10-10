@@ -715,8 +715,7 @@
 				size = 15000
 			}
 		}
-	}
-	s:STATE_TOGO = {
+
 		region_state:DEN = {
 			create_pop = {
 				culture = akan
@@ -730,7 +729,10 @@
 				culture = mossi
 				size = 47996
 			}
+
 		}
+}
+	s:STATE_TOGO = {
 		region_state:ASH = {
 			create_pop = {
 				culture = ewe
@@ -753,6 +755,7 @@
 				culture = fon
 				size = 64004
 			}
+
 		}
 		region_state:EWE = {
 			create_pop = {
@@ -764,6 +767,7 @@
 				culture = ewe
 				size = 28000
 			}
+
 		}
 	}
 	s:STATE_DAHOMEY = {
@@ -867,45 +871,46 @@
 		region_state:OMA = {
 			create_pop = {
 				culture = swahili
-				size = 382800
+				size = 249653
 			}
 			create_pop = {
 				culture = sukuma
 				religion = animist
-				size = 12000
+				size = 7827
 			}
 			create_pop = {
 				culture = lacustrine_bantu
-				size = 466396
+				size = 304172
 			}
 			create_pop = {
 				culture = lacustrine_bantu
 				religion = sunni
-				size = 84000
+				size = 54783
 			}
 			create_pop = {
 				culture = bedouin
-				size = 4004
+				size = 2612
 			}
 			create_pop = {
 				culture = bedouin
 				religion = sunni
-				size = 4000
+				size = 2609
 			}
 			create_pop = {
 				culture = sukuma
-				size = 28000
+				size = 18261
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = swahili
-				size = 30000
+				size = 19566
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lacustrine_bantu
-				size = 45000
+				size = 29348
 			}
+
 		}
 	}
 	s:STATE_TANGANYIKA = {
@@ -2094,26 +2099,27 @@
 		region_state:POR = {
 			create_pop = {
 				culture = bakongo
-				size = 176404
+				size = 168735
 			}
 			create_pop = {
 				culture = kavango_bantu
 				religion = catholic
-				size = 17396
+				size = 16640
 			}
 			create_pop = {
 				culture = kavango_bantu
-				size = 116004
+				size = 110961
 			}
 			create_pop = {
 				culture = portuguese
-				size = 3368
+				size = 3222
 			}
 			create_pop = {
 				culture = bakongo
 				religion = catholic
-				size = 160000
+				size = 153044
 			}
+
 		}
 	}
 	s:STATE_SOUTH_ANGOLA = {
@@ -2748,6 +2754,81 @@
 				culture = tonga
 				size = 380000
 			}
+		}
+	}
+
+	s:STATE_KENYA = {
+		region_state:OMA = {
+			create_pop = {
+				culture = swahili
+				size = 133147
+			}
+			create_pop = {
+				culture = sukuma
+				religion = animist
+				size = 4173
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 162224
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				religion = sunni
+				size = 29217
+			}
+			create_pop = {
+				culture = bedouin
+				size = 1392
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 1391
+			}
+			create_pop = {
+				culture = sukuma
+				size = 9739
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = swahili
+				size = 10434
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 15652
+			}
+
+		}
+	}
+
+	s:STATE_SOUTH_CAMEROON = {
+		region_state:POR = {
+			create_pop = {
+				culture = bakongo
+				size = 7669
+			}
+			create_pop = {
+				culture = kavango_bantu
+				religion = catholic
+				size = 756
+			}
+			create_pop = {
+				culture = kavango_bantu
+				size = 5043
+			}
+			create_pop = {
+				culture = portuguese
+				size = 146
+			}
+			create_pop = {
+				culture = bakongo
+				religion = catholic
+				size = 6956
+			}
+
 		}
 	}
 }

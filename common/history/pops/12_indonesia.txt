@@ -1108,54 +1108,108 @@
 		region_state:MCR = {
 			create_pop = {
 				culture = micronesian
-				size = 23840
+				size = 19072
 			}
 			create_pop = {
 				culture = spanish
-				size = 24
+				size = 20
 			}
 			create_pop = {
 				culture = polynesian
-				size = 360
+				size = 288
 			}
-		}
-		region_state:PHI = {
+
 			# Guam, based off 1830 census
 			create_pop = {
 				culture = micronesian # Natives
 				religion = catholic
-				size = 2612
+				size = 2090
 			}
 			create_pop = {
 				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
-				size = 1007
+				size = 806
 			}
 			create_pop = {
 				culture = spanish # Spanish / Mestizo
-				size = 5
+				size = 4
 			}
 			create_pop = {
 				culture = visayan # Filipinos
-				size = 2612
+				size = 2090
 			}
 			# Palau, could not find detailed information, likely below 6000 (late 19th century), with some Filipinos
 			create_pop = {
 				culture = micronesian # Natives
 				religion = catholic
-				size = 923
+				size = 739
 			}
 			create_pop = {
 				culture = micronesian # Natives
-				size = 1432
+				size = 1146
 			}
 			create_pop = {
 				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
-				size = 62
+				size = 50
 			}
 			create_pop = {
 				culture = visayan # Filipinos
-				size = 341
+				size = 273
 			}
+
+
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = micronesian
+				size = 4768
+			}
+			create_pop = {
+				culture = spanish
+				size = 4
+			}
+			create_pop = {
+				culture = polynesian
+				size = 72
+			}
+
+			# Guam, based off 1830 census
+			create_pop = {
+				culture = micronesian # Natives
+				religion = catholic
+				size = 522
+			}
+			create_pop = {
+				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
+				size = 201
+			}
+			create_pop = {
+				culture = spanish # Spanish / Mestizo
+				size = 1
+			}
+			create_pop = {
+				culture = visayan # Filipinos
+				size = 522
+			}
+			# Palau, could not find detailed information, likely below 6000 (late 19th century), with some Filipinos
+			create_pop = {
+				culture = micronesian # Natives
+				religion = catholic
+				size = 184
+			}
+			create_pop = {
+				culture = micronesian # Natives
+				size = 286
+			}
+			create_pop = {
+				culture = filipino_mestizo # Mixed (Spanish, Filipino, Natives)
+				size = 12
+			}
+			create_pop = {
+				culture = visayan # Filipinos
+				size = 68
+			}
+
+
 		}
 	}
 	s:STATE_SOLOMON_ISLANDS = {

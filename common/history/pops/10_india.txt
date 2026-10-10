@@ -376,6 +376,32 @@
 		}
 	}
 	s:STATE_GUJARAT = {
+		region_state:KUT = {
+			create_pop = {
+				culture = gujarati
+				religion = hindu
+				size = 213219
+			}
+			create_pop = {
+				culture = gujarati
+				religion = sunni
+				size = 30102
+			}
+			create_pop = {
+				culture = marathi
+				size = 9012
+			}
+			create_pop = {
+				culture = pathan
+				religion = sunni
+				size = 1720
+			}
+			create_pop = {
+				culture = sindi
+				size = 11020
+			}
+
+		}
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
@@ -415,33 +441,7 @@
 				religion = sunni
 				size = 5020
 			}
-		}
-		region_state:KUT = {
-			create_pop = {
-				culture = gujarati
-				religion = hindu
-				size = 213219
-			}
-			create_pop = {
-				culture = gujarati
-				religion = sunni
-				size = 30102
-			}
-			create_pop = {
-				culture = marathi
-				size = 9012
-			}
-			create_pop = {
-				culture = pathan
-				religion = sunni
-				size = 1720
-			}
-			create_pop = {
-				culture = sindi
-				size = 11020
-			}
-		}
-		region_state:BHV = {
+
 			create_pop = {
 				culture = gujarati
 				size = 238297
@@ -474,8 +474,7 @@
 				religion = sunni
 				size = 720
 			}
-		}
-		region_state:DHA = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -502,8 +501,7 @@
 				religion = hindu # janinism
 				size = 5511
 			}
-		}
-		region_state:JUN = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -532,8 +530,7 @@
 				religion = sunni
 				size = 7720
 			}
-		}
-		region_state:NAW = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -557,8 +554,7 @@
 				culture = sindi
 				size = 2134
 			}
-		}
-		region_state:PLP = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -579,8 +575,7 @@
 				religion = hindu # janinism
 				size = 7340
 			}
-		}
-		region_state:IDA = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -600,8 +595,7 @@
 				culture = marathi
 				size = 8212
 			}
-		}
-		region_state:BIC = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -661,8 +655,7 @@
 				religion = sunni
 				size = 9120
 			}
-		}
-		region_state:POR = {
+
 			create_pop = {
 				culture = gujarati
 				religion = hindu
@@ -683,6 +676,7 @@
 				religion = catholic
 				size = 310
 			}
+
 		}
 	}
 	s:STATE_MALWA = {
@@ -1142,6 +1136,7 @@
 				religion = hindu
 				size = 6718
 			}
+
 		}
 		region_state:JAS = {
 			create_pop = {
@@ -1163,31 +1158,7 @@
 				religion = hindu
 				size = 6368
 			}
-		}
-		region_state:MEW = {
-			create_pop = {
-				culture = rajput
-				size = 477637
-			}
-			create_pop = {
-				culture = rajput
-				religion = sunni
-				size = 89549
-			}
-			create_pop = {
-				culture = rajput
-				religion = animist
-				size = 29841
-			}
-			create_pop = {
-				culture = gujarati
-				size = 53010
-			}
-			create_pop = {
-				culture = gujarati
-				religion = sunni
-				size = 9946
-			}
+
 		}
 		region_state:JOD = {
 			create_pop = {
@@ -1217,6 +1188,91 @@
 				religion = sunni
 				size = 3012
 			}
+
+			create_pop = {
+				culture = rajput
+				size = 170578
+			}
+			create_pop = {
+				culture = rajput
+				religion = sunni
+				size = 38083
+			}
+			create_pop = {
+				culture = gujarati
+				size = 12423
+			}
+			create_pop = {
+				culture = gujarati
+				religion = sunni
+				size = 4844
+			}
+			create_pop = {
+				culture = british
+				pop_type = aristocrats
+				size = 213
+			}
+
+		}
+		region_state:MEW = {
+			create_pop = {
+				culture = rajput
+				size = 477637
+			}
+			create_pop = {
+				culture = rajput
+				religion = sunni
+				size = 89549
+			}
+			create_pop = {
+				culture = rajput
+				religion = animist
+				size = 29841
+			}
+			create_pop = {
+				culture = gujarati
+				size = 53010
+			}
+			create_pop = {
+				culture = gujarati
+				religion = sunni
+				size = 9946
+			}
+
+			create_pop = {
+				culture = rajput
+				size = 269698
+			}
+			create_pop = {
+				culture = rajput
+				religion = sunni
+				size = 27102
+			}
+			create_pop = {
+				culture = rajput
+				religion = animist
+				size = 6102
+			}
+			create_pop = {
+				culture = gujarati
+				size = 13423
+			}
+			create_pop = {
+				culture = gujarati
+				religion = sunni
+				size = 1701
+			}
+
+			create_pop = {
+				culture = rajput
+				size = 29021
+			}
+			create_pop = {
+				culture = rajput
+				religion = sunni
+				size = 2012
+			}
+
 		}
 		region_state:JAI = {
 			create_pop = {
@@ -1246,33 +1302,7 @@
 				religion = sunni
 				size = 10844
 			}
-		}
-		region_state:BIC = {
-			create_pop = {
-				culture = rajput
-				size = 170578
-			}
-			create_pop = {
-				culture = rajput
-				religion = sunni
-				size = 38083
-			}
-			create_pop = {
-				culture = gujarati
-				size = 12423
-			}
-			create_pop = {
-				culture = gujarati
-				religion = sunni
-				size = 4844
-			}
-			create_pop = {
-				culture = british
-				pop_type = aristocrats
-				size = 213
-			}
-		}
-		region_state:ALW = {
+
 			create_pop = {
 				culture = rajput
 				size = 414651
@@ -1306,44 +1336,7 @@
 				religion = sikh
 				size = 217
 			}
-		}
-		region_state:KOT = {
-			create_pop = {
-				culture = rajput
-				size = 269698
-			}
-			create_pop = {
-				culture = rajput
-				religion = sunni
-				size = 27102
-			}
-			create_pop = {
-				culture = rajput
-				religion = animist
-				size = 6102
-			}
-			create_pop = {
-				culture = gujarati
-				size = 13423
-			}
-			create_pop = {
-				culture = gujarati
-				religion = sunni
-				size = 1701
-			}
-		}
-		region_state:IND = {
-			create_pop = {
-				culture = rajput
-				size = 29021
-			}
-			create_pop = {
-				culture = rajput
-				religion = sunni
-				size = 2012
-			}
-		}
-		region_state:GWA = {
+
 			create_pop = {
 				culture = rajput
 				size = 26010
@@ -1353,6 +1346,7 @@
 				religion = sunni
 				size = 1769
 			}
+
 		}
 	}
 	s:STATE_CEYLON = {

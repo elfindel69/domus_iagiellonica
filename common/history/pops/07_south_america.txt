@@ -838,8 +838,9 @@
 				culture = north_andean
 				size = 210
 			}
+
 		}
-		region_state:PRA = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = amazonian
 				size = 36800
@@ -857,12 +858,14 @@
 				culture = afro_brazilian
 				size = 1980 # 1840 Amazonas Census
 			}
+
 		}
 		region_state:BOL = { # I have literally no idea what number to put here.
 			create_pop = {
 				culture = amazonian
 				size = 11000
 			}
+
 		}
 	}
 	s:STATE_MATO_GROSSO = {
@@ -880,6 +883,7 @@
 				culture = platinean
 				size = 4000
 			}
+
 		}
 		region_state:BRZ = {
 			create_pop = {
@@ -903,8 +907,7 @@
 				culture = amazonian
 				size = 44000
 			}
-		}
-		region_state:BOL = {
+
 			create_pop = {
 				culture = quechua
 				size = 2300
@@ -921,6 +924,7 @@
 				culture = amazonian
 				size = 2560
 			}
+
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {

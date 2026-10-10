@@ -16,3 +16,5 @@ Check starting subject history with Python 3:
 python3 tools/validate_subjects.py
 python3 tools/audit_map.py
 ```
+
+Startup compatibility checks and remaining 1.13.11 source requirements: [startup error repair](docs/startup-error-repair.md). Run `python tools/validate_startup.py` for the global history checks.

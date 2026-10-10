@@ -867,7 +867,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_mid_atlantic_coast
+			hq_region = sr:region_western_europe
 			name = Army_of_the_West_Indies
 
 			combat_unit = {
@@ -891,7 +891,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_southern_africa
+			hq_region = sr:region_western_europe
 			name = Army_of_the_Cape_of_Good_Hope # Includes Sierra Leone regiment
 
 			combat_unit = {
@@ -1247,7 +1247,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KIEV
+				state_region = s:STATE_KURSK
 				count = 20
 			}
 
@@ -2209,7 +2209,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SAVOY
+				state_region = s:STATE_PIEDMONT
 				count = 1
 			}
 
@@ -2221,7 +2221,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_PROVENCE
+				state_region = s:STATE_PIEDMONT
 				count = 1
 			}
 
@@ -2257,7 +2257,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SAVOY
+				state_region = s:STATE_PIEDMONT
 				count = 1
 			}
 
@@ -2830,7 +2830,7 @@ c:NET ?= {
 
 			combat_unit = { # Courland Lancer Regiment
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_COURLAND
+				state_region = s:STATE_RIGA
 				count = 1
 			}
 			combat_unit = { # Narva Jägers

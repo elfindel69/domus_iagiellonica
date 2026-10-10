@@ -21,7 +21,7 @@ doi_poland_bohemia.1 = {
 	immediate = {
 		
 		c:AUS = {
-			create_truce = {
+			create_bidirectional_truce = {
 				country = c:PLC
 				months = normal_modifier_time
 			}

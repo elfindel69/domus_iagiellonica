@@ -1568,42 +1568,7 @@
 			}
 		}
 	}
-	s:STATE_SAKHALIN = {
-		create_state = {
-			country = c:SKH
-			owned_provinces = { xF1B27F x041FF2  x9628A0 x4ED0E9 x768145 x1B4E8D x1CA52F xC3C06E x22C190  xB8277E x503660 x02BAB7 }
-		}
-		create_state = {
-			country = c:AIN
-			owned_provinces = { x2010C0 x9E3A0A x2492AA xD0294D x47B65C xE99CEA xA5E421 }
-		}
 
-		create_state = {
-			country = c:ULT
-			owned_provinces = { x3405B2 xBE16C2 xF15B61 xDFA060 x7608FE x1CAAE0 xEAFA0A }
-		}
-		create_state = {
-			country = c:EZO
-			owned_provinces = {
-				x1E5261 x5B9D2D x7F67EF
-			}
-			state_type = unincorporated
-		}
-		create_state = {
-			country = c:ALK
-			owned_provinces = {
-				x601140 xA060DF
-			}
-			state_type = unincorporated
-		}
-
-		add_homeland = cu:siberian
-		add_homeland = cu:ainu
-
-		add_claim = c:RUS
-		add_claim = c:JAP
-		add_claim = c:CHI
-	}
 	# Japanese population data is based off a 20% (Kito estimation) increase of available 1834 provincial census data. This increase is to offset the exclusion of ruling and exceptional classes. Total Japanese population fluctuated around this time, so no need to adjust upwards towards inferred 1836 levels.
 	s:STATE_TOHOKU = {
 		# Mutsu and Dewa provinces
@@ -1731,7 +1696,6 @@
 	}
 	# Numbers in the Japanese 'periphery' is derived partially from provincial Shogunal censuses, and partially from misc. secondary literature, like Howell's 'Capitalism from Within'
 	s:STATE_HOKKAIDO = {
-		# Ezochi ("Ainu-lands" - Matsumae Clan overlordship and indirect rule)
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
@@ -1741,9 +1705,9 @@
 				culture = japanese
 				size = 31102
 			}
+
 		}
-		# Wajinchi ("Japanese-lands" - Matsumae Clan direct rule)
-		region_state:EZO = {
+		region_state:AIN = {
 			create_pop = {
 				culture = ainu
 				size = 29500
@@ -1752,6 +1716,7 @@
 				culture = japanese
 				size = 1731
 			}
+
 		}
 	}
 	s:STATE_RYUKYU_ISLANDS = {
@@ -1880,4 +1845,6 @@
 			}
 		}
 	}
+
+
 }

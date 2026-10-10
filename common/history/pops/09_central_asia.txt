@@ -477,53 +477,54 @@
 		region_state:KHI = {
 			create_pop = {
 				culture = uzbek
-				size = 428468
+				size = 193047
 			}
 			create_pop = {
 				culture = turkmen
-				size = 180427
+				size = 81292
 			}
 			create_pop = {
 				culture = kazak
-				size = 61010
+				size = 27489
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = russian
-				size = 10000
+				size = 4506
 			}
 			create_pop = {
 				culture = persian
-				size = 8030
+				size = 3618
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = turkmen
-				size = 20102
+				size = 9057
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = persian
-				size = 223100
+				size = 100518
 			}
 			create_pop = {
 				culture = turkmen
-				size = 12222
+				size = 5507
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = persian
-				size = 2010
+				size = 906
 			}
 			create_pop = {
 				culture = kazak
-				size = 9021
+				size = 4065
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = persian
-				size = 385
+				size = 174
 			}
+
 		}
 	}
 	s:STATE_UZBEKIA = {
@@ -1514,6 +1515,61 @@
 				culture = nepali
 				size = 16004
 			}
+		}
+	}
+
+	s:STATE_URALSK = {
+		region_state:KHI = {
+			create_pop = {
+				culture = uzbek
+				size = 235421
+			}
+			create_pop = {
+				culture = turkmen
+				size = 99135
+			}
+			create_pop = {
+				culture = kazak
+				size = 33521
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = russian
+				size = 5494
+			}
+			create_pop = {
+				culture = persian
+				size = 4412
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = turkmen
+				size = 11045
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 122582
+			}
+			create_pop = {
+				culture = turkmen
+				size = 6715
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 1104
+			}
+			create_pop = {
+				culture = kazak
+				size = 4956
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 211
+			}
+
 		}
 	}
 }

@@ -1,0 +1,3783 @@
+{
+  "policy": "Correct-region entries first; smaller explicit partition wins within-region overlaps; source order breaks equal-size ties.",
+  "removed_lake": [
+    "XBD5671"
+  ],
+  "added_assam": [
+    "X673438",
+    "X7DC31D",
+    "XDF30DF",
+    "XEE6A3D"
+  ],
+  "moved": [
+    {
+      "province": "X1D9B6B",
+      "owner": "VNZ",
+      "source": "STATE_ZULIA",
+      "target": "STATE_WEST_INDIES"
+    },
+    {
+      "province": "XB03080",
+      "owner": "VNZ",
+      "source": "STATE_ZULIA",
+      "target": "STATE_WEST_INDIES"
+    },
+    {
+      "province": "XF07001",
+      "owner": "VNZ",
+      "source": "STATE_BOLIVAR",
+      "target": "STATE_WEST_INDIES"
+    },
+    {
+      "province": "XF05E87",
+      "owner": "MOR",
+      "source": "STATE_AL_RIF",
+      "target": "STATE_INNER_MOROCCO"
+    },
+    {
+      "province": "X75DC50",
+      "owner": "MOR",
+      "source": "STATE_AL_RIF",
+      "target": "STATE_INNER_MOROCCO"
+    },
+    {
+      "province": "X8FBBB6",
+      "owner": "MOR",
+      "source": "STATE_AL_RIF",
+      "target": "STATE_INNER_MOROCCO"
+    },
+    {
+      "province": "X9BC3AC",
+      "owner": "MOR",
+      "source": "STATE_AL_RIF",
+      "target": "STATE_INNER_MOROCCO"
+    },
+    {
+      "province": "XE95985",
+      "owner": "MOR",
+      "source": "STATE_AL_RIF",
+      "target": "STATE_INNER_MOROCCO"
+    },
+    {
+      "province": "X86E434",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X886CFB",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X2A751D",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XAAD5CC",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X202929",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X11D0A0",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X463A7E",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X0479EF",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XC4D8ED",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XF65A12",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X72AD6F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X348703",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XD7FFBE",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA3FFD3",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X285F4F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X5B7280",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X587B0B",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XACD89C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X87476F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XBABA5F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X5F830E",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X8C63E2",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X41FEF5",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X460BB7",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XDA9E29",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X0190E0",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X8855E0",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XD2D69C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X5F28EB",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XEB8E58",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XCA4E6B",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X2B86F4",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XF88C6A",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X8ADB51",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X8207BC",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X009F47",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA4B02B",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X4508B3",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X070399",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X1F3EAA",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XDA32A4",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XBFA1D6",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XAA6A72",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XD4F032",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XB11A98",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X5B44AB",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X98E67F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X0B1422",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XD8876F",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA95E42",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA48E9C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X3F1904",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X756DFD",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XFCE120",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X1F8886",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X0C5EBE",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X9A4E88",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA06BA4",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X2BBB9C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XC724C8",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XE6917C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X801060",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X6EA444",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X1C2606",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X7CFB8C",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XB89482",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X617DC1",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XCB3322",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X0A5735",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X7C0DA3",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XF3329A",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X81C7D9",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X4B9EB1",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X65294E",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XA3E261",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "XFFED82",
+      "owner": "TRI",
+      "source": "STATE_TRIPOLI",
+      "target": "STATE_LIBYAN_DESERT"
+    },
+    {
+      "province": "X738052",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X485A40",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA09020",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAD3D64",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAA6BA0",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X83E15C",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X194AE7",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XB24990",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X11A0DD",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6A6A85",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAF2968",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X14F1BF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XFA4247",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X91EB7D",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X1EDF65",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X87B84F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC1CA86",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X3D9D25",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XE19FB8",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X057978",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XEEE9E6",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X1189D2",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0CA694",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X874CD9",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X1425EF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA247FB",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDC498E",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XCC14A4",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDEFE00",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X81B59F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA17BD6",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X14A3E1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X5E16B6",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XD3CCA8",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X9D205C",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF9D0BC",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X735D47",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X33B3DE",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF46E3D",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0BD882",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF2B6E0",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X51AB2C",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X31EA8A",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6C635A",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X4BC650",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XECDEFD",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XACA5B1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X671156",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XF8A389",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XF1DFCE",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X229F5B",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XD3A4B1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X3066D1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XCD6775",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X281051",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X592D88",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X87E9E0",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XD61033",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XFA3335",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X8967B5",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XD5C61D",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XAAA267",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X76EA2F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAFD438",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X522D29",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X3E5E19",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X90D060",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XCA9364",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X9F6FBD",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X27737E",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X144435",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X650312",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0198EA",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X4588F1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XE51BCB",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X475810",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X2B96BF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XFA182C",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X61F166",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0A58C9",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XCF807F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X827DC0",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC5601C",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X093E94",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X48316F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X231277",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X099FFF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA5C57A",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAB9F90",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA519D6",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XB93A62",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6B2BEF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X662644",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X950042",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC11122",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X395873",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X29E247",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X2A53E1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XD1395D",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X152867",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X60A81D",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X9F22F2",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF9980E",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X3572F7",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X2C08E8",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X9953AB",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0F16C7",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X29E30B",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6ED70F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDCBC26",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X683423",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDEF5CF",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XE6081F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6794AD",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X165542",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X550DB9",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X28A6A1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X47B6FA",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X3BF817",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDB1CEA",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC6DA6A",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XB46A16",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X95E863",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X4E6542",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X61A415",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XAD746A",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X56AEEC",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0008B1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X79DCF4",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XE39CED",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X47B014",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6890D4",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X8F71C6",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X73B161",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X3E00B9",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XB10316",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X799B7E",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XE799AA",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X39A829",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X180269",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XDBD075",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X164ED1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC75D31",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X68430F",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X8B21BC",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X53ECCE",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X0BD921",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X72A54B",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X148330",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X1BE626",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF00DCD",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X6F8DE9",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XF1D2C1",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XA79085",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X017863",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X7B0D2E",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "X991766",
+      "owner": "TRI",
+      "source": "STATE_LIBYAN_DESERT",
+      "target": "STATE_LIBYA"
+    },
+    {
+      "province": "XC0D0A0",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X188727",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X96B6AF",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XFAB002",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X77D1BA",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XE0D870",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X4C7050",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X505BF8",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X1E8A25",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X8E70B1",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "X40CFA0",
+      "owner": "TRI",
+      "source": "STATE_LIBYA",
+      "target": "STATE_TRIPOLI"
+    },
+    {
+      "province": "XC02050",
+      "owner": "POR",
+      "source": "STATE_NORTH_ANGOLA",
+      "target": "STATE_SOUTH_CAMEROON"
+    },
+    {
+      "province": "XA0F6EC",
+      "owner": "POR",
+      "source": "STATE_ESTREMADURA",
+      "target": "STATE_BEIRA"
+    },
+    {
+      "province": "X21A090",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "X35554F",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "XE23000",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "X22D39E",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "XC52E48",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "XC53497",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "X9E9F57",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "X941594",
+      "owner": "OMA",
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA"
+    },
+    {
+      "province": "X800111",
+      "owner": "JAP",
+      "source": "STATE_KYUSHU",
+      "target": "STATE_KANTO"
+    },
+    {
+      "province": "XEF50C0",
+      "owner": "JAP",
+      "source": "STATE_KYUSHU",
+      "target": "STATE_WEST_MICRONESIA"
+    },
+    {
+      "province": "X00E0A0",
+      "owner": "PLC",
+      "source": "STATE_VILNIUS",
+      "target": "STATE_KAUNAS"
+    },
+    {
+      "province": "X4177AF",
+      "owner": "PLC",
+      "source": "STATE_VILNIUS",
+      "target": "STATE_KAUNAS"
+    },
+    {
+      "province": "X4678E5",
+      "owner": "PLC",
+      "source": "STATE_VILNIUS",
+      "target": "STATE_KAUNAS"
+    },
+    {
+      "province": "X577C69",
+      "owner": "PLC",
+      "source": "STATE_VILNIUS",
+      "target": "STATE_KAUNAS"
+    },
+    {
+      "province": "XA916E3",
+      "owner": "PLC",
+      "source": "STATE_VILNIUS",
+      "target": "STATE_KAUNAS"
+    },
+    {
+      "province": "XE057F4",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X09D625",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X20999F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XD97D9F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XA05932",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X3BED19",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X5E6DE0",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X912BDA",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X9B5F76",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X875397",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XA5EEB0",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X918816",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X0264AE",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XD5697A",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X576B59",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XEFB805",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X20AE87",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X372422",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XD80A79",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X7281B9",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X482E88",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X445B0F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X8A60EF",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XB8C2BA",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XA1D13D",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X0A5153",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X1EA24F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X32BA7F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XD82B39",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X0A68E0",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X0BE32E",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XC82AAC",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X466F4E",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X1343FA",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X73B0D9",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XD2C1B9",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XAC0C13",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XA49B9D",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X9FC86F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X202061",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XF8D42E",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X969B20",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X8EFEFC",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X4015A9",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XBA7175",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X396B2F",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "XBF10BF",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X6BED25",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X38F85A",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X544E52",
+      "owner": "KHI",
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK"
+    },
+    {
+      "province": "X3E3572",
+      "owner": "PLC",
+      "source": "STATE_WEST_PRUSSIA",
+      "target": "STATE_POMERANIA"
+    },
+    {
+      "province": "X0180A0",
+      "owner": "PLC",
+      "source": "STATE_WEST_PRUSSIA",
+      "target": "STATE_POMERANIA"
+    },
+    {
+      "province": "X7A6061",
+      "owner": "PLC",
+      "source": "STATE_WEST_PRUSSIA",
+      "target": "STATE_EAST_PRUSSIA"
+    },
+    {
+      "province": "X6E8875",
+      "owner": "PLC",
+      "source": "STATE_WEST_PRUSSIA",
+      "target": "STATE_EAST_PRUSSIA"
+    }
+  ],
+  "conflicts": [
+    {
+      "province": "X31A0A0",
+      "state": "STATE_BUKOVINA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "MOL"
+      ]
+    },
+    {
+      "province": "X7E6263",
+      "state": "STATE_BUKOVINA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "MOL"
+      ]
+    },
+    {
+      "province": "XFFCCDA",
+      "state": "STATE_BUKOVINA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "MOL"
+      ]
+    },
+    {
+      "province": "X00A7F4",
+      "state": "STATE_BUKOVINA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "MOL"
+      ]
+    },
+    {
+      "province": "X067DF0",
+      "state": "STATE_BUKOVINA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "MOL"
+      ]
+    },
+    {
+      "province": "X985058",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X78527F",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X6B189C",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X552F74",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X799A39",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XBDFC34",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X767440",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X74D3E6",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X4ED3E7",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X109D07",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X8F794B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X5F3699",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X3E5829",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X5AD224",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XE5CBE7",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X4B8A2B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X5CDC4E",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X39DBC4",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XCE5663",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X7BBC20",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X95EBE6",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XCCB60A",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XA14937",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XE7E1E0",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XF0DDF6",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X7D830B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XE53516",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X11D74E",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X000A74",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X6AE1B7",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XB0FA82",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X7FE76C",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XF683D5",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X46F3D1",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X62253A",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XC15F2D",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XCD012B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X3DF472",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X5A10AA",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XDAC75B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X13F69B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XDFDDC7",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XC53983",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XBA3367",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XF5F6E0",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XADB94A",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X1544D6",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X994222",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X0F120F",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X1202AB",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X034AED",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X7E80AE",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X385E6B",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X1BE550",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X7D6AE4",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "XF01D20",
+      "state": "STATE_SOUTH_AUSTRALIA",
+      "retained": "WTI",
+      "candidates": [
+        "SAS",
+        "WTI"
+      ]
+    },
+    {
+      "province": "X256AEE",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X810C1A",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X74C317",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X9660D3",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "XE27DFB",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X40B080",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X418B71",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X92D597",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X2EE19C",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "XB7D6F2",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "XF9F60A",
+      "state": "STATE_NEW_MEXICO",
+      "retained": "COM",
+      "candidates": [
+        "COM",
+        "MEX"
+      ]
+    },
+    {
+      "province": "X84EE56",
+      "state": "STATE_KURNOOL",
+      "retained": "KNO",
+      "candidates": [
+        "BIC",
+        "KNO"
+      ]
+    },
+    {
+      "province": "XF91482",
+      "state": "STATE_KURNOOL",
+      "retained": "KNO",
+      "candidates": [
+        "BIC",
+        "KNO"
+      ]
+    },
+    {
+      "province": "XFBA109",
+      "state": "STATE_AGRA",
+      "retained": "GAR",
+      "candidates": [
+        "BIC",
+        "GAR"
+      ]
+    },
+    {
+      "province": "X03A411",
+      "state": "STATE_AGRA",
+      "retained": "GAR",
+      "candidates": [
+        "BIC",
+        "GAR"
+      ]
+    },
+    {
+      "province": "XE3A5A5",
+      "state": "STATE_AGRA",
+      "retained": "GAR",
+      "candidates": [
+        "BIC",
+        "GAR"
+      ]
+    },
+    {
+      "province": "XB316F6",
+      "state": "STATE_ARAKAN",
+      "retained": "KKI",
+      "candidates": [
+        "BIC",
+        "KKI"
+      ]
+    },
+    {
+      "province": "X6305C9",
+      "state": "STATE_ARAKAN",
+      "retained": "KKI",
+      "candidates": [
+        "BIC",
+        "KKI"
+      ]
+    },
+    {
+      "province": "XE90347",
+      "state": "STATE_MINDANAO",
+      "retained": "MGD",
+      "candidates": [
+        "MGD",
+        "MND"
+      ]
+    },
+    {
+      "province": "XF56448",
+      "state": "STATE_TANGANYIKA",
+      "retained": "MSI",
+      "candidates": [
+        "MSI",
+        "NYM"
+      ]
+    },
+    {
+      "province": "XE5BCC5",
+      "state": "STATE_TANGANYIKA",
+      "retained": "MSI",
+      "candidates": [
+        "MSI",
+        "NYM"
+      ]
+    },
+    {
+      "province": "XAEEF76",
+      "state": "STATE_TANGANYIKA",
+      "retained": "MSI",
+      "candidates": [
+        "MSI",
+        "NYM"
+      ]
+    },
+    {
+      "province": "X313645",
+      "state": "STATE_MAURITANIA",
+      "retained": "FTR",
+      "candidates": [
+        "FTR",
+        "OUA"
+      ]
+    },
+    {
+      "province": "X6566A0",
+      "state": "STATE_MAURITANIA",
+      "retained": "FTR",
+      "candidates": [
+        "FTR",
+        "OUA"
+      ]
+    },
+    {
+      "province": "X21A0F5",
+      "state": "STATE_MAURITANIA",
+      "retained": "FTR",
+      "candidates": [
+        "FTR",
+        "OUA"
+      ]
+    },
+    {
+      "province": "XF0F041",
+      "state": "STATE_MAURITANIA",
+      "retained": "FTR",
+      "candidates": [
+        "FTR",
+        "OUA"
+      ]
+    },
+    {
+      "province": "X1E5261",
+      "state": "STATE_SAKHALIN",
+      "retained": "EZO",
+      "candidates": [
+        "AIN",
+        "EZO"
+      ]
+    },
+    {
+      "province": "X5B9D2D",
+      "state": "STATE_SAKHALIN",
+      "retained": "EZO",
+      "candidates": [
+        "AIN",
+        "EZO"
+      ]
+    },
+    {
+      "province": "X7F67EF",
+      "state": "STATE_SAKHALIN",
+      "retained": "EZO",
+      "candidates": [
+        "AIN",
+        "EZO"
+      ]
+    },
+    {
+      "province": "X601140",
+      "state": "STATE_SAKHALIN",
+      "retained": "ALK",
+      "candidates": [
+        "AIN",
+        "ALK"
+      ]
+    },
+    {
+      "province": "XA060DF",
+      "state": "STATE_SAKHALIN",
+      "retained": "ALK",
+      "candidates": [
+        "ALK",
+        "RUS"
+      ]
+    },
+    {
+      "province": "XBB27F6",
+      "state": "STATE_RYUKYU_ISLANDS",
+      "retained": "RYU",
+      "candidates": [
+        "CHI",
+        "RYU"
+      ]
+    },
+    {
+      "province": "XF5E8B2",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XABED3D",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X0F3769",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X3F5871",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X51D935",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XD0064B",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XF726E8",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X9ADA98",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X82A6B7",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X2B67C3",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X10826C",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X9E26DF",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X8EF6A9",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XE61F0A",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB67BAF",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X088EB3",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB8E2AC",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X3CDF40",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X740C85",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XC5E6AF",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XFF3849",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XBA1AA8",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X910A48",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X1A7E98",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X2B7FB8",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XD8D66C",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XCF0490",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X7E565C",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB67625",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XFBD692",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X22943A",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X6E5F2D",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X765568",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X5A266D",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB1D6DB",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X24E7BC",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X7AF58E",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X9C66DA",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X705C49",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X14B050",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X84B1C2",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X87A869",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X664C01",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X46471E",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XBDA876",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X41E1DD",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X5C89AC",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X7249E9",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X6D870C",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XE2B9E9",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X1A71CF",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X48B3B4",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB045AC",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X6AE98E",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XE9FACA",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XF2637F",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X3E305E",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XB39E7A",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X991324",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XA57492",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X58B50A",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X16BD3B",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XD500B5",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XA59D8C",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "XF6F868",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X94DDF7",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X91E4E7",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X13726D",
+      "state": "STATE_AKMOLINSK",
+      "retained": "KAZ",
+      "candidates": [
+        "KAZ",
+        "KZH"
+      ]
+    },
+    {
+      "province": "X79947D",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XC07060",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X29133A",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XECBE1C",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XDCACAB",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X1B9E03",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XBE7494",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "XCB0EBB",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XC9EFBF",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X7B5777",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X132704",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XD8C311",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "XDC167D",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X8851E8",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X070194",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "XB1243B",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XFAAE74",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X622B3C",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XA1DDFA",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "X3A816D",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XE16FA1",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X087318",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XBB15CC",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "X9B9047",
+      "state": "STATE_MERZ",
+      "retained": "BUK",
+      "candidates": [
+        "BUK",
+        "KHI"
+      ]
+    },
+    {
+      "province": "X8955C1",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X35E93F",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XAC0120",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XF76F3D",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XF9C1AD",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X6D1768",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X582102",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X6598F7",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X156A20",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X1DA83C",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X6CF557",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "X780AED",
+      "state": "STATE_MERZ",
+      "retained": "TRM",
+      "candidates": [
+        "KHI",
+        "TRM"
+      ]
+    },
+    {
+      "province": "XD0E061",
+      "state": "STATE_RUTHENIA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "PLC"
+      ]
+    },
+    {
+      "province": "X71E080",
+      "state": "STATE_MORAVIA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "PLC"
+      ]
+    },
+    {
+      "province": "XF0E080",
+      "state": "STATE_MORAVIA",
+      "retained": "AUS",
+      "candidates": [
+        "AUS",
+        "PLC"
+      ]
+    },
+    {
+      "province": "X614121",
+      "state": "STATE_LOWER_SILESIA",
+      "retained": "PLC",
+      "candidates": [
+        "PLC",
+        "SAX"
+      ]
+    },
+    {
+      "province": "X84F73C",
+      "state": "STATE_EASTERN_HIMALAYAS",
+      "retained": "BHU",
+      "candidates": [
+        "BHU",
+        "TIB"
+      ]
+    },
+    {
+      "province": "X665E5B",
+      "state": "STATE_EASTERN_HIMALAYAS",
+      "retained": "BHU",
+      "candidates": [
+        "BHU",
+        "TIB"
+      ]
+    }
+  ],
+  "land_provinces": 40717,
+  "removed_duplicate_entries": 508
+}

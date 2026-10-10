@@ -2,7 +2,7 @@
 	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = puppet
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
@@ -90,7 +90,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
-			type = puppet
+			type = colony
 		}
 		create_diplomatic_pact = {
 			country = c:ORG
@@ -466,11 +466,11 @@
 	c:BOL ?= {
 		create_diplomatic_pact = {
 			country = c:SPU
-			type = puppet
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:NPU
-			type = puppet
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:IQU

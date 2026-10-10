@@ -1,0 +1,292 @@
+{
+  "remaps": {
+    "pops": [
+      {
+        "file": "common/history/pops/07_south_america.txt",
+        "state": "STATE_AMAZONAS",
+        "old": "PRA",
+        "target": "STATE_AMAZONAS",
+        "new": "BRZ"
+      },
+      {
+        "file": "common/history/pops/07_south_america.txt",
+        "state": "STATE_MATO_GROSSO",
+        "old": "BOL",
+        "target": "STATE_MATO_GROSSO",
+        "new": "BRZ"
+      },
+      {
+        "file": "common/history/pops/11_east_asia.txt",
+        "state": "STATE_HOKKAIDO",
+        "old": "EZO",
+        "target": "STATE_HOKKAIDO",
+        "new": "AIN"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "POR",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "BIC",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "IDA",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "PLP",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "NAW",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "JUN",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "DHA",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_GUJARAT",
+        "old": "BHV",
+        "target": "STATE_GUJARAT",
+        "new": "BER"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_RAJPUTANA",
+        "old": "GWA",
+        "target": "STATE_RAJPUTANA",
+        "new": "JAI"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_RAJPUTANA",
+        "old": "IND",
+        "target": "STATE_RAJPUTANA",
+        "new": "MEW"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_RAJPUTANA",
+        "old": "KOT",
+        "target": "STATE_RAJPUTANA",
+        "new": "MEW"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_RAJPUTANA",
+        "old": "ALW",
+        "target": "STATE_RAJPUTANA",
+        "new": "JAI"
+      },
+      {
+        "file": "common/history/pops/10_india.txt",
+        "state": "STATE_RAJPUTANA",
+        "old": "BIC",
+        "target": "STATE_RAJPUTANA",
+        "new": "JOD"
+      },
+      {
+        "file": "common/history/pops/15_russia.txt",
+        "state": "STATE_NORTH_CAUCASUS",
+        "old": "CIR",
+        "target": "STATE_NORTH_CAUCASUS",
+        "new": "RUS"
+      },
+      {
+        "file": "common/history/pops/15_russia.txt",
+        "state": "STATE_NORTH_CAUCASUS",
+        "old": "CHC",
+        "target": "STATE_NORTH_CAUCASUS",
+        "new": "RUS"
+      },
+      {
+        "file": "common/history/pops/12_indonesia.txt",
+        "state": "STATE_WEST_MICRONESIA",
+        "old": "PHI",
+        "target": "STATE_WEST_MICRONESIA",
+        "new": "MCR"
+      },
+      {
+        "file": "common/history/pops/04_subsaharan_africa.txt",
+        "state": "STATE_TOGO",
+        "old": "DEN",
+        "target": "STATE_GOLD_COAST",
+        "new": "DEN"
+      },
+      {
+        "file": "common/history/pops/06_central_america.txt",
+        "state": "STATE_PUERTO_RICO",
+        "old": "PCO",
+        "target": "STATE_PUERTO_RICO",
+        "new": "SPA"
+      },
+      {
+        "file": "common/history/pops/06_central_america.txt",
+        "state": "STATE_WEST_INDIES",
+        "old": "NET",
+        "target": "STATE_WEST_INDIES",
+        "new": "VNZ"
+      }
+    ],
+    "buildings": [
+      {
+        "file": "common/history/buildings/11_east_asia.txt",
+        "state": "STATE_HOKKAIDO",
+        "old": "EZO",
+        "target": "STATE_HOKKAIDO",
+        "new": "AIN"
+      },
+      {
+        "file": "common/history/buildings/04_subsaharan_africa.txt",
+        "state": "STATE_TOGO",
+        "old": "DEN",
+        "target": "STATE_GOLD_COAST",
+        "new": "DEN"
+      },
+      {
+        "file": "common/history/buildings/06_central_america.txt",
+        "state": "STATE_PUERTO_RICO",
+        "old": "PCO",
+        "target": "STATE_PUERTO_RICO",
+        "new": "SPA"
+      },
+      {
+        "file": "common/history/buildings/06_central_america.txt",
+        "state": "STATE_WEST_INDIES",
+        "old": "NET",
+        "target": "STATE_WEST_INDIES",
+        "new": "VNZ"
+      }
+    ]
+  },
+  "population_splits": [
+    {
+      "source": "STATE_KHIVA",
+      "target": "STATE_URALSK",
+      "owner": "KHI",
+      "population": 524596,
+      "method": "Source pop sizes split by retained and moved province counts; integer remainder retained in source."
+    },
+    {
+      "source": "STATE_ZANZIBAR",
+      "target": "STATE_KENYA",
+      "owner": "OMA",
+      "population": 367369,
+      "method": "Source pop sizes split by retained and moved province counts; integer remainder retained in source."
+    },
+    {
+      "source": "STATE_NORTH_ANGOLA",
+      "target": "STATE_SOUTH_CAMEROON",
+      "owner": "POR",
+      "population": 20570,
+      "method": "Source pop sizes split by retained and moved province counts; integer remainder retained in source."
+    },
+    {
+      "source": "STATE_WEST_MICRONESIA",
+      "target": "STATE_WEST_MICRONESIA",
+      "old_owner": "MCR",
+      "owner": "JAP",
+      "population": 6640,
+      "method": "Divide existing Micronesian population between four MCR provinces and one JAP province; retain rounding in MCR."
+    }
+  ],
+  "population_total": 1037496890,
+  "known_missing_population_partitions": [
+    [
+      "STATE_DAHOMEY",
+      "BRG"
+    ],
+    [
+      "STATE_EAST_SAHARA",
+      "TUG"
+    ],
+    [
+      "STATE_FLORIDA",
+      "SML"
+    ],
+    [
+      "STATE_MALAYA",
+      "GBR"
+    ],
+    [
+      "STATE_ORYOL",
+      "RUS"
+    ],
+    [
+      "STATE_SAKHALIN",
+      "AIN"
+    ],
+    [
+      "STATE_SAKHALIN",
+      "ALK"
+    ],
+    [
+      "STATE_SAKHALIN",
+      "EZO"
+    ],
+    [
+      "STATE_SAKHALIN",
+      "SKH"
+    ],
+    [
+      "STATE_SAKHALIN",
+      "ULT"
+    ],
+    [
+      "STATE_SEMNAN",
+      "PER"
+    ],
+    [
+      "STATE_SENEGAL",
+      "BND"
+    ],
+    [
+      "STATE_SENEGAL",
+      "DIO"
+    ],
+    [
+      "STATE_SENEGAL",
+      "KBU"
+    ],
+    [
+      "STATE_SENEGAL",
+      "POR"
+    ],
+    [
+      "STATE_SENEGAL",
+      "SIL"
+    ],
+    [
+      "STATE_SENEGAL",
+      "SRR"
+    ]
+  ]
+}

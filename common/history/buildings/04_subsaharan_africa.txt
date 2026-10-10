@@ -687,8 +687,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	}
-	s:STATE_TOGO = {
+
 		region_state:DEN = {
 			create_building = {
 				building = "building_dye_plantation"
@@ -697,7 +696,7 @@
 						type = building_dye_plantation
 						country = c:DEN
 						levels = 1
-						region = STATE_TOGO
+						region = STATE_GOLD_COAST
 					}
 				}
 				reserves = 1
@@ -718,7 +717,10 @@
 					"pm_anchorage"
 				}
 			}
+
 		}
+}
+	s:STATE_TOGO = {
 		region_state:ASH = {
 			create_building = {
 				building = "building_barrack"
@@ -733,8 +735,10 @@
 					"pm_no_organization"
 				}
 			}
+
 		}
-		region_state:EWE = { }
+		region_state:EWE = {
+		}
 	}
 	s:STATE_DAHOMEY = {
 		region_state:DAH = {

@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""Validate repository startup history against its map; no game install required."""
+from collections import Counter, defaultdict
+import json
+from pathlib import Path
+import re
+import sys
+
+from audit_map import blocks, history, validate
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def read(path):
+    return path.read_text(encoding='utf-8-sig')
+
+
+def check(root=ROOT):
+    errors = []
+    owners = history(read(root/'common/history/states/00_states.txt'))
+    active = {tag for parts in owners.values() for tag, ps in parts if ps}
+    owned = {state: {tag for tag, ps in parts if ps} for state, parts in owners.items()}
+    regions, province_regions, land = {}, {}, set()
+    for path in (root/'map_data/state_regions').glob('*.txt'):
+        for state, _, _, body in blocks(read(path), r'STATE_[A-Z_]+'):
+            regions[state] = body
+            match = re.search(r'\bprovinces\s*=\s*\{([^}]*)\}', body)
+            if match:
+                for province in re.findall(r'x[0-9A-Fa-f]{6}', match[1]):
+                    key = province.upper()
+                    if key in province_regions:
+                        errors.append(f'{province}: multiple map regions')
+                    province_regions[key] = state
+                    if re.search(r'\barable_land\s*=', body):
+                        land.add(key)
+    assigned = set()
+    for state, parts in owners.items():
+        for tag, provinces in parts:
+            if not provinces:
+                errors.append(f'{state}/{tag}: empty partition')
+            for province in provinces:
+                key = province.upper()
+                if province_regions.get(key) != state:
+                    errors.append(f'{state}/{tag}/{province}: wrong or missing map region')
+                if key in assigned:
+                    errors.append(f'{province}: duplicate assignment')
+                assigned.add(key)
+    for province in sorted(land-assigned):
+        errors.append(f'{province}: unassigned land in {province_regions[province]}')
+
+    populations = set()
+    population_total = 0
+    building_levels = Counter()
+    for kind in ('pops', 'buildings'):
+        for path in (root/'common/history'/kind).glob('*.txt'):
+            text = read(path)
+            if kind == 'pops' and re.search(r'\bcreate_state\s*=', text):
+                errors.append(f'{path.name}: state creation in population history')
+            for sn, _, _, body in blocks(text, r's:STATE_[A-Z_]+'):
+                state = sn[2:]
+                for rs, _, _, part in blocks(body, r'region_state:\w+'):
+                    tag = rs.split(':')[1]
+                    if tag not in owned.get(state, set()):
+                        errors.append(f'{path.name}/{state}/{tag}: invalid owner scope')
+                    if kind == 'pops':
+                        if list(blocks(part, 'create_pop')):
+                            populations.add((state, tag))
+                        population_total += sum(int(m[1]) for m in re.finditer(r'\bsize\s*=\s*(\d+)', part))
+                    else:
+                        for _, _, _, building in blocks(part, 'create_building'):
+                            match = re.search(r'\bbuilding\s*=\s*"?(building_\w+)', building)
+                            if not match:
+                                errors.append(f'{path.name}/{state}/{tag}: missing building type')
+                                continue
+                            kind_name = match[1]
+                            levels = re.findall(r'\blevels\s*=\s*(\d+)', building)
+                            building_levels[kind_name] += sum(map(int, levels)) if levels else 1
+                            if any(x in kind_name for x in ('_farm', '_plantation', '_mine', '_logging', '_fishing', '_whaling')) and kind_name not in regions.get(state, ''):
+                                errors.append(f'{state}: unsupported {kind_name}')
+                            for _, _, _, ownership in blocks(building, 'building'):
+                                country = re.search(r'country\s*=\s*"?c:(\w+)', ownership)
+                                region = re.search(r'region\s*=\s*"?(STATE_\w+)', ownership)
+                                if country and region and country[1] not in owned.get(region[1], set()):
+                                    errors.append(f'{state}: ownership refers to nonexistent {region[1]}/{country[1]} partition')
+
+    manifest = json.loads(read(root/'docs/sources/doi_startup_history.json'))
+    if population_total != manifest['population_total']:
+        errors.append(f'Population changed: {population_total} != {manifest["population_total"]}')
+
+    strategic = {}
+    for path in (root/'common/strategic_regions').glob('*.txt'):
+        for region, _, _, body in blocks(read(path), r'region_[a-z_]+'):
+            states = re.search(r'\bstates\s*=\s*\{([^}]*)\}', body)
+            if states:
+                strategic[region] = re.findall(r'STATE_\w+', states[1])
+    for path in (root/'common/history/military_formations').glob('*.txt'):
+        for country, _, _, body in blocks(read(path), r'c:\w+\s*\?'):
+            tag = country.split(':')[1].split()[0]
+            if tag not in active:
+                continue
+            for _, _, _, formation in blocks(body, 'create_military_formation'):
+                hq = re.search(r'hq_region\s*=\s*sr:(\w+)', formation)
+                if hq and not any(tag in owned.get(state, set()) for state in strategic.get(hq[1], [])):
+                    errors.append(f'{tag}: no owned land for HQ {hq[1]}')
+                for _, _, _, unit in blocks(formation, 'combat_unit'):
+                    state = re.search(r'state_region\s*=\s*s:(STATE_\w+)', unit)
+                    if state and tag not in owned.get(state[1], set()):
+                        errors.append(f'{tag}: recruitment from unowned {state[1]}')
+    errors += validate(root)
+    missing = sorted((state, tag) for state, tags in owned.items() for tag in tags if (state, tag) not in populations)
+    known_missing = {tuple(x) for x in manifest['known_missing_population_partitions']}
+    for state, tag in sorted(set(missing)-known_missing):
+        errors.append(f'{state}/{tag}: new population gap')
+    return errors, dict(provinces=len(assigned), population=population_total,
+                        missing_population_partitions=missing, building_levels=dict(building_levels))
+
+
+if __name__ == '__main__':
+    errors, summary = check()
+    if errors:
+        print('\n'.join(errors), file=sys.stderr)
+        sys.exit(1)
+    print(f'Startup history valid: {summary["provinces"]} unique provinces; {summary["population"]} people preserved.')
+    print('Missing population data (separate content gaps):')
+    for state, tag in summary['missing_population_partitions']:
+        print(f'  {state}/{tag}')

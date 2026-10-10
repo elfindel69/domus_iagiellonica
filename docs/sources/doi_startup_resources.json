@@ -1,0 +1,38 @@
+[
+  [
+    "STATE_PIEDMONT",
+    "building_wheat_farm",
+    "STATE_PIEDMONT",
+    "building_rice_farm"
+  ],
+  [
+    "STATE_WEST_GALICIA",
+    "building_sulfur_mine",
+    "STATE_UPPER_SILESIA",
+    "building_sulfur_mine"
+  ],
+  [
+    "STATE_BEIJING",
+    "building_tea_plantation",
+    "STATE_HUNAN",
+    "building_tea_plantation"
+  ],
+  [
+    "STATE_SHANXI",
+    "building_tea_plantation",
+    "STATE_HUNAN",
+    "building_tea_plantation"
+  ],
+  [
+    "STATE_ZHILI",
+    "building_tea_plantation",
+    "STATE_HUNAN",
+    "building_tea_plantation"
+  ],
+  [
+    "STATE_HOKKAIDO",
+    "JAP fishing level",
+    "STATE_HOKKAIDO",
+    "AIN fishing level"
+  ]
+]

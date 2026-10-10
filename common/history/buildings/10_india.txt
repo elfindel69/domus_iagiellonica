@@ -44,11 +44,7 @@
 						region = STATE_HOME_COUNTIES
 					}
 					
-					company = {
-						type = company_east_india_company
-						country = c:BIC
-						levels = 5
-					}
+					building = { type = building_financial_district country = c:BIC levels = 5 region = STATE_BIHAR }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -124,6 +120,7 @@
 					"default_building_dye_plantation" "pm_road_carts"
 				}
 			}
+
 		}
 	}
 	s:STATE_WEST_BENGAL = {
@@ -216,11 +213,7 @@
 						region = STATE_HOME_COUNTIES
 					}
 					
-					company = {
-						type = company_east_india_company
-						country = c:BIC
-						levels = 5
-					}
+					building = { type = building_financial_district country = c:BIC levels = 5 region = STATE_WEST_BENGAL }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -267,11 +260,7 @@
 						region = STATE_HOME_COUNTIES
 					}
 					
-					company = {
-						type = company_east_india_company
-						country = c:BIC
-						levels = 1
-					}
+					building = { type = building_financial_district country = c:BIC levels = 1 region = STATE_WEST_BENGAL }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -417,6 +406,7 @@
 					"pm_basic_port"
 				}
 			}
+
 		}
 	}
 	s:STATE_EAST_BENGAL = {
@@ -708,6 +698,7 @@
 					"default_building_dye_plantation" "pm_road_carts"
 				}
 			}
+
 		}
 		region_state:BIC = {
 			create_building = {
@@ -727,11 +718,7 @@
 						region = STATE_HOME_COUNTIES
 					}
 					
-					company = {
-						type = company_east_india_company
-						country = c:BIC
-						levels = 5
-					}
+					building = { type = building_financial_district country = c:BIC levels = 5 region = STATE_AWADH }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -806,6 +793,7 @@
 					"default_building_silk_plantation" "pm_road_carts"
 				}
 			}
+
 		}
 	}
 	s:STATE_AGRA = {

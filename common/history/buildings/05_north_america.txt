@@ -1879,17 +1879,14 @@
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					company = {
-						type = company_william_cramp
-						country = c:USA
-						levels = 1
-					}
+					building = { type = building_financial_district country = c:USA levels = 1 region = STATE_PENNSYLVANIA }
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_engines" "pm_automation_disabled"
 				}
 			}
+
 		}
 	}
 	s:STATE_NEW_JERSEY = {
@@ -1929,11 +1926,7 @@
 			create_building = {
 				building = "building_shipyard"
 				add_ownership = {
-					company = {
-						type = company_william_cramp
-						country = c:USA
-						levels = 1
-					}
+					building = { type = building_financial_district country = c:USA levels = 1 region = STATE_NEW_JERSEY }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -1985,6 +1978,7 @@
 					"pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood"
 				}
 			}
+
 		}
 	}
 	s:STATE_ILLINOIS = {
@@ -2203,11 +2197,7 @@
 			create_building = {
 				building = "building_shipyard"
 				add_ownership = {
-					company = {
-						type = company_william_cramp
-						country = c:USA
-						levels = 2
-					}
+					building = { type = building_financial_district country = c:USA levels = 2 region = STATE_MASSACHUSETTS }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2295,6 +2285,7 @@
 					"pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood"
 				}
 			}
+
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
@@ -2441,11 +2432,7 @@
 			create_building = {
 				building = "building_shipyard"
 				add_ownership = {
-					company = {
-						type = company_william_cramp
-						country = c:USA
-						levels = 1
-					}
+					building = { type = building_financial_district country = c:USA levels = 1 region = STATE_MAINE }
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2480,6 +2467,7 @@
 					"pm_basic_port"
 				}
 			}
+
 		}
 	}
 	s:STATE_NORTH_CAROLINA = {
