@@ -102,10 +102,49 @@ def check(root=ROOT):
                 hq = re.search(r'hq_region\s*=\s*sr:(\w+)', formation)
                 if hq and not any(tag in owned.get(state, set()) for state in strategic.get(hq[1], [])):
                     errors.append(f'{tag}: no owned land for HQ {hq[1]}')
-                for _, _, _, unit in blocks(formation, 'combat_unit'):
+                for _, _, _, unit in blocks(formation, r'\b(?:combat_unit|ship)'):
                     state = re.search(r'state_region\s*=\s*s:(STATE_\w+)', unit)
                     if state and tag not in owned.get(state[1], set()):
                         errors.append(f'{tag}: recruitment from unowned {state[1]}')
+    followup_path = root/'docs/sources/doi_startup_followup.json'
+    if followup_path.exists():
+        followup = json.loads(read(followup_path))
+        for filename, baseline in followup['military_unit_baselines'].items():
+            counts = Counter()
+            for country, _, _, body in blocks(read(root/'common/history/military_formations'/filename), r'c:\w+\s*\?'):
+                tag = country.split(':')[1].split()[0]
+                for _, _, _, unit in blocks(body, r'\b(?:combat_unit|ship)'):
+                    kind = re.search(r'type\s*=\s*(\w+:\w+)', unit)
+                    amount = re.search(r'count\s*=\s*(\d+)', unit)
+                    if kind and amount:
+                        counts[(tag, kind[1])] += int(amount[1])
+            expected = Counter({(x['country'], x['type']): x['count'] for x in baseline})
+            if counts != expected:
+                errors.append(f'{filename}: military unit totals changed')
+        centers = set()
+        for path in (root/'common/history/buildings').glob('*.txt'):
+            for sn, _, _, body in blocks(read(path), r's:STATE_[A-Z_]+'):
+                for rs, _, _, part in blocks(body, r'region_state:\w+'):
+                    if re.search(r'building\s*=\s*"?building_trade_center', part):
+                        centers.add((sn[2:], rs.split(':')[1]))
+        for center in followup['trade_centers']:
+            key = (center['state'], center['country'])
+            if key not in centers:
+                errors.append(f'{key}: missing starting trade center')
+        for path in (root/'common/history/characters').glob('*.txt'):
+            for country, _, _, body in blocks(read(path), r'c:\w+\s*\?'):
+                tag = country.split(':')[1].split()[0]
+                if tag in followup['character_role_overrides']:
+                    first = next(blocks(body, 'create_character'))[3]
+                    if not re.search(r'ig_leader\s*=\s*no', first):
+                        errors.append(f'{tag}: governor still has inherited IG leader role')
+        for path in (root/'common/history/military_deployments').glob('*.txt'):
+            text = read(path)
+            if re.search(r'\?\s+=', text):
+                errors.append(f'{path.name}: malformed optional scope operator')
+            for front, _, _, body in blocks(text, r'p:x[0-9A-Fa-f]+\.front\s*\?'):
+                if not list(blocks(body, 'prev')):
+                    errors.append(f'{front}: teleport effect must run in formation scope')
     errors += validate(root)
     missing = sorted((state, tag) for state, tags in owned.items() for tag in tags if (state, tag) not in populations)
     known_missing = {tuple(x) for x in manifest['known_missing_population_partitions']}

@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:ORG ?= {
+		create_character = {
+			template = ORG_john_mcloughlin
+			ig_leader = no
+		}
+
+		create_character = {
+			template = ORG_ewing_young
+		}
+
+		create_character = {
+			template = ORG_jason_lee
+		}
+
+		create_character = {
+			template = ORG_william_slacum
+		}
+
+		create_character = {
+			template = ORG_william_bailey
+		}
+
+		create_character = {
+			template = ORG_ira_babcock
+		}
+
+		create_character = {
+			template = ORG_etinne_lucier
+		}
+	}
+}

@@ -38,7 +38,7 @@ and one JAP province. These approximations are recorded in
 `sources/doi_startup_history.json`; they preserve each explicit culture,
 religion and pop-type total rather than inventing additional population.
 
-The recorded population remains **1,037,496,890**, excluding commented template
+The first-pass recorded population remained **1,037,496,890**, excluding commented template
 examples. Remove the state-creation blocks accidentally pasted into Sakhalin's
 population file; they were not population data.
 
@@ -69,9 +69,9 @@ No mineral or agricultural resource definitions are expanded.
   Isolationism/Right of Assembly alternatives for KAZ and WLO.
 - Remove whole treaties involving absent MLD, HAM and ORA.
 - Move Britain's two invalid overseas army HQs to Western Europe; recruit Italy's
-  Savoy/Provence units from Piedmont, Russia's Kiev units from Kursk and UBD's
+  Savoy/Provence units from Piedmont, Russia's Kiev units from Tambov and UBD's
   Courland unit from Riga. Preserve unit counts.
-- Map Cuba and Sierra Leone to colonies, and North/South Peru to protectorates.
+- Map Cuba and Sierra Leone to colonies, and North/South Peru to colonies.
   These replace puppet pacts explicitly rejected by the uploaded log and need
   an in-game persistence check. Keep the tested Balkan protectorates unchanged.
 
@@ -93,34 +93,71 @@ relationships also pass their checks. Population culture/religion/type totals
 were compared with the merged base and remain unchanged; complete history and
 on-action braces were checked. Static checks do not execute Victoria 3 scripts.
 
+## Follow-up from the new logs and vanilla sources
+
+The fresh log records 73 script errors, down from 321, with zero state-creation
+or population-creation errors. These counts describe the tested first pass;
+the changes below still require a new-game test.
+
+Adapt four supplied vanilla military history files to the current ownership map.
+Egypt uses Nile Basin HQs and recruits its former Syrian units in Upper Egypt
+and Sinai; the Soliman template receives the same HQ override. Ottoman Balkan
+units recruit in owned Anatolian states, BIC Gujarat units in Bombay, Patiala
+Delhi units in Hill Punjab, and Qing Outer Manchuria units in Northern Manchuria.
+All army and ship counts by country and type are preserved. Move Russia's
+relocated corps from Kursk to Tambov to avoid the logged 25-barracks cap.
+
+Retain vanilla war deployment content behind country-level war guards. Resolve
+fronts optionally and run teleport effects in formation scope. Retarget Prussian
+lobbies and German unification references to Brandenburg; the papal lobby
+references Italy. Guard lobby targets against missing countries.
+
+Correct Piedmont rice-farm methods to the rice-specific farming method and
+Disabled Tools. Give BRN Enclosure/Standing Army, and ACH/WLO Standing Army.
+Remove Serbia's liberty adjustment because it starts independent. Peru's colonial
+country types still reject protectorate pacts in the new log, so try colonies,
+as already accepted for Cuba and Sierra Leone; verify Peru's persistence in game.
+
+Create trade centers at the 13 partitions required by the existing startup trade
+adjustments. Restore supplied vanilla levels/ownership for Ingria and both
+Guangdong partitions; the other ten centers receive one starting level, a
+minimal seeding choice requiring review. Preserve all 18 trade adjustments.
+Remove the 51 logged duplicate objective keys from the DOI localization copies,
+add the missing subject-transfer tooltip in three languages, and correct the
+logged UTF-8 BOM warnings in repository files.
+
+For the eight logged colonial governors, override `ig_leader = no` during
+creation while retaining their templates, ruler role and governor-term variables.
+The supplied Austrian character history's failing line refers to
+`aus_anton_von_dovlohh-dier`; it is a template reference, so its template definition
+is needed before changing the spelling or recreating the character.
+
+Restore 16 missing population partitions from the supplied vanilla population
+files: Dahomey/BRG, East Sahara/TUG, Florida/SML, Semnan/PER, five Sakhalin
+partitions, six Senegal partitions and Malaya/GBR. They add **1,009,882** people, bringing the
+recorded total to **1,038,506,772** without modifying existing populations.
+Source hashes, partition totals and military baselines are recorded in
+`sources/doi_startup_followup.json`. The supplied building files are used only
+for the missing trade-center records; existing mod buildings are retained.
+
 ## Remaining source and in-game checks
 
-There are 17 partitions without supplied population data: Dahomey/BRG,
-East Sahara/TUG, Florida/SML, Malaya/GBR, Oryol/RUS, Semnan/PER,
-Sakhalin/AIN/ALK/EZO/SKH/ULT, and Senegal/BND/DIO/KBU/POR/SIL/SRR.
-They need demographic source data; the validator reports them separately.
+Oryol/RUS still lacks a supplied population record. The validator reports this
+known gap separately.
 
-These logged files are inherited from the game and absent from the repository.
-Their **1.13.11 game copies** are needed for precise overrides that preserve the
-rest of their content:
+The remaining logged inherited scripts require their 1.13.11 definitions:
 
-- `common/history/military_formations/03_military_formations_north_africa.txt`
-- `common/history/military_formations/04_military_formations_middle_east.txt`
-- `common/history/military_formations/05_military_formations_india.txt`
-- `common/history/military_formations/06_military_formations_asia.txt`
-- `common/history/military_deployments/00_military_deployments.txt`
-- `common/history/lobbies/00_lobbies.txt`
-- `common/journal_entries/00_german_unification.txt`
-- `common/laws/00_navy_model.txt`
-- Character history for Austria and the eight charter-company rulers named in
-  the log (QUE, ONT, NBS, ORG, NSW, WAS, SAS, TAS).
+- `common/history/global/00_global.txt` (invalid state modifier scope).
+- `common/scripted_effects/00_dynamic_state_names_africa.txt` (invalid state/owner).
+- `common/scripted_effects/00_dynamic_state_names_europe.txt` and associated hub
+  localization (four missing hub keys).
+- The Austrian `aus_anton_von_dovlohh-dier` character template definition.
+- The inherited TUR/MON embargo and missing ATL formation/country definitions.
 
-Outstanding examples include Egypt's missing Near East HQ and `soliman_gen`,
-Ottoman units in independent Balkan states, BIC units in Gujarat, Patiala units
-in Delhi, Qing units in transferred Manchuria, inherited war deployments,
-absent-country lobbies and the German journal entry. The inherited TUR/MON
-embargo and missing ATL country definition also require their source definitions.
+Converter game-rule errors have no references in repository scripts and require
+checking the active mod set/settings. The supplied navy-model law file has no
+relevant stale country references and is not overridden.
 
-Converter game-rule errors are not referenced by repository scripts and need
-a separate check of the active mod set/settings. Missing hub/tooltips and
-remaining character-role issues need a fresh log after this patch.
+Start a fresh 1836 game and check governors, Egypt's commander, trade-center
+initialization, deployment guards, and Peru's subject pacts. Static validation
+cannot execute the engine or prove that template fields override inherited roles.

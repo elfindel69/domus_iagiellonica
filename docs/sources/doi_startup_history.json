@@ -218,75 +218,11 @@
       "method": "Divide existing Micronesian population between four MCR provinces and one JAP province; retain rounding in MCR."
     }
   ],
-  "population_total": 1037496890,
+  "population_total": 1038506772,
   "known_missing_population_partitions": [
-    [
-      "STATE_DAHOMEY",
-      "BRG"
-    ],
-    [
-      "STATE_EAST_SAHARA",
-      "TUG"
-    ],
-    [
-      "STATE_FLORIDA",
-      "SML"
-    ],
-    [
-      "STATE_MALAYA",
-      "GBR"
-    ],
     [
       "STATE_ORYOL",
       "RUS"
-    ],
-    [
-      "STATE_SAKHALIN",
-      "AIN"
-    ],
-    [
-      "STATE_SAKHALIN",
-      "ALK"
-    ],
-    [
-      "STATE_SAKHALIN",
-      "EZO"
-    ],
-    [
-      "STATE_SAKHALIN",
-      "SKH"
-    ],
-    [
-      "STATE_SAKHALIN",
-      "ULT"
-    ],
-    [
-      "STATE_SEMNAN",
-      "PER"
-    ],
-    [
-      "STATE_SENEGAL",
-      "BND"
-    ],
-    [
-      "STATE_SENEGAL",
-      "DIO"
-    ],
-    [
-      "STATE_SENEGAL",
-      "KBU"
-    ],
-    [
-      "STATE_SENEGAL",
-      "POR"
-    ],
-    [
-      "STATE_SENEGAL",
-      "SIL"
-    ],
-    [
-      "STATE_SENEGAL",
-      "SRR"
     ]
   ]
 }

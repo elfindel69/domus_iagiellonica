@@ -1,0 +1,1403 @@
+{
+  "vanilla_sources": [
+    {
+      "file": "03_military_formations_north_africa.txt",
+      "sha256": "4b3273b06d5335b3fa7c9309178d33c0d38587603ba5f406bd5f7acfae289b13"
+    },
+    {
+      "file": "04_military_formations_middle_east.txt",
+      "sha256": "50d31b93c3ec1e77dc295ef71f258dc69c6764f9e6a6c5414475351df4069ae0"
+    },
+    {
+      "file": "05_military_formations_india.txt",
+      "sha256": "69092523641de0fb14fab00e128b5319e69e46f3935b0f177990a2fdc04764e1"
+    },
+    {
+      "file": "06_military_formations_asia.txt",
+      "sha256": "cc9865135448a224cd4b9ed1e56ab40e2aad6dc487881e33ad547b20c7a0d5e2"
+    },
+    {
+      "file": "03_north_africa.txt",
+      "sha256": "25ddb2e2dcff2185eeb9cbdf82a8e0b2377b8be9e29e916b67d62d3bd7fb562d"
+    },
+    {
+      "file": "04_subsaharan_africa.txt",
+      "sha256": "e0e6a15a8d752dedcb1b10aca7bbf7275fa2a9d624554b0ee96596bcca064a31"
+    },
+    {
+      "file": "05_north_america.txt",
+      "sha256": "c702d7a20d0e5f5fcf5d7a71a28465fe7dcd2cd531ecc2f3cbcfcd6bc9a3dacc"
+    },
+    {
+      "file": "08_middle_east.txt",
+      "sha256": "4e9129559c700370e60a4f7120511472f761ffcdf562292e042859d97e7a45e3"
+    },
+    {
+      "file": "11_east_asia.txt",
+      "sha256": "5aa5e4db00e5fa9f3e3e00d22b5212e7c26ec832459026b8a9314784afc2ff73"
+    },
+    {
+      "file": "org - oregon.txt",
+      "sha256": "1dcbd99fd0d00b5512da5a8b7d11cdefbd8f1aff535b10322a4f752e0344a905"
+    },
+    {
+      "file": "sas - south australia.txt",
+      "sha256": "99ee2e166e532b0558c0cb48cef33391669a2d24ca93264b8c03c188b935246a"
+    },
+    {
+      "file": "tas - tasmania.txt",
+      "sha256": "be55ae88a43359d6afd159032a185bc4ed3b488f43af73a515d6f876d3c0fdf2"
+    },
+    {
+      "file": "nbs - new brunswick.txt",
+      "sha256": "824d0d812944500ca878d8ef575cc48f53fc6d0e71a98cff2ebfcdd2c3071edd"
+    },
+    {
+      "file": "que - quebec.txt",
+      "sha256": "6830c0fc4aed0956ec4a6b33278d55abac2932c12166cf89494dba45f0e94fc6"
+    },
+    {
+      "file": "ont - ontario.txt",
+      "sha256": "20b667f3ccc9033dba4e64371ee984860cb47f87b4c7a8dcb79f193e2ef3a358"
+    },
+    {
+      "file": "aus - austria.txt",
+      "sha256": "d544a07ba8ec93afa7dacaf11302135f25faa1dd8131de4d3ec12427000ecc65"
+    },
+    {
+      "file": "was - western australia.txt",
+      "sha256": "df42f2fdc3528414a9f07eb028089b29228bc220bc931c06b0e268d54611cd96"
+    },
+    {
+      "file": "nsw - new south wales.txt",
+      "sha256": "77451bcea37772499941e0297dbbc6bc981894dc7ec9130827939282ef56425a"
+    },
+    {
+      "file": "00_military_deployments.txt",
+      "sha256": "31ba445b2c6b2190429838484ec07ab9af775171372bbd253a0a842bd27927df"
+    },
+    {
+      "file": "00_lobbies.txt",
+      "sha256": "2e02e5f0c413c6fb0198e8fc00121af7b812ee4566e9b542026f631f63f08da1"
+    },
+    {
+      "file": "00_german_unification.txt",
+      "sha256": "38a42bbfae01cbc32d42b9076c904a4d0cb65c3c2959f7f7c3aca2271a7c66b8"
+    },
+    {
+      "file": "15_russia(1).txt",
+      "sha256": "2bd9b7520984d40ca7afe46bd77b211afe766abad2d863b8afc107d14584c50b"
+    },
+    {
+      "file": "11_east_asia(1).txt",
+      "sha256": "84fd6a3f62730ebfd6a02bdf799c93337a8708b9fb37324c2fb23fbbfbb7cde4"
+    },
+    {
+      "file": "12_indonesia.txt",
+      "sha256": "e51b4d93273d1356ca1a071cdcc7875d4b93c59a4fdd25b900551825c263a6e7"
+    }
+  ],
+  "military_unit_baselines": {
+    "03_military_formations_north_africa.txt": [
+      {
+        "country": "CON",
+        "type": "ship_type:ship_type_frigate",
+        "count": 4
+      },
+      {
+        "country": "EGY",
+        "type": "ship_type:ship_type_frigate",
+        "count": 6
+      },
+      {
+        "country": "EGY",
+        "type": "ship_type:ship_type_ship_of_the_line",
+        "count": 8
+      },
+      {
+        "country": "EGY",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 7
+      },
+      {
+        "country": "EGY",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 13
+      },
+      {
+        "country": "EGY",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 48
+      },
+      {
+        "country": "EGY",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 30
+      },
+      {
+        "country": "FZN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 11
+      },
+      {
+        "country": "MAS",
+        "type": "ship_type:ship_type_frigate",
+        "count": 4
+      },
+      {
+        "country": "MAS",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 3
+      },
+      {
+        "country": "MAS",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 2
+      },
+      {
+        "country": "MAS",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 10
+      },
+      {
+        "country": "MAS",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 8
+      },
+      {
+        "country": "MOR",
+        "type": "ship_type:ship_type_frigate",
+        "count": 4
+      },
+      {
+        "country": "TUN",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      }
+    ],
+    "04_military_formations_middle_east.txt": [
+      {
+        "country": "ARB",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "ARB",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "CHT",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "HER",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "HER",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 12
+      },
+      {
+        "country": "KAB",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 2
+      },
+      {
+        "country": "KAB",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 18
+      },
+      {
+        "country": "KAF",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "KAL",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "KAL",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 6
+      },
+      {
+        "country": "KAN",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 2
+      },
+      {
+        "country": "KAN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 14
+      },
+      {
+        "country": "KUN",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 2
+      },
+      {
+        "country": "KUN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 7
+      },
+      {
+        "country": "MAI",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "MAI",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "MAK",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "MAK",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "PER",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 3
+      },
+      {
+        "country": "PER",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 6
+      },
+      {
+        "country": "PER",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 29
+      },
+      {
+        "country": "PER",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 7
+      },
+      {
+        "country": "TUR",
+        "type": "ship_type:ship_type_frigate",
+        "count": 15
+      },
+      {
+        "country": "TUR",
+        "type": "ship_type:ship_type_ship_of_the_line",
+        "count": 13
+      },
+      {
+        "country": "TUR",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 12
+      },
+      {
+        "country": "TUR",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 25
+      },
+      {
+        "country": "TUR",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 80
+      },
+      {
+        "country": "TUR",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 45
+      }
+    ],
+    "05_military_formations_india.txt": [
+      {
+        "country": "ALW",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "ALW",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "ALW",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "ASM",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "ASM",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 12
+      },
+      {
+        "country": "ASM",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 2
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_cuirassiers",
+        "count": 1
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 2
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 15
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 4
+      },
+      {
+        "country": "AWA",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 25
+      },
+      {
+        "country": "BAG",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "BAG",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "BAS",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "BCE",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "BER",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      },
+      {
+        "country": "BER",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "BER",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 5
+      },
+      {
+        "country": "BER",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 5
+      },
+      {
+        "country": "BER",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 10
+      },
+      {
+        "country": "BHO",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "BHO",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "BHO",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "BHV",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "BHV",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "BHV",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "BHW",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "BHW",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "BHW",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "BIC",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 13
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_cuirassiers",
+        "count": 1
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 4
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 16
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 155
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_mobile_artillery",
+        "count": 7
+      },
+      {
+        "country": "BIC",
+        "type": "unit_type:combat_unit_type_skirmish_infantry",
+        "count": 12
+      },
+      {
+        "country": "BIK",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "BIK",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "BIK",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 3
+      },
+      {
+        "country": "BUN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "BUN",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "COC",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "COC",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "COO",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "DHA",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "GAR",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "GWA",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 3
+      },
+      {
+        "country": "GWA",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 4
+      },
+      {
+        "country": "GWA",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 10
+      },
+      {
+        "country": "GWA",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 6
+      },
+      {
+        "country": "GWA",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 20
+      },
+      {
+        "country": "HYD",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 2
+      },
+      {
+        "country": "HYD",
+        "type": "unit_type:combat_unit_type_cuirassiers",
+        "count": 1
+      },
+      {
+        "country": "HYD",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 14
+      },
+      {
+        "country": "HYD",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 3
+      },
+      {
+        "country": "HYD",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 14
+      },
+      {
+        "country": "IDA",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "IDA",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "IND",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "IND",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 5
+      },
+      {
+        "country": "IND",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 4
+      },
+      {
+        "country": "IND",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "JAI",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "JAI",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 7
+      },
+      {
+        "country": "JAI",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 4
+      },
+      {
+        "country": "JAI",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 3
+      },
+      {
+        "country": "JAS",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "JAS",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "JEY",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "JEY",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "JEY",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "JHN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "JHN",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "JHN",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "JOD",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "JOD",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 8
+      },
+      {
+        "country": "JOD",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 5
+      },
+      {
+        "country": "JOD",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 4
+      },
+      {
+        "country": "JUN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "JUN",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "JUN",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "KAS",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "KAS",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 6
+      },
+      {
+        "country": "KAS",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 3
+      },
+      {
+        "country": "KAS",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 4
+      },
+      {
+        "country": "KHP",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "KHP",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "KHP",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "KNO",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "KNO",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "KNO",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "KNO",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "KOT",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "KOT",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "KOT",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "KOT",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "KUT",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "KUT",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "KUT",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "LAD",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "MEW",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 4
+      },
+      {
+        "country": "MEW",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "MEW",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 2
+      },
+      {
+        "country": "MNP",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "MNP",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 7
+      },
+      {
+        "country": "MUG",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "MUG",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "MYB",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 3
+      },
+      {
+        "country": "MYS",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "MYS",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 2
+      },
+      {
+        "country": "MYS",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 3
+      },
+      {
+        "country": "NAG",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "NAG",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 8
+      },
+      {
+        "country": "NAG",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 5
+      },
+      {
+        "country": "NAG",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 7
+      },
+      {
+        "country": "NAR",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "NAW",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "NAW",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "NAW",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "PAN",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 4
+      },
+      {
+        "country": "PAN",
+        "type": "unit_type:combat_unit_type_cuirassiers",
+        "count": 11
+      },
+      {
+        "country": "PAN",
+        "type": "unit_type:combat_unit_type_dragoons",
+        "count": 1
+      },
+      {
+        "country": "PAN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 50
+      },
+      {
+        "country": "PAN",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 20
+      },
+      {
+        "country": "PLP",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "PLP",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "PTA",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "PTA",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 3
+      },
+      {
+        "country": "PTA",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 5
+      },
+      {
+        "country": "PTN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "PUD",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "PUD",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "SAT",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 1
+      },
+      {
+        "country": "SAT",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "SAT",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 1
+      },
+      {
+        "country": "SIN",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "SIN",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 12
+      },
+      {
+        "country": "SIN",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 5
+      },
+      {
+        "country": "SIN",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 5
+      },
+      {
+        "country": "SUR",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "TRA",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      },
+      {
+        "country": "TRA",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "TRA",
+        "type": "unit_type:combat_unit_type_lancers",
+        "count": 1
+      },
+      {
+        "country": "TRA",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 7
+      }
+    ],
+    "06_military_formations_asia.txt": [
+      {
+        "country": "BUR",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "BUR",
+        "type": "unit_type:combat_unit_type_cuirassiers",
+        "count": 2
+      },
+      {
+        "country": "BUR",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 1
+      },
+      {
+        "country": "BUR",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 30
+      },
+      {
+        "country": "CHI",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      },
+      {
+        "country": "CHI",
+        "type": "unit_type:combat_unit_type_hussars",
+        "count": 75
+      },
+      {
+        "country": "CHI",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 410
+      },
+      {
+        "country": "DEI",
+        "type": "ship_type:ship_type_frigate",
+        "count": 1
+      },
+      {
+        "country": "DEI",
+        "type": "unit_type:combat_unit_type_dragoons",
+        "count": 1
+      },
+      {
+        "country": "DEI",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 12
+      },
+      {
+        "country": "DEI",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 6
+      },
+      {
+        "country": "DEI",
+        "type": "unit_type:combat_unit_type_mobile_artillery",
+        "count": 1
+      },
+      {
+        "country": "JAP",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 58
+      },
+      {
+        "country": "PHI",
+        "type": "unit_type:combat_unit_type_cannon_artillery",
+        "count": 1
+      },
+      {
+        "country": "PHI",
+        "type": "unit_type:combat_unit_type_dragoons",
+        "count": 1
+      },
+      {
+        "country": "PHI",
+        "type": "unit_type:combat_unit_type_irregular_infantry",
+        "count": 2
+      },
+      {
+        "country": "PHI",
+        "type": "unit_type:combat_unit_type_line_infantry",
+        "count": 3
+      }
+    ]
+  },
+  "recruitment_changes": [
+    {
+      "country": "EGY",
+      "source": "STATE_SYRIA",
+      "target": "STATE_UPPER_EGYPT",
+      "blocks": 1
+    },
+    {
+      "country": "EGY",
+      "source": "STATE_ALEPPO",
+      "target": "STATE_UPPER_EGYPT",
+      "blocks": 1
+    },
+    {
+      "country": "EGY",
+      "source": "STATE_PALESTINE",
+      "target": "STATE_SINAI",
+      "blocks": 1
+    },
+    {
+      "country": "EGY",
+      "source": "STATE_LEBANON",
+      "target": "STATE_SINAI",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_BULGARIA",
+      "target": "STATE_ADANA",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_WESTERN_THRACE",
+      "target": "STATE_AYDIN",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_BOSNIA",
+      "target": "STATE_KASTAMONU",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_NORTHERN_THRACE",
+      "target": "STATE_KONYA",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_THESSALIA",
+      "target": "STATE_KONYA",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_EASTERN_SERBIA",
+      "target": "STATE_DIYARBAKIR",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_MACEDONIA",
+      "target": "STATE_TRABZON",
+      "blocks": 1
+    },
+    {
+      "country": "TUR",
+      "source": "STATE_SKOPIA",
+      "target": "STATE_ANKARA",
+      "blocks": 2
+    },
+    {
+      "country": "BIC",
+      "source": "STATE_GUJARAT",
+      "target": "STATE_BOMBAY",
+      "blocks": 2
+    },
+    {
+      "country": "PTA",
+      "source": "STATE_DELHI",
+      "target": "STATE_HILL_PUNJAB",
+      "blocks": 3
+    },
+    {
+      "country": "CHI",
+      "source": "STATE_OUTER_MANCHURIA",
+      "target": "STATE_NORTHERN_MANCHURIA",
+      "blocks": 1
+    }
+  ],
+  "trade_centers": [
+    {
+      "state": "STATE_CAMPANIA",
+      "country": "ITA"
+    },
+    {
+      "state": "STATE_FRANCHE_COMTE",
+      "country": "FRA"
+    },
+    {
+      "state": "STATE_GUANGDONG",
+      "country": "CHI"
+    },
+    {
+      "state": "STATE_GUANGDONG",
+      "country": "POR"
+    },
+    {
+      "state": "STATE_HOME_COUNTIES",
+      "country": "GBR"
+    },
+    {
+      "state": "STATE_INGRIA",
+      "country": "RUS"
+    },
+    {
+      "state": "STATE_LOUISIANA",
+      "country": "MEX"
+    },
+    {
+      "state": "STATE_RHONE",
+      "country": "FRA"
+    },
+    {
+      "state": "STATE_SANTIAGO",
+      "country": "CHL"
+    },
+    {
+      "state": "STATE_SICILY",
+      "country": "ITA"
+    },
+    {
+      "state": "STATE_SVEALAND",
+      "country": "SWE"
+    },
+    {
+      "state": "STATE_WEST_BENGAL",
+      "country": "BIC"
+    },
+    {
+      "state": "STATE_WEST_COUNTRY",
+      "country": "GBR"
+    }
+  ],
+  "log_comparison": {
+    "previous_script_errors": 321,
+    "new_script_errors": 73,
+    "new_state_errors": 0,
+    "new_population_errors": 0
+  },
+  "restored_populations": [
+    {
+      "state": "STATE_DAHOMEY",
+      "country": "BRG",
+      "population": 207088
+    },
+    {
+      "state": "STATE_EAST_SAHARA",
+      "country": "TUG",
+      "population": 46400
+    },
+    {
+      "state": "STATE_FLORIDA",
+      "country": "SML",
+      "population": 15000
+    },
+    {
+      "state": "STATE_SAKHALIN",
+      "country": "AIN",
+      "population": 7281
+    },
+    {
+      "state": "STATE_SAKHALIN",
+      "country": "ALK",
+      "population": 793
+    },
+    {
+      "state": "STATE_SAKHALIN",
+      "country": "EZO",
+      "population": 640
+    },
+    {
+      "state": "STATE_SAKHALIN",
+      "country": "SKH",
+      "population": 5193
+    },
+    {
+      "state": "STATE_SAKHALIN",
+      "country": "ULT",
+      "population": 4242
+    },
+    {
+      "state": "STATE_SEMNAN",
+      "country": "PER",
+      "population": 59311
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "BND",
+      "population": 204400
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "DIO",
+      "population": 51554
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "KBU",
+      "population": 25462
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "POR",
+      "population": 13522
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "SIL",
+      "population": 152400
+    },
+    {
+      "state": "STATE_SENEGAL",
+      "country": "SRR",
+      "population": 92400
+    },
+    {
+      "state": "STATE_MALAYA",
+      "country": "GBR",
+      "population": 124196
+    }
+  ],
+  "population_before_restoration": 1037496890,
+  "population_restored": 1009882,
+  "character_role_overrides": [
+    "QUE",
+    "ONT",
+    "NBS",
+    "ORG",
+    "NSW",
+    "WAS",
+    "SAS",
+    "TAS"
+  ],
+  "trade_center_source_restorations": [
+    {
+      "state": "STATE_INGRIA",
+      "country": "RUS",
+      "levels": 10
+    },
+    {
+      "state": "STATE_GUANGDONG",
+      "country": "CHI",
+      "levels": 40
+    },
+    {
+      "state": "STATE_GUANGDONG",
+      "country": "POR",
+      "levels": 6
+    }
+  ]
+}
