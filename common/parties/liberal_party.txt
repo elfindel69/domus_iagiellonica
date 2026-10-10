@@ -1152,12 +1152,9 @@ liberal_party = {
 					culture = cu:yankee
 				}
 			}
-		
-			else = {
-				add = {
-					value = 3
-					desc = "from_northern_interests"
-				}
+			add = {
+				value = 3
+				desc = "from_northern_interests"
 			}
 		}
 		if = { # Carlists and Miguelists were against participating in electoral politics for a good while
