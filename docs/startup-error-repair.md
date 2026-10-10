@@ -128,9 +128,8 @@ logged UTF-8 BOM warnings in repository files.
 
 For the eight logged colonial governors, override `ig_leader = no` during
 creation while retaining their templates, ruler role and governor-term variables.
-The supplied Austrian character history's failing line refers to
-`aus_anton_von_dovlohh-dier`; it is a template reference, so its template definition
-is needed before changing the spelling or recreating the character.
+The Austrian creation error is at line 71, which creates Haynau. The previous
+note attributed it to Doblhoff-Dier incorrectly; his creation is at line 62.
 
 Restore 17 missing population partitions from the supplied vanilla population
 files: Dahomey/BRG, East Sahara/TUG, Florida/SML, Semnan/PER, five Sakhalin
@@ -145,19 +144,44 @@ for the missing trade-center records; existing mod buildings are retained.
 All 17 previously missing population partitions now have supplied source records.
 The validator reports no population gaps.
 
-The remaining logged inherited scripts require their 1.13.11 definitions:
+## Current-log follow-up
 
-- `common/history/global/00_global.txt` (invalid state modifier scope).
-- `common/scripted_effects/00_dynamic_state_names_africa.txt` (invalid state/owner).
-- `common/scripted_effects/00_dynamic_state_names_europe.txt` and associated hub
-  localization (four missing hub keys).
-- The Austrian `aus_anton_von_dovlohh-dier` character template definition.
-- The inherited TUR/MON embargo and missing ATL formation/country definitions.
+The next uploaded 1.13.11 run records **11 script errors**, down from 73.
+It no longer reports the military, trade, governor-role or subject-pact errors
+addressed in the previous follow-up. This confirms initialization, not long-term
+subject stability or every later event path.
 
-Converter game-rule errors have no references in repository scripts and require
-checking the active mod set/settings. The supplied navy-model law file has no
-relevant stale country references and is not overridden.
+Adapt the supplied global history to make the former Dai Nam partition in Laos
+optional; do not apply its recently-conquered modifier to independent Laos.
+Use optional province-to-state scopes for Fernando Po and Sao Tome naming, so
+naming during initialization can skip a partition that is not yet available.
+Preserve cultural state names in Posen, Wallonia, Rhineland and North Rhine,
+but reset their hubs to localized defaults in the four branches that fail bulk
+cultural hub renaming on this legacy map. Cultural hub names can be restored
+when matching localization for these map definitions is supplied.
 
-Start a fresh 1836 game and check governors, Egypt's commander, trade-center
-initialization, deployment guards, and Peru's subject pacts. Static validation
-cannot execute the engine or prove that template fields override inherited roles.
+Remove only the four Russian market-owner localization alternatives for
+undefined ALA/ATL/SLS/BNN. Remove Atlantis alternatives from the supplied Cuba
+event, button and progress-bar scripts; retain the Cuba paths and other content.
+Suppress inherited Bannock/Salish country/population startup files because those
+tags are undefined in this mod. Correct France's last stale Prussian relation
+target to Brandenburg; it was the only absent target for an active country in
+repository relation history. Add localization for the mod's Shroder and Schimmer
+character surnames. Give Haynau an explicit Southern Europe HQ, which Austria
+can support with its current holdings, retaining his template and all other
+Austrian character history. This is a targeted HQ compatibility trial; the
+character template is needed if creation still fails. Source hashes and compatibility choices are recorded in
+`sources/doi_startup_current_errors.json`.
+
+These changes need another new-game log. Remaining items still require source
+files or an active-mod/settings check:
+
+- The Austrian `aus_von_haynau` character template if the HQ override still fails.
+- The inherited TUR/MON embargo and ATL country-formation/creation definitions.
+- The Kiel canal definition and its adjacent sea endpoints.
+- The supplied log's unlocalized GUI text at `gui/custom_tooltip.gui:8801`.
+- Converter game-rule settings and variable warnings with no repository setters.
+
+The provided dynamic-name dispatcher needs no override; its called regional
+scripts contain the failures. The supplied navy-model law likewise remains
+unchanged. Static validation cannot execute Victoria 3 scripts.

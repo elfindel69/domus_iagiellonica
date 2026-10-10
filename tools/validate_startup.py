@@ -145,6 +145,41 @@ def check(root=ROOT):
             for front, _, _, body in blocks(text, r'p:x[0-9A-Fa-f]+\.front\s*\?'):
                 if not list(blocks(body, 'prev')):
                     errors.append(f'{front}: teleport effect must run in formation scope')
+    current_path = root/'docs/sources/doi_startup_current_errors.json'
+    if current_path.exists():
+        current = json.loads(read(current_path))
+        paths = current['cuba_files'] + ['common/customizable_localization/99_ru_custom_loc.txt']
+        for filename in paths:
+            if re.search(r'c:(ALA|ATL|BNN|SLS)\b', read(root/filename)):
+                errors.append(f'{filename}: reference to undefined country')
+        africa = read(root/'common/scripted_effects/00_dynamic_state_names_africa.txt')
+        for province in current['province_scope_guards']:
+            if f'p:{province}.state.owner' in africa or not re.search(r'p:'+province+r'\.state\s*\?=', africa):
+                errors.append(f'{province}: missing optional state scope')
+        europe = read(root/'common/scripted_effects/00_dynamic_state_names_europe.txt')
+        for name, _, _, body in blocks(europe, r'STATE_\w+_state_name_assign'):
+            if name in current['hub_default_fallbacks'] and re.search(r'set_hub_names\s*=\s*(polish|french)', body):
+                errors.append(f'{name}: unresolved bulk hub localization')
+        for override in current.get('commander_hq_overrides', []):
+            path = root/'common/history/characters/aus - austria.txt'
+            candidates = [body for _, _, _, body in blocks(read(path), 'create_character')
+                          if re.search(r'template\s*=\s*'+override['template']+r'\b', body)]
+            if len(candidates) != 1 or not re.search(r'hq\s*=\s*'+override['hq']+r'\b', candidates[0]):
+                errors.append(f"{override['template']}: missing explicit HQ override")
+            if not any(override['country'] in owned.get(state, set()) for state in strategic.get(override['hq'], [])):
+                errors.append(f"{override['template']}: no owned land for commander HQ")
+        global_history = read(root/'common/history/global/00_global.txt')
+        if not re.search(r's:STATE_LAOS\.region_state:DAI\s*\?=', global_history):
+            errors.append('Laos/DAI modifier has no optional scope')
+        for path in (root/'common/history/diplomacy').glob('*.txt'):
+            for country, _, _, body in blocks(read(path), r'c:\w+\s*\?'):
+                tag = re.match(r'c:(\w+)', country)[1]
+                if tag not in active:
+                    continue
+                for _, _, _, effect in blocks(body, 'set_relations'):
+                    target = re.search(r'country\s*=\s*c:(\w+)', effect)
+                    if target and target[1] not in active:
+                        errors.append(f'{tag}: relations target {target[1]} does not exist at startup')
     errors += validate(root)
     missing = sorted((state, tag) for state, tags in owned.items() for tag in tags if (state, tag) not in populations)
     known_missing = {tuple(x) for x in manifest['known_missing_population_partitions']}
@@ -160,6 +195,9 @@ if __name__ == '__main__':
         print('\n'.join(errors), file=sys.stderr)
         sys.exit(1)
     print(f'Startup history valid: {summary["provinces"]} unique provinces; {summary["population"]} people preserved.')
-    print('Missing population data (separate content gaps):')
-    for state, tag in summary['missing_population_partitions']:
-        print(f'  {state}/{tag}')
+    if summary['missing_population_partitions']:
+        print('Missing population data (separate content gaps):')
+        for state, tag in summary['missing_population_partitions']:
+            print(f'  {state}/{tag}')
+    else:
+        print('All owned state partitions have population records.')

@@ -1,0 +1,2 @@
+﻿# DOI: SLS is undefined; suppress its inherited startup history.
+COUNTRIES = {}

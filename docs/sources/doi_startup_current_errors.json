@@ -1,0 +1,70 @@
+{
+  "vanilla_sources": [
+    {
+      "file": "00_global.txt",
+      "sha256": "03c33f822172aee0f469c84286064d536e60af7df4b92526a74bd258505caf46"
+    },
+    {
+      "file": "00_dynamic_state_names_africa.txt",
+      "sha256": "22ee85131f7731afdd259700fd18d502011eab1893311c3ac255d31a83118f89"
+    },
+    {
+      "file": "00_dynamic_state_names_europe.txt",
+      "sha256": "7f5357525edb70572baf82d25cb3ee06f2cfce5f455b24ed99ad4d57548a87a0"
+    },
+    {
+      "file": "99_ru_custom_loc.txt",
+      "sha256": "c0d128a6fd669d4bda05a14fb5c52ade7150f672d905b4d674ea98221251bdc2"
+    },
+    {
+      "file": "cuba_eventos.txt",
+      "sha256": "4a9c9be6a0dfc2598ef69814a49f42c7be8f7b6c1cf33b12699f2c0bcc7f5843"
+    },
+    {
+      "file": "00_cuba_scripted_buttons.txt",
+      "sha256": "b5db040f10018dcd3cdfc1f34db932570553359ae4096a462c6599f747d00c10"
+    },
+    {
+      "file": "00_ip4_cuba_progress_bars.txt",
+      "sha256": "4b628df1efc47f2e5e1fb8d6f6a22ddce868eeea08548dad97ecb8de3faaae79"
+    },
+    {
+      "file": "aus - austria(1).txt",
+      "sha256": "d544a07ba8ec93afa7dacaf11302135f25faa1dd8131de4d3ec12427000ecc65"
+    }
+  ],
+  "tested_script_errors": 11,
+  "previous_script_errors": 73,
+  "hub_default_fallbacks": [
+    "STATE_POSEN_state_name_assign",
+    "STATE_WALLONIA_state_name_assign",
+    "STATE_RHINELAND_state_name_assign",
+    "STATE_NORTH_RHINE_state_name_assign"
+  ],
+  "removed_custom_localization_tags": [
+    "ALA",
+    "ATL",
+    "SLS",
+    "BNN"
+  ],
+  "disabled_inherited_history_tags": [
+    "BNN",
+    "SLS"
+  ],
+  "cuba_files": [
+    "events/iberia_events/cuba_eventos.txt",
+    "common/scripted_buttons/00_cuba_scripted_buttons.txt",
+    "common/scripted_progress_bars/00_ip4_cuba_progress_bars.txt"
+  ],
+  "province_scope_guards": [
+    "x902089",
+    "xC02050"
+  ],
+  "commander_hq_overrides": [
+    {
+      "country": "AUS",
+      "template": "aus_von_haynau",
+      "hq": "region_southern_europe"
+    }
+  ]
+}
