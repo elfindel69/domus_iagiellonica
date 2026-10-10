@@ -1,0 +1,998 @@
+{
+    "groups": {
+        "#e0f3db": {
+            "label": "Alaska",
+            "paths": [
+                "Alaska"
+            ]
+        },
+        "#ef6548": {
+            "label": "Albania",
+            "paths": [
+                "Albania"
+            ]
+        },
+        "#2166ac": {
+            "label": "Argentina",
+            "paths": [
+                "Buenos_Aires",
+                "Chaco",
+                "Corrientes",
+                "La_Pampa",
+                "Rio_Negro",
+                "Santa_Fe",
+                "Tucuman"
+            ]
+        },
+        "#b2182b": {
+            "label": "Australia",
+            "paths": [
+                "New_South_Wales",
+                "Northern_Territory",
+                "Queensland",
+                "South_Australia",
+                "Tasmania",
+                "Victoria"
+            ]
+        },
+        "#fff7ec": {
+            "label": "Austrian Empire",
+            "paths": [
+                "Austria",
+                "Banat",
+                "Bekes",
+                "Bohemia",
+                "Central_Hungary",
+                "Croatia",
+                "Dalmatia",
+                "Delvidek",
+                "East_Slovakia",
+                "Istria",
+                "Moravia",
+                "Northern_Transylvania",
+                "Slavonia",
+                "Slovenia",
+                "South_Tyrol",
+                "Southern_Transylvania",
+                "Styria",
+                "Transdanubia",
+                "Tyrol",
+                "West_Slovakia"
+            ]
+        },
+        "#edf8b1": {
+            "label": "Baden",
+            "paths": [
+                "Baden"
+            ]
+        },
+        "#74a9cf": {
+            "label": "Bavaria",
+            "paths": [
+                "Bavaria",
+                "Franconia"
+            ]
+        },
+        "#e88471": {
+            "label": "Bolivia",
+            "paths": [
+                "Acre",
+                "Antofagasta",
+                "Arequipa4",
+                "Jujuy",
+                "La_Paz",
+                "Potosi",
+                "Santa_Cruz",
+                "Tarapaca"
+            ]
+        },
+        "#ece7f2": {
+            "label": "Bosnia",
+            "paths": [
+                "Bosnia"
+            ]
+        },
+        "#bf812d": {
+            "label": "Brandenburg",
+            "paths": [
+                "Anhalt",
+                "Brandenburg",
+                "Mecklenburg",
+                "Pomerania"
+            ]
+        },
+        "#1b7837": {
+            "label": "Brazil",
+            "paths": [
+                "Amazonas",
+                "Bahia",
+                "Ceara",
+                "Goias",
+                "Maranhao",
+                "Mato_Grosso",
+                "Minas_Gerais",
+                "Para",
+                "Paraiba",
+                "Parana",
+                "Pernambuco",
+                "Piaui",
+                "Rio_De_Janeiro",
+                "Rio_Grande_Do_Norte",
+                "Rio_Grande_Do_Sul",
+                "Santa_Catarina",
+                "Sao_Paulo"
+            ]
+        },
+        "#f6edbd": {
+            "label": "Bukhara",
+            "paths": [
+                "Uzbekia"
+            ]
+        },
+        "#33a02c": {
+            "label": "Bulgaria",
+            "paths": [
+                "Bulgaria",
+                "Northern_Thrace"
+            ]
+        },
+        "#41ae76": {
+            "label": "Burma",
+            "paths": [
+                "Burma",
+                "Kachin",
+                "Pegu",
+                "Shan_States",
+                "Tenasserim"
+            ]
+        },
+        "#d1e5f0": {
+            "label": "Cambodia",
+            "paths": [
+                "Cambodia"
+            ]
+        },
+        "#cc503e": {
+            "label": "Canada",
+            "paths": [
+                "Alberta",
+                "Manitoba",
+                "New_Brunswick",
+                "Newfoundland",
+                "Northwest_Territories",
+                "Nunavut",
+                "Ontario",
+                "Quebec",
+                "Saskatchewan",
+                "Yukon_Territory"
+            ]
+        },
+        "#88419d": {
+            "label": "Chiang Mai",
+            "paths": [
+                "Chiang_Mai"
+            ]
+        },
+        "#aa1f4b": {
+            "label": "Chile",
+            "paths": [
+                "Araucania",
+                "Los_Rios",
+                "Santiago"
+            ]
+        },
+        "#fdbb84": {
+            "label": "Colombia",
+            "paths": [
+                "Antioquia",
+                "Cauca",
+                "Cundinamarca",
+                "Guaviare",
+                "Panama"
+            ]
+        },
+        "#377eb8": {
+            "label": "Constantine",
+            "paths": [
+                "Constantine"
+            ]
+        },
+        "#bfd3e6": {
+            "label": "Cuba",
+            "paths": [
+                "Cuba"
+            ]
+        },
+        "#ffeda0": {
+            "label": "Dai Nam",
+            "paths": [
+                "Annam",
+                "Mekong"
+            ]
+        },
+        "#d7301f": {
+            "label": "Denmark",
+            "paths": [
+                "Greenland",
+                "Iceland",
+                "Jutland",
+                "Zealand"
+            ]
+        },
+        "#fee090": {
+            "label": "Ecuador",
+            "paths": [
+                "Ecuador",
+                "Pastaza"
+            ]
+        },
+        "#edad08": {
+            "label": "Egypt",
+            "paths": [
+                "Blue_Nile",
+                "Crete",
+                "Dongola",
+                "Egyptian_Desert",
+                "Eritrea",
+                "Kordofan",
+                "Lower_Egypt",
+                "Matruh",
+                "Middle_Egypt",
+                "Sinai",
+                "Upper_Egypt"
+            ]
+        },
+        "#74add1": {
+            "label": "Finland",
+            "paths": [
+                "Kuopio2",
+                "Ostrobothnia",
+                "Oulu",
+                "Uusimaa",
+                "West_Karelia"
+            ]
+        },
+        "#225ea8": {
+            "label": "France",
+            "paths": [
+                "Alsace_Lorraine",
+                "Aquitaine",
+                "Auvergne_Limousin",
+                "Brittany",
+                "Burgundy",
+                "Champagne",
+                "Corsica",
+                "Franche_Comte",
+                "French_Low_Countries",
+                "Guayana",
+                "Guyenne",
+                "Ile_De_France",
+                "Languedoc",
+                "Lorraine",
+                "Maine_Anjou",
+                "Normandy",
+                "North_Rhine",
+                "Orleans",
+                "Picardy",
+                "Poitou",
+                "Provence",
+                "Rhineland",
+                "Rhone",
+                "Savoy",
+                "Wallonia",
+                "Guadeloupe",
+                "Martinique"
+            ]
+        },
+        "#cc3333": {
+            "label": "GBR",
+            "paths": [
+                "Bahamas",
+                "Bermuda",
+                "Connaught",
+                "East_Anglia",
+                "Guayana",
+                "Highlands",
+                "Home_Counties",
+                "Jamaica",
+                "Lancashire",
+                "Leinster",
+                "Lowlands",
+                "Midlands",
+                "Munster",
+                "Ulster",
+                "Wales",
+                "Yorkshire",
+                "Leeward_Islands",
+                "Windard_Islands"
+            ]
+        },
+        "#4eb3d3": {
+            "label": "Greece",
+            "paths": [
+                "Attica",
+                "East_Aegean_Islands",
+                "Ionian_Islands",
+                "Macedonia",
+                "Peloponnese",
+                "Thessalia",
+                "West_Aegean_Islands",
+                "Western_Thrace"
+            ]
+        },
+        "#4575b4": {
+            "label": "Haiti",
+            "paths": [
+                "Haiti",
+                "Santo_Domingo"
+            ]
+        },
+        "#a6bddb": {
+            "label": "Hannover",
+            "paths": [
+                "Brunswick",
+                "Elbe",
+                "Hannover",
+                "North_Rhine",
+                "Ruhr",
+                "Westphalia"
+            ]
+        },
+        "#feb24c": {
+            "label": "Hedjaz",
+            "paths": [
+                "Hedjaz"
+            ]
+        },
+        "#c7e9b4": {
+            "label": "Hesse",
+            "paths": [
+                "Hesse",
+                "Rhineland"
+            ]
+        },
+        "#9ebcda": {
+            "label": "Holstein",
+            "paths": [
+                "Schleswig_Holstein"
+            ]
+        },
+        "#984ea3": {
+            "label": "India",
+            "paths": [
+                "Andhra",
+                "Assam",
+                "Awadh",
+                "Baluchistan",
+                "Bihar",
+                "Bombay",
+                "Central_India",
+                "Ceylon",
+                "Delhi",
+                "Gujarat",
+                "Himalayas",
+                "Hyderabad",
+                "Kashmir",
+                "Madras",
+                "Mysore",
+                "Nagpur",
+                "North_Bengal",
+                "Northern_Baluchistan",
+                "Orissa",
+                "Pashtunistan",
+                "Pegu",
+                "Punjab",
+                "Quetta",
+                "Rajputana",
+                "Sindh",
+                "South_Bengal",
+                "Travancore"
+            ]
+        },
+        "#73af48": {
+            "label": "Italy",
+            "paths": [
+                "Abruzzo",
+                "Apulia",
+                "Calabria",
+                "Campania",
+                "Emilia",
+                "Lazio",
+                "Lombardy",
+                "Malta",
+                "Piedmont",
+                "Romagna",
+                "Sardinia",
+                "Sicily",
+                "Tuscany",
+                "Umbria",
+                "Venetia"
+            ]
+        },
+        "#006d2c": {
+            "label": "Jabal Shammar",
+            "paths": [
+                "Hail"
+            ]
+        },
+        "#ca562c": {
+            "label": "Japan",
+            "paths": [
+                "Chubu",
+                "Chugoku",
+                "Hokkaido",
+                "Kansai",
+                "Kanto",
+                "Kyushu",
+                "Ryukyu_Islands",
+                "Shikoku",
+                "Tohoku"
+            ]
+        },
+        "#1d91c0": {
+            "label": "Kazakhstan",
+            "paths": [
+                "Akmolinsk",
+                "Semireche"
+            ]
+        },
+        "#e0f3f8": {
+            "label": "Khiva",
+            "paths": [
+                "Khiva",
+                "Merz",
+                "Turkmenia",
+                "Uralsk"
+            ]
+        },
+        "#c7eae5": {
+            "label": "Kishi Zhuz",
+            "paths": [
+                "Akmolinsk",
+                "Aktobe",
+                "Chelyabinsk",
+                "Syrdarya"
+            ]
+        },
+        "#a6cee3": {
+            "label": "Kokand",
+            "paths": [
+                "Fergana",
+                "Kirghizia",
+                "Tajikistan"
+            ]
+        },
+        "#2b8cbe": {
+            "label": "Korea",
+            "paths": [
+                "Busan",
+                "Pyongyang",
+                "Sariwon",
+                "Seoul",
+                "Yangho"
+            ]
+        },
+        "#bebada": {
+            "label": "Laos",
+            "paths": [
+                "Laos"
+            ]
+        },
+        "#0868ac": {
+            "label": "Liberia",
+            "paths": [
+                "Liberia"
+            ]
+        },
+        "#8c96c6": {
+            "label": "Madagascar",
+            "paths": [
+                "North_Madagascar",
+                "South_Madagascar"
+            ]
+        },
+        "#ccebc5": {
+            "label": "Mascara",
+            "paths": [
+                "Algiers",
+                "Oran"
+            ]
+        },
+        "#a8ddb5": {
+            "label": "Mexico",
+            "paths": [
+                "Arizona7",
+                "Arkansas6",
+                "Baja_California",
+                "Bajio",
+                "California",
+                "Chiapas",
+                "Chihuahua",
+                "Colorado",
+                "Durango",
+                "Guerrero",
+                "Iowa",
+                "Jalisco",
+                "Kansas",
+                "Louisiana",
+                "Mexico",
+                "Minnesota",
+                "Missouri",
+                "Montana",
+                "Nebraska",
+                "Nevada",
+                "New_Mexico",
+                "North_Dakota",
+                "Oaxaca",
+                "Oklahoma",
+                "Rio_Grande",
+                "Sinaloa",
+                "Sonora",
+                "South_Dakota",
+                "Texas",
+                "Utah",
+                "Veracruz",
+                "Wyoming",
+                "Yucatan",
+                "Zacatecas"
+            ]
+        },
+        "#ffffbf": {
+            "label": "Moldova",
+            "paths": [
+                "Moldavia"
+            ]
+        },
+        "#ff7f00": {
+            "label": "Montenegro",
+            "paths": [
+                "Montenegro"
+            ]
+        },
+        "#b30000": {
+            "label": "Morocco",
+            "paths": [
+                "Al_Rif",
+                "Fez",
+                "Inner_Morocco",
+                "Marrakech"
+            ]
+        },
+        "#a6dba0": {
+            "label": "Nejd",
+            "paths": [
+                "Hail",
+                "Nejd"
+            ]
+        },
+        "#eeb479": {
+            "label": "Netherlands",
+            "paths": [
+                "Flanders",
+                "Friesland",
+                "Gelre",
+                "Guayana",
+                "Holland"
+            ]
+        },
+        "#bd0026": {
+            "label": "Norway",
+            "paths": [
+                "Eastern_Norway",
+                "Northern_Norway",
+                "Western_Norway"
+            ]
+        },
+        "#66c2a4": {
+            "label": "Oregon",
+            "paths": [
+                "British_Columbia",
+                "Idaho",
+                "Oregon",
+                "Washington"
+            ]
+        },
+        "#f46d43": {
+            "label": "Orta Zhuz",
+            "paths": [
+                "Syrdarya"
+            ]
+        },
+        "#bd3200": {
+            "label": "Ottomans",
+            "paths": [
+                "Adana",
+                "Aleppo",
+                "Ankara",
+                "Aydin",
+                "Baghdad",
+                "Basra",
+                "Cyprus",
+                "Deir_Ez_Zor",
+                "Diyarbakir",
+                "Eastern_Thrace",
+                "Erzurum",
+                "Hudavendigar",
+                "Kars",
+                "Kastamonu",
+                "Konya",
+                "Lebanon",
+                "Mosul",
+                "Palestine",
+                "Syria",
+                "Trabzon",
+                "Transjordan",
+                "Urmia"
+            ]
+        },
+        "#fdbf6f": {
+            "label": "Paraguay",
+            "paths": [
+                "Alto_Paraguay",
+                "Bajo_Paraguay"
+            ]
+        },
+        "#238b45": {
+            "label": "Persia",
+            "paths": [
+                "Fars4",
+                "Irakajemi",
+                "Isfahan",
+                "Kerman",
+                "Khorasan",
+                "Khuzestan",
+                "Laristan",
+                "Luristan",
+                "Mazandaran",
+                "Persian_Kurdistan",
+                "Semnan",
+                "Sistan",
+                "Tabriz"
+            ]
+        },
+        "#d73027": {
+            "label": "Peru",
+            "paths": [
+                "Cajamarca",
+                "Ica",
+                "Lima"
+            ]
+        },
+        "#cf597e": {
+            "label": "PLC",
+            "paths": [
+                "Brandenburg",
+                "Brest",
+                "Courland",
+                "East_Galicia",
+                "East_Prussia",
+                "Greater_Poland",
+                "Kaunas",
+                "Kiev",
+                "Lesser_Poland",
+                "Mazovia",
+                "Minsk6",
+                "Mogilev",
+                "Pomerania",
+                "Posen",
+                "Silesia",
+                "Vilnius",
+                "Volhynia",
+                "West_Galicia",
+                "West_Prussia"
+            ]
+        },
+        "#7fcdbb": {
+            "label": "Portugal",
+            "paths": [
+                "Alentejo",
+                "Azores",
+                "Beira",
+                "Cabo_Verde",
+                "Estremadura",
+                "Lourenco_Marques",
+                "Madeira",
+                "Mocambique",
+                "North_Angola",
+                "South_Angola",
+                "Zambezia"
+            ]
+        },
+        "#fdd49e": {
+            "label": "Qing China",
+            "paths": [
+                "Alxa",
+                "Beijing",
+                "Chongqing",
+                "Dzungaria",
+                "Eastern_Hubei",
+                "Formosa",
+                "Fujian",
+                "Gansu",
+                "Guangdong",
+                "Guangxi",
+                "Guizhou",
+                "Henan",
+                "Hinggan",
+                "Hunan",
+                "Jetisy",
+                "Jiangsu",
+                "Jiangxi",
+                "Kirghizia",
+                "Nanjing",
+                "Ningxia",
+                "Northern_Anhui",
+                "Northern_Manchuria",
+                "Qinghai",
+                "Shandong",
+                "Shanxi",
+                "Shaozhou",
+                "Shengjing",
+                "Sichuan",
+                "Southern_Anhui",
+                "Southern_Manchuria",
+                "Suzhou",
+                "Tianshan",
+                "Tonkin",
+                "Uliastai",
+                "Urga",
+                "Western_Hubei",
+                "Xian",
+                "Yunnan",
+                "Zhejiang",
+                "Zhili8"
+            ]
+        },
+        "#70a494": {
+            "label": "Russia",
+            "paths": [
+                "Altai",
+                "Amur",
+                "Arkhangelsk",
+                "Armenia",
+                "Astrakhan",
+                "Azerbaijan",
+                "Bessarabia",
+                "Buryatia",
+                "Chelyabinsk",
+                "Chernihiv",
+                "Cherson",
+                "Chukotka",
+                "Chuvashia",
+                "Crimea",
+                "Dagestan",
+                "East_Karelia",
+                "Elizavetpol",
+                "Galich",
+                "Greater_Caucasus",
+                "Ingria",
+                "Irkutsk",
+                "Kalmykia",
+                "Kamchatka",
+                "Kazan",
+                "Kharkov",
+                "Kola",
+                "Kolyma",
+                "Krasnoyarsk",
+                "Kuban",
+                "Kursk",
+                "Moscow",
+                "Nenetsia",
+                "Nizhny_Novgorod",
+                "North_Caucasus",
+                "Novgorod",
+                "Ob",
+                "Okhotsk",
+                "Okhotsk",
+                "Oryol",
+                "Outer_Manchuria",
+                "Perm",
+                "Pskov",
+                "Riga",
+                "Rostov",
+                "Ryazan",
+                "Samara",
+                "Smolensk",
+                "Stavropol",
+                "Surgut",
+                "Tambov",
+                "Tartaria",
+                "Taurida",
+                "Tobolsk",
+                "Tomsk",
+                "Trans_Baikal",
+                "Tuva",
+                "Tver",
+                "Ufa",
+                "Upper_Yeniseysk",
+                "Ural",
+                "Uralsk",
+                "Vitebsk",
+                "Vyatka",
+                "Yakutsk",
+                "Yaroslavl"
+            ]
+        },
+        "#5aae61": {
+            "label": "SAF",
+            "paths": [
+                "Cape_Colony",
+                "Eastern_Cape",
+                "Northern_Cape",
+                "Vrystaat",
+                "Zululand"
+            ]
+        },
+        "#e9e29c": {
+            "label": "Saxony",
+            "paths": [
+                "Saxony"
+            ]
+        },
+        "#d0d1e6": {
+            "label": "Schlesvig",
+            "paths": [
+                "Schleswig_Holstein"
+            ]
+        },
+        "#abd9e9": {
+            "label": "Serbia",
+            "paths": [
+                "Eastern_Serbia",
+                "Skopia",
+                "Western_Serbia"
+            ]
+        },
+        "#41b6c4": {
+            "label": "Siam",
+            "paths": [
+                "Bangkok",
+                "Cambodia",
+                "Laos",
+                "Malaya",
+                "Nakhon_Ratchasima",
+                "Tenasserim"
+            ]
+        },
+        "#fed976": {
+            "label": "Spain",
+            "paths": [
+                "Andalusia",
+                "Aragon",
+                "Asturias",
+                "Badajoz",
+                "Baleares",
+                "Canary_Islands",
+                "Castile",
+                "Catalonia",
+                "Galicia",
+                "Granada",
+                "Navarra",
+                "Puerto_Rico",
+                "Toledo",
+                "Valencia"
+            ]
+        },
+        "#3690c0": {
+            "label": "Sweden",
+            "paths": [
+                "Aland",
+                "Gotaland",
+                "Gotland",
+                "Norrland",
+                "Scania",
+                "Svealand"
+            ]
+        },
+        "#fc4e2a": {
+            "label": "Switzerland",
+            "paths": [
+                "East_Switzerland",
+                "West_Switzerland"
+            ]
+        },
+        "#fc8d59": {
+            "label": "Tibet",
+            "paths": [
+                "Lhasa",
+                "Ngari"
+            ]
+        },
+        "#a65628": {
+            "label": "Tripolitania",
+            "paths": [
+                "Libya",
+                "Libyan_Desert",
+                "Tripoli"
+            ]
+        },
+        "#7f0000": {
+            "label": "Tunisia",
+            "paths": [
+                "Tunisia"
+            ]
+        },
+        "#253494": {
+            "label": "UBD",
+            "paths": [
+                "Riga",
+                "Talinn",
+                "Tartu"
+            ]
+        },
+        "#b4c8a8": {
+            "label": "Uly Zhuz",
+            "paths": [
+                "Syrdarya"
+            ]
+        },
+        "#92c5de": {
+            "label": "Uruguay",
+            "paths": [
+                "Uruguay"
+            ]
+        },
+        "#0570b0": {
+            "label": "USA",
+            "paths": [
+                "Alabama",
+                "Connecticut",
+                "Delaware",
+                "District_Of_Columbia",
+                "Florida",
+                "Georgia",
+                "Illinois",
+                "Indiana",
+                "Kentucky",
+                "Maryland",
+                "Massachusetts",
+                "Michigan",
+                "Mississippi",
+                "New_Hampshire",
+                "New_Jersey",
+                "New_York5",
+                "North_Carolina",
+                "Ohio",
+                "Pennsylvania",
+                "Rhode_Island",
+                "South_Carolina",
+                "Tennessee",
+                "Vermont",
+                "Virginia",
+                "West_Virginia",
+                "Wisconsin"
+            ]
+        },
+        "#4393c3": {
+            "label": "USCA",
+            "paths": [
+                "Costa_Rica",
+                "Guatemala",
+                "Honduras",
+                "Nicaragua",
+                "San_Salvador"
+            ]
+        },
+        "#9ccb86": {
+            "label": "Venezuela",
+            "paths": [
+                "Bolivar",
+                "Miranda",
+                "Zulia"
+            ]
+        },
+        "#8c6bb1": {
+            "label": "Wallachia",
+            "paths": [
+                "Dobrudja",
+                "Wallachia"
+            ]
+        },
+        "#dfc27d": {
+            "label": "Wurttemberg",
+            "paths": [
+                "Wurttemberg"
+            ]
+        }
+    }
+}

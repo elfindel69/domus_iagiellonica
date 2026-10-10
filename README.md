@@ -7,9 +7,12 @@ The mod metadata currently targets Victoria 3 **1.13.x**.
 
 See [the 1836 implementation notes](docs/1836-implementation.md) for source
 alignment, remaining map and leader work, and the in-game validation checklist.
+See [map consolidation](docs/1836-map-consolidation.md) for province transfers
+and the remaining border review.
 
 Check starting subject history with Python 3:
 
 ```sh
 python3 tools/validate_subjects.py
+python3 tools/audit_map.py
 ```

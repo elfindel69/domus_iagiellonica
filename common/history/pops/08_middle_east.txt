@@ -1155,7 +1155,7 @@
 		}
 	}
 	s:STATE_URMIA = {
-		region_state:PER = {
+		region_state:TUR = {
 			create_pop = {
 				culture = kurdish
 				size = 155047

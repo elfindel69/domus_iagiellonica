@@ -380,18 +380,7 @@
 			}
 		}
 	}
-	s:STATE_ALAND = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = swedish
-				size = 25800
-			}
-			create_pop = {
-				culture = finnish
-				size = 1200
-			}
-		}
-	}
+
 	s:STATE_OSTROBOTHNIA = { #DONE
 		region_state:FIN = {
 			create_pop = {
@@ -1218,7 +1207,7 @@
 		}
 	}
 	s:STATE_ALTAI = { #DONE
-		region_state:CHI = {
+		region_state:RUS = {
 			create_pop = { #Altaians
 				culture = mongol
 				religion = animist

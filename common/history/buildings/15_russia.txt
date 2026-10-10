@@ -458,7 +458,7 @@
 		}
 	}
 	s:STATE_ALAND = {
-		region_state:FIN = { }
+		region_state:SWE = { }
 	}
 	s:STATE_OSTROBOTHNIA = {
 		region_state:FIN = {
@@ -2282,7 +2282,7 @@
 		region_state:RUS = { }
 	}
 	s:STATE_ALTAI = {
-		region_state:CHI = { }
+		region_state:RUS = { }
 	}
 	s:STATE_BURYATIA = {
 		region_state:RUS = { }
@@ -2291,7 +2291,7 @@
 		region_state:RUS = { }
 	}
 	s:STATE_AMUR = {
-		region_state:CHI = { }
+		region_state:RUS = { }
 	}
 	s:STATE_CHELYABINSK = {
 		region_state:RUS = {

@@ -49,7 +49,7 @@
 		}
 	}
 	s:STATE_TUVA = {
-		region_state:CHI = {
+		region_state:RUS = {
 			create_pop = {
 				culture = tuvan
 				size = 43710
@@ -280,7 +280,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:CHI = {
+		region_state:RUS = {
 			create_pop = {
 				culture = siberian
 				size = 67800
@@ -292,7 +292,7 @@
 		}
 	}
 	s:STATE_AMUR = {
-		region_state:CHI = {
+		region_state:RUS = {
 			create_pop = {
 				culture = siberian
 				size = 81123

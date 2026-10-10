@@ -2401,13 +2401,13 @@
 		region_state:BST = { }
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:SAF = {
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
 						type = building_manor_house
-						country = c:ORA
+						country = c:SAF
 						levels = 1
 						region = STATE_VRYSTAAT
 					}
@@ -2421,7 +2421,7 @@
 				building = "building_barrack"
 				add_ownership = {
 					country = {
-						country = c:ORA
+						country = c:SAF
 						levels = 2
 					}
 				}
