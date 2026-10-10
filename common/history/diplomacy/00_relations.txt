@@ -10,7 +10,7 @@
 		set_relations = { country = c:BAV value = 30 }
 		set_relations = { country = c:ITA value = -30 }
 		set_relations = { country = c:BOS value = 30 }
-		set_relations = { country = c:WAL value = 30 }
+		set_relations = { country = c:WAL value = 20 }
 		set_relations = { country = c:BUL value = 30 }
 	}
 	
@@ -126,7 +126,7 @@
 		set_relations = { country = c:USA value = -50 }
 	}
 	c:MOL ?= { 
-		set_relations = { country = c:PLC value = 30 }
+		set_relations = { country = c:PLC value = 20 }
 		set_relations = { country = c:TUR value = -30 }
 		set_relations = { country = c:WAL value = 50 }
 		set_relations = { country = c:RUS value = 20 }

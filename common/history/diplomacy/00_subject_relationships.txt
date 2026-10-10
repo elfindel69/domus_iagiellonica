@@ -1,16 +1,13 @@
 ﻿DIPLOMACY = {
 	c:SPA ?= {
-		c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = colony
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
 			type = colony
 		}
-	}
-
 	}
 	c:NET ?= {
 		create_diplomatic_pact = {
