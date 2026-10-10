@@ -1,0 +1,26 @@
+{
+  "vanilla_sources": [
+    {
+      "file": "montenegro_events.txt",
+      "sha256": "d1631199ad20be91c4a8e7659f377d393d7c748db88ede1d9799e19fca935c2d"
+    },
+    {
+      "file": "05_montenegro_je.txt",
+      "sha256": "552ebe834895e63d0a3a5475df741e4890a64bbb9180b6dda12c17115dba2b4c"
+    }
+  ],
+  "log_sha256": "e1b995f845597ca8f00fdf67467b5a6da1ea404f779351d1a8a96a6725d873d0",
+  "tested_script_errors": 11,
+  "tested_startup_script_errors": 0,
+  "runtime_errors": {
+    "ai_play_as": 1,
+    "absent_serbia_owner_comparison": 10
+  },
+  "event_path": "events/balkans_events/montenegro_events.txt",
+  "journal_path": "common/journal_entries/05_montenegro_je.txt",
+  "guarded_play_as_targets": [
+    "MON",
+    "SER"
+  ],
+  "null_safe_owner_checks": 8
+}

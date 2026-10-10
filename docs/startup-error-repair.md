@@ -187,3 +187,24 @@ files or an active-mod/settings check:
 The provided dynamic-name dispatcher needs no override; its called regional
 scripts contain the failures. The supplied navy-model law likewise remains
 unchanged. Static validation cannot execute Victoria 3 scripts.
+
+## Montenegro runtime follow-up
+
+The next log has no startup script errors: the previous naming, global modifier
+and Haynau creation errors are gone. It records 11 runtime errors at the Serbian/
+Montenegrin unification event: one AI player-switch failure and ten repeated
+owner-comparison errors after Serbia disappears.
+
+Adapt the two supplied Montenegro source files. Both `play_as` effects now
+require a player in the current country and an existing target; retain the AI
+annexation choices. Require both countries to exist for journal completion, and
+use optional country comparisons inside owner scopes for all eight corresponding
+state-owner checks. Existing event options, rewards and journal identifiers are
+preserved. Source hashes and observed counts are in
+`sources/doi_montenegro_compatibility.json`.
+
+The latest log still has the invalid-relations assertion and TUR/MON embargo
+warning. The correction to France's Prussian relation did not eliminate the
+assertion; its remaining source has not been identified. The previously listed
+ATL, Kiel canal, GUI, converter-settings and variable warnings also remain.
+These runtime fixes require another game test after unification.

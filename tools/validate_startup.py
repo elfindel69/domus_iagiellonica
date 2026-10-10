@@ -180,6 +180,27 @@ def check(root=ROOT):
                     target = re.search(r'country\s*=\s*c:(\w+)', effect)
                     if target and target[1] not in active:
                         errors.append(f'{tag}: relations target {target[1]} does not exist at startup')
+    montenegro_path = root/'docs/sources/doi_montenegro_compatibility.json'
+    if montenegro_path.exists():
+        montenegro = json.loads(read(montenegro_path))
+        event = read(root/montenegro['event_path'])
+        for target in montenegro['guarded_play_as_targets']:
+            calls = list(re.finditer(r'play_as\s*=\s*c:'+target+r'\b', event))
+            if len(calls) != 1:
+                errors.append(f'{target}: expected one Montenegro player switch')
+            for call in calls:
+                parents = [entry for entry in blocks(event, r'\bif') if entry[1] < call.start() < entry[2]]
+                parent = min(parents, key=lambda x: x[2]-x[1]) if parents else None
+                limit = next(blocks(parent[3], r'\blimit'), None) if parent else None
+                if not limit or not re.search(r'is_player\s*=\s*yes', limit[3]) or not re.search(r'exists\s*=\s*c:'+target+r'\b', limit[3]):
+                    errors.append(f'{target}: player switch needs player and target guards')
+        journal = read(root/montenegro['journal_path'])
+        for filename, text in ((montenegro['event_path'], event), (montenegro['journal_path'], journal)):
+            if re.search(r'\bowner\s*=\s*c:', text):
+                errors.append(f'{filename}: unsafe direct country owner comparison')
+        completion = [body for _, _, _, body in blocks(journal, r'\bcomplete') if 'any_neighbouring_state' in body and 'c:SER' in body]
+        if len(completion) != 1 or any(not re.search(r'exists\s*=\s*c:'+tag+r'\b', completion[0]) for tag in ('MON', 'SER')):
+            errors.append('Montenegro unification needs both countries to exist')
     errors += validate(root)
     missing = sorted((state, tag) for state, tags in owned.items() for tag in tags if (state, tag) not in populations)
     known_missing = {tuple(x) for x in manifest['known_missing_population_partitions']}
