@@ -1,16 +1,13 @@
 ﻿DIPLOMACY = {
 	c:SPA ?= {
-		c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = colony
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
 			type = colony
 		}
-	}
-
 	}
 	c:NET ?= {
 		create_diplomatic_pact = {
@@ -19,7 +16,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SAF
-			type = colony
+			type = dominion
 		}
 	}
 	c:SWE ?= {
@@ -97,27 +94,23 @@
 		}
 		create_diplomatic_pact = {
 			country = c:ORG
-			type = colony
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:HAN
 			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = colony
 		}
 
 		### OH CANADA ###
 		# Province of Upper Canada
 		create_diplomatic_pact = {
 			country = c:ONT
-			type = colony
+			type = chartered_company
 		}
 		# Province of Lower Canada
 		create_diplomatic_pact = {
 			country = c:QUE
-			type = colony
+			type = chartered_company
 		}
 		# New Brunswick
 		create_diplomatic_pact = {
@@ -139,22 +132,22 @@
 		# Colony of New South Wales
 		create_diplomatic_pact = {
 			country = c:NSW
-			type = colony
+			type = chartered_company
 		}
 		# Colony of Western Australia
 		create_diplomatic_pact = {
 			country = c:WAS
-			type = colony
+			type = chartered_company
 		}
 		# Colony of South Australia, established in February 1836
 		create_diplomatic_pact = {
 			country = c:SAS
-			type = colony
+			type = chartered_company
 		}
 		# Colony of Tasmania, historically called Van Dieman's Land until 1856
 		create_diplomatic_pact = {
 			country = c:TAS
-			type = colony
+			type = chartered_company
 		}
 		# Colony of Ceylon
 		create_diplomatic_pact = {
@@ -200,10 +193,6 @@
 	}
 
 	c:TUR ?= {
-		create_diplomatic_pact = {
-			country = c:ALB
-			type = protectorate
-		}		
 		create_diplomatic_pact = {
 			country = c:TRI
 			type = puppet
@@ -277,10 +266,6 @@
 		}
 		create_diplomatic_pact = {
 			country = c:JAI
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:BER
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -396,10 +381,6 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:MYB
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:COC
 			type = puppet
 		}
@@ -424,7 +405,7 @@
 	c:PLC ?= {
 		create_diplomatic_pact = {
 			country = c:MOL
-			type = protectorate
+			type = vassal
 		}
 	}	
 	
