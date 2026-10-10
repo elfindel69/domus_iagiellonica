@@ -14,6 +14,7 @@ Other missing or composite names remain unresolved rather than guessed.
 | Istria | Italy (`ITA`) | Austria (`AUS`) |
 | Åland | Finland (`FIN`) | Sweden (`SWE`) |
 | Tonkin | Dai Nam (`DAI`) | Qing China (`CHI`) |
+| Urmia | Persia (`PER`) | Ottomans (`TUR`) |
 | Altai | Qing China (`CHI`) | Russia (`RUS`) |
 | Amur | Qing China (`CHI`) | Russia (`RUS`) |
 | Outer Manchuria | Qing China (`CHI`) | Russia (`RUS`) |
@@ -25,12 +26,17 @@ and building levels/production methods. Population and building history scopes
 follow the new owner. Domestic building ownership references inside the moved
 state follow that owner as well. The source province lists are retained in
 `sources/doi_1836_transfers.json` so accidental border changes can be detected.
-No military formation in the mod's history directly references these eight
+No military formation in the mod's history directly references these nine
 state regions; army recruitment and country activation still need an in-game check.
 
 Åland had two identical population history blocks in the west-European and
 Russian population files, each containing 25,800 Swedish and 1,200 Finnish pops.
 Keep the west-European block and remove the duplicate Russian block.
+
+Urmia uses the population history added by the user in commit
+`e395eb7`, including its cultures, religions and sizes. Kerman and Persian
+Kurdistan populations and the Denmark color correction from that commit remain
+intact.
 
 ## Remaining review
 
@@ -39,17 +45,15 @@ assignments, not unique states or provinces:
 
 | Result | Assignments |
 | --- | ---: |
-| Single-owner match | 429 |
+| Single-owner match | 430 |
 | Shared state explicitly present under multiple map labels | 35 |
 | Existing split state under one map label | 46 |
 | Aggregate country label | 41 |
 | Unresolved state name | 21 |
-| Single-owner mismatch awaiting interpretation or data | 6 |
+| Single-owner mismatch awaiting interpretation or data | 5 |
 
-The six outstanding single-owner mismatches are:
+The five outstanding single-owner mismatches are:
 
-- Urmia: Persia → Ottomans on the reference map. No `STATE_URMIA` population
-  block exists in the mod. Establish its population history before transferring it.
 - Arequipa and Tarapaca: `SPU` territories labeled Bolivia. Resolve the intended
   Peru–Bolivia political/territorial structure before transferring their history.
 - Ionian Islands: the map labels Greece, while the mod starts `ION` as a British
@@ -80,7 +84,7 @@ python3 tools/validate_subjects.py
 git diff --check
 ```
 
-The map checker verifies the eight moved states' full province sets against
+The map checker verifies the nine moved states' full province sets against
 both region definitions and the transfer manifest, checks that their provinces
 have exactly one history owner, and checks that each has exactly one population
 and building history block under the correct owner. It rejects stale domestic
@@ -88,7 +92,7 @@ building ownership references. JSON output exposes every comparison and category
 Unresolved comparisons are reported without failing the corrected-state checks.
 This is not a complete Paradox script or game-engine validator.
 
-Start a new campaign and inspect the eight states, their populations and buildings,
+Start a new campaign and inspect the nine states, their populations and buildings,
 plus Qing/Russian recruitment, Austria/Italy, Sweden/Finland and South Africa.
 Check for landless Oranje startup effects and inspect the error log. No in-game
 test of this map patch has been performed here. The earlier subject setup has

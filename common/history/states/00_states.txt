@@ -5777,7 +5777,7 @@
 	}
 	s:STATE_URMIA = {
 		create_state = {
-			country = c:PER
+			country = c:TUR
 			owned_provinces = {
 				x7F1958 x0256AF xA010DF xADF8DB xB0C672 xCCA63F x80B0A0 x9B1366
 			}
