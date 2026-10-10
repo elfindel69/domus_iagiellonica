@@ -1111,7 +1111,7 @@
 		}
 	}
 	s:STATE_TONKIN = {
-		region_state:DAI = {
+		region_state:CHI = {
 			create_pop = {
 				culture = vietnamese
 				size = 1241220

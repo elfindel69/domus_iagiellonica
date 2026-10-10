@@ -2563,7 +2563,7 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 353400

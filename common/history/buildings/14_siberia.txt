@@ -34,7 +34,7 @@
 		}
 	}
 	s:STATE_TUVA={
-		region_state:CHI={
+		region_state:RUS={
 		}
 	}
 	s:STATE_TOBOLSK={

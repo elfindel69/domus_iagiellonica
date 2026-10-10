@@ -4881,20 +4881,20 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:ITA = {
+		region_state:AUS = {
 			create_building = {
 				building = "building_tooling_workshop"
 				add_ownership = {
 					building = {
 						
 						type = building_financial_district
-						country = c:ITA
+						country = c:AUS
 						levels = 1
 						region = STATE_ISTRIA
 					}
 					building = {
 						type = building_financial_district
-						country = c:ITA
+						country = c:AUS
 						levels = 2
 						region = STATE_AUSTRIA
 					}
@@ -4910,7 +4910,7 @@
 				add_ownership = {
 					building = {
 						type = building_financial_district
-						country = c:ITA
+						country = c:AUS
 						levels = 1
 						region = STATE_ISTRIA
 					}
@@ -4925,7 +4925,7 @@
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
-						country = c:ITA
+						country = c:AUS
 						levels = 4
 						region = STATE_ISTRIA
 					}
@@ -4939,7 +4939,7 @@
 				building = "building_port"
 				add_ownership = {
 					country = {
-						country = c:ITA
+						country = c:AUS
 						levels = 2
 					}
 				}
