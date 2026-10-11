@@ -2,7 +2,6 @@
 	c:USA ?= {
 		
 		create_character = {
-			# Tsar Nicholas I of Russia
 			first_name = Edward
 			last_name = Washington
 			culture = cu:yankee
@@ -20,7 +19,6 @@
 		}
 		
 		create_character = {
-			# Alexander II of Russia
 			first_name = Edward
 			last_name = Washington
 			heir = yes
