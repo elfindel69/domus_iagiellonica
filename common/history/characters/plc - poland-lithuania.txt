@@ -1,122 +1,48 @@
-﻿CHARACTERS = {
+﻿# DOI PLC starting roster. Definitions: common/character_templates/country_plc.txt
+# Replace the previous inline PLC history file; do not load both rosters.
+CHARACTERS = {
 	c:PLC ?= {
-		
 		create_character = {
-			first_name = Jan
-			last_name = Jagiellon
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			template = PLC_jan_iii_jagiellon
 			ruler = yes
-			birth_date = 1801.7.12
-			culture = cu:polish
-			religion = catholic
-			dna = dna_king_jan_jagiello_01
-			traits = {
-				arrogant
-			}
-			on_created = {
-				set_variable = is_married
-			}
 		}
-		
+
 		create_character = {
-			# heir of Jan Jagiellon
-			first_name = Jan
-			last_name = Jagiellon
+			template = PLC_jan_jagiellon_heir
 			heir = yes
-			birth_date = 1823.3.15
-			culture = cu:polish
-			religion = catholic
-			traits = {
-				meticulous
-			}
 		}
 
 		create_character = {
-			first_name = Aleksander
-			last_name = Pulawski
-			birth_date = 1781.7.4
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_armed_forces
-			traits = {
-				imperious
-			}
+			template = PLC_leon_ludwik_sapieha
 		}
 
 		create_character = {
-			first_name = Michal
-			last_name = Fabianski
-			birth_date = 1772.1.12
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
-			traits = {
-				cautious
-			}
-		}
-
-
-		create_character = {
-			first_name = Tomasz
-			last_name = Goral
-			birth_date = 1786.9.5
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
-			traits = {
-				meticulous
-			}
+			template = PLC_jan_zygmunt_skrzynecki
 		}
 
 		create_character = {
-			first_name = Stefan
-			last_name = Pulawski
-			birth_date = 1783.1.6
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_devout
-			ideology = ideology_traditionalist
-			traits = {
-				charismatic
-			}
+			template = PLC_marcin_dunin
 		}
 
 		create_character = {
-			first_name = Aleksander
-			last_name = Herzen
-			birth_date = 1812.4.6
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_trade_unions
-			ideology = ideology_moderate
-			traits = {
-			}
+			template = PLC_joachim_lelewel
 		}
-
-		
 
 		create_character = {
-			first_name = Aleksy
-			last_name = Kujawski
-			birth_date = 1800.1.17
-			culture = cu:polish
-			religion = catholic
-			ig_leader = yes
-			interest_group = ig_industrialists
-			ideology = ideology_moderate
-			traits = {
-				persistent
-			}
+			template = PLC_piotr_antoni_steinkeller
 		}
-		
+
+		create_character = {
+			template = PLC_leopold_stanislaw_kronenberg
+		}
+
+		create_character = {
+			template = PLC_piotr_sciegienny
+		}
+
+		create_character = {
+			template = PLC_tadeusz_krepowiecki
+		}
+
 	}
-	
 }
