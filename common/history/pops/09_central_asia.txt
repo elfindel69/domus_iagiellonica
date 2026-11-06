@@ -2,29 +2,24 @@
 	s:STATE_DAGESTAN = {
 		region_state:RUS = {
 			create_pop = {
-				culture = north_caucasian
-				size = 56100
+				culture = dagestani
+				size = 87100
 			}
 			create_pop = {
 				culture = sephardic
 				size = 7078
 			}
 			create_pop = {
-				culture = north_caucasian
-				religion = orthodox
-				size = 42200
+				culture = ossetian
+				size = 32200
 			}
 			create_pop = {
 				culture = armenian
 				size = 2440
 			}
 			create_pop = {
-				culture = kazak
-				size = 19615
-			}
-			create_pop = {
 				culture = russian
-				size = 32156
+				size = 12156
 			}
 			create_pop = {
 				culture = ukrainian
@@ -32,15 +27,27 @@
 			}
 			create_pop = {
 				culture = persian
-				size = 4454
+				size = 2454
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = dagestani
 				size = 198000
 			}
 			create_pop = {
 				culture = chechen
 				size = 6309
+			}
+			create_pop = {
+				culture = caucasian_turk
+				size = 30000
+			}
+			create_pop = {
+				culture = dagestani
+				size = 24000
+			}
+			create_pop = {
+				culture = persian
+				size = 2000
 			}
 		}
 	}
@@ -51,7 +58,7 @@
 				size = 149000
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = caucasian_turk
 				size = 22000
 			}
 			create_pop = {
@@ -75,7 +82,7 @@
 				size = 540000
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = abkhazian
 				size = 50000
 			}
 		}
@@ -137,7 +144,7 @@
 				size = 18294
 			}
 			create_pop = {
-				culture = north_caucasian
+				culture = dagestani
 				size = 21014
 			}
 			create_pop = {
@@ -158,7 +165,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = georgian
-				size = 832950
+				size = 580950
 			}
 			create_pop = {
 				culture = sephardic
@@ -169,17 +176,16 @@
 				size = 6306
 			}
 			create_pop = {
-				culture = north_caucasian
-				religion = orthodox
-				size = 112000
+				culture = ossetian
+				size = 70000
 			}
 			create_pop = {
 				culture = armenian
 				size = 261189
 			}
 			create_pop = {
-				culture = north_caucasian
-				size = 29996
+				culture = dagestani
+				size = 5996
 			}
 			create_pop = {
 				culture = azerbaijani
@@ -201,6 +207,27 @@
 			create_pop = {
 				culture = turkish
 				size = 19534
+			}
+			create_pop = {
+				culture = abkhazian
+				religion = orthodox
+				size = 42000
+			}
+			create_pop = {
+				culture = abkhazian
+				size = 24000
+			}
+			create_pop = {
+				culture = georgian
+				size = 12000
+			}
+			create_pop = {
+				culture = georgian
+				size = 216000
+			}
+			create_pop = {
+				culture = georgian
+				size = 24000
 			}
 		}
 	}
@@ -286,7 +313,7 @@
 			}
 		}
 	}
-	s:STATE_TARTARIA = { #Saratov - and DONE
+	s:STATE_SARATOV = { #Saratov - and DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = russian

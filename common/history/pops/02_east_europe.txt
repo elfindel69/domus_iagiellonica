@@ -132,67 +132,8 @@
 			}
 		}
 	}
-	s:STATE_CHERSON = {
-		region_state:RUS = {
-			create_pop = {
-				culture = ukrainian
-				size = 593470
-			}
-			create_pop = {
-				culture = russian
-				size = 203300
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 86140
-			}
-			create_pop = {
-				culture = romanian
-				size = 39420
-			}
-			create_pop = {
-				culture = south_german
-				size = 32500
-			}
-			create_pop = {
-				culture = polish
-				size = 8030
-			}
-		}
-	}
-	s:STATE_GALICH = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 682176
-			}
-			create_pop = {
-				culture = ugrian
-				religion = orthodox
-				size = 64328
-			}
-		}
-	}
-	s:STATE_MINSK = {
-		region_state:PLC = {
-			create_pop = {
-				culture = polish
-				size = 29910
-			}
-			create_pop = {
-				culture = byelorussian
-				size = 569714
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 149520
-			}
-			create_pop = {
-				culture = russian
-				size = 38883
-			}
-		}
-	}
+	
+	
 	s:STATE_ROSTOV = {
 		region_state:RUS = {
 			create_pop = {

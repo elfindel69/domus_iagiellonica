@@ -1168,6 +1168,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia
+
 			name = 1y_Pekhotniy_Korpus
 
 			combat_unit = {
@@ -1178,13 +1179,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_ROSTOV
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_ROSTOV
 				count = 5
 			}
 
@@ -1219,13 +1220,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_GALICH
+				state_region = s:STATE_ARMENIA
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GALICH
+				state_region = s:STATE_ARMENIA
 				count = 5
 			}
 			save_scope_as = rus_2nd_corps
@@ -1253,13 +1254,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_ORYOL
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_TARTARIA
+				state_region = s:STATE_ORYOL
 				count = 5
 			}
 			save_scope_as = rus_3rd_corps

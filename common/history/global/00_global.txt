@@ -976,10 +976,11 @@ GLOBAL = {
 
 	c:RUS ?= {
 		every_scope_state = {
-            limit = {
+        	limit = {
                 OR = {
                     state_region = s:STATE_KUBAN
                     state_region = s:STATE_DAGESTAN
+                    state_region = s:STATE_NORTH_CAUCASUS
                 }
             }
             add_radicals_in_state = {
@@ -988,10 +989,19 @@ GLOBAL = {
             }
             add_radicals_in_state = {
                 value = 0.20
-                culture = cu:north_caucasian
+                culture = cu:dagestani
+            }
+            add_radicals_in_state = {
+                value = 0.20
+                culture = cu:ossetian
+            }
+            add_radicals_in_state = {
+                value = 0.20
+                culture = cu:caucasian_turk
             }
 			add_radicals_in_state = {
                 value = 0.20
+                culture = cu:chechen
             }
         }
         create_bidirectional_truce = {
@@ -1004,7 +1014,10 @@ GLOBAL = {
 		}
 		if = {
 			limit = {
-				has_dlc_feature = ep1_content
+				OR = {
+					has_dlc_feature = ep1_content # Sphere of Influence
+					has_dlc_feature = ip5_content # State and Revolution
+				}
 			}
 			trigger_event = {
 				id = kazakhstan_events.2

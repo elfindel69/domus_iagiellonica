@@ -399,7 +399,7 @@
 				size = 2821200
 			}
 			create_pop = {
-				culture = siberian
+				culture = evenki
 				size = 32000
 			}
 			create_pop = {
